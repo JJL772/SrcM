@@ -36,6 +36,11 @@ ipch
 *.vcxproj
 
 *.sln
+*.VC.db
+*.vcxproj.filters
+*.VC.opendb
+*.VC.db-shm
+*.VC.db-wal
 src/docs
 game/
 docs/
