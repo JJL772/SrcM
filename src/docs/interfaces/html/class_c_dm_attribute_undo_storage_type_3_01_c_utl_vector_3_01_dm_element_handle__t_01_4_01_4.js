@@ -1,4 +1,0 @@
-var class_c_dm_attribute_undo_storage_type_3_01_c_utl_vector_3_01_dm_element_handle__t_01_4_01_4 =
-[
-    [ "UndoStorageType", "class_c_dm_attribute_undo_storage_type_3_01_c_utl_vector_3_01_dm_element_handle__t_01_4_01_4.html#a04d93c40748a90ac4357e87fd5ec7e89", null ]
-];
