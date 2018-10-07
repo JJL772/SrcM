@@ -36,3 +36,5 @@ ipch
 *.vcxproj
 
 *.sln
+src/docs
+game/
