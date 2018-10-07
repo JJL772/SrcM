@@ -182,6 +182,9 @@ $Project
 			$File	"$SRCDIR\game\shared\baseprojectile.h"
 			$File	"c_basecombatweapon.cpp"		
 			$File	"$SRCDIR\game\shared\basecombatweapon_shared.cpp"
+			$File	"c_basecombatweapon.h"		
+			$File	"weapons_resource.h"
+
 		}
 
 		$Folder "VGUI"
@@ -208,6 +211,21 @@ $Project
 			$File   "vgui_video_player.cpp"
 			$File	"achievement_notification_panel.cpp"
 			$File	"achievement_notification_panel.h"
+			$File	"vgui_basepanel.h"
+			$File	"vgui_bitmapbutton.h"
+			$File	"vgui_bitmapimage.h"
+			$File	"vgui_bitmappanel.h"
+			$File	"vgui_schemevisualizer.h"
+			$File	"vgui_entityimagepanel.h"
+			$File	"vgui_entitypanel.h"
+			$File	"vgui_grid.h"
+			$File	"vgui_helpers.h"
+			$File	"vgui_imagehealthpanel.h"
+			$File	"vgui_int.h"
+			$File	"vguicenterprint.h"
+			$File	"c_vguiscreen.h"
+			$File	"vgui_video.h"
+			$File   "vgui_video_player.h"
 
 			$Folder "HUD"
 			{
@@ -228,6 +246,19 @@ $Project
 				$File	"hud_redraw.cpp"
 				$File	"hud_vehicle.cpp"		
 				$File	"hud_weapon.cpp"
+				$File	"hud.h"
+				$File	"hud_basechat.h"
+				$File	"hud_basetimer.h"
+				$File	"hud_bitmapnumericdisplay.h"
+				$File	"hud_chat.h"
+				$File	"hud_closecaption.h"
+				$File	"hud_crosshair.h"
+				$File	"hud_element_helper.h"
+				$File	"hud_lcd.h"
+				$File	"hud_macros.h"
+				$File	"hud_numericdisplay.h"
+				$File	"hud_pdump.h"		
+				$File	"hud_vehicle.h"
 			}
 		}
 
@@ -244,7 +275,21 @@ $Project
 			$File	"fx_staticline.cpp"
 			$File	"fx_tracer.cpp"
 			$File	"fx_trail.cpp"
-			$File	"fx_water.cpp"
+			$File	"fx_water.cpp"		
+			$File	"fx.h"
+			$File	"fx_blood.h"
+			$File	"fx_discreetline.h"
+			$File	"fx_envelope.h"
+			$File	"fx_explosion.h"
+			$File	"fx_fleck.h"
+			$File	"fx_impact.h"
+			$File	"fx_interpvalue.h"
+			$File	"fx_line.h"
+			$File	"fx_quad.h"
+			$File	"fx_sparks.h"
+			$File	"fx_staticline.h"
+			$File	"fx_trail.h"
+			$File	"fx_water.h"
 		}
 
 		$Folder "Particles"
@@ -267,6 +312,20 @@ $Project
 			$File	"$SRCDIR\game\shared\SpriteTrail.cpp"		
 			$File	"particle_collision.cpp"
 			$File	"particle_litsmokeemitter.cpp"
+			$File	"particle_collision.h"
+			$File	"particle_iterators.h"
+			$File	"particle_litsmokeemitter.h"
+			$File	"particle_prototype.h"
+			$File	"particle_simple3d.h"
+			$File	"particle_util.h"
+			$File	"particledraw.h"
+			$File	"particlemgr.h"
+			$File	"particles_attractor.h"
+			$File	"particles_ez.h"
+			$File	"particles_localspace.h"
+			$File	"particles_new.h"
+			$File	"particles_simple.h"
+			$File	"c_te_particlesystem.h"
 		}
 
 		$Folder "Renderer"
@@ -282,6 +341,10 @@ $Project
 			$File	"viewpostprocess.cpp"
 			$File	"viewpostprocess.h"
 			$File	"viewrender.cpp"
+			$File	"viewrender.h"
+			$File	"view.h"
+			$File	"view_scene.h"
+			$File	"baseclientrendertargets.h"
 		}
 
 		$Folder "Entities"
@@ -295,6 +358,7 @@ $Project
 				$File	"c_env_projectedtexture.cpp"
 				$File	"c_env_screenoverlay.cpp"
 				$File	"c_env_tonemap_controller.cpp"
+				$File	"c_env_fog_controller.h"
 			}
 			$Folder "Func"
 			{
@@ -308,7 +372,9 @@ $Project
 				$File	"c_func_reflective_glass.cpp"
 				$File	"c_func_rotating.cpp"
 				$File	"c_func_smokevolume.cpp"
-				$File	"c_func_tracktrain.cpp"
+				$File	"c_func_tracktrain.cpp"		
+				$File	"c_func_dust.h"
+				$File	"c_func_reflective_glass.h"
 			}
 
 			$File	"c_ai_basehumanoid.cpp"
@@ -369,7 +435,21 @@ $Project
 			$File	"C_WaterLODControl.cpp"
 			$File	"c_world.cpp"		
 			$File	"$SRCDIR\game\shared\basecombatcharacter_shared.cpp"
-			$File	"$SRCDIR\game\shared\baseentity_shared.cpp"
+			$File	"$SRCDIR\game\shared\baseentity_shared.cpp"		
+			$File	"c_physbox.h"		
+			$File	"c_rope.h"
+			$File	"c_sun.h"
+			$File	"c_soundscape.h"
+			$File	"c_rumble.h"
+			$File	"c_tesla.h"
+			$File	"c_baseentity.h"
+			$File	"c_ai_basenpc.h"		
+			$File	"c_breakableprop.h"		
+			$File	"c_basedoor.h"		
+			$File	"c_basetempentity.h"		
+			$File	"c_point_camera.h"		
+			$File	"c_prop_vehicle.h"
+			$File	"ragdoll.h"
 		}
 
 		$Folder "Physics"
@@ -380,6 +460,10 @@ $Project
 			$File	"$SRCDIR\game\shared\physics_saverestore.cpp"
 			$File	"$SRCDIR\game\shared\physics_shared.cpp"
 			$File	"physpropclientside.cpp"
+			$File	"physics.h"
+			$File	"physpropclientside.h"
+			$File	"c_physicsprop.h"
+
 		}
 
 		$Folder "Achievment"
@@ -738,58 +822,54 @@ $Project
 		$File	"toolframework_client.h"
 	}
 
-	$Folder	"Header Files"
+	$Folder	"Source"
 	{
 		$File	"animationlayer.h"
 		$File	"baseanimatedtextureproxy.h"
-		$File	"baseclientrendertargets.h"
+
 		$File	"beamdraw.h"
 		$File	"bone_merge_cache.h"
-		$File	"c_ai_basenpc.h"
+
 		$File	"c_baseanimating.h"
 		$File	"c_baseanimatingoverlay.h"
 		$File	"c_basecombatcharacter.h"
-		$File	"c_basecombatweapon.h"
-		$File	"c_basedoor.h"
-		$File	"c_baseentity.h"
+
+
 		$File	"c_baseflex.h"
 		$File	"c_baseplayer.h"
-		$File	"c_basetempentity.h"
+
 		$File	"c_baseviewmodel.h"
-		$File	"c_breakableprop.h"
+
 		$File	"c_effects.h"
 		$File	"c_entitydissolve.h"
-		$File	"c_env_fog_controller.h"
+
 		$File	"c_fire_smoke.h"
-		$File	"c_func_dust.h"
-		$File	"c_func_reflective_glass.h"
+
 		$File	"c_gib.h"
 		$File	"c_impact_effects.h"
-		$File	"c_physbox.h"
-		$File	"c_physicsprop.h"
+
+
 		$File	"c_pixel_visibility.h"
 		$File	"c_playerlocaldata.h"
 		$File	"c_playerresource.h"
-		$File	"c_point_camera.h"
-		$File	"c_prop_vehicle.h"
+
 		$File	"c_recipientfilter.h"
-		$File	"c_rope.h"
-		$File	"c_rumble.h"
+
+
 		$File	"c_sceneentity.h"
 		$File	"c_smoke_trail.h"
-		$File	"c_soundscape.h"
+
 		$File	"c_sprite.h"
-		$File	"c_sun.h"
 		$File	"c_te_basebeam.h"
 		$File	"c_te_effect_dispatch.h"
 		$File	"c_te_legacytempents.h"
-		$File	"c_te_particlesystem.h"
+
 		$File	"c_team.h"
-		$File	"c_tesla.h"
+
 		$File	"c_tracer.h"
 		$File	"c_vehicle_jeep.h"
 		$File	"c_user_message_register.h"
-		$File	"c_vguiscreen.h"
+
 		$File	"c_weapon__stubs.h"
 		$File	"c_world.h"
 		$File	"cbase.h"
@@ -811,20 +891,7 @@ $Project
 		$File	"flashlighteffect.h"
 		$File	"fontabc.h"
 		$File	"functionproxy.h"
-		$File	"fx.h"
-		$File	"fx_blood.h"
-		$File	"fx_discreetline.h"
-		$File	"fx_envelope.h"
-		$File	"fx_explosion.h"
-		$File	"fx_fleck.h"
-		$File	"fx_impact.h"
-		$File	"fx_interpvalue.h"
-		$File	"fx_line.h"
-		$File	"fx_quad.h"
-		$File	"fx_sparks.h"
-		$File	"fx_staticline.h"
-		$File	"fx_trail.h"
-		$File	"fx_water.h"
+
 		$File	"$SRCDIR\game\shared\GameEventListener.h"
 		$File	"glow_outline_effect.h"
 		$File	"glow_overlay.h"
@@ -832,20 +899,9 @@ $Project
 		$File	"$SRCDIR\game\shared\hintsystem.h"
 		$File	"history_resource.h"
 		$File	"hltvcamera.h"
-		$File	"hud.h"
-		$File	"hud_basechat.h"
-		$File	"hud_basetimer.h"
-		$File	"hud_bitmapnumericdisplay.h"
-		$File	"hud_chat.h"
-		$File	"hud_closecaption.h"
-		$File	"hud_crosshair.h"
-		$File	"hud_element_helper.h"
-		$File	"hud_lcd.h"
-		$File	"hud_macros.h"
-		$File	"hud_numericdisplay.h"
-		$File	"hud_pdump.h"
+
 		$File	"basepresence.h"
-		$File	"hud_vehicle.h"
+
 		$File	"hudelement.h"
 		$File	"hudtexturehandle.h"
 		$File	"iclassmap.h"
@@ -881,30 +937,17 @@ $Project
 		$File	"mumble.h"
 		$File	"networkstringtable_clientdll.h"
 		$File	"panelmetaclassmgr.h"
-		$File	"particle_collision.h"
-		$File	"particle_iterators.h"
-		$File	"particle_litsmokeemitter.h"
-		$File	"particle_prototype.h"
-		$File	"particle_simple3d.h"
-		$File	"particle_util.h"
-		$File	"particledraw.h"
-		$File	"particlemgr.h"
-		$File	"particles_attractor.h"
-		$File	"particles_ez.h"
-		$File	"particles_localspace.h"
-		$File	"particles_new.h"
-		$File	"particles_simple.h"
+
 		$File	"particlesphererenderer.h"
 		$File	"perfvisualbenchmark.h"
-		$File	"physics.h"
-		$File	"physpropclientside.h"
+
 		$File	"playerandobjectenumerator.h"
 		$File	"playerenumerator.h"
 		$File	"playerspawncache.h"
 		$File	"prediction.h"
 		$File	"prediction_private.h"
 		$File	"proxyentity.h"
-		$File	"ragdoll.h"
+
 		$File	"ragdollexplosionenumerator.h"
 		$File	"recvproxy.h"
 		$File	"rendertexture.h"
@@ -918,27 +961,14 @@ $Project
 		$File	"text_message.h"
 		$File	"timedevent.h"
 		$File	"toggletextureproxy.h"
-		$File	"vgui_basepanel.h"
-		$File	"vgui_bitmapbutton.h"
-		$File	"vgui_bitmapimage.h"
-		$File	"vgui_bitmappanel.h"
-		$File	"vgui_schemevisualizer.h"
-		$File	"vgui_entityimagepanel.h"
-		$File	"vgui_entitypanel.h"
-		$File	"vgui_grid.h"
-		$File	"vgui_helpers.h"
-		$File	"vgui_imagehealthpanel.h"
-		$File	"vgui_int.h"
-		$File	"vguicenterprint.h"
-		$File	"view.h"
-		$File	"view_scene.h"
+		
+
 		$File	"viewangleanim.h"
 		$File	"ViewConeImage.h"
-		$File	"viewrender.h"
+
 		$File	"weapon_selection.h"
-		$File	"weapons_resource.h"
-		$File	"vgui_video.h"
-		$File   "vgui_video_player.h"
+
+
 	}
 
 	$Folder	"Public Header Files"
