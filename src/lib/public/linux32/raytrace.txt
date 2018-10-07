@@ -1,0 +1,260 @@
+
+raytrace.o:
+         U Error
+         U Four_Epsilons
+         U Four_Ones
+         U Four_Zeros
+         U free
+00000000 t _GLOBAL__sub_I__ZNK8FourRays26CalculateDirectionSignMaskEv
+         U malloc
+         U memmove
+00000000 B n_intersection_calculations
+         U realloc
+         U __stack_chk_fail
+00000000 n wt.036c5a07c940c490
+00000000 n wt.04d46f81dab4d7a1
+00000000 n wt.08f99b0d76cade92
+00000000 n wt.0ac1bcc3972604a5
+00000000 n wt.0d38151149378353
+00000000 n wt.0d5f42a9c4c0280d
+00000000 n wt.0f9a04aeb093002d
+00000000 n wt.1037a9d4e7ee9670
+00000000 n wt.121aa28f23fa9111
+00000000 n wt.1f28641623d04e45
+00000000 n wt.20869932591b0ed1
+00000000 n wt.227bd91bfffbc0b2
+00000000 n wt.23f7d187659fdcbc
+00000000 n wt.29d2bc20ffbd5874
+00000000 n wt.306c410060e3fd16
+00000000 n wt.326826b45b536885
+00000000 n wt.3286cf5fa076aa2a
+00000000 n wt.331468de7905b887
+00000000 n wt.33529812199b6f65
+00000000 n wt.3364ce67af643308
+00000000 n wt.33f7c638bedff202
+00000000 n wt.39fc1bcec3ca503d
+00000000 n wt.3b67cb6087cb9a74
+00000000 n wt.3ce05b52ef1683aa
+00000000 n wt.3d62ea208cb13310
+00000000 n wt.42d5c33606d030c6
+00000000 n wt.47000c5623f483f9
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.4b540acb46a6cb72
+00000000 n wt.4e44fe3887080f2a
+00000000 n wt.6069068215b874e4
+00000000 n wt.64253b0ef61ba6c2
+00000000 n wt.6531f333d8453c14
+00000000 n wt.67444eef5af6bfcf
+00000000 n wt.674475cc1afc57c3
+00000000 n wt.6c25976d9b5e0ac7
+00000000 n wt.6d628e3ac7b4aa83
+00000000 n wt.76983d25d047b3f5
+00000000 n wt.7aeda3a85fb08677
+00000000 n wt.86805a0d0d784784
+00000000 n wt.87c92accd82578b2
+00000000 n wt.8dad7a9686d48f40
+00000000 n wt.8f2454fd9494e619
+00000000 n wt.920d8cd69054cd6d
+00000000 n wt.9270e5d79a9482c4
+00000000 n wt.96c25056cb1de787
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.9a45386b9b659a64
+00000000 n wt.9eb4e11c04a466c7
+00000000 n wt.a41fc4468cf6a016
+00000000 n wt.a98174c5b5998663
+00000000 n wt.add44fc1e84c9927
+00000000 n wt.ae8c094ad884eaf4
+00000000 n wt.aeae1ecc9b50a4e6
+00000000 n wt.af079dd41bb03487
+00000000 n wt.affbca617ceb42ac
+00000000 n wt.b3aee2cee5872737
+00000000 n wt.b665a9af38b972f8
+00000000 n wt.bb32aea43b3a843b
+00000000 n wt.be872aa0bf55d539
+00000000 n wt.c9fc6e7e4ff6e9e2
+00000000 n wt.ca291a2001f9865f
+00000000 n wt.ca7f8f86f36c1b19
+00000000 n wt.d332b26f15409820
+00000000 n wt.d6c719e2c66f2685
+00000000 n wt.ed48841bfe4b4a13
+00000000 n wt.ee4025acdcda5f8b
+00000000 n wt.eee7df6c4dc7bb0a
+00000000 n wt.f0eae49920267ba1
+00000000 n wt.f1c002155d751361
+00000000 n wt.fb219a92983fdf1c
+00000000 n wt.fb38c8aa3ef221f6
+00000000 n wt.ffbda2f3dfa3c95f
+         U operator delete[](void*)
+00000010 b vec2_origin
+00000020 b vec2_invalid
+00000000 t GetEdgeEquation(Vector, Vector, int, int, Vector)
+00000000 W CUtlMemory<LightDesc_t, int>::Grow(int)
+00000000 W CUtlMemory<CacheOptimizedKDNode, int>::Grow(int)
+00000000 W CUtlMemory<Vector, int>::Grow(int)
+00000000 W CUtlMemory<int, int>::Grow(int)
+00000000 W CUtlVector<LightDesc_t, CUtlMemory<LightDesc_t, int> >::InsertBefore(int, LightDesc_t const&)
+00000000 W CUtlVector<CacheOptimizedKDNode, CUtlMemory<CacheOptimizedKDNode, int> >::InsertBefore(int, CacheOptimizedKDNode const&)
+00000000 W CUtlVector<CacheOptimizedTriangle, CUtlBlockMemory<CacheOptimizedTriangle, int> >::InsertBefore(int, CacheOptimizedTriangle const&)
+00000000 W CUtlVector<Vector, CUtlMemory<Vector, int> >::InsertBefore(int, Vector const&)
+00000000 W CUtlVector<int, CUtlMemory<int, int> >::InsertBefore(int, int const&)
+         U LightDesc_t::RecalculateDerivedValues()
+00000000 W CUtlBlockMemory<CacheOptimizedTriangle, int>::ChangeSize(int)
+000012d0 T RayTracingEnvironment::RefineNode(int, int const*, int, Vector, Vector, int)
+00000590 T RayTracingEnvironment::Trace4Rays(FourRays const&, float __vector(4), float __vector(4), int, RayTracingResult*, int, ITransparentTriangleCallback*)
+00000bf0 T RayTracingEnvironment::Trace4Rays(FourRays const&, float __vector(4), float __vector(4), RayTracingResult*, int, ITransparentTriangleCallback*)
+00000590 T RayTracingEnvironment::Trace4Rays(FourRays const&, float __vector, float __vector, int, RayTracingResult*, int, ITransparentTriangleCallback*)
+00000bf0 T RayTracingEnvironment::Trace4Rays(FourRays const&, float __vector, float __vector, RayTracingResult*, int, ITransparentTriangleCallback*)
+00001c40 T RayTracingEnvironment::AddTriangle(int, Vector const&, Vector const&, Vector const&, Vector const&)
+00001b70 T RayTracingEnvironment::AddTriangle(int, Vector const&, Vector const&, Vector const&, Vector const&, unsigned short, int)
+00001a60 T RayTracingEnvironment::MakeLeafNode(int, int)
+00000170 T RayTracingEnvironment::MakeRoomForTriangles(int)
+00001af0 T RayTracingEnvironment::AddInfinitePointLight(Vector, Vector)
+00000fa0 T RayTracingEnvironment::CalculateCostsOfSplit(int, int const*, int, Vector, Vector, float&, int&, int&, int&)
+00001940 T RayTracingEnvironment::SetupAccelerationStructure()
+00000ec0 T RayTracingEnvironment::CalculateTriangleListBounds(int const*, int, Vector&, Vector&)
+00001d10 T RayTracingEnvironment::AddAxisAlignedRectangularSolid(int, Vector, Vector, Vector const&)
+00001c90 T RayTracingEnvironment::AddQuad(int, Vector const&, Vector const&, Vector const&, Vector const&, Vector const&)
+00000530 T CacheOptimizedTriangle::ClassifyAgainstAxisSplit(int, float)
+000001f0 T CacheOptimizedTriangle::ChangeIntoIntersectionFormat()
+         U operator new[](unsigned int)
+000000a0 T FourRays::CalculateDirectionSignMask() const
+
+trace2.o:
+         U __acosf_finite
+         U Four_Epsilons
+         U Four_PointFives
+         U Four_Threes
+         U Four_Zeros
+00000000 t _GLOBAL__sub_I__Z20MapLinearIntensitiesRK11FourVectorsPjS2_S2_S2_
+         U malloc
+         U memmove
+         U realloc
+         U sincos
+         U sinf
+00000000 n wt.036c5a07c940c490
+00000000 n wt.04d46f81dab4d7a1
+00000000 n wt.08f99b0d76cade92
+00000000 n wt.0ac1bcc3972604a5
+00000000 n wt.0f9a04aeb093002d
+00000000 n wt.121aa28f23fa9111
+00000000 n wt.1b0bc93fdc4da286
+00000000 n wt.1c7169621a166c17
+00000000 n wt.20869932591b0ed1
+00000000 n wt.23f7d187659fdcbc
+00000000 n wt.29d2bc20ffbd5874
+00000000 n wt.331468de7905b887
+00000000 n wt.33529812199b6f65
+00000000 n wt.3364ce67af643308
+00000000 n wt.33f7c638bedff202
+00000000 n wt.3ce05b52ef1683aa
+00000000 n wt.3d62ea208cb13310
+00000000 n wt.47000c5623f483f9
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.4b540acb46a6cb72
+00000000 n wt.64253b0ef61ba6c2
+00000000 n wt.67444eef5af6bfcf
+00000000 n wt.674475cc1afc57c3
+00000000 n wt.6c25976d9b5e0ac7
+00000000 n wt.76983d25d047b3f5
+00000000 n wt.86805a0d0d784784
+00000000 n wt.8dad7a9686d48f40
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.9a45386b9b659a64
+00000000 n wt.add44fc1e84c9927
+00000000 n wt.affbca617ceb42ac
+00000000 n wt.b3aee2cee5872737
+00000000 n wt.b665a9af38b972f8
+00000000 n wt.be872aa0bf55d539
+00000000 n wt.ca7f8f86f36c1b19
+00000000 n wt.d332b26f15409820
+00000000 n wt.d6c719e2c66f2685
+00000000 n wt.ed48841bfe4b4a13
+00000000 n wt.ee4025acdcda5f8b
+00000000 n wt.eee7df6c4dc7bb0a
+00000000 n wt.f1c002155d751361
+00000000 n wt.fb219a92983fdf1c
+00000000 n wt.ffbda2f3dfa3c95f
+00000000 T MapLinearIntensities(FourVectors const&, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
+         U Pow_FixedPoint_Exponent_SIMD(float __vector const&, int)
+00000000 b vec2_origin
+00000010 b vec2_invalid
+00000010 r signmask
+00000000 r Four_255s
+00000000 W CUtlMemory<LightDesc_t, int>::Grow(int)
+00000000 W CUtlVector<LightDesc_t, CUtlMemory<LightDesc_t, int> >::InsertBefore(int, LightDesc_t const&)
+         U LightDesc_t::RecalculateDerivedValues()
+         U RayTracingEnvironment::Trace4Rays(FourRays const&, float __vector, float __vector, int, RayTracingResult*, int, ITransparentTriangleCallback*)
+         U RayTracingEnvironment::Trace4Rays(FourRays const&, float __vector, float __vector, RayTracingResult*, int, ITransparentTriangleCallback*)
+00000130 T RayTracingEnvironment::RenderScene(int, int, int, unsigned int*, Vector, Vector, Vector, Vector, Vector, RayTraceLightingMode_t)
+00000a80 T RayTracingEnvironment::AddToRayStream(RayStream&, Vector const&, Vector const&, RayTracingSingleResult*)
+00000c40 T RayTracingEnvironment::FinishRayStream(RayStream&)
+00000e00 T RayTracingEnvironment::ComputeVirtualLightSources()
+         U HaltonSequenceGenerator_t::GetElement(int)
+         U HaltonSequenceGenerator_t::HaltonSequenceGenerator_t(int)
+         U LightDesc_t::ComputeLightAtPoints(FourVectors const&, FourVectors const&, FourVectors&, bool) const
+
+trace3.o:
+00000000 B colors
+         U dedges
+         U dorigfaces
+         U dsurfedges
+         U dvertexes
+00000000 t _GLOBAL__sub_I_colors
+         U numfaces
+         U __printf_chk
+         U putchar
+         U texinfo
+00000000 n wt.036c5a07c940c490
+00000000 n wt.04ac63a2de6fcb0d
+00000000 n wt.04d46f81dab4d7a1
+00000000 n wt.0ac1bcc3972604a5
+00000000 n wt.0f9a04aeb093002d
+00000000 n wt.121aa28f23fa9111
+00000000 n wt.1cefa709f63ff4a2
+00000000 n wt.20869932591b0ed1
+00000000 n wt.23f7d187659fdcbc
+00000000 n wt.24d1270a4b2366f6
+00000000 n wt.331468de7905b887
+00000000 n wt.33529812199b6f65
+00000000 n wt.3364ce67af643308
+00000000 n wt.33f7c638bedff202
+00000000 n wt.3b8a88ade7690fc1
+00000000 n wt.3c7cb97d518c6e3e
+00000000 n wt.3ce05b52ef1683aa
+00000000 n wt.3d62ea208cb13310
+00000000 n wt.47000c5623f483f9
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.4b540acb46a6cb72
+00000000 n wt.64253b0ef61ba6c2
+00000000 n wt.67444eef5af6bfcf
+00000000 n wt.6a9de05715e78773
+00000000 n wt.6c25976d9b5e0ac7
+00000000 n wt.6c28ff913c44c085
+00000000 n wt.6d4d7c55d5ac7331
+00000000 n wt.7478ceda6af12f4c
+00000000 n wt.76983d25d047b3f5
+00000000 n wt.8669f3e891002e51
+00000000 n wt.86805a0d0d784784
+00000000 n wt.8dad7a9686d48f40
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.9a45386b9b659a64
+00000000 n wt.add44fc1e84c9927
+00000000 n wt.affbca617ceb42ac
+00000000 n wt.b3aee2cee5872737
+00000000 n wt.b665a9af38b972f8
+00000000 n wt.be872aa0bf55d539
+00000000 n wt.ca7f8f86f36c1b19
+00000000 n wt.cc1b18505a07c491
+00000000 n wt.d332b26f15409820
+00000000 n wt.d6c719e2c66f2685
+00000000 n wt.ed48841bfe4b4a13
+00000000 n wt.ee4025acdcda5f8b
+00000000 n wt.eee7df6c4dc7bb0a
+00000000 n wt.f1c002155d751361
+00000000 n wt.fb219a92983fdf1c
+00000000 n wt.ffbda2f3dfa3c95f
+00000050 b vec2_origin
+00000060 b vec2_invalid
+00000000 T RayTracingEnvironment::AddBSPFace(int, dface_t const&)
+         U RayTracingEnvironment::AddTriangle(int, Vector const&, Vector const&, Vector const&, Vector const&)
+00000280 T RayTracingEnvironment::InitializeFromLoadedBSP()

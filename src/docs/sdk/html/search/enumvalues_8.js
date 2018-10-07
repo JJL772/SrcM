@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['ich_5fmovetype_5farrive',['ICH_MOVETYPE_ARRIVE',['../npc__ichthyosaur_8cpp.html#a8a00be5c2b797ed887acd9009c06d353abedb13704b93c93ee4fcf75cd85ac640',1,'npc_ichthyosaur.cpp']]],
+  ['ich_5fmovetype_5fseek',['ICH_MOVETYPE_SEEK',['../npc__ichthyosaur_8cpp.html#a8a00be5c2b797ed887acd9009c06d353af7769f7e4ece9ef1db129121b4e19e1e',1,'npc_ichthyosaur.cpp']]],
+  ['ideal_5fsniper_5fspot',['IDEAL_SNIPER_SPOT',['../class_hiding_spot.html#a29a042f6756952d91222e4f1b9d9688da5d2e8d5f7af7b4298fdb1c2151d37048',1,'HidingSpot']]],
+  ['identical',['IDENTICAL',['../class_c_prediction_copy.html#a3dcd8d76fc2119b5c91828130d40884fae11fc9ca322b1e47603fcebec9c9355e',1,'CPredictionCopy']]],
+  ['ignore_5factors',['IGNORE_ACTORS',['../class_c___base_combat_character.html#ab440ad13de41e17873ecb513241f47c9a8a5c1a8567f75f87aef6fd93d1dfe2fb',1,'C_BaseCombatCharacter::IGNORE_ACTORS()'],['../class_c_base_combat_character.html#ad88111294367e9aaa55a05826e2008c0acdd1c56b4ebf700f9107b83300a54ae5',1,'CBaseCombatCharacter::IGNORE_ACTORS()']]],
+  ['ignore_5fnothing',['IGNORE_NOTHING',['../class_c___base_combat_character.html#ab440ad13de41e17873ecb513241f47c9a6c1782fe2905af267f3c1788949d1907',1,'C_BaseCombatCharacter::IGNORE_NOTHING()'],['../class_c_base_combat_character.html#ad88111294367e9aaa55a05826e2008c0a8cd3a8ce0f49201e1e6367a093a5485d',1,'CBaseCombatCharacter::IGNORE_NOTHING()']]],
+  ['impact_5fnodecal',['IMPACT_NODECAL',['../fx__impact_8h.html#a4790f45dcc812c1b00184a2edccdddf5ab373aca8c0682141fdcfa4f83cc5adba',1,'fx_impact.h']]],
+  ['impact_5freport_5fragdoll_5fimpacts',['IMPACT_REPORT_RAGDOLL_IMPACTS',['../fx__impact_8h.html#a4790f45dcc812c1b00184a2edccdddf5afa89f0751de6f6853e3a1feeab59c009',1,'fx_impact.h']]],
+  ['in_5fcover',['IN_COVER',['../class_hiding_spot.html#a29a042f6756952d91222e4f1b9d9688daa53a3fd43eb02e8d8f17adf05bd367f9',1,'HidingSpot']]],
+  ['inset_5foffset',['INSET_OFFSET',['../class_c_spectator_g_u_i.html#ada8bddc8b97a573989b7d53f36fc5726af34a8cb54a1f769a657a93581c674723',1,'CSpectatorGUI']]],
+  ['interp_5flinear',['INTERP_LINEAR',['../fx__interpvalue_8h.html#a1a1dd626a64213949696219dd87bb139a17abedd2e487446bf814c9da0b7791de',1,'fx_interpvalue.h']]],
+  ['interp_5fspline',['INTERP_SPLINE',['../fx__interpvalue_8h.html#a1a1dd626a64213949696219dd87bb139a19348d044bf5e35f35466743aeadb197',1,'fx_interpvalue.h']]],
+  ['interpolate_5fcontinue',['INTERPOLATE_CONTINUE',['../class_c___base_entity.html#a1a2d55f896c8b2100781103a22e5cbb9a2ae09e80b09062c2b06a43091495a0e0',1,'C_BaseEntity']]],
+  ['interpolate_5fstop',['INTERPOLATE_STOP',['../class_c___base_entity.html#a1a2d55f896c8b2100781103a22e5cbb9a4b0db02a9b48d71d82ce6a4a00b4e1e4',1,'C_BaseEntity']]],
+  ['interrupt',['INTERRUPT',['../class_c_choreo_event.html#aea1d780ff84207bc8e1e93dfc82e34a1a9f3c6e365442a10b83aeac89549cb30e',1,'CChoreoEvent']]],
+  ['invalid_5ftexture_5fhandle',['INVALID_TEXTURE_HANDLE',['../clientshadowmgr_8cpp.html#a7ff5f2dff38e7639981794c43dc9167ba7cff6af840c804b6c6102c64331f7741',1,'clientshadowmgr.cpp']]],
+  ['itbd_5facid',['itbd_Acid',['../server_2cbase_8h.html#a1f3b6c692395e5007ff47ce5d9304c1cab156a1d62ea6247c5c390b9fd681639c',1,'cbase.h']]],
+  ['itbd_5fdrownrecover',['itbd_DrownRecover',['../server_2cbase_8h.html#a1f3b6c692395e5007ff47ce5d9304c1ca4a8eb1962ff32f218cf31969629d294b',1,'cbase.h']]],
+  ['itbd_5fnervegas',['itbd_NerveGas',['../server_2cbase_8h.html#a1f3b6c692395e5007ff47ce5d9304c1ca6026cac5b89d95bea5f306cb4df6c272',1,'cbase.h']]],
+  ['itbd_5fparalyze',['itbd_Paralyze',['../server_2cbase_8h.html#a1f3b6c692395e5007ff47ce5d9304c1ca2ea3c856e0610b13d100395f2685ac86',1,'cbase.h']]],
+  ['itbd_5fpoisonrecover',['itbd_PoisonRecover',['../server_2cbase_8h.html#a1f3b6c692395e5007ff47ce5d9304c1cab3f4fe26fbf51e240698b380073d17ff',1,'cbase.h']]],
+  ['itbd_5fradiation',['itbd_Radiation',['../server_2cbase_8h.html#a1f3b6c692395e5007ff47ce5d9304c1caf59aa9dcc01ff0733a5d08fb6eb3a834',1,'cbase.h']]],
+  ['itbd_5fslowburn',['itbd_SlowBurn',['../server_2cbase_8h.html#a1f3b6c692395e5007ff47ce5d9304c1caad955fe45bd90d85f79720a78374827c',1,'cbase.h']]],
+  ['itbd_5fslowfreeze',['itbd_SlowFreeze',['../server_2cbase_8h.html#a1f3b6c692395e5007ff47ce5d9304c1ca158cb89c8b54b2bf5e1b75ab7b293f86',1,'cbase.h']]]
+];

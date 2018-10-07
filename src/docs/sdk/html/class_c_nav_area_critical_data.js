@@ -1,0 +1,27 @@
+var class_c_nav_area_critical_data =
+[
+    [ "m_attributeFlags", "class_c_nav_area_critical_data.html#a4d4bb9e969286cf516da5dc51066cf7a", null ],
+    [ "m_center", "class_c_nav_area_critical_data.html#ab87be19094de5e968b8e61d49a3c1a9e", null ],
+    [ "m_connect", "class_c_nav_area_critical_data.html#a82bf8886b42f02b7931ee883cad47e84", null ],
+    [ "m_costSoFar", "class_c_nav_area_critical_data.html#af6997b14484058dd10861f16187711b3", null ],
+    [ "m_elevator", "class_c_nav_area_critical_data.html#a7ce1067d6538c2c7ac163a603b48d58a", null ],
+    [ "m_elevatorAreas", "class_c_nav_area_critical_data.html#aac198da5730422f19835ed6c90a2f5bc", null ],
+    [ "m_invDxCorners", "class_c_nav_area_critical_data.html#a8c039a63ea57eac5445be8d6d588f6c9", null ],
+    [ "m_invDyCorners", "class_c_nav_area_critical_data.html#a0a7149f43b7251f178acad7639639863", null ],
+    [ "m_isBlocked", "class_c_nav_area_critical_data.html#a249715071bc2f96b8f83226ab19946d1", null ],
+    [ "m_ladder", "class_c_nav_area_critical_data.html#abc55f028e3618d2f4f9cb2e21e9776e3", null ],
+    [ "m_marker", "class_c_nav_area_critical_data.html#a560f568dadbe9891caaec67175a97f7d", null ],
+    [ "m_nearNavSearchMarker", "class_c_nav_area_critical_data.html#a5ed8afccd567024686286d862f865bc1", null ],
+    [ "m_nextOpen", "class_c_nav_area_critical_data.html#a106022b515298282aef48031f555bc6b", null ],
+    [ "m_neZ", "class_c_nav_area_critical_data.html#a731a36af29f9421512a65535a5b04144", null ],
+    [ "m_nwCorner", "class_c_nav_area_critical_data.html#ace0761bfdb184d9741e49a30a0204fe3", null ],
+    [ "m_openMarker", "class_c_nav_area_critical_data.html#a77c564e4f490c4cada396ac7161675da", null ],
+    [ "m_parent", "class_c_nav_area_critical_data.html#a7cb3377ab8869164a8be1aceda51353e", null ],
+    [ "m_parentHow", "class_c_nav_area_critical_data.html#ae833a606c2cb7ff8efff40371a91815c", null ],
+    [ "m_pathLengthSoFar", "class_c_nav_area_critical_data.html#aaeb389556e6d22b56b867fd300691960", null ],
+    [ "m_playerCount", "class_c_nav_area_critical_data.html#a0a4dd2077fd26962422fdb98b2cb84cb", null ],
+    [ "m_prevOpen", "class_c_nav_area_critical_data.html#af82a7b3db9116c7d2ca9b1217d5781a0", null ],
+    [ "m_seCorner", "class_c_nav_area_critical_data.html#a9f92a75535003838a9f194311c945582", null ],
+    [ "m_swZ", "class_c_nav_area_critical_data.html#a242b8eed1291c2bc2c91763fa89d1e96", null ],
+    [ "m_totalCost", "class_c_nav_area_critical_data.html#aead2c57c4acca74294ef4785666ed5b6", null ]
+];

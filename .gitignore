@@ -36,21 +36,3 @@ ipch
 *.vcxproj
 
 *.sln
-
-
-# OSX/Linux build products
-
-*.mak
-
-*.mak.vpc_crc
-
-*.xcodeproj/
-obj
-*/
-!devtools/
-*.mak
-!utils/smdlexp/smdlexp.mak
-
-
-# Specific Source build products
-

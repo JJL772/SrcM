@@ -1,0 +1,26 @@
+var class_c___world =
+[
+    [ "MAX_DETAIL_SPRITE_MATERIAL_NAME_LENGTH", "class_c___world.html#aff67dfd7b70fe60401a79c0c10355896ae58fa199b082c89fbb97f05be40ca1cd", null ],
+    [ "C_World", "class_c___world.html#a546175f89e95dd7b750395b903bda488", null ],
+    [ "~C_World", "class_c___world.html#a0db59da6e9163ecb610c96a5086ad1e3", null ],
+    [ "DECLARE_CLASS", "class_c___world.html#a95a8edb16425c94192f29076ce2e8462", null ],
+    [ "DECLARE_CLIENTCLASS", "class_c___world.html#a74d2a8285b8a8b232755de23cf420819", null ],
+    [ "GetCollideType", "class_c___world.html#a21be95b23dd79dd31c04a173dafb90dd", null ],
+    [ "GetDetailSpriteMaterial", "class_c___world.html#ad51b9bc1202bec3504e0354eea6a163e", null ],
+    [ "GetWaveHeight", "class_c___world.html#a0f1f9925acf0f7c9ec134a55f68bb254", null ],
+    [ "Init", "class_c___world.html#a395b5a8f700d4d552d02d697ba4f5aa1", null ],
+    [ "OnDataChanged", "class_c___world.html#af85f94f0489ba012dd1f5e5a5431a843", null ],
+    [ "Precache", "class_c___world.html#a3c7783fcc0baca80d1cceee0e66f5edf", null ],
+    [ "PreDataUpdate", "class_c___world.html#ac1f17b5085e0b505b3edbdbc721de4f4", null ],
+    [ "Release", "class_c___world.html#aac7a25f54b5b80a430ee902a448dde9f", null ],
+    [ "Spawn", "class_c___world.html#a863b6674bff99a498236de9579417b2c", null ],
+    [ "m_bColdWorld", "class_c___world.html#abe23dd8c9153860d0181feb67d2b88e6", null ],
+    [ "m_bStartDark", "class_c___world.html#a0db2ddd4c2ad8cbab1653af68be7212f", null ],
+    [ "m_flMaxOccludeeArea", "class_c___world.html#a8328742bd601ed9d572cf01f46d59e71", null ],
+    [ "m_flMaxPropScreenSpaceWidth", "class_c___world.html#aba4eb75e563d8a57c2915f2d139c8ce9", null ],
+    [ "m_flMinOccluderArea", "class_c___world.html#a8f80022f7485c297e7b8b0ca4d7b12f3", null ],
+    [ "m_flMinPropScreenSpaceWidth", "class_c___world.html#a2203298f9c75c0f12e9eb69b6c7e9f79", null ],
+    [ "m_flWaveHeight", "class_c___world.html#a698660a48ae1476764f6f30432d3b7b9", null ],
+    [ "m_WorldMaxs", "class_c___world.html#a3bde46650885a5636b33b953557fc169", null ],
+    [ "m_WorldMins", "class_c___world.html#a421b109a788b809c4082957a93cb55c8", null ]
+];

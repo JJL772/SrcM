@@ -1,0 +1,1124 @@
+
+map_utils.o:
+00000000 t _GLOBAL__sub_I__Z25SetupLightNormalFromPropsRK6QAngleffR6Vector
+         U sincos
+00000000 n wt.036c5a07c940c490
+00000000 n wt.0a44e52dfbd7460c
+00000000 n wt.3364ce67af643308
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.9a45386b9b659a64
+00000000 n wt.b853aecc2ed8e4f5
+00000000 n wt.d332b26f15409820
+00000000 n wt.ee4025acdcda5f8b
+00000000 n wt.f259594ccb335201
+00000000 n wt.ffbda2f3dfa3c95f
+00000000 T SetupLightNormalFromProps(QAngle const&, float, float, Vector&)
+00000000 b vec2_origin
+00000010 b vec2_invalid
+
+MaterialSystemUtil.o:
+00000000 t _GLOBAL__sub_I__ZN18CMaterialReferenceC2EPKcS1_b
+         U materials
+00000000 n wt.036c5a07c940c490
+00000000 n wt.0ab757ce454fbb6e
+00000000 n wt.0d7a17ce6b8a6c1b
+00000000 n wt.0ec55b586ec9c677
+00000000 n wt.22ecff738f575805
+00000000 n wt.29d04898683bec8e
+00000000 n wt.3364ce67af643308
+00000000 n wt.353299b4290703ba
+00000000 n wt.366342edeb76d69c
+00000000 n wt.41472508e7879713
+00000000 n wt.47f6a8a4a8b8a8b5
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.4e50d2b39ea6cb85
+00000000 n wt.6efdb1b3710b6cee
+00000000 n wt.6f4cc2fa69938d02
+00000000 n wt.70bb7207f756af98
+00000000 n wt.727ac103c8c73a09
+00000000 n wt.8dc6ccccf3bbb7f4
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.af768c88d3f7d4fa
+00000000 n wt.b762a0c4a8092880
+00000000 n wt.d332b26f15409820
+00000000 n wt.d58adba4ddf74635
+00000000 n wt.da3f8b4596b0f631
+00000000 n wt.ee4025acdcda5f8b
+00000000 n wt.fec53cbeaa1966ac
+00000000 n wt.ffbda2f3dfa3c95f
+00000000 b vec2_origin
+00000020 b vec4_origin
+00000010 b vec2_invalid
+00000030 b vec4_invalid
+00000320 T CTextureReference::InitRenderTarget(int, int, RenderTargetSizeMode_t, ImageFormat, MaterialRenderTargetDepth_t, bool, char*)
+000003b0 T CTextureReference::InitProceduralTexture(char const*, char const*, int, int, ImageFormat, int)
+00000410 T CTextureReference::Init(ITexture*)
+00000460 T CTextureReference::Init(char const*, char const*, bool)
+000002c0 T CTextureReference::Shutdown(bool)
+00000290 T CTextureReference::operator=(CTextureReference&)
+00000260 T CTextureReference::CTextureReference(CTextureReference const&)
+00000250 T CTextureReference::CTextureReference()
+00000260 T CTextureReference::CTextureReference(CTextureReference const&)
+00000250 T CTextureReference::CTextureReference()
+000004f0 T CTextureReference::~CTextureReference()
+000004f0 T CTextureReference::~CTextureReference()
+00000080 T CMaterialReference::Init(IMaterial*)
+00000030 T CMaterialReference::Init(char const*, KeyValues*)
+00000120 T CMaterialReference::Init(char const*, char const*, bool)
+000000e0 T CMaterialReference::Init(char const*, char const*, KeyValues*)
+000001b0 T CMaterialReference::Init(CMaterialReference&)
+00000220 T CMaterialReference::Shutdown()
+00000180 T CMaterialReference::CMaterialReference(char const*, char const*, bool)
+00000180 T CMaterialReference::CMaterialReference(char const*, char const*, bool)
+00000000 T CMaterialReference::~CMaterialReference()
+00000000 T CMaterialReference::~CMaterialReference()
+
+beamsegdraw.o:
+00000000 t _GLOBAL__sub_I__ZN12CBeamSegDraw5StartEP17IMatRenderContextiP9IMaterialP12CMeshBuilderi
+00000000 n wt.036c5a07c940c490
+00000000 n wt.0e457b49ef74652e
+00000000 n wt.11711bb8cd599687
+00000000 n wt.13bbd4e12218ab37
+00000000 n wt.22ecff738f575805
+00000000 n wt.2761902aca5444ad
+00000000 n wt.29d04898683bec8e
+00000000 n wt.3364ce67af643308
+00000000 n wt.341fd0b971036d22
+00000000 n wt.3797410087add680
+00000000 n wt.386a0fe874928554
+00000000 n wt.3b4a096498437fde
+00000000 n wt.456268c4d74ddb88
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.5b7d8958f5540902
+00000000 n wt.6efdb1b3710b6cee
+00000000 n wt.70bb7207f756af98
+00000000 n wt.768fb1b620b96fd9
+00000000 n wt.7baebea5bd9cf767
+00000000 n wt.843cb95e35b852e1
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.9c4a7985ed2e6249
+00000000 n wt.af768c88d3f7d4fa
+00000000 n wt.c69f283eb73ce1ab
+00000000 n wt.cce0ca88dbfe0a32
+00000000 n wt.d332b26f15409820
+00000000 n wt.d58adba4ddf74635
+00000000 n wt.da3f8b4596b0f631
+00000000 n wt.ee4025acdcda5f8b
+00000000 n wt.ffbda2f3dfa3c95f
+         U GenerateQuadIndexBuffer(unsigned short*, int, int)
+         U GeneratePolygonIndexBuffer(unsigned short*, int, int)
+         U GenerateLineLoopIndexBuffer(unsigned short*, int, int)
+         U GenerateLineStripIndexBuffer(unsigned short*, int, int)
+         U GenerateSequentialIndexBuffer(unsigned short*, int, int)
+00000000 b vec2_origin
+00000020 b vec4_origin
+00000010 b vec2_invalid
+00000030 b vec4_invalid
+00000000 W CBeamSegDraw::SpecifySeg(Vector const&, Vector const&)
+00000540 T CBeamSegDraw::End()
+00000000 T CBeamSegDraw::Start(IMatRenderContext*, int, IMaterial*, CMeshBuilder*, int)
+000002a0 T CBeamSegDraw::NextSeg(BeamSeg_t*)
+00000800 T CBeamSegDrawArbitrary::SpecifySeg(Vector const&)
+00000ae0 T CBeamSegDrawArbitrary::NextSeg(BeamSeg_t*)
+000007d0 T CBeamSegDrawArbitrary::SetNormal(Vector const&)
+00000000 V typeinfo for CBeamSegDraw
+00000000 V typeinfo for CBeamSegDrawArbitrary
+00000000 V typeinfo name for CBeamSegDraw
+00000000 V typeinfo name for CBeamSegDrawArbitrary
+00000000 V vtable for CBeamSegDraw
+00000000 V vtable for CBeamSegDrawArbitrary
+         U vtable for __cxxabiv1::__class_type_info
+         U vtable for __cxxabiv1::__si_class_type_info
+
+camerautils.o:
+00000000 t _GLOBAL__sub_I__Z17ComputeViewMatrixP11matrix3x4_tRK8Camera_t
+         U tan
+00000000 n wt.036c5a07c940c490
+00000000 n wt.0a44e52dfbd7460c
+00000000 n wt.29d04898683bec8e
+00000000 n wt.3364ce67af643308
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.67a485f23a1f0cfb
+00000000 n wt.8390ef5e798561d7
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.ca7f8f86f36c1b19
+00000000 n wt.d332b26f15409820
+00000000 n wt.e3a1b00c2c2ec217
+00000000 n wt.ee4025acdcda5f8b
+00000000 n wt.f259594ccb335201
+00000000 n wt.fe5ba45830be45d2
+00000000 n wt.ffbda2f3dfa3c95f
+         U AngleMatrix(QAngle const&, Vector const&, matrix3x4_t&)
+         U MatrixInvert(matrix3x4_t const&, matrix3x4_t&)
+         U MatrixMultiply(VMatrix const&, VMatrix const&, VMatrix&)
+00000000 T ComputeViewMatrix(matrix3x4_t*, Camera_t const&)
+000001c0 T ComputeViewMatrix(VMatrix*, Camera_t const&)
+00000440 T ComputeProjectionMatrix(VMatrix*, Camera_t const&, int, int)
+00000560 T ComputeScreenSpacePosition(Vector2D*, Vector const&, Camera_t const&, int, int)
+         U MatrixBuildRotationAboutAxis(VMatrix&, Vector const&, float)
+         U Vector3DMultiplyPositionProjective(VMatrix const&, Vector const&, Vector&)
+00000000 b vec2_origin
+00000020 b vec4_origin
+00000010 b vec2_invalid
+00000030 b vec4_invalid
+         U VMatrix::operator=(VMatrix const&)
+
+defaultfilesystem.o:
+         U exit
+00000000 t _GLOBAL__sub_I__Z24DefaultCreateInterfaceFnPKcPi
+         U g_pFullFileSystem
+00000000 n wt.036c5a07c940c490
+00000000 n wt.0d38151149378353
+00000000 n wt.0d5f42a9c4c0280d
+00000000 n wt.1037a9d4e7ee9670
+00000000 n wt.1f28641623d04e45
+00000000 n wt.227bd91bfffbc0b2
+00000000 n wt.306c410060e3fd16
+00000000 n wt.326826b45b536885
+00000000 n wt.3364ce67af643308
+00000000 n wt.39fc1bcec3ca503d
+00000000 n wt.3b67cb6087cb9a74
+00000000 n wt.42d5c33606d030c6
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.4e44fe3887080f2a
+00000000 n wt.6069068215b874e4
+00000000 n wt.6531f333d8453c14
+00000000 n wt.6d628e3ac7b4aa83
+00000000 n wt.7aeda3a85fb08677
+00000000 n wt.87c92accd82578b2
+00000000 n wt.8f2454fd9494e619
+00000000 n wt.920d8cd69054cd6d
+00000000 n wt.96c25056cb1de787
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.9eb4e11c04a466c7
+00000000 n wt.a41fc4468cf6a016
+00000000 n wt.a98174c5b5998663
+00000000 n wt.ae8c094ad884eaf4
+00000000 n wt.aeae1ecc9b50a4e6
+00000000 n wt.af079dd41bb03487
+00000000 n wt.bb32aea43b3a843b
+00000000 n wt.c9fc6e7e4ff6e9e2
+00000000 n wt.ca291a2001f9865f
+00000000 n wt.e3a1b00c2c2ec217
+00000000 n wt.f0eae49920267ba1
+00000000 n wt.ffbda2f3dfa3c95f
+         U Sys_UnloadModule(CSysModule*)
+         U Sys_LoadInterface(char const*, char const*, CSysModule**, void**)
+00000020 T InitDefaultFileSystem()
+00000000 T DefaultCreateInterfaceFn(char const*, int*)
+000000e0 T ShutdownDefaultFileSystem()
+00000010 b vec2_origin
+00000020 b vec2_invalid
+00000000 b g_pFullFileSystemModule
+
+dmconnect.o:
+00000000 t _GLOBAL__sub_I__Z16ConnectDataModelPFPvPKcPiE
+         U g_pDataModel
+         U g_pDmElementFramework
+         U g_pDmSerializers
+00000000 n wt.0369f855948ccea8
+00000000 n wt.036c5a07c940c490
+00000000 n wt.0d7afc0f84231817
+00000000 n wt.12b3a46cbf333dae
+00000000 n wt.29d04898683bec8e
+00000000 n wt.333fc0e11f8529e2
+00000000 n wt.3364ce67af643308
+00000000 n wt.3664380c7c4c75b7
+00000000 n wt.47b1e6f3e4bc42ed
+00000000 n wt.4a743e98622a4b80
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.511cbef1ace58f90
+00000000 n wt.52ceb4a83f80fd88
+00000000 n wt.5dc798b80c00b16f
+00000000 n wt.5fa0e63f2fdf783b
+00000000 n wt.7ddc16881ff7ba2a
+00000000 n wt.8019aa840538daf4
+00000000 n wt.87c92accd82578b2
+00000000 n wt.8f7ee22a0088a70b
+00000000 n wt.96710318015ea448
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.a48820101ba51296
+00000000 n wt.a5422088cee9cede
+00000000 n wt.a63453ec1d75a173
+00000000 n wt.affbca617ceb42ac
+00000000 n wt.bf2f355935a14592
+00000000 n wt.bf632b9eb8efd8f8
+00000000 n wt.c0a51284424f813b
+00000000 n wt.d0e26cc9a6b0cbee
+00000000 n wt.d332b26f15409820
+00000000 n wt.da73f924e8e49f7f
+00000000 n wt.dc5c73425e98682f
+00000000 n wt.e09bee3b086641b7
+00000000 n wt.e3a1b00c2c2ec217
+00000000 n wt.e3dece540c9a2274
+00000000 n wt.ee4025acdcda5f8b
+00000000 n wt.f2b6bf731f78bbec
+00000000 n wt.f3fedaac70a29553
+00000000 n wt.ffbda2f3dfa3c95f
+00000070 T InitDataModel()
+00000000 T ConnectDataModel(void* (*)(char const*, int*))
+000000c0 T ShutdownDataModel()
+000000f0 T DisconnectDataModel()
+00000000 b vec2_origin
+00000020 b vec4_origin
+00000010 b vec2_invalid
+00000030 b vec4_invalid
+
+fileutils.o:
+         U free
+00000000 t _GLOBAL__sub_I__Z18GetModSubdirectoryPKcPci
+         U g_pFullFileSystem
+         U __gxx_personality_v0
+         U malloc
+         U memmove
+         U realloc
+         U __stack_chk_fail
+         U strchr
+         U strcpy
+         U strlen
+         U _Unwind_Resume
+00000000 n wt.01f47d05e4e230e1
+00000000 n wt.036c5a07c940c490
+00000000 n wt.0ac1bcc3972604a5
+00000000 n wt.0b0244cf83c3b85e
+00000000 n wt.0d38151149378353
+00000000 n wt.0d5f42a9c4c0280d
+00000000 n wt.1037a9d4e7ee9670
+00000000 n wt.14f38dca9add08a2
+00000000 n wt.1f28641623d04e45
+00000000 n wt.20869932591b0ed1
+00000000 n wt.227bd91bfffbc0b2
+00000000 n wt.306c410060e3fd16
+00000000 n wt.326826b45b536885
+00000000 n wt.3364ce67af643308
+00000000 n wt.39fc1bcec3ca503d
+00000000 n wt.3a37799868d5acfe
+00000000 n wt.3b67cb6087cb9a74
+00000000 n wt.42d5c33606d030c6
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.4b540acb46a6cb72
+00000000 n wt.4e44fe3887080f2a
+00000000 n wt.5e7796f2842dc99d
+00000000 n wt.6069068215b874e4
+00000000 n wt.6d628e3ac7b4aa83
+00000000 n wt.7aeda3a85fb08677
+00000000 n wt.86805a0d0d784784
+00000000 n wt.87c92accd82578b2
+00000000 n wt.8cd429f43fd42a85
+00000000 n wt.8f2454fd9494e619
+00000000 n wt.920d8cd69054cd6d
+00000000 n wt.96c25056cb1de787
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.99e88d159df478a4
+00000000 n wt.9eb4e11c04a466c7
+00000000 n wt.a0f73318edd298af
+00000000 n wt.a41fc4468cf6a016
+00000000 n wt.a98174c5b5998663
+00000000 n wt.ae8c094ad884eaf4
+00000000 n wt.aeae1ecc9b50a4e6
+00000000 n wt.af079dd41bb03487
+00000000 n wt.affbca617ceb42ac
+00000000 n wt.bb32aea43b3a843b
+00000000 n wt.c0b291612b07780b
+00000000 n wt.c4428789501c38a7
+00000000 n wt.c9c9b6f0f1829f7a
+00000000 n wt.c9fc6e7e4ff6e9e2
+00000000 n wt.ca291a2001f9865f
+00000000 n wt.cc1b18505a07c491
+00000000 n wt.cde548440ddfa46a
+00000000 n wt.e144806751aec4d5
+00000000 n wt.e3a1b00c2c2ec217
+00000000 n wt.ec66ac1c84396562
+00000000 n wt.f0eae49920267ba1
+00000000 n wt.ffbda2f3dfa3c95f
+         U V_snprintf(char*, int, char const*, ...)
+         U V_strlower(char*)
+         U V_strnicmp(char const*, char const*, int)
+         U V_FixSlashes(char*, char)
+000007a0 T GetSearchPath(CUtlVector<CUtlString, CUtlMemory<CUtlString, int> >&, char const*)
+000008f0 T AddFilesToList(CUtlVector<CUtlString, CUtlMemory<CUtlString, int> >&, char const*, char const*, char const*)
+00000460 T UpdateOrCreate(char const*, char*, int, char const*, bool (*)(char const*, char const*, char const*, void*), bool, void*)
+000003a0 T RestoreFilename(char const*, char*, int)
+000004d0 T GenerateFullPath(char const*, char const*, char*, int)
+         U V_IsAbsolutePath(char const*)
+         U V_StripExtension(char const*, char*, int)
+         U V_ComposeFileName(char const*, char const*, char*, int)
+000000f0 T ComputeModFilename(char const*, char*, unsigned int)
+00000340 T CreateX360Filename(char const*, char*, int)
+00000000 T GetModSubdirectory(char const*, char*, int)
+         U V_GetFileExtension(char const*)
+         U V_RemoveDotSlashes(char*, char, bool)
+         U V_StripTrailingSlash(char*)
+000001e0 T ComputeModContentFilename(char const*, char*, unsigned int)
+000002d0 T GetModContentSubdirectory(char const*, char*, int)
+         U V_stricmp(char const*, char const*)
+         U V_strncat(char*, char const*, unsigned int, int)
+         U V_strncmp(char const*, char const*, int)
+         U V_strncpy(char*, char const*, int)
+00000000 b vec2_origin
+00000010 b vec2_invalid
+         U CUtlBuffer::EnsureCapacity(int)
+         U CUtlBuffer::SeekPut(CUtlBuffer::SeekType_t, int)
+00000000 W CUtlMemory<CUtlString, int>::Grow(int)
+00000000 W CUtlMemory<CUtlString, int>::Purge()
+00000000 W CUtlMemory<char*, int>::Grow(int)
+         U CUtlString::Set(char const*)
+         U CUtlString::Purge()
+00000000 W CUtlVector<CUtlString, CUtlMemory<CUtlString, int> >::InsertBefore(int, CUtlString const&)
+00000000 W CUtlVector<char*, CUtlMemory<char*, int> >::InsertBefore(int, char* const&)
+00000610 T CBaseFile::ReadFile(CUtlBuffer&)
+000006b0 T CBaseFile::ReadLines(CUtlStringList&, int)
+         U operator new[](unsigned int)
+         U CUtlString::Get() const
+         U std::terminate()
+
+keybindings.o:
+00000000 t _GLOBAL__sub_I__ZN12CKeyBindings10SetBindingE12ButtonCode_tPKc
+         U g_pInputSystem
+00000000 n wt.01f47d05e4e230e1
+00000000 n wt.036c5a07c940c490
+00000000 n wt.0ac1bcc3972604a5
+00000000 n wt.0b0244cf83c3b85e
+00000000 n wt.20869932591b0ed1
+00000000 n wt.304213df0d9358b8
+00000000 n wt.3364ce67af643308
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.4b540acb46a6cb72
+00000000 n wt.5e7796f2842dc99d
+00000000 n wt.86805a0d0d784784
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.99e88d159df478a4
+00000000 n wt.affbca617ceb42ac
+00000000 n wt.b79739818c8af96e
+00000000 n wt.c0b291612b07780b
+00000000 n wt.c83080aba328d4d2
+00000000 n wt.cc1b18505a07c491
+00000000 n wt.e144806751aec4d5
+00000000 n wt.e3a1b00c2c2ec217
+00000000 n wt.ed4e60e77fed799e
+00000000 n wt.ffbda2f3dfa3c95f
+         U V_stricmp(char const*, char const*)
+00000000 b vec2_origin
+00000010 b vec2_invalid
+         U CUtlBuffer::Printf(char const*, ...)
+         U CUtlString::operator=(char const*)
+00000000 T CKeyBindings::SetBinding(ButtonCode_t, char const*)
+00000070 T CKeyBindings::SetBinding(char const*, char const*)
+00000180 T CKeyBindings::WriteBindings(CUtlBuffer&)
+000002a0 T CKeyBindings::GetBindingForButton(ButtonCode_t)
+000001f0 T CKeyBindings::ButtonNameForBinding(char const*)
+000000b0 T CKeyBindings::Unbind(ButtonCode_t)
+000000e0 T CKeyBindings::Unbind(char const*)
+00000110 T CKeyBindings::UnbindAll()
+         U CUtlString::Get() const
+         U CUtlString::operator[](int) const
+00000150 T CKeyBindings::GetBindingCount() const
+
+meshutils.o:
+00000140 T GenerateQuadIndexBuffer(unsigned short*, int, int)
+000001b0 T GeneratePolygonIndexBuffer(unsigned short*, int, int)
+00000340 T GenerateLineLoopIndexBuffer(unsigned short*, int, int)
+00000220 T GenerateLineStripIndexBuffer(unsigned short*, int, int)
+00000000 T GenerateSequentialIndexBuffer(unsigned short*, int, int)
+
+p4helpers.o:
+         U __cxa_atexit
+         U __dso_handle
+00000000 t _GLOBAL__sub_I__ZN7CP4FileC2EPKc
+00000000 D g_p4factory
+         U __gxx_personality_v0
+         U p4
+         U _Unwind_Resume
+00000000 n wt.036c5a07c940c490
+00000000 n wt.0775537fe41449e8
+00000000 n wt.1190f37dd9869ed0
+00000000 n wt.3364ce67af643308
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.a861f07d62528ea1
+00000000 n wt.a94f348bc8c2aa88
+00000000 n wt.b56365c5f4933019
+00000000 n wt.c83080aba328d4d2
+00000000 n wt.e3a1b00c2c2ec217
+00000000 n wt.ed4e60e77fed799e
+00000000 n wt.ffbda2f3dfa3c95f
+         U operator delete(void*)
+00000004 b vec2_origin
+0000000c b vec2_invalid
+00000000 b s_static_p4_factory
+00000210 T CP4Factory::SetDummyMode(bool)
+00000220 T CP4Factory::SetOpenFileChangeList(char const*)
+00000200 T CP4Factory::CP4Factory()
+00000200 T CP4Factory::CP4Factory()
+00000000 T CP4Factory::~CP4Factory()
+00000000 T CP4Factory::~CP4Factory()
+         U CUtlString::Purge()
+         U CUtlString::operator=(char const*)
+00000000 W CP4File_Dummy::SetFileType(CUtlString const&)
+00000000 W CP4File_Dummy::IsFileInPerforce()
+00000000 W CP4File_Dummy::Add()
+00000000 W CP4File_Dummy::Edit()
+00000000 W CP4File_Dummy::~CP4File_Dummy()
+00000000 W CP4File_Dummy::~CP4File_Dummy()
+00000000 W CP4File_Dummy::~CP4File_Dummy()
+00000000 n CP4File_Dummy::~CP4File_Dummy()
+00000010 T CP4File::SetFileType(CUtlString const&)
+00000070 T CP4File::IsFileInPerforce()
+000000f0 T CP4File::Add()
+00000130 T CP4File::Edit()
+000000b0 T CP4File::Revert()
+000001b0 T CP4File::CP4File(char const*)
+000001b0 T CP4File::CP4File(char const*)
+00000190 T CP4File::~CP4File()
+00000170 T CP4File::~CP4File()
+00000170 T CP4File::~CP4File()
+00000250 T CP4Factory::AccessFile(char const*) const
+         U CUtlString::Get() const
+         U operator new(unsigned int)
+00000000 V typeinfo for CP4File_Dummy
+00000000 V typeinfo for CP4File
+00000000 V typeinfo name for CP4File_Dummy
+00000000 V typeinfo name for CP4File
+00000000 V vtable for CP4File_Dummy
+00000000 V vtable for CP4File
+         U vtable for __cxxabiv1::__class_type_info
+         U vtable for __cxxabiv1::__si_class_type_info
+
+renderutils.o:
+00000000 t _GLOBAL__sub_I__Z27InitializeStandardMaterialsv
+         U g_pMaterialSystem
+         U g_Telemetry
+         U __gxx_personality_v0
+         U materials
+         U sincos
+         U _Unwind_Resume
+00000000 n wt.001299992145d9be
+00000000 n wt.02aeef31635bb622
+00000000 n wt.036c5a07c940c490
+00000000 n wt.059f78991229ccc2
+00000000 n wt.06205f704c04dcbd
+00000000 n wt.0827027a8bb69f7c
+00000000 n wt.09436869f02b19cb
+00000000 n wt.0a44e52dfbd7460c
+00000000 n wt.0a9ec63176c093cc
+00000000 n wt.0b1920f385b4be9b
+00000000 n wt.0c51548a20901800
+00000000 n wt.0c9da13224db3919
+00000000 n wt.0cbd5f41dfb283d1
+00000000 n wt.0cc7c0e26b4b9954
+00000000 n wt.0d379471056a80b0
+00000000 n wt.0d7a17ce6b8a6c1b
+00000000 n wt.0e457b49ef74652e
+00000000 n wt.0ec55b586ec9c677
+00000000 n wt.0fc695d6bc2d7938
+00000000 n wt.1111cd544ef582fd
+00000000 n wt.11504ea36837116b
+00000000 n wt.120f45f530e26047
+00000000 n wt.128adc7bb4ed3d28
+00000000 n wt.15a41aa366bda43d
+00000000 n wt.15bdae9afa847d71
+00000000 n wt.190dfbd2bdc9cc29
+00000000 n wt.193e866fe1ebcc21
+00000000 n wt.19dfcd8763aa8dbc
+00000000 n wt.1a2852b2f64f29aa
+00000000 n wt.1ac65ddc16049429
+00000000 n wt.1d4f3efde894e6dd
+00000000 n wt.20cfbbc4a86c24bf
+00000000 n wt.21655e095d31a120
+00000000 n wt.2266a0ee63ffa66b
+00000000 n wt.22a926a22395cc2e
+00000000 n wt.22ecff738f575805
+00000000 n wt.234e5f4f6ff5c895
+00000000 n wt.23662a7447ca2626
+00000000 n wt.2723ff0efa09106c
+00000000 n wt.2761902aca5444ad
+00000000 n wt.27e90f87a9a26cea
+00000000 n wt.28886f5557cbbfde
+00000000 n wt.29d04898683bec8e
+00000000 n wt.2c3b507b142f5503
+00000000 n wt.2cdfe81d27bc8d59
+00000000 n wt.2dc25d8543042518
+00000000 n wt.2dc4aefaa7025e8e
+00000000 n wt.2e1186263d536168
+00000000 n wt.2f9ec6e63c5cac4e
+00000000 n wt.2ffdca54e96431b2
+00000000 n wt.31fbd25f8b0ea42b
+00000000 n wt.32447fbe1809402b
+00000000 n wt.3364ce67af643308
+00000000 n wt.343d0d3e051a1816
+00000000 n wt.354e30ba5a31eacd
+00000000 n wt.35e3a060de60a3e4
+00000000 n wt.3614d88fcde4ed74
+00000000 n wt.365b4d30b2601bf8
+00000000 n wt.3797410087add680
+00000000 n wt.396ed27115e6bba0
+00000000 n wt.3a28fc9861d246c2
+00000000 n wt.3b7832b816a54ce5
+00000000 n wt.3cae4e839f143272
+00000000 n wt.3cd256a30e3cc36a
+00000000 n wt.3dc0660e7faa9069
+00000000 n wt.3e21bc550791f533
+00000000 n wt.40677f097e91a433
+00000000 n wt.410769a9e01b9943
+00000000 n wt.41472508e7879713
+00000000 n wt.427c6d368d6299e7
+00000000 n wt.434fd7b24bf03130
+00000000 n wt.456268c4d74ddb88
+00000000 n wt.45b06d2ffeaa51fe
+00000000 n wt.464b3c6ae8868360
+00000000 n wt.49337a18f0f1e19d
+00000000 n wt.49e1f45b1b5b1824
+00000000 n wt.4a7770ffb0fd83cb
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.4b126a9cafd1f0a6
+00000000 n wt.4b4e313fa07b57d6
+00000000 n wt.4b72263aa41092f1
+00000000 n wt.4d8fcd02a6ca6a12
+00000000 n wt.4ea484f777642403
+00000000 n wt.4ff03bcb8337780f
+00000000 n wt.50dd159f3ef7b360
+00000000 n wt.527b4e7f71604c67
+00000000 n wt.5295f7e901c88160
+00000000 n wt.55d509d98c3450c2
+00000000 n wt.562da69ee376bdef
+00000000 n wt.5657a2e569521b53
+00000000 n wt.56d839dfb1819b42
+00000000 n wt.578e9de4fa21f420
+00000000 n wt.578fd114c62bf4fa
+00000000 n wt.5894c5de73fe2eb9
+00000000 n wt.58959f1117861742
+00000000 n wt.589a50d4d88abbd7
+00000000 n wt.5966f6f3817f1a7e
+00000000 n wt.59850ab7b01d958f
+00000000 n wt.5a401bfaa88a0855
+00000000 n wt.5ac4a1ebba348546
+00000000 n wt.5b7d8958f5540902
+00000000 n wt.5c7d49b6fe14f20e
+00000000 n wt.5d5340648420cad3
+00000000 n wt.5fc81b2e8360ff31
+00000000 n wt.60264b85172331d8
+00000000 n wt.611d54cbd5c200c5
+00000000 n wt.61962dba088b01ff
+00000000 n wt.6221032082432864
+00000000 n wt.629dee3b054f0179
+00000000 n wt.636d62e29fa20a69
+00000000 n wt.647d1b9cf92d741c
+00000000 n wt.65a6de6a42f90c72
+00000000 n wt.67601ff1890300a4
+00000000 n wt.677a09e4354d5360
+00000000 n wt.67b2fcb72203fe6b
+00000000 n wt.6a69ddc0e4a11dfe
+00000000 n wt.6b5a4d5b14eb36b1
+00000000 n wt.6bf40c46ddc12767
+00000000 n wt.6c17bbceaf3c9932
+00000000 n wt.6d3749dc12a1937a
+00000000 n wt.6e2f3a4d48c484c2
+00000000 n wt.6efdb1b3710b6cee
+00000000 n wt.6f4cc2fa69938d02
+00000000 n wt.6fc4a9cca752820e
+00000000 n wt.704e005b1a5152da
+00000000 n wt.70bb7207f756af98
+00000000 n wt.73766436bae785b2
+00000000 n wt.737ace60b564f449
+00000000 n wt.739123b97dedacc9
+00000000 n wt.73ace16601db325e
+00000000 n wt.7469e4d80b9d7dc9
+00000000 n wt.7513ddb3f537af59
+00000000 n wt.76335406f8cc0f15
+00000000 n wt.7636867464b50041
+00000000 n wt.768a2a8354f0f945
+00000000 n wt.774e8304d61fea59
+00000000 n wt.77dcdfdb9f87fddb
+00000000 n wt.78f4dfe5453c2864
+00000000 n wt.7b5d873de631a7dd
+00000000 n wt.7baebea5bd9cf767
+00000000 n wt.7bbf88512b342e33
+00000000 n wt.7db7212d1b2fba6f
+00000000 n wt.7f017a0f3bd96c7c
+00000000 n wt.806973098bda790e
+00000000 n wt.81e6d1a2aa698d8a
+00000000 n wt.826af3b2afb9b461
+00000000 n wt.843cb95e35b852e1
+00000000 n wt.87c52c15c4375c23
+00000000 n wt.87cd3d456cf33333
+00000000 n wt.888cc1bdf94dac3e
+00000000 n wt.892a043e7614df4b
+00000000 n wt.8c276efc448b3d81
+00000000 n wt.8c600e7575aab9dc
+00000000 n wt.8d542128040b817f
+00000000 n wt.90278cb69eb1f67e
+00000000 n wt.90b70948143b415a
+00000000 n wt.929ef0afec990921
+00000000 n wt.92b86abfff0ff5dc
+00000000 n wt.92da824af19aa0d2
+00000000 n wt.946fd02800d5de3e
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.97f364135dcd8d8d
+00000000 n wt.99ccbce79e177b54
+00000000 n wt.99feaa2e30c15232
+00000000 n wt.9e2391e3865f0d0b
+00000000 n wt.9e2cf03a71ea9e8a
+00000000 n wt.9e79122d431674a1
+00000000 n wt.9e84f58540c8d5f1
+00000000 n wt.a0266b645cb35d16
+00000000 n wt.a037f6ed9ef0186f
+00000000 n wt.a099a0303ccd92f5
+00000000 n wt.a123c63ce8e5ed11
+00000000 n wt.a388384f4dd732f4
+00000000 n wt.a3d4b239b4315779
+00000000 n wt.a48734c8c61d0a55
+00000000 n wt.a4887fe87ebc5593
+00000000 n wt.a7fac834bc79857f
+00000000 n wt.a854995f3136dcae
+00000000 n wt.ab8d7d5b6e63ab9b
+00000000 n wt.accee1773e59fd1d
+00000000 n wt.ad7a04c65f261357
+00000000 n wt.aea00839445bdcb5
+00000000 n wt.af768c88d3f7d4fa
+00000000 n wt.b0363c6cf825edfa
+00000000 n wt.b0c453b6126bc44b
+00000000 n wt.b162006caf514e2a
+00000000 n wt.b2070ad34bc3bab4
+00000000 n wt.b2d66c60fc086eb1
+00000000 n wt.b3593c715c330590
+00000000 n wt.b605eafc830aec28
+00000000 n wt.b725cd75a8632146
+00000000 n wt.b74bcf30014e996c
+00000000 n wt.b7d34c2028797fb7
+00000000 n wt.b85ffda53130e081
+00000000 n wt.baf07dae59697018
+00000000 n wt.bb3bcf31a5105426
+00000000 n wt.bc9a7c05f24b0213
+00000000 n wt.bcde3877b7179e8c
+00000000 n wt.bebbe6963d905fb8
+00000000 n wt.c117105e606e2965
+00000000 n wt.c1b97696258615db
+00000000 n wt.c27934b3f9acae30
+00000000 n wt.c2cf9ef560f1d028
+00000000 n wt.c322445662bad5e0
+00000000 n wt.c47e26e0bddb1cc3
+00000000 n wt.c53bb21e5b64f75a
+00000000 n wt.c541d38c0214bda5
+00000000 n wt.c5a45dbb6e57b9a4
+00000000 n wt.c71fbd1aa62e696e
+00000000 n wt.ca7f8f86f36c1b19
+00000000 n wt.cbbe20557f2d84fd
+00000000 n wt.ccc41b39ab66837e
+00000000 n wt.ce8158d115fab790
+00000000 n wt.cf15e9e7f68fad84
+00000000 n wt.cfce7eb34ec6c7aa
+00000000 n wt.d214721e93725b44
+00000000 n wt.d332b26f15409820
+00000000 n wt.d58adba4ddf74635
+00000000 n wt.d75308ce4c612307
+00000000 n wt.da3f8b4596b0f631
+00000000 n wt.da48796665e1d4ce
+00000000 n wt.da8694f0ef1b55d2
+00000000 n wt.de267ce8cedcb39d
+00000000 n wt.df6e0e1577ed183f
+00000000 n wt.e01ec699c4baaac9
+00000000 n wt.e02f3bdd1f7cfe1f
+00000000 n wt.e1cc6bd11868a8a1
+00000000 n wt.e2bea6df39e51d21
+00000000 n wt.e3a1b00c2c2ec217
+00000000 n wt.e52046e8541525df
+00000000 n wt.e7072b1f120f2c3f
+00000000 n wt.e744ed7f230f5af6
+00000000 n wt.e8727e7a947ccff7
+00000000 n wt.ec9bb21b653d8843
+00000000 n wt.ee4025acdcda5f8b
+00000000 n wt.ef8afbb3d2341b17
+00000000 n wt.f001ebaf2c57d9d5
+00000000 n wt.f140f58189de597d
+00000000 n wt.f18e2703f31ac12a
+00000000 n wt.f19688da8716db25
+00000000 n wt.f259594ccb335201
+00000000 n wt.f26381c9a67d411c
+00000000 n wt.f2ce4311d9c6c705
+00000000 n wt.f36d5ab6ae27fdd5
+00000000 n wt.f4697fef54fab8f6
+00000000 n wt.f48fb848b78926a2
+00000000 n wt.f5652456f26260b9
+00000000 n wt.f5a92dd8b2d8117c
+00000000 n wt.f5b5e4a185afc282
+00000000 n wt.f6fe7449122a2466
+00000000 n wt.f707310ba1331d6b
+00000000 n wt.f7b56afbfa9689b9
+00000000 n wt.fc204e60e04366bc
+00000000 n wt.fc24721160f9079b
+00000000 n wt.fc3db86437d317aa
+00000000 n wt.fddb99152e3489d2
+00000000 n wt.fef126096f4bd2aa
+00000000 n wt.ff38534704cecf8e
+00000000 n wt.ffbda2f3dfa3c95f
+00004370 T RenderAxes(matrix3x4_t const&, float, bool)
+000039d0 T RenderAxes(Vector const&, float, bool)
+00004f90 T RenderLine(Vector const&, Vector const&, Color, bool)
+00006890 T RenderQuad(IMaterial*, float, float, float, float, float, float, float, float, float, Color const&)
+         U AngleMatrix(QAngle const&, matrix3x4_t&)
+000024f0 T RenderSphere(Vector const&, float, int, int, Color, bool)
+00001a20 T RenderSphere(Vector const&, float, int, int, Color, IMaterial*)
+         U VectorRotate(float const*, matrix3x4_t const&, float*)
+00006020 T RenderTriangle(Vector const&, Vector const&, Vector const&, Color, bool)
+000056e0 T RenderTriangle(Vector const&, Vector const&, Vector const&, Color, IMaterial*)
+         U MatrixGetColumn(matrix3x4_t const&, int, Vector&)
+00002560 T RenderWireframeBox(Vector const&, QAngle const&, Vector const&, Vector const&, Color, bool)
+00001040 T RenderWireframeSphere(Vector const&, float, int, int, Color, bool)
+         U GenerateQuadIndexBuffer(unsigned short*, int, int)
+00006080 T RenderWireframeSweptBox(Vector const&, Vector const&, QAngle const&, Vector const&, Vector const&, Color, bool)
+000071c0 T DrawScreenSpaceRectangle(IMaterial*, int, int, int, int, float, float, float, float, int, int, void*, int, int, float)
+00000fc0 T ShutdownStandardMaterials()
+         U GeneratePolygonIndexBuffer(unsigned short*, int, int)
+         U GenerateLineLoopIndexBuffer(unsigned short*, int, int)
+00000d40 T InitializeStandardMaterials()
+         U GenerateLineStripIndexBuffer(unsigned short*, int, int)
+         U GenerateSequentialIndexBuffer(unsigned short*, int, int)
+00003960 T RenderBox(Vector const&, QAngle const&, Vector const&, Vector const&, Color, bool, bool)
+00002e20 T RenderBox(Vector const&, QAngle const&, Vector const&, Vector const&, Color, IMaterial*, bool)
+00000050 b vec2_origin
+00000070 b vec4_origin
+00000010 b s_pWireframe
+00000060 b vec2_invalid
+00000080 b vec4_invalid
+00000030 b s_pVertexColor
+00000110 t DrawExtrusionFace(Vector const&, Vector const&, Vector*, int, int, Color, CMeshBuilder&) [clone .constprop.26]
+00000000 d s_pBoxFaceIndices
+00000000 t GenerateBoxVertices(Vector const&, QAngle const&, Vector const&, Vector const&, Vector*)
+00000020 b s_pWireframeIgnoreZ
+00000040 b s_pVertexColorIgnoreZ
+00000000 b s_bMaterialsInitialized
+00000060 d s_pBoxFaceIndicesInsideOut
+000007e0 t DrawAxes(Vector const&, Vector*, int, Color, CMeshBuilder&) [clone .constprop.27]
+00000000 W CMeshBuilder::~CMeshBuilder()
+00000000 W CMeshBuilder::~CMeshBuilder()
+00000000 n CMeshBuilder::~CMeshBuilder()
+000000e0 t CIndexBuilder::~CIndexBuilder() [clone .isra.19]
+00000000 W CMatRenderContextPtr::~CMatRenderContextPtr()
+00000000 W CMatRenderContextPtr::~CMatRenderContextPtr()
+00000000 n CMatRenderContextPtr::~CMatRenderContextPtr()
+         U KeyValues::SetInt(char const*, int)
+         U KeyValues::KeyValues(char const*)
+         U KeyValues::operator delete(void*)
+         U KeyValues::operator new(unsigned int)
+00000268 r DrawScreenSpaceRectangle(IMaterial*, int, int, int, int, float, float, float, float, int, int, void*, int, int, float)::__FUNCTION__
+00000044 b DrawScreenSpaceRectangle(IMaterial*, int, int, int, int, float, float, float, float, int, int, void*, int, int, float)::tm_fmt
+
+riff.o:
+         U __printf_chk
+00000000 n wt.3364ce67af643308
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.744b81570de28630
+00000000 n wt.7b606c99283c9e88
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.a5033a986f933e80
+00000000 n wt.f31fe2c044bbf005
+         U operator delete[](void*)
+000001c0 T InFileRIFF::PositionGet()
+000001e0 T InFileRIFF::PositionSet(int)
+00000150 T InFileRIFF::ReadInt()
+00000190 T InFileRIFF::ReadData(void*, int)
+00000000 T InFileRIFF::InFileRIFF(char const*, IFileReadBinary&)
+00000000 T InFileRIFF::InFileRIFF(char const*, IFileReadBinary&)
+00000130 T InFileRIFF::~InFileRIFF()
+00000130 T InFileRIFF::~InFileRIFF()
+000005d0 T IterateRIFF::ChunkClear()
+000004c0 T IterateRIFF::ChunkSetup()
+00000730 T IterateRIFF::ChunkReadInt()
+000005e0 T IterateRIFF::ChunkAvailable()
+00000700 T IterateRIFF::ChunkReadPartial(void*, int)
+000006a0 T IterateRIFF::ChunkName()
+00000600 T IterateRIFF::ChunkNext()
+000006c0 T IterateRIFF::ChunkRead(void*)
+000006b0 T IterateRIFF::ChunkSize()
+00000550 T IterateRIFF::IterateRIFF(InFileRIFF&, int)
+000005b0 T IterateRIFF::IterateRIFF(IterateRIFF&)
+00000550 T IterateRIFF::IterateRIFF(InFileRIFF&, int)
+000005b0 T IterateRIFF::IterateRIFF(IterateRIFF&)
+00000460 T OutFileRIFF::PositionGet()
+00000490 T OutFileRIFF::PositionSet(int)
+000003c0 T OutFileRIFF::HasLISETData(int)
+000003e0 T OutFileRIFF::WriteInt(int)
+00000420 T OutFileRIFF::WriteData(void*, int)
+00000210 T OutFileRIFF::OutFileRIFF(char const*, IFileWriteBinary&)
+00000210 T OutFileRIFF::OutFileRIFF(char const*, IFileWriteBinary&)
+000002f0 T OutFileRIFF::~OutFileRIFF()
+000002f0 T OutFileRIFF::~OutFileRIFF()
+00000990 T IterateOutputRIFF::ChunkStart(unsigned int)
+000007d0 T IterateOutputRIFF::ChunkWrite(unsigned int, void*, int)
+00000900 T IterateOutputRIFF::ChunkFinish()
+00000af0 T IterateOutputRIFF::SetLISETData(int)
+000008a0 T IterateOutputRIFF::ChunkWriteInt(int)
+00000a60 T IterateOutputRIFF::CopyChunkData(IterateRIFF&)
+000008e0 T IterateOutputRIFF::ChunkWriteData(void*, int)
+00000a40 T IterateOutputRIFF::ChunkGetPosition()
+00000a20 T IterateOutputRIFF::ChunkSetPosition(int)
+00000770 T IterateOutputRIFF::IterateOutputRIFF(OutFileRIFF&)
+000007b0 T IterateOutputRIFF::IterateOutputRIFF(IterateOutputRIFF&)
+00000770 T IterateOutputRIFF::IterateOutputRIFF(OutFileRIFF&)
+000007b0 T IterateOutputRIFF::IterateOutputRIFF(IterateOutputRIFF&)
+         U operator new[](unsigned int)
+
+soundutils.o:
+00000000 t _GLOBAL__sub_I_g_pFSIOReadBinary
+00000004 D g_pFSIOReadBinary
+00000000 D g_pFSIOWriteBinary
+         U g_pFullFileSystem
+00000000 n wt.036c5a07c940c490
+00000000 n wt.0d38151149378353
+00000000 n wt.0d5f42a9c4c0280d
+00000000 n wt.1037a9d4e7ee9670
+00000000 n wt.179b91a983006da4
+00000000 n wt.1f28641623d04e45
+00000000 n wt.227bd91bfffbc0b2
+00000000 n wt.306c410060e3fd16
+00000000 n wt.326826b45b536885
+00000000 n wt.3364ce67af643308
+00000000 n wt.39fc1bcec3ca503d
+00000000 n wt.3b67cb6087cb9a74
+00000000 n wt.42d5c33606d030c6
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.4e44fe3887080f2a
+00000000 n wt.6069068215b874e4
+00000000 n wt.6d628e3ac7b4aa83
+00000000 n wt.7aeda3a85fb08677
+00000000 n wt.87c92accd82578b2
+00000000 n wt.8f2454fd9494e619
+00000000 n wt.920d8cd69054cd6d
+00000000 n wt.96c25056cb1de787
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.9eb4e11c04a466c7
+00000000 n wt.a19bfa14338cb909
+00000000 n wt.a41fc4468cf6a016
+00000000 n wt.a98174c5b5998663
+00000000 n wt.ae8c094ad884eaf4
+00000000 n wt.aeae1ecc9b50a4e6
+00000000 n wt.af079dd41bb03487
+00000000 n wt.b49769197a4ecb32
+00000000 n wt.bb32aea43b3a843b
+00000000 n wt.c9fc6e7e4ff6e9e2
+00000000 n wt.ca291a2001f9865f
+00000000 n wt.e3a1b00c2c2ec217
+00000000 n wt.f0eae49920267ba1
+00000000 n wt.f55d4b5773b4fd75
+00000000 n wt.ffbda2f3dfa3c95f
+00000000 b vec2_origin
+00000010 b vec2_invalid
+0000000c d s_FSIoIn
+00000008 d s_FSIoOut
+00000000 T CFSIOReadBinary::open(char const*)
+00000120 T CFSIOReadBinary::read(void*, int, int)
+00000160 T CFSIOReadBinary::seek(int, int)
+000001d0 T CFSIOReadBinary::size(int)
+000001a0 T CFSIOReadBinary::tell(int)
+00000200 T CFSIOReadBinary::close(int)
+000000d0 T CFSIOWriteBinary::seek(int, int)
+00000100 T CFSIOWriteBinary::tell(int)
+000000b0 T CFSIOWriteBinary::close(int)
+00000090 T CFSIOWriteBinary::write(void*, int, int)
+00000030 T CFSIOWriteBinary::create(char const*)
+00000000 V typeinfo for CFSIOReadBinary
+00000000 V typeinfo for IFileReadBinary
+00000000 V typeinfo for CFSIOWriteBinary
+00000000 V typeinfo for IFileWriteBinary
+00000000 V typeinfo name for CFSIOReadBinary
+00000000 V typeinfo name for IFileReadBinary
+00000000 V typeinfo name for CFSIOWriteBinary
+00000000 V typeinfo name for IFileWriteBinary
+00000000 V vtable for CFSIOReadBinary
+00000000 V vtable for CFSIOWriteBinary
+         U vtable for __cxxabiv1::__class_type_info
+         U vtable for __cxxabiv1::__si_class_type_info
+
+tier2.o:
+00000030 B colorcorrection
+00000000 t _GLOBAL__sub_I_g_pFullFileSystem
+000000b0 B g_pFullFileSystem
+00000080 B g_pInputSystem
+00000090 B g_pMaterialSystem
+00000050 B g_pMaterialSystemDebugTextureInfo
+00000060 B g_pMaterialSystemHardwareConfig
+00000070 B g_pNetworkSystem
+00000000 B g_pQueuedLoader
+00000040 B g_VBAllocTracker
+000000a0 B materials
+00000010 B mdllib
+00000020 B p4
+00000000 n wt.01f47d05e4e230e1
+00000000 n wt.036c5a07c940c490
+00000000 n wt.0ac1bcc3972604a5
+00000000 n wt.0b0244cf83c3b85e
+00000000 n wt.0d38151149378353
+00000000 n wt.0d5f42a9c4c0280d
+00000000 n wt.1037a9d4e7ee9670
+00000000 n wt.1f28641623d04e45
+00000000 n wt.20869932591b0ed1
+00000000 n wt.227bd91bfffbc0b2
+00000000 n wt.22ecff738f575805
+00000000 n wt.29d04898683bec8e
+00000000 n wt.306c410060e3fd16
+00000000 n wt.326826b45b536885
+00000000 n wt.3364ce67af643308
+00000000 n wt.39fc1bcec3ca503d
+00000000 n wt.3b67cb6087cb9a74
+00000000 n wt.42d5c33606d030c6
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.4b540acb46a6cb72
+00000000 n wt.4e44fe3887080f2a
+00000000 n wt.5e7796f2842dc99d
+00000000 n wt.6069068215b874e4
+00000000 n wt.6d628e3ac7b4aa83
+00000000 n wt.6efdb1b3710b6cee
+00000000 n wt.70bb7207f756af98
+00000000 n wt.7aeda3a85fb08677
+00000000 n wt.86805a0d0d784784
+00000000 n wt.87c92accd82578b2
+00000000 n wt.8f2454fd9494e619
+00000000 n wt.920d8cd69054cd6d
+00000000 n wt.96c25056cb1de787
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.99e88d159df478a4
+00000000 n wt.9eb4e11c04a466c7
+00000000 n wt.a41fc4468cf6a016
+00000000 n wt.a98174c5b5998663
+00000000 n wt.ae8c094ad884eaf4
+00000000 n wt.aeae1ecc9b50a4e6
+00000000 n wt.af079dd41bb03487
+00000000 n wt.af768c88d3f7d4fa
+00000000 n wt.affbca617ceb42ac
+00000000 n wt.bb32aea43b3a843b
+00000000 n wt.c0b291612b07780b
+00000000 n wt.c9fc6e7e4ff6e9e2
+00000000 n wt.ca291a2001f9865f
+00000000 n wt.cc1b18505a07c491
+00000000 n wt.d332b26f15409820
+00000000 n wt.d58adba4ddf74635
+00000000 n wt.da3f8b4596b0f631
+00000000 n wt.e144806751aec4d5
+00000000 n wt.e3a1b00c2c2ec217
+00000000 n wt.ee4025acdcda5f8b
+00000000 n wt.f0eae49920267ba1
+00000000 n wt.ffbda2f3dfa3c95f
+00000000 T ConnectTier2Libraries(void* (**)(char const*, int*), int)
+00000220 T DisconnectTier2Libraries()
+000000c0 b vec2_origin
+000000e0 b vec4_origin
+000000d0 b vec2_invalid
+000000f0 b vec4_invalid
+
+util_init.o:
+         U CommandLine_Tier0
+         U DefaultSpewFuncAbortOnAsserts
+00000000 t _GLOBAL__sub_I__Z22InitCommandLineProgramiPPc
+         U InstallProgressReportHandler
+         U Plat_IsInDebugSession
+         U __printf_chk
+         U puts
+         U SpewOutputFunc
+00000000 n wt.036c5a07c940c490
+00000000 n wt.3364ce67af643308
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.e3a1b00c2c2ec217
+00000000 n wt.ffbda2f3dfa3c95f
+         U MathLib_Init(float, float, float, int, bool, bool, bool, bool)
+         U InitDefaultFileSystem()
+000000e0 T InitCommandLineProgram(int, char**)
+         U V_strncmp(char const*, char const*, int)
+         U V_strncpy(char*, char const*, int)
+00000410 b vec2_origin
+00000420 b vec2_invalid
+00000000 t PrintFReportHandler(char const*, int, int)
+00000000 b PrintFReportHandler(char const*, int, int)::LastJobName
+00000400 b PrintFReportHandler(char const*, int, int)::work_in_progress
+
+utlstreambuffer.o:
+         U Error
+         U free
+00000000 t _GLOBAL__sub_I__ZN16CUtlStreamBufferC2Ev
+         U g_pFullFileSystem
+         U __gxx_personality_v0
+         U malloc
+         U memcpy
+         U memmove
+         U realloc
+         U strcpy
+         U strlen
+         U _Unwind_Resume
+         U Warning
+00000000 n wt.01f47d05e4e230e1
+00000000 n wt.036c5a07c940c490
+00000000 n wt.0816ee5088045cb3
+00000000 n wt.0ac1bcc3972604a5
+00000000 n wt.0b0244cf83c3b85e
+00000000 n wt.0d38151149378353
+00000000 n wt.0d5f42a9c4c0280d
+00000000 n wt.1037a9d4e7ee9670
+00000000 n wt.1f28641623d04e45
+00000000 n wt.20869932591b0ed1
+00000000 n wt.227bd91bfffbc0b2
+00000000 n wt.306c410060e3fd16
+00000000 n wt.326826b45b536885
+00000000 n wt.3364ce67af643308
+00000000 n wt.39fc1bcec3ca503d
+00000000 n wt.3b67cb6087cb9a74
+00000000 n wt.42d5c33606d030c6
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.4b540acb46a6cb72
+00000000 n wt.4e44fe3887080f2a
+00000000 n wt.6069068215b874e4
+00000000 n wt.6d628e3ac7b4aa83
+00000000 n wt.7aeda3a85fb08677
+00000000 n wt.7bd734ce49c7acae
+00000000 n wt.82d49d2b0acb0e40
+00000000 n wt.86805a0d0d784784
+00000000 n wt.87c92accd82578b2
+00000000 n wt.8f2454fd9494e619
+00000000 n wt.920d8cd69054cd6d
+00000000 n wt.96c25056cb1de787
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.97b610ee002acbaf
+00000000 n wt.9eb4e11c04a466c7
+00000000 n wt.a41fc4468cf6a016
+00000000 n wt.a98174c5b5998663
+00000000 n wt.ae8c094ad884eaf4
+00000000 n wt.aeae1ecc9b50a4e6
+00000000 n wt.af079dd41bb03487
+00000000 n wt.affbca617ceb42ac
+00000000 n wt.bb32aea43b3a843b
+00000000 n wt.c9fc6e7e4ff6e9e2
+00000000 n wt.ca291a2001f9865f
+00000000 n wt.cc1b18505a07c491
+00000000 n wt.e144806751aec4d5
+00000000 n wt.e3a1b00c2c2ec217
+00000000 n wt.ecb280d618714a45
+00000000 n wt.ef4dc0822b5ec586
+00000000 n wt.f0eae49920267ba1
+00000000 n wt.ffbda2f3dfa3c95f
+         U operator delete[](void*)
+00000000 b vec2_origin
+00000010 b vec2_invalid
+         U CUtlBuffer::SetOverflowFuncs(bool (CUtlBuffer::*)(int), bool (CUtlBuffer::*)(int))
+         U CUtlBuffer::AddNullTermination()
+         U CUtlBuffer::CUtlBuffer(int, int, int)
+00000000 W CUtlBuffer::~CUtlBuffer()
+00000000 W CUtlBuffer::~CUtlBuffer()
+00000000 n CUtlBuffer::~CUtlBuffer()
+00000000 W CUtlMemory<unsigned char, int>::Grow(int)
+00000660 T CUtlStreamBuffer::GrowAllocatedSize(int)
+000002c0 T CUtlStreamBuffer::ReadBytesFromFile(int, int)
+000006a0 T CUtlStreamBuffer::StreamGetOverflow(int)
+00000790 T CUtlStreamBuffer::StreamPutOverflow(int)
+000003d0 T CUtlStreamBuffer::Open(char const*, char const*, int)
+00000150 T CUtlStreamBuffer::Close()
+000000c0 T CUtlStreamBuffer::OpenFile(char const*, char const*)
+000004e0 T CUtlStreamBuffer::CUtlStreamBuffer(char const*, char const*, int, bool)
+00000000 T CUtlStreamBuffer::CUtlStreamBuffer()
+000004e0 T CUtlStreamBuffer::CUtlStreamBuffer(char const*, char const*, int, bool)
+00000000 T CUtlStreamBuffer::CUtlStreamBuffer()
+00000270 T CUtlStreamBuffer::~CUtlStreamBuffer()
+00000270 T CUtlStreamBuffer::~CUtlStreamBuffer()
+         U operator new[](unsigned int)
+00000090 T CUtlStreamBuffer::IsOpen() const
+
+vconfig.o:

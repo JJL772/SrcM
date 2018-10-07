@@ -1,0 +1,26 @@
+var class_c_choreo_channel =
+[
+    [ "CChoreoChannel", "class_c_choreo_channel.html#afd592f621e2e1bd529309df4fb880cbe", null ],
+    [ "CChoreoChannel", "class_c_choreo_channel.html#aa7053e661db780803174846e5b02d24a", null ],
+    [ "AddEvent", "class_c_choreo_channel.html#a81248e63ea67b7cd0747de29c3b1596a", null ],
+    [ "FindEventIndex", "class_c_choreo_channel.html#a1768ecdaa5dcb77bb11bb26cd6ac03e3", null ],
+    [ "GetActive", "class_c_choreo_channel.html#a2e44769786689912a344791220d93922", null ],
+    [ "GetActor", "class_c_choreo_channel.html#a8c16f6db050a78d61d4932b9f621e801", null ],
+    [ "GetEvent", "class_c_choreo_channel.html#a5c02b2a0532c85b5ba6aada86a63a102", null ],
+    [ "GetName", "class_c_choreo_channel.html#ae66d802f913641cd9a0612d8b6563a63", null ],
+    [ "GetNumEvents", "class_c_choreo_channel.html#ad18d89a7141f75863c3ea347e38c20de", null ],
+    [ "GetSortedCombinedEventList", "class_c_choreo_channel.html#a53006647b2654bc20ddbb7e6efe15997", null ],
+    [ "IsMarkedForSave", "class_c_choreo_channel.html#a886f28fa18efe3e5d34927d0156384f2", null ],
+    [ "MarkForSaveAll", "class_c_choreo_channel.html#ac87b0f91c3b32ea3daeef4aa1ba29221", null ],
+    [ "operator=", "class_c_choreo_channel.html#a0efa403fe7702d98db9d69b2ffcc54c1", null ],
+    [ "ReconcileCloseCaption", "class_c_choreo_channel.html#ae8086bce3eb76250c2052b9b60e513f4", null ],
+    [ "ReconcileGestureTimes", "class_c_choreo_channel.html#a11241af478a32c4d2b6762bb486fc7ba", null ],
+    [ "RemoveAllEvents", "class_c_choreo_channel.html#ae34d1d7fc37e7c80cb34cc98b3251f24", null ],
+    [ "RemoveEvent", "class_c_choreo_channel.html#a3992ecba1f7453d25e351be3956cc645", null ],
+    [ "RestoreFromBuffer", "class_c_choreo_channel.html#a46e30b9d2c0be5a45f0dea6ffd38a4e1", null ],
+    [ "SaveToBuffer", "class_c_choreo_channel.html#a3ea3ceb02986bc79a58a48eb79e0b90d", null ],
+    [ "SetActive", "class_c_choreo_channel.html#a1119a715f868ba960c4e982fa51735db", null ],
+    [ "SetActor", "class_c_choreo_channel.html#a233364e8a2a4374e2bdf90d8613cfefe", null ],
+    [ "SetMarkedForSave", "class_c_choreo_channel.html#aa97697219aca845392ec8119030c22e0", null ],
+    [ "SetName", "class_c_choreo_channel.html#a443a2080fbf26f31cfc059fcd0b9a2e1", null ]
+];

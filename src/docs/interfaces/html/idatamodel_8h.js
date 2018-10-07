@@ -1,0 +1,105 @@
+var idatamodel_8h =
+[
+    [ "DmxHeader_t", "struct_dmx_header__t.html", "struct_dmx_header__t" ],
+    [ "IDmElementFactory", "class_i_dm_element_factory.html", "class_i_dm_element_factory" ],
+    [ "IDmSerializer", "class_i_dm_serializer.html", "class_i_dm_serializer" ],
+    [ "IDmLegacyUpdater", "class_i_dm_legacy_updater.html", "class_i_dm_legacy_updater" ],
+    [ "IDmFormatUpdater", "class_i_dm_format_updater.html", "class_i_dm_format_updater" ],
+    [ "IElementForKeyValueCallback", "class_i_element_for_key_value_callback.html", "class_i_element_for_key_value_callback" ],
+    [ "UndoInfo_t", "struct_undo_info__t.html", "struct_undo_info__t" ],
+    [ "IDataModel", "class_i_data_model.html", "class_i_data_model" ],
+    [ "CUndoElement", "class_c_undo_element.html", "class_c_undo_element" ],
+    [ "CUndoScopeGuard", "class_c_undo_scope_guard.html", "class_c_undo_scope_guard" ],
+    [ "CChangeUndoScopeGuard", "class_c_change_undo_scope_guard.html", "class_c_change_undo_scope_guard" ],
+    [ "CDisableUndoScopeGuard", "class_c_disable_undo_scope_guard.html", "class_c_disable_undo_scope_guard" ],
+    [ "CEnableUndoScopeGuard", "class_c_enable_undo_scope_guard.html", "class_c_enable_undo_scope_guard" ],
+    [ "CNotifyScopeGuard", "class_c_notify_scope_guard.html", "class_c_notify_scope_guard" ],
+    [ "CChangeNotifyScopeGuard", "class_c_change_notify_scope_guard.html", "class_c_change_notify_scope_guard" ],
+    [ "CDisableNotifyScopeGuard", "class_c_disable_notify_scope_guard.html", "class_c_disable_notify_scope_guard" ],
+    [ "CEnableNotifyScopeGuard", "class_c_enable_notify_scope_guard.html", "class_c_enable_notify_scope_guard" ],
+    [ "DEFINE_SOURCE_NOTIFY_SCOPE_GUARD", "idatamodel_8h.html#a71a1723bf53cb425b879a1d0369e8953", null ],
+    [ "DEFINE_SOURCE_UNDO_SCOPE_GUARD", "idatamodel_8h.html#a3814496f6bd591d0568d5944a1fd5ed7", null ],
+    [ "DMX_LEGACY_VERSION_ENDING_TOKEN", "idatamodel_8h.html#a957e41cb6d090ace0aef7e1a6e97ec26", null ],
+    [ "DMX_LEGACY_VERSION_STARTING_TOKEN", "idatamodel_8h.html#a68a7f5e2d5268d112957387a5e5bea8e", null ],
+    [ "DMX_VERSION_ENDING_TOKEN", "idatamodel_8h.html#a7a7cd39b998226f2ffeaa33591d336a3", null ],
+    [ "DMX_VERSION_STARTING_TOKEN", "idatamodel_8h.html#a8b214ef0f0d5a42a4963f2b1ad40ac27", null ],
+    [ "GENERIC_DMX_FORMAT", "idatamodel_8h.html#a249576cba090e53e0b9f3feaa5096401", null ],
+    [ "VDATAMODEL_INTERFACE_VERSION", "idatamodel_8h.html#a548d998e5ae05cd7ba10e75f4030c77c", null ],
+    [ "VDMELEMENTFRAMEWORK_VERSION", "idatamodel_8h.html#a83f9b7f6b9e809589c1574ca4c715cee", null ],
+    [ "DMX_MAX_FORMAT_NAME_MAX_LENGTH", "idatamodel_8h.html#a9334a5b9057f32da96db9b5c6a045d67a7635bbe11ab7781a7ce51dd3f840b9c9", null ],
+    [ "DMX_MAX_HEADER_LENGTH", "idatamodel_8h.html#a9334a5b9057f32da96db9b5c6a045d67ad14f716230d62c34a586cb960453a105", null ],
+    [ "DmAttributeHandle_t", "idatamodel_8h.html#a2c0b089b357b993155f121cc2658f3e6", [
+      [ "DMATTRIBUTE_HANDLE_INVALID", "idatamodel_8h.html#a2c0b089b357b993155f121cc2658f3e6aca50b413b8d0796f9a3da2705b1b321d", null ]
+    ] ],
+    [ "DmAttributeReferenceIterator_t", "idatamodel_8h.html#a14e2fa75bdc9d3212df30871c09d4345", [
+      [ "DMATTRIBUTE_REFERENCE_ITERATOR_INVALID", "idatamodel_8h.html#a14e2fa75bdc9d3212df30871c09d4345ad66048262a84a14f4670eaf1d294e490", null ]
+    ] ],
+    [ "DmConflictResolution_t", "idatamodel_8h.html#ab406a14e529b54da323b27d6a34ac1d6", [
+      [ "CR_DELETE_NEW", "idatamodel_8h.html#ab406a14e529b54da323b27d6a34ac1d6af60fc0e82b8d292584a0836a0941b686", null ],
+      [ "CR_DELETE_OLD", "idatamodel_8h.html#ab406a14e529b54da323b27d6a34ac1d6ad326aa147220c2689f1654a6b8611b46", null ],
+      [ "CR_COPY_NEW", "idatamodel_8h.html#ab406a14e529b54da323b27d6a34ac1d6a113c9fb0294cf5055c87d3b642096633", null ],
+      [ "CR_FORCE_COPY", "idatamodel_8h.html#ab406a14e529b54da323b27d6a34ac1d6a71f8519c651305673ec7d7e8146715a6", null ]
+    ] ],
+    [ "DmFileId_t", "idatamodel_8h.html#af124c406b5289db7c5f8de5ed81cc7a3", [
+      [ "DMFILEID_INVALID", "idatamodel_8h.html#af124c406b5289db7c5f8de5ed81cc7a3a617341312643660dc425eef039a1affe", null ]
+    ] ],
+    [ "DmNotifyFlags_t", "idatamodel_8h.html#a25fb05a4ae2622dd855dcacaea6cd219", [
+      [ "NOTIFY_SOURCE_BITS", "idatamodel_8h.html#a25fb05a4ae2622dd855dcacaea6cd219add319b7839a542cfc05a9f388477f30d", null ],
+      [ "NOTIFY_SETDIRTYFLAG", "idatamodel_8h.html#a25fb05a4ae2622dd855dcacaea6cd219a1a5a36fe86d25984834e76b9a4a7ee81", null ],
+      [ "NOTIFY_CHANGE_TOPOLOGICAL", "idatamodel_8h.html#a25fb05a4ae2622dd855dcacaea6cd219a420d0282f9eb705113eda5233846e63b", null ],
+      [ "NOTIFY_CHANGE_ATTRIBUTE_VALUE", "idatamodel_8h.html#a25fb05a4ae2622dd855dcacaea6cd219addb85107ccfc7914baf8d25da3beaf31", null ],
+      [ "NOTIFY_CHANGE_ATTRIBUTE_ARRAY_SIZE", "idatamodel_8h.html#a25fb05a4ae2622dd855dcacaea6cd219a99d678aeacdeb9328e7f60acadd6965b", null ],
+      [ "NOTIFY_CHANGE_OTHER", "idatamodel_8h.html#a25fb05a4ae2622dd855dcacaea6cd219ab338b243753d288ad076abb8f8435e7d", null ],
+      [ "NOTIFY_CHANGE_MASK", "idatamodel_8h.html#a25fb05a4ae2622dd855dcacaea6cd219a3351abcc678d5360c54681d32a231599", null ]
+    ] ],
+    [ "DmNotifySource_t", "idatamodel_8h.html#a83a74a462eca71f4281d3523be982b06", [
+      [ "NOTIFY_SOURCE_APPLICATION", "idatamodel_8h.html#a83a74a462eca71f4281d3523be982b06a9b12c0dd26245136eb38d454584639f6", null ],
+      [ "NOTIFY_SOURCE_UNDO", "idatamodel_8h.html#a83a74a462eca71f4281d3523be982b06a1bebb2e83dd5ea449279660bfd422345", null ],
+      [ "NOTIFY_SOURCE_FIRST_DME_CONTROL_SOURCE", "idatamodel_8h.html#a83a74a462eca71f4281d3523be982b06a6f6a0defb596b84c69134f3dde34c219", null ],
+      [ "NOTIFY_SOURCE_FIRST_APPLICATION_SOURCE", "idatamodel_8h.html#a83a74a462eca71f4281d3523be982b06afbb065944cb9ce4b99b058c5aade8aa2", null ]
+    ] ],
+    [ "DmPhase_t", "idatamodel_8h.html#a330b2981f04493d27161b1ff13514fc5", [
+      [ "PH_EDIT", "idatamodel_8h.html#a330b2981f04493d27161b1ff13514fc5a604228e4b5f17573dbb9244422d7f987", null ],
+      [ "PH_EDIT_APPLY", "idatamodel_8h.html#a330b2981f04493d27161b1ff13514fc5a0fb7c24d31ac45b8a6f5672762c6f7b2", null ],
+      [ "PH_EDIT_RESOLVE", "idatamodel_8h.html#a330b2981f04493d27161b1ff13514fc5aac53d87176a42b51f67f06d026319cf2", null ],
+      [ "PH_DEPENDENCY", "idatamodel_8h.html#a330b2981f04493d27161b1ff13514fc5ac45a5c94788205d5104f1412f90082e8", null ],
+      [ "PH_OPERATE", "idatamodel_8h.html#a330b2981f04493d27161b1ff13514fc5a4636f09858443630ecca86500b7091ff", null ],
+      [ "PH_OPERATE_RESOLVE", "idatamodel_8h.html#a330b2981f04493d27161b1ff13514fc5ab2500d81a8e53f6d2fcb8ad87ed93032", null ],
+      [ "PH_OUTPUT", "idatamodel_8h.html#a330b2981f04493d27161b1ff13514fc5aa08c82ca9090d725070dd0276e59553f", null ]
+    ] ],
+    [ "TraversalDepth_t", "idatamodel_8h.html#adf15795072ac38a8ab12f6adc73192cb", [
+      [ "TD_ALL", "idatamodel_8h.html#adf15795072ac38a8ab12f6adc73192cba9e73e06f2e6aaa0c71ac3c7288f1eb88", null ],
+      [ "TD_DEEP", "idatamodel_8h.html#adf15795072ac38a8ab12f6adc73192cbaed8ad50553d9cc8e9576018fd42b90b8", null ],
+      [ "TD_SHALLOW", "idatamodel_8h.html#adf15795072ac38a8ab12f6adc73192cba939f9c2a3338bb7e4d82f5c6e73fae9c", null ],
+      [ "TD_NONE", "idatamodel_8h.html#adf15795072ac38a8ab12f6adc73192cbad403b7f920deeddcf76c4011c8369ee7", null ]
+    ] ],
+    [ "BeginEdit", "idatamodel_8h.html#a5a52dd2a7466a491ec26c3ca83dfe186", null ],
+    [ "DEFINE_SOURCE_NOTIFY_SCOPE_GUARD", "idatamodel_8h.html#a78293b8aca921dc71bd4f26aa867373e", null ],
+    [ "DEFINE_SOURCE_UNDO_SCOPE_GUARD", "idatamodel_8h.html#aed60de0973aa9c2d9f1e579c9b5115cc", null ],
+    [ "Disconnect", "idatamodel_8h.html#aef419fd33238518b2e37e2a892bf712d", null ],
+    [ "GetDesc", "idatamodel_8h.html#a6a2c9c42c9ce0e525ad184005ad20902", null ],
+    [ "GetInputAttributes", "idatamodel_8h.html#a8e8f3ecaeeb9b9623ae112c4ee809c92", null ],
+    [ "GetOutputAttributes", "idatamodel_8h.html#a770e19b344e0f4ded676ac3461d4fc6a", null ],
+    [ "GetPhase", "idatamodel_8h.html#a6cacedae13478a9c9f723d9ef68567a2", null ],
+    [ "Init", "idatamodel_8h.html#aecf22da8ddd0725bc18127d9c6fff3d7", null ],
+    [ "IsEndOfStream", "idatamodel_8h.html#a3cf359b560bee08f69274675033f4449", null ],
+    [ "Operate", "idatamodel_8h.html#ac3934fa58fccef630b1a9b112ea43c70", null ],
+    [ "Operate", "idatamodel_8h.html#af5487ef7db9ebc72ed60c1ad4aa2662f", null ],
+    [ "QueryInterface", "idatamodel_8h.html#afcafbd22792f02d8653f141ef606dbba", null ],
+    [ "Redo", "idatamodel_8h.html#ab8abff754c80a1a960ceddbaea692dff", null ],
+    [ "RedoDesc", "idatamodel_8h.html#a915ba631c49def22fcbf054861bf31e6", null ],
+    [ "Release", "idatamodel_8h.html#aba7f5d4b1227dde787820f58b4587d70", null ],
+    [ "Resolve", "idatamodel_8h.html#a0c488a63eca1ddce16233d0e4d4e013b", null ],
+    [ "SetEndOfStream", "idatamodel_8h.html#a049771ab541e4143d30d6f563e64572c", null ],
+    [ "SetOperators", "idatamodel_8h.html#a111747c3a0b79232064f161ecd8ea3ae", null ],
+    [ "Shutdown", "idatamodel_8h.html#abe320d57c3dd6c601efaa6e3eeed73d1", null ],
+    [ "UndoDesc", "idatamodel_8h.html#af84d55dbc75575bb166e99ef5a55aad8", null ],
+    [ "~IUndoElement", "idatamodel_8h.html#aaa73daf8fd1526ce373f5146da462bcb", null ],
+    [ "g_pDataModel", "idatamodel_8h.html#a7ef7fc8bfd0c788d5726e90d9e2087d7", null ],
+    [ "g_pDmElementFramework", "idatamodel_8h.html#a357694f1355c6871b5c26a597d01b905", null ],
+    [ "IClipboardCleanup", "idatamodel_8h.html#a0e82527839f0f11ee499a2c1cd4d73e1", null ],
+    [ "IDmElementFramework", "idatamodel_8h.html#ac79d39bccbaaaa5acee679f9469be97f", null ],
+    [ "IDmeOperator", "idatamodel_8h.html#a79303d9e2e7218d18522ef26b0d80b73", null ],
+    [ "IDmNotify", "idatamodel_8h.html#ae1fcd882002319d4a241828a0a0a5a10", null ],
+    [ "IUndoElement", "idatamodel_8h.html#ae2fa71c0393aadf8a47fccc916536209", null ]
+];

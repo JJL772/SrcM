@@ -1,0 +1,27 @@
+var clientsideeffects_8h =
+[
+    [ "Destroy", "clientsideeffects_8h.html#a8bf615c06e36f90ef02e645d51269a6d", null ],
+    [ "Draw", "clientsideeffects_8h.html#a999c900faf2b6a08fdb1f12ade8a8565", null ],
+    [ "DrawEffects", "clientsideeffects_8h.html#a801e551132d0a110ca79d0e9183f8ca8", null ],
+    [ "Flush", "clientsideeffects_8h.html#a574fd5cf14534dac370b0e4ae0323e79", null ],
+    [ "FX_AddCenteredCube", "clientsideeffects_8h.html#a0177b32ffbcb9207a2394cc7b118660c", null ],
+    [ "FX_AddCube", "clientsideeffects_8h.html#a41f818a8ec5bf2fd42fb2dc34fc8dcd4", null ],
+    [ "FX_AddDiscreetLine", "clientsideeffects_8h.html#aab77152a0e68f177c200a17d9112af3d", null ],
+    [ "FX_AddLine", "clientsideeffects_8h.html#a73ebbf82306bb58bcc8d4a6e5c46ddb8", null ],
+    [ "FX_AddQuad", "clientsideeffects_8h.html#a547889a33be09f390c4436707a26105c", null ],
+    [ "FX_AddQuad", "clientsideeffects_8h.html#a158706e63834093239e11412b36925d5", null ],
+    [ "FX_AddStaticLine", "clientsideeffects_8h.html#afc5bd61da567bb878c5bde3dc691dffc", null ],
+    [ "FXCreationAllowed", "clientsideeffects_8h.html#abf06d2c59448f26f228559093a32d9f8", null ],
+    [ "GetName", "clientsideeffects_8h.html#abef47972a5f47c1170a4d23079d01800", null ],
+    [ "IsActive", "clientsideeffects_8h.html#aabfa600e54be3bebb35c3a614c1fe871", null ],
+    [ "RemoveEffect", "clientsideeffects_8h.html#ae43a5f274d2cca5cbe164d557b8fb1ad", null ],
+    [ "SetEffectName", "clientsideeffects_8h.html#af5f6ba7521a5b5684b76c00c829118fb", null ],
+    [ "SetFXCreationAllowed", "clientsideeffects_8h.html#abe4ba1c9eef5b89765ddb2293feab8ae", null ],
+    [ "~CClientSideEffect", "clientsideeffects_8h.html#aa916c4ff3d116ff25b3f599581fdc133", null ],
+    [ "CClientSideEffect", "clientsideeffects_8h.html#adeca94f366c12ef3997ced4f096744b2", null ],
+    [ "clienteffects", "clientsideeffects_8h.html#a11d5b99c70977462cddb8b7242b80118", null ],
+    [ "IEffectsList", "clientsideeffects_8h.html#a6a7735a7174ef0a9bf735113308a6495", null ],
+    [ "m_bActive", "clientsideeffects_8h.html#adb9bf0dea2ae4cd68df1f02cba98cb7b", null ],
+    [ "m_pszName", "clientsideeffects_8h.html#a4f649e60d6a7c3fefaa3947423c82d04", null ],
+    [ "materials", "clientsideeffects_8h.html#a9b91d460cb7c17eee7ca7bbf433fb700", null ]
+];

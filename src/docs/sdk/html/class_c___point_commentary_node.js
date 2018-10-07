@@ -1,0 +1,25 @@
+var class_c___point_commentary_node =
+[
+    [ "AddAndLockCommentaryHudGroup", "class_c___point_commentary_node.html#a8c428540ac845c0cf8b85115e56af06c", null ],
+    [ "DECLARE_CLIENTCLASS", "class_c___point_commentary_node.html#af72aef77812376c32e9cd4b0e4b76d44", null ],
+    [ "DECLARE_DATADESC", "class_c___point_commentary_node.html#abfa1b2da03b8f06a0c474f4fd2564956", null ],
+    [ "OnDataChanged", "class_c___point_commentary_node.html#ada3edbad7db7286927cf62fc376d3488", null ],
+    [ "OnPreDataChanged", "class_c___point_commentary_node.html#aaf25f554163080e6472e5113e20445d5", null ],
+    [ "OnRestore", "class_c___point_commentary_node.html#a0b3ea65cb7e15525c2ee33a602d65b47", null ],
+    [ "RemoveAndUnlockCommentaryHudGroup", "class_c___point_commentary_node.html#a8b7ceb306eb022e7d2964d7a43416c3f", null ],
+    [ "SetDormant", "class_c___point_commentary_node.html#a4197c774250ab4d5b0d23e562971903e", null ],
+    [ "StopLoopingSounds", "class_c___point_commentary_node.html#ab04363474d26d0a4f2092890a5bf2284", null ],
+    [ "TestCollision", "class_c___point_commentary_node.html#a34cbb0a7b9ee8aa54b5f12f5117a0c91", null ],
+    [ "UpdateOnRemove", "class_c___point_commentary_node.html#a8a6126d3b1c9138b02760840a1de50ca", null ],
+    [ "m_bActive", "class_c___point_commentary_node.html#a46de41f81e5c4c2a81dbc84eeccbe5cc", null ],
+    [ "m_bRestartAfterRestore", "class_c___point_commentary_node.html#a61c39e72111ab79bac7c20f2139c7b99", null ],
+    [ "m_bWasActive", "class_c___point_commentary_node.html#a941dc069151f48fa407bbb2d73d7a135", null ],
+    [ "m_flStartTime", "class_c___point_commentary_node.html#ab842f9adae61aeae388e495de1902586", null ],
+    [ "m_hViewPosition", "class_c___point_commentary_node.html#a5b820b820941a57e02a62d75a03d04d4", null ],
+    [ "m_iNodeNumber", "class_c___point_commentary_node.html#a5832742d8cc279aba18dc6acdf85fc57", null ],
+    [ "m_iNodeNumberMax", "class_c___point_commentary_node.html#a5ab4556840efe6370abe9fce810e3c7a", null ],
+    [ "m_iszCommentaryFile", "class_c___point_commentary_node.html#a783637f1852cc43b21c18b2b0d835975", null ],
+    [ "m_iszCommentaryFileNoHDR", "class_c___point_commentary_node.html#ab923665480a590c409c97b63b404396e", null ],
+    [ "m_iszSpeakers", "class_c___point_commentary_node.html#ada419acc867f869331594ac1a5ed403e", null ],
+    [ "m_sndCommentary", "class_c___point_commentary_node.html#a6710292b62acaccb67cb51da1082c90b", null ]
+];

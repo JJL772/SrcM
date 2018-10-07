@@ -1,0 +1,26 @@
+var class_c_trigger_hurt =
+[
+    [ "DAMAGEMODEL_NORMAL", "class_c_trigger_hurt.html#a396ccd4831f910ebe1bde8c5a7225830a2602727e0ca3c2a6845108d78c087910", null ],
+    [ "DAMAGEMODEL_DOUBLE_FORGIVENESS", "class_c_trigger_hurt.html#a396ccd4831f910ebe1bde8c5a7225830aa9cf8ddf6fd438d8337f742d41ca3ff9", null ],
+    [ "CTriggerHurt", "class_c_trigger_hurt.html#a970ac77da0da3507cc4484815e94aa71", null ],
+    [ "DECLARE_CLASS", "class_c_trigger_hurt.html#a7a7490ee8595cf08c096035bd30231c1", null ],
+    [ "DECLARE_DATADESC", "class_c_trigger_hurt.html#a91efdb66df29ed2660f8e2e79a314334", null ],
+    [ "EndTouch", "class_c_trigger_hurt.html#aba585339a925e5e641f35df32e0c0bd2", null ],
+    [ "HurtAllTouchers", "class_c_trigger_hurt.html#a899217aa97071c8cea92ea7b62a83873", null ],
+    [ "HurtEntity", "class_c_trigger_hurt.html#ad10da3d71215ecfdaa2ddecb896226e5", null ],
+    [ "HurtThink", "class_c_trigger_hurt.html#a9073a857ba839b333c54979c9ae9253f", null ],
+    [ "RadiationThink", "class_c_trigger_hurt.html#a5efd587360775bc12244494ef921cffd", null ],
+    [ "Spawn", "class_c_trigger_hurt.html#ad0681a187bf8f4d377b366ee85a9a32b", null ],
+    [ "Touch", "class_c_trigger_hurt.html#a23d46a39ef0479cc9a5bde0adea51e92", null ],
+    [ "m_bitsDamageInflict", "class_c_trigger_hurt.html#a971fd6d8d239d702aaaf847ef5dc629e", null ],
+    [ "m_bNoDmgForce", "class_c_trigger_hurt.html#acc49f7d5e6e3bb5c452badaff2d3c288", null ],
+    [ "m_damageModel", "class_c_trigger_hurt.html#a4f37c13647bfa1b94f540346d4d56e5e", null ],
+    [ "m_flDamage", "class_c_trigger_hurt.html#a27b3332205e0103af383f03c076f2886", null ],
+    [ "m_flDamageCap", "class_c_trigger_hurt.html#aaf3ea1e1130aac6edf9a8da98c93b49f", null ],
+    [ "m_flDmgResetTime", "class_c_trigger_hurt.html#a1206968474211da8a4c46e96adea387c", null ],
+    [ "m_flLastDmgTime", "class_c_trigger_hurt.html#a288faff32d08eeaf4c084edc7acbc004", null ],
+    [ "m_flOriginalDamage", "class_c_trigger_hurt.html#a97a34ba7ecffebba5a3bcfb3550de156", null ],
+    [ "m_hurtEntities", "class_c_trigger_hurt.html#abc226c0a2d7c73bec4c52eb78a1bdf61", null ],
+    [ "m_OnHurt", "class_c_trigger_hurt.html#a08416c1ca7dbab18fe2308daf538eee4", null ],
+    [ "m_OnHurtPlayer", "class_c_trigger_hurt.html#a1f235053400962dc5263f85d14d81a52", null ]
+];

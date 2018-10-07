@@ -1,0 +1,27 @@
+var _world_vertex_transition__dx8_8cpp =
+[
+    [ "BEGIN_VS_SHADER", "_world_vertex_transition__dx8_8cpp.html#a05c9c295f05dd0cd6803ff2a26103de6", null ],
+    [ "DrawFlashlight", "_world_vertex_transition__dx8_8cpp.html#a79375335e9eb5f14158f2aaa030ea1fb", null ],
+    [ "DrawFlashlightPass", "_world_vertex_transition__dx8_8cpp.html#a2b23da7b08ddc4e9aa1f0f2ced525c76", null ],
+    [ "if", "_world_vertex_transition__dx8_8cpp.html#a0ddcc2f9e7363eacc43196f339ed6059", null ],
+    [ "if", "_world_vertex_transition__dx8_8cpp.html#a186b39b91808055b6ae9b82a991bf586", null ],
+    [ "if", "_world_vertex_transition__dx8_8cpp.html#a81e8647039fcaba80a1f4a48a3358906", null ],
+    [ "if", "_world_vertex_transition__dx8_8cpp.html#a63964db0d6179cdcc3a780bfa1c7c34d", null ],
+    [ "if", "_world_vertex_transition__dx8_8cpp.html#a41e96886879ee765d50cd62b07e14d33", null ],
+    [ "if", "_world_vertex_transition__dx8_8cpp.html#aa37d1f55452b8a7930a3c0680dc8b64e", null ],
+    [ "if", "_world_vertex_transition__dx8_8cpp.html#a6a7f2a96d6472714fe2fb3dd5afdcf97", null ],
+    [ "if", "_world_vertex_transition__dx8_8cpp.html#a452a8ef8c83461cbe469e5cb89ebf06a", null ],
+    [ "if", "_world_vertex_transition__dx8_8cpp.html#afadaed4788b68ea10549a53b3117183f", null ],
+    [ "InitWorldVertexTransitionEditor_DX8", "_world_vertex_transition__dx8_8cpp.html#a68d36e38120493d021940770d468aa15", null ],
+    [ "mat_fullbright", "_world_vertex_transition__dx8_8cpp.html#a964eab96f9e83a2530b90a6e60977532", null ],
+    [ "SET_FLAGS2", "_world_vertex_transition__dx8_8cpp.html#a9d69d91236f5e16346334231434f2a52", null ],
+    [ "SetupVars", "_world_vertex_transition__dx8_8cpp.html#a339872e68a8ff7aa543f3f028807e147", null ],
+    [ "SetupVars", "_world_vertex_transition__dx8_8cpp.html#a839fe8ebbc9fd00a5826ed214fe48a1e", null ],
+    [ "SHADER_INIT_PARAMS", "_world_vertex_transition__dx8_8cpp.html#a4f80999de90bc5c9bce2be77e3145786", null ],
+    [ "ShouldUseBumpmapping", "_world_vertex_transition__dx8_8cpp.html#a9f4f25e3faff4ff72a20d642abadc039", null ],
+    [ "WriteVertexAlphaToDestAlpha", "_world_vertex_transition__dx8_8cpp.html#a9e7e0ea8717e2d29ba8b10cc83acfe11", null ],
+    [ "bSupports14", "_world_vertex_transition__dx8_8cpp.html#a21fbf43aebb0fa9f3344ba321ab4ea16", null ],
+    [ "hasFlashlight", "_world_vertex_transition__dx8_8cpp.html#af077fde8046fabf64c726254d85b73b0", null ],
+    [ "SHADER_DRAW", "_world_vertex_transition__dx8_8cpp.html#af575a94e30468ef176805ccab7e3ebb5", null ],
+    [ "SHADER_INIT", "_world_vertex_transition__dx8_8cpp.html#a27f72ee623b76f8bf8767c5f114a6f26", null ]
+];

@@ -1,0 +1,37 @@
+var weapon__parse_8h =
+[
+    [ "FileWeaponInfo_t", "class_file_weapon_info__t.html", "class_file_weapon_info__t" ],
+    [ "MAX_SHOOT_SOUNDS", "weapon__parse_8h.html#a04a16568dd6cb95b2d33371f0a0b593b", null ],
+    [ "MAX_WEAPON_AMMO_NAME", "weapon__parse_8h.html#a5965ca2cef2cd56a9e7aa6339911039e", null ],
+    [ "MAX_WEAPON_PREFIX", "weapon__parse_8h.html#aaf328833898c3e8fc6d4305bef9d7b90", null ],
+    [ "MAX_WEAPON_STRING", "weapon__parse_8h.html#a28a7c3d82b8aaca1513b27a186e0481c", null ],
+    [ "WEAPON_PRINTNAME_MISSING", "weapon__parse_8h.html#a72adc6f61717bee2cfab7238320f8c37", null ],
+    [ "WEAPON_FILE_INFO_HANDLE", "weapon__parse_8h.html#a65af1c49b9e98441694fe2397b4f8a50", null ],
+    [ "WeaponSound_t", "weapon__parse_8h.html#a730c662ebef655f0722ffe5c0b782ed1", [
+      [ "EMPTY", "weapon__parse_8h.html#a730c662ebef655f0722ffe5c0b782ed1a2f0d18fc0d0fa4a6cd92dc328501874d", null ],
+      [ "SINGLE", "weapon__parse_8h.html#a730c662ebef655f0722ffe5c0b782ed1a3388f7110f6f25a54e215eb75d5d7516", null ],
+      [ "SINGLE_NPC", "weapon__parse_8h.html#a730c662ebef655f0722ffe5c0b782ed1a92835fb39759093afd634780696e5283", null ],
+      [ "WPN_DOUBLE", "weapon__parse_8h.html#a730c662ebef655f0722ffe5c0b782ed1afcdbab8729a31d262971f6d5897cc237", null ],
+      [ "DOUBLE_NPC", "weapon__parse_8h.html#a730c662ebef655f0722ffe5c0b782ed1a6e59209be881c3d806f032498c5a977d", null ],
+      [ "BURST", "weapon__parse_8h.html#a730c662ebef655f0722ffe5c0b782ed1a1de692b9463433764657a8efb803af95", null ],
+      [ "RELOAD", "weapon__parse_8h.html#a730c662ebef655f0722ffe5c0b782ed1afa7f1a160aa01199a3cad62bfb10a978", null ],
+      [ "RELOAD_NPC", "weapon__parse_8h.html#a730c662ebef655f0722ffe5c0b782ed1adbaf706001562feed6a9b507636ade24", null ],
+      [ "MELEE_MISS", "weapon__parse_8h.html#a730c662ebef655f0722ffe5c0b782ed1a4efedbf9f58cbe23c8915f5ba963fe45", null ],
+      [ "MELEE_HIT", "weapon__parse_8h.html#a730c662ebef655f0722ffe5c0b782ed1af651d3300af7a46cc2771a0cb30c234d", null ],
+      [ "MELEE_HIT_WORLD", "weapon__parse_8h.html#a730c662ebef655f0722ffe5c0b782ed1aae7a05c9f618d62e88e3e9ae8b3d514b", null ],
+      [ "SPECIAL1", "weapon__parse_8h.html#a730c662ebef655f0722ffe5c0b782ed1a5c35c089e6882743d89d2cdcf05351dd", null ],
+      [ "SPECIAL2", "weapon__parse_8h.html#a730c662ebef655f0722ffe5c0b782ed1a79e971e32d895d0616aafff53cc2440b", null ],
+      [ "SPECIAL3", "weapon__parse_8h.html#a730c662ebef655f0722ffe5c0b782ed1a42d9c3cc6aa258d83dcf749324fd1baf", null ],
+      [ "TAUNT", "weapon__parse_8h.html#a730c662ebef655f0722ffe5c0b782ed1ac235d788827beb0221b56cefcecc1866", null ],
+      [ "DEPLOY", "weapon__parse_8h.html#a730c662ebef655f0722ffe5c0b782ed1a5572948ceedc8d8b14b4b7f8d05e89fd", null ],
+      [ "NUM_SHOOT_SOUND_TYPES", "weapon__parse_8h.html#a730c662ebef655f0722ffe5c0b782ed1a1dae64e2c81c9e08f77a959c80695eda", null ]
+    ] ],
+    [ "CreateWeaponInfo", "weapon__parse_8h.html#a2558b3932c77574a6dc73c245f663ac6", null ],
+    [ "GetFileWeaponInfoFromHandle", "weapon__parse_8h.html#a429a01d27fcc73051e6e3b39b2829bf7", null ],
+    [ "GetInvalidWeaponInfoHandle", "weapon__parse_8h.html#a6a3ce4deb7efb1dd2509bba6481d73f0", null ],
+    [ "GetWeaponSoundFromString", "weapon__parse_8h.html#a29e8a5be0a41733c2500994ff6c5cac1", null ],
+    [ "LookupWeaponInfoSlot", "weapon__parse_8h.html#a743dcb17c568e3e11f03cd88e3901511", null ],
+    [ "PrecacheFileWeaponInfoDatabase", "weapon__parse_8h.html#a1fc7d11aa808f72538f60873de2508b4", null ],
+    [ "ReadEncryptedKVFile", "weapon__parse_8h.html#aecd43400f002973b2476cfdc8c198c34", null ],
+    [ "ReadWeaponDataFromFileForSlot", "weapon__parse_8h.html#a1a499ecfb670995b2d286c79569144a5", null ]
+];

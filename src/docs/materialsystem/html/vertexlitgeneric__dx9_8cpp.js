@@ -1,0 +1,25 @@
+var vertexlitgeneric__dx9_8cpp =
+[
+    [ "if", "vertexlitgeneric__dx9_8cpp.html#ae0010abd63ec228699b4410c8966906e", null ],
+    [ "if", "vertexlitgeneric__dx9_8cpp.html#a410cb475aed7cbcd896fed64d0684f0e", null ],
+    [ "if", "vertexlitgeneric__dx9_8cpp.html#a6d8620063878a0468ed3b282adb7557d", null ],
+    [ "if", "vertexlitgeneric__dx9_8cpp.html#aeb03f74d1db1107721e247930d2824eb", null ],
+    [ "if", "vertexlitgeneric__dx9_8cpp.html#aeb9548ab4faaf1b659ce533a348c0881", null ],
+    [ "if", "vertexlitgeneric__dx9_8cpp.html#abfbefca76a141c620d7c32894f704149", null ],
+    [ "if", "vertexlitgeneric__dx9_8cpp.html#aa3c716f884cf62d3f940ed4da8bfe7e5", null ],
+    [ "InitVertexLitGeneric_DX9", "vertexlitgeneric__dx9_8cpp.html#a31908cd641f94ba765417b2a90adc0dc", null ],
+    [ "IsTranslucent", "vertexlitgeneric__dx9_8cpp.html#aa839cbb7e8b4d2d3048f0b4ac9fb4c1d", null ],
+    [ "NeedsPowerOfTwoFrameBufferTexture", "vertexlitgeneric__dx9_8cpp.html#a878606b7a22103a865d20978afd825b6", null ],
+    [ "SetupVars", "vertexlitgeneric__dx9_8cpp.html#a7cbbf63ad812e3c82e019ded67cdb133", null ],
+    [ "SetupVars", "vertexlitgeneric__dx9_8cpp.html#af0e2425fff5956192dc20236392a3439", null ],
+    [ "SetupVarsCloakBlendedPass", "vertexlitgeneric__dx9_8cpp.html#a9c545949faa9b151132ef8d80a221b49", null ],
+    [ "SetupVarsEmissiveScrollBlendedPass", "vertexlitgeneric__dx9_8cpp.html#af82304f31985fd09bb83035c0f1c29fc", null ],
+    [ "SetupVarsFleshInteriorBlendedPass", "vertexlitgeneric__dx9_8cpp.html#a33113a1412860d3b64e648a123f3b725", null ],
+    [ "SetupVarsWeaponSheenPass", "vertexlitgeneric__dx9_8cpp.html#a928deebb45bd0765364a0b46747cc649", null ],
+    [ "SHADER_INIT_PARAMS", "vertexlitgeneric__dx9_8cpp.html#a4f80999de90bc5c9bce2be77e3145786", null ],
+    [ "else", "vertexlitgeneric__dx9_8cpp.html#a0544c3fe466e421738dae463968b70ba", null ],
+    [ "return", "vertexlitgeneric__dx9_8cpp.html#a9717e7bbecb906637e86cef6da3d83c2", null ],
+    [ "SHADER_DRAW", "vertexlitgeneric__dx9_8cpp.html#af575a94e30468ef176805ccab7e3ebb5", null ],
+    [ "SHADER_FALLBACK", "vertexlitgeneric__dx9_8cpp.html#a9b8c36c4319861e1503008a936eaf281", null ],
+    [ "SHADER_INIT", "vertexlitgeneric__dx9_8cpp.html#a27f72ee623b76f8bf8767c5f114a6f26", null ]
+];

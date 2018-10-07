@@ -1,0 +1,25 @@
+var class_c_particle_property =
+[
+    [ "CParticleProperty", "class_c_particle_property.html#a9d75d47103d9a173d2d96f58a0d4e64f", null ],
+    [ "~CParticleProperty", "class_c_particle_property.html#a85b6c6e563f62e0f5d76122d6842f27b", null ],
+    [ "AddControlPoint", "class_c_particle_property.html#a34a647b2b85861bc469bec3473d5fb77", null ],
+    [ "AddControlPoint", "class_c_particle_property.html#aea815c0aedcb700574c6e520c187d38d", null ],
+    [ "Create", "class_c_particle_property.html#afe0478300ce136275dbfb32f308a5c26", null ],
+    [ "Create", "class_c_particle_property.html#ae406185040b790c71298301cf2f5c18a", null ],
+    [ "DebugPrintEffects", "class_c_particle_property.html#a7b566ae8e735d4ccdd0c2fe8c20f8ab5", null ],
+    [ "FindEffect", "class_c_particle_property.html#aa68207d3e4f3d6a3cd80a5cd02bda028", null ],
+    [ "GetOuter", "class_c_particle_property.html#a9c3d4e5d9d1d0b81d7e61409d1099d62", null ],
+    [ "GetParticleEffectFromIdx", "class_c_particle_property.html#aa2eed754814fbb98fe388d99aecbe73c", null ],
+    [ "Init", "class_c_particle_property.html#a5c755c8aa4d1c08b16cfe4ea0cbb0313", null ],
+    [ "OnParticleSystemDeleted", "class_c_particle_property.html#a2140fd075dbac6736f9c791772efbd3e", null ],
+    [ "OnParticleSystemUpdated", "class_c_particle_property.html#afa181f621efd4e3514410ec49d2aab3c", null ],
+    [ "ReplaceParticleEffect", "class_c_particle_property.html#af2d50ecd779ebde9f9cd3f3f56d3d28d", null ],
+    [ "SetControlPointParent", "class_c_particle_property.html#a64a61d2f4bc8e7a6b373f90da6bc4e31", null ],
+    [ "SetControlPointParent", "class_c_particle_property.html#a23a654e21d5d7cd899511930d9748c8a", null ],
+    [ "StopEmission", "class_c_particle_property.html#afb98a5802144093eac2d6e400209e00b", null ],
+    [ "StopEmissionAndDestroyImmediately", "class_c_particle_property.html#a252b7372bfbcae54bfe0510907f9379a", null ],
+    [ "StopParticlesInvolving", "class_c_particle_property.html#a71a8a229e4f95c6ac740d79c3edf91c5", null ],
+    [ "StopParticlesNamed", "class_c_particle_property.html#a8edb6d90614bf7f32c62f1e9937344f4", null ],
+    [ "StopParticlesWithNameAndAttachment", "class_c_particle_property.html#a1166e4093f0fc301b6bb3e626ab2ce75", null ],
+    [ "CBaseEntity", "class_c_particle_property.html#a831d8b0e40656bf9ddcf1b7dbf7ebb2b", null ]
+];

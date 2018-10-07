@@ -1,0 +1,28 @@
+var class_c_move_data =
+[
+    [ "GetAbsOrigin", "class_c_move_data.html#adef3558ddcc089195c011089b32066fb", null ],
+    [ "SetAbsOrigin", "class_c_move_data.html#a45bc2a0259362495d4571af1aa698e69", null ],
+    [ "m_bFirstRunOfFunctions", "class_c_move_data.html#ac0ccd473974f2e98553984450fb03c4d", null ],
+    [ "m_bGameCodeMovedPlayer", "class_c_move_data.html#a7210061e0e832e67305dfccb7f030999", null ],
+    [ "m_flClientMaxSpeed", "class_c_move_data.html#a11822cdba74d80444b83fd9179bbffe5", null ],
+    [ "m_flConstraintRadius", "class_c_move_data.html#acbd2e37e27960251486f38aab64b242e", null ],
+    [ "m_flConstraintSpeedFactor", "class_c_move_data.html#af8b50468d5460bc372a522bd0795a625", null ],
+    [ "m_flConstraintWidth", "class_c_move_data.html#a53d9b85a6d3bad74a86516af3c11daf2", null ],
+    [ "m_flForwardMove", "class_c_move_data.html#a51bf486836cfc97e2ceb30e69d4e1a0b", null ],
+    [ "m_flMaxSpeed", "class_c_move_data.html#a12de38cbcac031c9df51a86f5d6c2fd4", null ],
+    [ "m_flSideMove", "class_c_move_data.html#a1efb6873bc85be711e6a06c2ade18c09", null ],
+    [ "m_flUpMove", "class_c_move_data.html#a2afda2be999e8b2134d7dcf095fcabfa", null ],
+    [ "m_nButtons", "class_c_move_data.html#a375197791c4bc88028cf401d84c8d79e", null ],
+    [ "m_nImpulseCommand", "class_c_move_data.html#a62a1f05a2c3cc2228fcb898ebc920227", null ],
+    [ "m_nOldButtons", "class_c_move_data.html#ac33aed0fa0851518153156af1efe9035", null ],
+    [ "m_nPlayerHandle", "class_c_move_data.html#a18135a453dbab8fd63c7baef914b0e7a", null ],
+    [ "m_outJumpVel", "class_c_move_data.html#a1593917c0ca222637dc3f2e315d00ffe", null ],
+    [ "m_outStepHeight", "class_c_move_data.html#acd891712a509fcf1a5d84a8a376706f2", null ],
+    [ "m_outWishVel", "class_c_move_data.html#a168c0282ef767a79d1731707e3b210ae", null ],
+    [ "m_vecAbsViewAngles", "class_c_move_data.html#a55cc2a28d17fe10c0534622c1f1a87b8", null ],
+    [ "m_vecAngles", "class_c_move_data.html#a66e9fea63bb269a21f94771a1cdeb6f0", null ],
+    [ "m_vecConstraintCenter", "class_c_move_data.html#a389d91394d26c3de1dcd507b1f9e3824", null ],
+    [ "m_vecOldAngles", "class_c_move_data.html#a3afea35398907a1c0ba1825e359cd1d2", null ],
+    [ "m_vecVelocity", "class_c_move_data.html#a9eeae9c4d7e1459a9b4a5a0564f38846", null ],
+    [ "m_vecViewAngles", "class_c_move_data.html#addb0ba31428cb964a4f522a86249969c", null ]
+];

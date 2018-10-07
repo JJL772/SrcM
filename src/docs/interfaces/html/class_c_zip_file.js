@@ -1,0 +1,25 @@
+var class_c_zip_file =
+[
+    [ "CZipFile", "class_c_zip_file.html#a15a0bf54b2534fbe31dda06e70bd8a8a", null ],
+    [ "~CZipFile", "class_c_zip_file.html#a6631ed81b0b1aecd467573642a80fcfa", null ],
+    [ "ActivateByteSwapping", "class_c_zip_file.html#ace2421a9234cc07d1064ed0a127e53a5", null ],
+    [ "AddBufferToZip", "class_c_zip_file.html#a9abc27fc68aa33714d6099766dc42f20", null ],
+    [ "AddFileToZip", "class_c_zip_file.html#a83fae897d5b24d949413ddcaf333e27a", null ],
+    [ "CalculateSize", "class_c_zip_file.html#a4a61281d4ddb259b5b5b59144d4b26cb", null ],
+    [ "EstimateSize", "class_c_zip_file.html#a2aaa9e4cb328f873509366733ff60e04", null ],
+    [ "FileExistsInZip", "class_c_zip_file.html#acb70c15473d08051f108961d0a5de0c5", null ],
+    [ "ForceAlignment", "class_c_zip_file.html#a6332d54e9fc3425256e319071b4a59c6", null ],
+    [ "GetAlignment", "class_c_zip_file.html#ac39469f859e0dd4a8fafc2b6ba01d27d", null ],
+    [ "GetNextFilename", "class_c_zip_file.html#a693b46d2f47be6b229ef4618831449d2", null ],
+    [ "ParseFromBuffer", "class_c_zip_file.html#a2be7230192891cd8adb4dfbf558e25b0", null ],
+    [ "ParseFromDisk", "class_c_zip_file.html#a56f501174ec0e11accddf3b4750ec2fa", null ],
+    [ "PrintDirectory", "class_c_zip_file.html#a8a21fc59f2dc0a020be4d2d4d47620c1", null ],
+    [ "ReadFileFromZip", "class_c_zip_file.html#ad111bf0b7b3e4ff59726af0fd9c6f81c", null ],
+    [ "ReadFileFromZip", "class_c_zip_file.html#aedcf44d729eadef1241d68786c88ea14", null ],
+    [ "RemoveFileFromZip", "class_c_zip_file.html#abf4edcbe733b253cd54f0bbab3332d2f", null ],
+    [ "Reset", "class_c_zip_file.html#af32a8b21062f4937614b5abd50be13a0", null ],
+    [ "SaveToBuffer", "class_c_zip_file.html#aa472e0c0da8a76c9cd41645bc2e60e1a", null ],
+    [ "SaveToDisk", "class_c_zip_file.html#acfa2cc4ed8c2b4b6c5486418f2acafaa", null ],
+    [ "SaveToDisk", "class_c_zip_file.html#ab5850d2be0814520973a5cc7fb104e51", null ],
+    [ "SetBigEndian", "class_c_zip_file.html#ad4d3fbca3cedb56c8012b0ed801054d6", null ]
+];

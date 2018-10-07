@@ -1,0 +1,27 @@
+var quantize_8h =
+[
+    [ "QuantizedValue", "struct_quantized_value.html", "struct_quantized_value" ],
+    [ "Sample", "struct_sample.html", "struct_sample" ],
+    [ "MAXDIMS", "quantize_8h.html#a45ed35a158331b8f57fd66c5a18fa835", null ],
+    [ "MAXQUANT", "quantize_8h.html#a782afdc171770554c03156b97215b340", null ],
+    [ "QUANTFLAGS_NODITHER", "quantize_8h.html#a946b3a3a192ffd47ab3ef83f4eb5f5f4", null ],
+    [ "COMPARER", "quantize_8h.html#ab8d14c0af89a273144403d22181d7188", null ],
+    [ "GENERATOR", "quantize_8h.html#af839bfa815c15fc3a432e71192d4a805", null ],
+    [ "AllocSamples", "quantize_8h.html#ad4b08e9f74e4a9956b981cacdbf2d2ba", null ],
+    [ "ColorQuantize", "quantize_8h.html#a8152448efdbc1644ca990dd3e673d830", null ],
+    [ "CompressSamples", "quantize_8h.html#ae46472f835b080022c558c2d64ee6592", null ],
+    [ "DartThrow", "quantize_8h.html#a71b419b7a4c0fd879bece37990897403", null ],
+    [ "FindClosestDart", "quantize_8h.html#a5094e1d27397b604c5a3d589ab141c28", null ],
+    [ "FindMatch", "quantize_8h.html#aa131056da97f2c6fbd445ef3ee151e1b", null ],
+    [ "FindQNode", "quantize_8h.html#ac37b4ca45233e937af120851b0d40206", null ],
+    [ "FreeQuantization", "quantize_8h.html#ae1e4d650e0fc955674869bbf4f20ca8f", null ],
+    [ "MaximumError", "quantize_8h.html#ada8a63ea76fe60228e8a0813a51f70c6", null ],
+    [ "MinimumError", "quantize_8h.html#a643fb1ec0147661d3155b13e83d6aa68", null ],
+    [ "NthSample", "quantize_8h.html#adfc2c40207b58ee6533888d60bd1359e", null ],
+    [ "OptimizeQuantizer", "quantize_8h.html#ae7f3343674085cdaa6e1b37031ed6389", null ],
+    [ "PrintQTree", "quantize_8h.html#aa4b224d5394c58101573ea64a5d9a257", null ],
+    [ "PrintSamples", "quantize_8h.html#a89ab7ec4fccfe6ec20599d421c0063cb", null ],
+    [ "Quantize", "quantize_8h.html#a6f43148568265aba0ddeadf80050264b", null ],
+    [ "RecalculateValues", "quantize_8h.html#a63607ef4bc148cffef990aa98a580580", null ],
+    [ "SquaredError", "quantize_8h.html#a20f05b755dec58d109755c9dffef1d5b", null ]
+];

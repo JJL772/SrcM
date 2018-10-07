@@ -1,0 +1,25 @@
+var struct_remote_storage_get_published_file_details_result__t =
+[
+    [ "k_iCallback", "struct_remote_storage_get_published_file_details_result__t.html#ac82f3977367c83b214ca65cbccf88bedac532de70e41fccacae5a73a3e1b691a2", null ],
+    [ "m_bAcceptedForUse", "struct_remote_storage_get_published_file_details_result__t.html#a7c8468d3f88dfc9339f315104d8b9be5", null ],
+    [ "m_bBanned", "struct_remote_storage_get_published_file_details_result__t.html#a9186754b7a2ac2015f28096eb6872982", null ],
+    [ "m_bTagsTruncated", "struct_remote_storage_get_published_file_details_result__t.html#a791d04c6b41fc59d19fb71623ffbc531", null ],
+    [ "m_eFileType", "struct_remote_storage_get_published_file_details_result__t.html#a9a561bba9106d99d4278cb3bbe1a98b7", null ],
+    [ "m_eResult", "struct_remote_storage_get_published_file_details_result__t.html#affc5234f994daa21b7e218ff6cf84e34", null ],
+    [ "m_eVisibility", "struct_remote_storage_get_published_file_details_result__t.html#a63e72cf789f50d042157b96c4e9e5f5b", null ],
+    [ "m_hFile", "struct_remote_storage_get_published_file_details_result__t.html#a71b8f6368768e9fe4992fe8cf810db18", null ],
+    [ "m_hPreviewFile", "struct_remote_storage_get_published_file_details_result__t.html#ac83b6bed01a9dc396a8e3724f1e03dac", null ],
+    [ "m_nConsumerAppID", "struct_remote_storage_get_published_file_details_result__t.html#a6e90dcf7ad86083176d0d1262a403866", null ],
+    [ "m_nCreatorAppID", "struct_remote_storage_get_published_file_details_result__t.html#a7b3d6dbbac07a7452412c802a0700d85", null ],
+    [ "m_nFileSize", "struct_remote_storage_get_published_file_details_result__t.html#a58703e19ebeb6179c29b590ffdf611c8", null ],
+    [ "m_nPreviewFileSize", "struct_remote_storage_get_published_file_details_result__t.html#a96265c14a0a5a291ef4ed910c3f9a81b", null ],
+    [ "m_nPublishedFileId", "struct_remote_storage_get_published_file_details_result__t.html#a1bdabfa0ee6423e6c53f0580476c35f7", null ],
+    [ "m_pchFileName", "struct_remote_storage_get_published_file_details_result__t.html#a1296b51e21c7e45687c5b809983d0e1a", null ],
+    [ "m_rgchDescription", "struct_remote_storage_get_published_file_details_result__t.html#a85798fbc2e71d461da7488bb7fdc9561", null ],
+    [ "m_rgchTags", "struct_remote_storage_get_published_file_details_result__t.html#ae2a47c0876e8add7c497a7129709813a", null ],
+    [ "m_rgchTitle", "struct_remote_storage_get_published_file_details_result__t.html#a3c58f292bb703f06f3071c9ce2bfbfa9", null ],
+    [ "m_rgchURL", "struct_remote_storage_get_published_file_details_result__t.html#a637b2b0c2260fd13cb55fbe5c6de22b8", null ],
+    [ "m_rtimeCreated", "struct_remote_storage_get_published_file_details_result__t.html#a37b4d6ddf2df258694f69c54c55cad25", null ],
+    [ "m_rtimeUpdated", "struct_remote_storage_get_published_file_details_result__t.html#acead8b4d5368c17595183b2b033b6823", null ],
+    [ "m_ulSteamIDOwner", "struct_remote_storage_get_published_file_details_result__t.html#a51017cdda08b3a92b0da7966f00dc615", null ]
+];

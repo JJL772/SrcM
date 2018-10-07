@@ -1,0 +1,25 @@
+var class_c_curve_data =
+[
+    [ "Add", "class_c_curve_data.html#a6302fbc3f22dafc781bd2d0a9ac8ba2f", null ],
+    [ "Clear", "class_c_curve_data.html#ab31581eb5af82ff04e2e34add70dfd92", null ],
+    [ "Delete", "class_c_curve_data.html#a482b14ab1e1943f009a62cba315c8b84", null ],
+    [ "FileSave", "class_c_curve_data.html#aecdaacb2cf5c21c081a843c5b74d22c3", null ],
+    [ "Get", "class_c_curve_data.html#aca83212c15ce791575fcc2863bca9f9b", null ],
+    [ "GetBoundedSample", "class_c_curve_data.html#aa02eef7da089b917ca188670a83f3624", null ],
+    [ "GetCount", "class_c_curve_data.html#a72f09563116a86db091e32001333a799", null ],
+    [ "GetEdgeCurveType", "class_c_curve_data.html#a03a1c23630387727d3debb529cf69d26", null ],
+    [ "GetEdgeInfo", "class_c_curve_data.html#a900201ce135f0aa44bee70ab31d892f8", null ],
+    [ "GetEdgeInfo", "class_c_curve_data.html#a520144151e44291c2be9ab08371420b0", null ],
+    [ "GetEdgeZeroValue", "class_c_curve_data.html#a343550f216a1e3a9250351c6c3b79e65", null ],
+    [ "GetIntensity", "class_c_curve_data.html#a745b934a2eb9af6785a0aec519c22384", null ],
+    [ "GetIntensityArea", "class_c_curve_data.html#a6a3558e574564e34a3477f1125391995", null ],
+    [ "IsEdgeActive", "class_c_curve_data.html#a452178fa2ec6ab14dfe7c2a054078711", null ],
+    [ "operator=", "class_c_curve_data.html#af733548131686ad55052c76d15b6d781", null ],
+    [ "Parse", "class_c_curve_data.html#aa51a98011b03444f2063301e15dfd147", null ],
+    [ "RemoveOutOfRangeSamples", "class_c_curve_data.html#a583f1bf962b63c3156db25821a3e36ff", null ],
+    [ "Resort", "class_c_curve_data.html#abecd2b260d5981c6aea7d7a5f81889f8", null ],
+    [ "RestoreFromBuffer", "class_c_curve_data.html#a8d441abacdfe03d1f8d764aa083822d1", null ],
+    [ "SaveToBuffer", "class_c_curve_data.html#af23a6399a78056bcc3f2afafdd542fe1", null ],
+    [ "SetEdgeActive", "class_c_curve_data.html#a24a7d4302cc5cbc87afaa297f5f26006", null ],
+    [ "SetEdgeInfo", "class_c_curve_data.html#a8527bddc9a45a019c93b53d81b648d48", null ]
+];

@@ -1,0 +1,799 @@
+
+choreoutils.o:
+00000000 t _GLOBAL__sub_I__Z18AutoAddGestureKeysP12CChoreoEventP10CStudioHdrPfb
+         U g_pSoundEmitterSystem
+         U __gxx_personality_v0
+         U __stack_chk_fail
+         U _Unwind_Resume
+00000000 n wt.02ddd7275b1ef057
+00000000 n wt.0369f855948ccea8
+00000000 n wt.036c5a07c940c490
+00000000 n wt.05ad1decd27fc688
+00000000 n wt.0769f7ab3bea8380
+00000000 n wt.0a44e52dfbd7460c
+00000000 n wt.0a5a0f207593a270
+00000000 n wt.0a85fe52090a5f9b
+00000000 n wt.0ac1bcc3972604a5
+00000000 n wt.0d7a17ce6b8a6c1b
+00000000 n wt.0d7afc0f84231817
+00000000 n wt.0e15c64be5185f53
+00000000 n wt.0e202a59f0721cab
+00000000 n wt.0ec55b586ec9c677
+00000000 n wt.106e30317a6497ee
+00000000 n wt.11cb285d55125a47
+00000000 n wt.121aa28f23fa9111
+00000000 n wt.12b3a46cbf333dae
+00000000 n wt.1b65921112b4b7df
+00000000 n wt.1dbffa2583ec039c
+00000000 n wt.20869932591b0ed1
+00000000 n wt.20ee1d1f7310e34e
+00000000 n wt.21820648dee8d7c5
+00000000 n wt.235f85392117396b
+00000000 n wt.26e952c0f9a1499d
+00000000 n wt.29d04898683bec8e
+00000000 n wt.2a5b38e640232c3e
+00000000 n wt.2d6bfe620a1c8570
+00000000 n wt.2d75fae3852c9ae8
+00000000 n wt.333fc0e11f8529e2
+00000000 n wt.3364ce67af643308
+00000000 n wt.33a8a6f2cfde3f41
+00000000 n wt.3664380c7c4c75b7
+00000000 n wt.3a0aa80cb0853321
+00000000 n wt.3f28a7f81731cb21
+00000000 n wt.4105092a802f5765
+00000000 n wt.41472508e7879713
+00000000 n wt.41db4f684a736506
+00000000 n wt.42a483fe6b7f4955
+00000000 n wt.43353c953c12c548
+00000000 n wt.4420364a12939a7d
+00000000 n wt.44a3a125f39369dd
+00000000 n wt.44c205be23d5911d
+00000000 n wt.47651c25e5ff6b17
+00000000 n wt.47b1e6f3e4bc42ed
+00000000 n wt.4a743e98622a4b80
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.4b540acb46a6cb72
+00000000 n wt.4c64890cb89e896e
+00000000 n wt.4e204fcac79742e7
+00000000 n wt.4eda3734589cc2c8
+00000000 n wt.501addc25dd58550
+00000000 n wt.511cbef1ace58f90
+00000000 n wt.52c69f6f3a0d7479
+00000000 n wt.52ceb4a83f80fd88
+00000000 n wt.537d24a911556f30
+00000000 n wt.53e6a26a806fd287
+00000000 n wt.56d839dfb1819b42
+00000000 n wt.57088cbd60a2a2c8
+00000000 n wt.5d4d277027630cea
+00000000 n wt.5d7dbd794b7780f5
+00000000 n wt.5f2aae71029c9a90
+00000000 n wt.5fa0e63f2fdf783b
+00000000 n wt.60c59503dc8eb3f0
+00000000 n wt.611d54cbd5c200c5
+00000000 n wt.625101cef770907f
+00000000 n wt.6385d303af67aa72
+00000000 n wt.652859da5a2bf51c
+00000000 n wt.65ea752715ef4394
+00000000 n wt.682a3745a4beebd5
+00000000 n wt.6f4cc2fa69938d02
+00000000 n wt.70bde3f6d0cc219a
+00000000 n wt.7bca0a9a9cea7ac6
+00000000 n wt.7cc0d92cdbd18ae3
+00000000 n wt.7ddc16881ff7ba2a
+00000000 n wt.7e6c095ac0a1bf3f
+00000000 n wt.8019aa840538daf4
+00000000 n wt.80ced6ef7d37e1f0
+00000000 n wt.86805a0d0d784784
+00000000 n wt.88919e353cdd706b
+00000000 n wt.8a3c11496f9c53af
+00000000 n wt.8ad49f8e219719be
+00000000 n wt.8b2ce3e5cb1873f4
+00000000 n wt.8bda15f68dfa4926
+00000000 n wt.8bf93e55b75156ec
+00000000 n wt.8c600e7575aab9dc
+00000000 n wt.8c8b577d6e4a856a
+00000000 n wt.8f7ee22a0088a70b
+00000000 n wt.8fbc9b32f08ed76c
+00000000 n wt.8ff343a7cd683637
+00000000 n wt.90a050111bdfbb1f
+00000000 n wt.92b86abfff0ff5dc
+00000000 n wt.941ae4c8bb76df09
+00000000 n wt.9509d60d063c3aae
+00000000 n wt.96710318015ea448
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.9b014067588b44ec
+00000000 n wt.9d62d218ecab6247
+00000000 n wt.a21cafac26c31b04
+00000000 n wt.a24adc51d4855059
+00000000 n wt.a38166a2d0566b21
+00000000 n wt.a48820101ba51296
+00000000 n wt.a50cdc79fec02ff4
+00000000 n wt.a5422088cee9cede
+00000000 n wt.a63453ec1d75a173
+00000000 n wt.a68596b0ba12997c
+00000000 n wt.a6cea1bbb3956ade
+00000000 n wt.a895e7405e6eb1ad
+00000000 n wt.a8da18a06b419367
+00000000 n wt.aa44a6c46211a14c
+00000000 n wt.afa25d330cadb4ff
+00000000 n wt.affbca617ceb42ac
+00000000 n wt.b2041f81daf5629f
+00000000 n wt.b21a6a0ba396b3c1
+00000000 n wt.b3aee2cee5872737
+00000000 n wt.b70e1f9fbae87391
+00000000 n wt.b7742063cee08439
+00000000 n wt.b9b9b07059d506b6
+00000000 n wt.bc9ad5f3050f44f7
+00000000 n wt.bf2f355935a14592
+00000000 n wt.bf632b9eb8efd8f8
+00000000 n wt.c0a51284424f813b
+00000000 n wt.c3311f7fe8731d68
+00000000 n wt.c57f8aef28745113
+00000000 n wt.c8236e3bccaa9b40
+00000000 n wt.c83080aba328d4d2
+00000000 n wt.c98e1c5ffa561eaa
+00000000 n wt.ca7f8f86f36c1b19
+00000000 n wt.cc2dedc5c7399c0f
+00000000 n wt.d053514fd65c63b1
+00000000 n wt.d0e26cc9a6b0cbee
+00000000 n wt.d236828d4109c053
+00000000 n wt.d332b26f15409820
+00000000 n wt.d6fe777a7bb43a56
+00000000 n wt.da1adb6dd7d365dc
+00000000 n wt.da73f924e8e49f7f
+00000000 n wt.dabcb2845c0c13a7
+00000000 n wt.dbe677b4b358b1aa
+00000000 n wt.dc5c73425e98682f
+00000000 n wt.e1f1f28263c6a59c
+00000000 n wt.e24f44e026b4ed7b
+00000000 n wt.e3a1b00c2c2ec217
+00000000 n wt.e3dece540c9a2274
+00000000 n wt.e980bcec253c5847
+00000000 n wt.e9bed8f45067214d
+00000000 n wt.e9e1e2c7f57b2389
+00000000 n wt.eb31dbf920e8c7fe
+00000000 n wt.ec0fd3205df085aa
+00000000 n wt.ed42f36dc7f09ec3
+00000000 n wt.ed4e60e77fed799e
+00000000 n wt.ee4025acdcda5f8b
+00000000 n wt.eec0c7257efa3606
+00000000 n wt.f1c002155d751361
+00000000 n wt.f259594ccb335201
+00000000 n wt.f28c70885db53002
+00000000 n wt.f2b6bf731f78bbec
+00000000 n wt.f3fedaac70a29553
+00000000 n wt.f63ac287160cace9
+00000000 n wt.f7c37b2b8ec7ceb9
+00000000 n wt.fc9d057e00a14109
+00000000 n wt.fd77760f9e269fb4
+00000000 n wt.ffbda2f3dfa3c95f
+         U Studio_Duration(CStudioHdr const*, int, float const*)
+         U Studio_MaxFrame(CStudioHdr const*, int, float const*)
+00000b60 T GetSoundForEvent(CChoreoEvent*, CStudioHdr*)
+00000060 T AutoAddGestureKeys(CChoreoEvent*, CStudioHdr*, float*, bool)
+00000750 T UpdateGestureLength(CChoreoEvent*, CStudioHdr*, float*, bool)
+00000810 T UpdateSequenceLength(CChoreoEvent*, CStudioHdr*, float*, bool, bool)
+         U Studio_GetKeyValueText(CStudioHdr const*, int)
+         U ConMsg(char const*, ...)
+         U V_stricmp(char const*, char const*)
+         U V_stristr(char const*, char const*)
+         U V_strncpy(char*, char const*, int)
+00000000 b vec2_origin
+00000020 b vec4_origin
+00000010 b vec2_invalid
+00000030 b vec4_invalid
+00000000 t LookupSequence(CStudioHdr*, char const*)
+         U CStudioHdr::pSeqdesc(int)
+         U CChoreoEvent::HasEndTime()
+         U CChoreoEvent::SetEndTime(float)
+         U CChoreoEvent::GetStartTime()
+         U CChoreoEvent::GetParameters()
+         U CChoreoEvent::IsFixedLength()
+         U CChoreoEvent::AddAbsoluteTag(CChoreoEvent::AbsTagType, char const*, float)
+         U CChoreoEvent::SetFixedLength(bool)
+         U CChoreoEvent::VerifyTagOrder()
+         U CChoreoEvent::FindAbsoluteTag(CChoreoEvent::AbsTagType, char const*)
+         U CChoreoEvent::PreventTagOverlap()
+         U CChoreoEvent::GetGestureSequenceDuration(float&)
+         U CChoreoEvent::SetGestureSequenceDuration(float)
+         U CChoreoEvent::GetName()
+         U CChoreoEvent::GetType()
+         U CEventAbsoluteTag::SetPercentage(float)
+         U CEventAbsoluteTag::SetExit(bool)
+         U CEventAbsoluteTag::SetEntry(bool)
+         U CEventAbsoluteTag::SetLinear(bool)
+         U CEventAbsoluteTag::SetLocked(bool)
+         U KeyValues::deleteThis()
+         U KeyValues::LoadFromBuffer(char const*, char const*, IBaseFileSystem*, char const*)
+         U KeyValues::GetInt(char const*, int)
+         U KeyValues::FindKey(char const*, bool)
+         U KeyValues::GetString(char const*, char const*)
+         U KeyValues::KeyValues(char const*)
+         U KeyValues::operator delete(void*)
+         U KeyValues::operator new(unsigned int)
+         U CStudioHdr::GetNumSeq() const
+         U KeyValues::GetName() const
+
+mdlutils.o:
+         U free
+00000000 t _GLOBAL__sub_I__Z17GetMDLBoundingBoxP6VectorS0_ti
+         U g_pMaterialSystem
+         U g_pMDLCache
+         U g_pStudioRender
+         U __gxx_personality_v0
+         U _Unwind_Resume
+         U vec3_origin
+00000000 n wt.001299992145d9be
+00000000 n wt.01383de6b3b7122e
+00000000 n wt.01f47d05e4e230e1
+00000000 n wt.02ddd7275b1ef057
+00000000 n wt.0369f855948ccea8
+00000000 n wt.036c5a07c940c490
+00000000 n wt.048940d714d7971e
+00000000 n wt.05ad1decd27fc688
+00000000 n wt.0769f7ab3bea8380
+00000000 n wt.0a44e52dfbd7460c
+00000000 n wt.0a5a0f207593a270
+00000000 n wt.0ac1bcc3972604a5
+00000000 n wt.0b0244cf83c3b85e
+00000000 n wt.0d7afc0f84231817
+00000000 n wt.0e15c64be5185f53
+00000000 n wt.0e202a59f0721cab
+00000000 n wt.0eb320e149362848
+00000000 n wt.0ec55b586ec9c677
+00000000 n wt.106e30317a6497ee
+00000000 n wt.11cb285d55125a47
+00000000 n wt.121aa28f23fa9111
+00000000 n wt.12b3a46cbf333dae
+00000000 n wt.19aff1e2fe061b3a
+00000000 n wt.1b1d4ac041aff942
+00000000 n wt.1b65921112b4b7df
+00000000 n wt.1b967f9afb34a99b
+00000000 n wt.1dbffa2583ec039c
+00000000 n wt.205ff475a295691e
+00000000 n wt.20869932591b0ed1
+00000000 n wt.20ee1d1f7310e34e
+00000000 n wt.21820648dee8d7c5
+00000000 n wt.22ecff738f575805
+00000000 n wt.235f85392117396b
+00000000 n wt.24ca79fed18650e7
+00000000 n wt.26e952c0f9a1499d
+00000000 n wt.2837cfd4a3bb7f48
+00000000 n wt.299077c776c0f0db
+00000000 n wt.29d04898683bec8e
+00000000 n wt.2a5b38e640232c3e
+00000000 n wt.2d6bfe620a1c8570
+00000000 n wt.2d75fae3852c9ae8
+00000000 n wt.2e26ad1aabc75364
+00000000 n wt.2e7a15460269166b
+00000000 n wt.331468de7905b887
+00000000 n wt.333fc0e11f8529e2
+00000000 n wt.3364ce67af643308
+00000000 n wt.33a8a6f2cfde3f41
+00000000 n wt.364ef063e34af752
+00000000 n wt.3664380c7c4c75b7
+00000000 n wt.386e9bc9ca92c188
+00000000 n wt.3a0aa80cb0853321
+00000000 n wt.3f28a7f81731cb21
+00000000 n wt.40677f097e91a433
+00000000 n wt.4105092a802f5765
+00000000 n wt.41354601dc3a0086
+00000000 n wt.41db4f684a736506
+00000000 n wt.42a483fe6b7f4955
+00000000 n wt.43353c953c12c548
+00000000 n wt.44a3a125f39369dd
+00000000 n wt.44c205be23d5911d
+00000000 n wt.451d23207c9c7b73
+00000000 n wt.47651c25e5ff6b17
+00000000 n wt.47b1e6f3e4bc42ed
+00000000 n wt.4a743e98622a4b80
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.4b540acb46a6cb72
+00000000 n wt.4c64890cb89e896e
+00000000 n wt.4e305e46ea5f66bf
+00000000 n wt.4eda3734589cc2c8
+00000000 n wt.501addc25dd58550
+00000000 n wt.511cbef1ace58f90
+00000000 n wt.52c69f6f3a0d7479
+00000000 n wt.52ceb4a83f80fd88
+00000000 n wt.53d1de6799289238
+00000000 n wt.53e6a26a806fd287
+00000000 n wt.5618d0d04d6d43de
+00000000 n wt.57088cbd60a2a2c8
+00000000 n wt.59faa0d53060b460
+00000000 n wt.5cbb335ca83342b2
+00000000 n wt.5d0699a8ca54fab3
+00000000 n wt.5d4d277027630cea
+00000000 n wt.5d7dbd794b7780f5
+00000000 n wt.5f2aae71029c9a90
+00000000 n wt.5fa0e63f2fdf783b
+00000000 n wt.60c59503dc8eb3f0
+00000000 n wt.625101cef770907f
+00000000 n wt.62a6d983b25150ca
+00000000 n wt.6385d303af67aa72
+00000000 n wt.652859da5a2bf51c
+00000000 n wt.65ea752715ef4394
+00000000 n wt.6787d66d281f5986
+00000000 n wt.682a3745a4beebd5
+00000000 n wt.6efdb1b3710b6cee
+00000000 n wt.70bb7207f756af98
+00000000 n wt.70bde3f6d0cc219a
+00000000 n wt.76983d25d047b3f5
+00000000 n wt.7bca0a9a9cea7ac6
+00000000 n wt.7bd734ce49c7acae
+00000000 n wt.7c0d5b55acef3a57
+00000000 n wt.7cc0d92cdbd18ae3
+00000000 n wt.7ddc16881ff7ba2a
+00000000 n wt.7e6c095ac0a1bf3f
+00000000 n wt.8019aa840538daf4
+00000000 n wt.80ced6ef7d37e1f0
+00000000 n wt.814cdf52f81e558e
+00000000 n wt.86805a0d0d784784
+00000000 n wt.88919e353cdd706b
+00000000 n wt.8a3c11496f9c53af
+00000000 n wt.8ad49f8e219719be
+00000000 n wt.8bda15f68dfa4926
+00000000 n wt.8bf93e55b75156ec
+00000000 n wt.8c8b577d6e4a856a
+00000000 n wt.8d2f3edec9435896
+00000000 n wt.8f7ee22a0088a70b
+00000000 n wt.8fbc9b32f08ed76c
+00000000 n wt.8ff343a7cd683637
+00000000 n wt.90a050111bdfbb1f
+00000000 n wt.92f3914a5b43f2b5
+00000000 n wt.941ae4c8bb76df09
+00000000 n wt.96710318015ea448
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.97b610ee002acbaf
+00000000 n wt.98a18ffec6d912a7
+00000000 n wt.9b014067588b44ec
+00000000 n wt.9d3efe1b54ada121
+00000000 n wt.9d62d218ecab6247
+00000000 n wt.9df9fd54ba086750
+00000000 n wt.a21cafac26c31b04
+00000000 n wt.a24adc51d4855059
+00000000 n wt.a38166a2d0566b21
+00000000 n wt.a48820101ba51296
+00000000 n wt.a50cdc79fec02ff4
+00000000 n wt.a5422088cee9cede
+00000000 n wt.a63453ec1d75a173
+00000000 n wt.a68596b0ba12997c
+00000000 n wt.a6cea1bbb3956ade
+00000000 n wt.a800334dffd3780b
+00000000 n wt.a895e7405e6eb1ad
+00000000 n wt.a8da18a06b419367
+00000000 n wt.aebba134eb3cf2a7
+00000000 n wt.af768c88d3f7d4fa
+00000000 n wt.afa25d330cadb4ff
+00000000 n wt.affbca617ceb42ac
+00000000 n wt.b0ed82bfdd7f4392
+00000000 n wt.b17c43db6718db3c
+00000000 n wt.b2041f81daf5629f
+00000000 n wt.b21a6a0ba396b3c1
+00000000 n wt.b3aee2cee5872737
+00000000 n wt.b928f4ade4105195
+00000000 n wt.bb3bcf31a5105426
+00000000 n wt.bc0b46010665aaf8
+00000000 n wt.bc9ad5f3050f44f7
+00000000 n wt.bf2f355935a14592
+00000000 n wt.bf5c7744b9b48b27
+00000000 n wt.bf632b9eb8efd8f8
+00000000 n wt.c0a51284424f813b
+00000000 n wt.c3311f7fe8731d68
+00000000 n wt.c57f8aef28745113
+00000000 n wt.c98e1c5ffa561eaa
+00000000 n wt.ca2d58e893b792f8
+00000000 n wt.ca7f8f86f36c1b19
+00000000 n wt.cc1b18505a07c491
+00000000 n wt.cc2dedc5c7399c0f
+00000000 n wt.d053514fd65c63b1
+00000000 n wt.d0e26cc9a6b0cbee
+00000000 n wt.d236828d4109c053
+00000000 n wt.d332b26f15409820
+00000000 n wt.d58adba4ddf74635
+00000000 n wt.d6fe777a7bb43a56
+00000000 n wt.da1adb6dd7d365dc
+00000000 n wt.da3f8b4596b0f631
+00000000 n wt.da73f924e8e49f7f
+00000000 n wt.dabcb2845c0c13a7
+00000000 n wt.dbe677b4b358b1aa
+00000000 n wt.dc5c73425e98682f
+00000000 n wt.df19db95e264938a
+00000000 n wt.e144806751aec4d5
+00000000 n wt.e1f1f28263c6a59c
+00000000 n wt.e24f44e026b4ed7b
+00000000 n wt.e3a1b00c2c2ec217
+00000000 n wt.e3dece540c9a2274
+00000000 n wt.e5b82994322bc6dc
+00000000 n wt.e8eff01c2ff2e556
+00000000 n wt.e955b8721c62b287
+00000000 n wt.e980bcec253c5847
+00000000 n wt.e9bed8f45067214d
+00000000 n wt.e9e1e2c7f57b2389
+00000000 n wt.eb31dbf920e8c7fe
+00000000 n wt.ec0fd3205df085aa
+00000000 n wt.ed425859e8761aae
+00000000 n wt.ed42f36dc7f09ec3
+00000000 n wt.ed48841bfe4b4a13
+00000000 n wt.ed8496ddeb0a8cae
+00000000 n wt.ee4025acdcda5f8b
+00000000 n wt.f1c002155d751361
+00000000 n wt.f259594ccb335201
+00000000 n wt.f28c70885db53002
+00000000 n wt.f2b6bf731f78bbec
+00000000 n wt.f3fedaac70a29553
+00000000 n wt.f63ac287160cace9
+00000000 n wt.fc9d057e00a14109
+00000000 n wt.fd77760f9e269fb4
+00000000 n wt.fe81c02ea835425d
+00000000 n wt.ffbda2f3dfa3c95f
+         U MatrixCopy(matrix3x4_t const&, matrix3x4_t&)
+00000200 T GetMDLRadius(unsigned short, int)
+         U MatrixGetColumn(matrix3x4_t const&, int, Vector&)
+         U MatrixSetColumn(Vector const&, int, matrix3x4_t&)
+         U Studio_MaxFrame(CStudioHdr const*, int, float const*)
+         U VectorTransform(float const*, matrix3x4_t const&, float*)
+         U ConcatTransforms(matrix3x4_t const&, matrix3x4_t const&, matrix3x4_t&)
+         U QuaternionMatrix(Quaternion const&, matrix3x4_t&)
+         U QuaternionMatrix(Quaternion const&, Vector const&, matrix3x4_t&)
+00000000 T GetMDLBoundingBox(Vector*, Vector*, unsigned short, int)
+00000290 T GetMDLBoundingSphere(Vector*, float*, unsigned short, int)
+         U Studio_BoneIndexByName(CStudioHdr const*, char const*)
+         U Studio_RunBoneFlexDrivers(float*, CStudioHdr const*, Vector const*, matrix3x4_t const*, matrix3x4_t const&)
+         U operator delete[](void*)
+00000000 b vec2_origin
+00000020 b vec4_origin
+00000010 b vec2_invalid
+00000030 b vec4_invalid
+         U CStudioHdr::RunFlexRules(float const*, float*)
+         U CStudioHdr::pPoseParameter(int)
+00000000 W CStudioHdr::CActivityToSequenceMapping::~CActivityToSequenceMapping()
+00000000 W CStudioHdr::CActivityToSequenceMapping::~CActivityToSequenceMapping()
+00000000 n CStudioHdr::CActivityToSequenceMapping::~CActivityToSequenceMapping()
+         U CStudioHdr::Term()
+         U CStudioHdr::CStudioHdr(studiohdr_t const*, IMDLCache*)
+00000000 W CStudioHdr::~CStudioHdr()
+00000000 W CStudioHdr::~CStudioHdr()
+00000000 n CStudioHdr::~CStudioHdr()
+00000000 W CUtlMemory<CUtlVector<CStudioHdr::CActivityToSequenceMapping::HashValueType, CUtlMemory<CStudioHdr::CActivityToSequenceMapping::HashValueType, int> >, int>::Purge()
+00000000 W CUtlMemory<int, int>::Purge()
+00000000 W CUtlMemory<CStudioHdr::CActivityToSequenceMapping::HashValueType, int>::Purge()
+00000000 W CUtlMemory<studiohdr_t const*, int>::Purge()
+00000000 W CUtlVector<int, CUtlMemory<int, int> >::~CUtlVector()
+00000000 W CUtlVector<int, CUtlMemory<int, int> >::~CUtlVector()
+00000000 n CUtlVector<int, CUtlMemory<int, int> >::~CUtlVector()
+         U IBoneSetup::AccumulatePose(Vector*, Quaternion*, int, float, float, float, CIKContext*)
+         U IBoneSetup::InitPose(Vector*, Quaternion*)
+         U IBoneSetup::IBoneSetup(CStudioHdr const*, int, float const*, IPoseDebugger*)
+         U IBoneSetup::~IBoneSetup()
+00000800 T CMDL::SetUpBones(matrix3x4_t const&, int, matrix3x4_t*, float const*, MDLSquenceLayer_t*, int)
+00000530 T CMDL::GetStudioHdr()
+00000430 T CMDL::UnreferenceMDL()
+00000560 T CMDL::SetupBonesWithBoneMerge(CStudioHdr const*, matrix3x4_t*, CStudioHdr const*, matrix3x4_t const*, matrix3x4_t const&)
+00001270 T CMDL::Draw(matrix3x4_t const&)
+00000dd0 T CMDL::Draw(matrix3x4_t const&, matrix3x4_t const*)
+00000480 T CMDL::SetMDL(unsigned short)
+00000340 T CMDL::CMDL()
+00000340 T CMDL::CMDL()
+00000520 T CMDL::~CMDL()
+00000520 T CMDL::~CMDL()
+00000000 W CUtlHash<CStudioHdr::CActivityToSequenceMapping::HashValueType, CStudioHdr::CActivityToSequenceMapping::HashValueType::HashFuncs, CStudioHdr::CActivityToSequenceMapping::HashValueType::HashFuncs>::~CUtlHash()
+00000000 W CUtlHash<CStudioHdr::CActivityToSequenceMapping::HashValueType, CStudioHdr::CActivityToSequenceMapping::HashValueType::HashFuncs, CStudioHdr::CActivityToSequenceMapping::HashValueType::HashFuncs>::~CUtlHash()
+00000000 n CUtlHash<CStudioHdr::CActivityToSequenceMapping::HashValueType, CStudioHdr::CActivityToSequenceMapping::HashValueType::HashFuncs, CStudioHdr::CActivityToSequenceMapping::HashValueType::HashFuncs>::~CUtlHash()
+         U CStudioHdr::GetNumPoseParameters() const
+         U CStudioHdr::GetNumSeq() const
+         U studiohdr_t::pSeqdesc(int) const
+00000420 T CMDL::GetMDL() const
+         U std::terminate()
+
+scenetokenprocessor.o:
+         U __cxa_pure_virtual
+00000000 t _GLOBAL__sub_I__ZN20CSceneTokenProcessorC2Ev
+00000000 B g_TokenProcessor
+         U __stack_chk_fail
+         U Warning
+00000000 n wt.036c5a07c940c490
+00000000 n wt.0a1b988e545d60fa
+00000000 n wt.1fe0d4ffbfd8ede1
+00000000 n wt.3364ce67af643308
+00000000 n wt.36c95f04596c89d7
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.52cfdac5690ea954
+00000000 n wt.5d92a97c94346e43
+00000000 n wt.70fa25bef2b8d0fd
+00000000 n wt.721ac66ec771c78c
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.affbca617ceb42ac
+00000000 n wt.c8236e3bccaa9b40
+00000000 n wt.e3a1b00c2c2ec217
+00000000 n wt.e7206f73e9296c00
+00000000 n wt.f92ab87a6f9b017e
+00000000 n wt.fca55c021d749d13
+00000000 n wt.ff1622d72ed90490
+00000000 n wt.ffbda2f3dfa3c95f
+         U V_vsnprintf(char*, int, char const*, char*)
+         U CharacterSetBuild(characterset_t*, char const*)
+00000250 T GetTokenProcessor()
+00000260 T SetTokenProcessorBuffer(char const*)
+00000508 b vec2_origin
+00000510 b vec2_invalid
+00000000 T CSceneTokenProcessor::CurrentToken()
+00000100 T CSceneTokenProcessor::ParseNextToken(char const*)
+00000010 T CSceneTokenProcessor::TokenAvailable()
+00000060 T CSceneTokenProcessor::Error(char const*, ...)
+00000210 T CSceneTokenProcessor::GetToken(bool)
+00000240 T CSceneTokenProcessor::SetBuffer(char*)
+000000d0 T CSceneTokenProcessor::CSceneTokenProcessor()
+000000d0 T CSceneTokenProcessor::CSceneTokenProcessor()
+00000000 V typeinfo for CSceneTokenProcessor
+00000000 V typeinfo for ISceneTokenProcessor
+00000000 V typeinfo name for CSceneTokenProcessor
+00000000 V typeinfo name for ISceneTokenProcessor
+00000000 V vtable for CSceneTokenProcessor
+00000000 V vtable for ISceneTokenProcessor
+         U vtable for __cxxabiv1::__class_type_info
+         U vtable for __cxxabiv1::__si_class_type_info
+
+studiohdrstub.o:
+00000000 t _GLOBAL__sub_I__ZNK11studiohdr_t9FindModelEPPvPKc
+         U g_pMDLCache
+00000000 n wt.01f47d05e4e230e1
+00000000 n wt.02ddd7275b1ef057
+00000000 n wt.0369f855948ccea8
+00000000 n wt.036c5a07c940c490
+00000000 n wt.05ad1decd27fc688
+00000000 n wt.0769f7ab3bea8380
+00000000 n wt.0a44e52dfbd7460c
+00000000 n wt.0a5a0f207593a270
+00000000 n wt.0ac1bcc3972604a5
+00000000 n wt.0b0244cf83c3b85e
+00000000 n wt.0d7afc0f84231817
+00000000 n wt.0e15c64be5185f53
+00000000 n wt.0e202a59f0721cab
+00000000 n wt.106e30317a6497ee
+00000000 n wt.11cb285d55125a47
+00000000 n wt.121aa28f23fa9111
+00000000 n wt.12b3a46cbf333dae
+00000000 n wt.1b65921112b4b7df
+00000000 n wt.1dbffa2583ec039c
+00000000 n wt.20869932591b0ed1
+00000000 n wt.20ee1d1f7310e34e
+00000000 n wt.21820648dee8d7c5
+00000000 n wt.22ecff738f575805
+00000000 n wt.235f85392117396b
+00000000 n wt.26e952c0f9a1499d
+00000000 n wt.29d04898683bec8e
+00000000 n wt.2a5b38e640232c3e
+00000000 n wt.2d6bfe620a1c8570
+00000000 n wt.2d75fae3852c9ae8
+00000000 n wt.333fc0e11f8529e2
+00000000 n wt.3364ce67af643308
+00000000 n wt.33a8a6f2cfde3f41
+00000000 n wt.3664380c7c4c75b7
+00000000 n wt.3a0aa80cb0853321
+00000000 n wt.3f28a7f81731cb21
+00000000 n wt.4105092a802f5765
+00000000 n wt.41db4f684a736506
+00000000 n wt.42a483fe6b7f4955
+00000000 n wt.43353c953c12c548
+00000000 n wt.4420364a12939a7d
+00000000 n wt.44a3a125f39369dd
+00000000 n wt.44c205be23d5911d
+00000000 n wt.47651c25e5ff6b17
+00000000 n wt.47b1e6f3e4bc42ed
+00000000 n wt.4a743e98622a4b80
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.4b540acb46a6cb72
+00000000 n wt.4c64890cb89e896e
+00000000 n wt.4eda3734589cc2c8
+00000000 n wt.501addc25dd58550
+00000000 n wt.511cbef1ace58f90
+00000000 n wt.52c69f6f3a0d7479
+00000000 n wt.52ceb4a83f80fd88
+00000000 n wt.53e6a26a806fd287
+00000000 n wt.57088cbd60a2a2c8
+00000000 n wt.5d4d277027630cea
+00000000 n wt.5d7dbd794b7780f5
+00000000 n wt.5dc798b80c00b16f
+00000000 n wt.5e7796f2842dc99d
+00000000 n wt.5f2aae71029c9a90
+00000000 n wt.5fa0e63f2fdf783b
+00000000 n wt.60c59503dc8eb3f0
+00000000 n wt.625101cef770907f
+00000000 n wt.6385d303af67aa72
+00000000 n wt.652859da5a2bf51c
+00000000 n wt.65ea752715ef4394
+00000000 n wt.682a3745a4beebd5
+00000000 n wt.6efdb1b3710b6cee
+00000000 n wt.70bb7207f756af98
+00000000 n wt.70bde3f6d0cc219a
+00000000 n wt.7699fcdc6bfc20ac
+00000000 n wt.7bca0a9a9cea7ac6
+00000000 n wt.7cc0d92cdbd18ae3
+00000000 n wt.7ddc16881ff7ba2a
+00000000 n wt.7e6c095ac0a1bf3f
+00000000 n wt.8019aa840538daf4
+00000000 n wt.80ced6ef7d37e1f0
+00000000 n wt.86805a0d0d784784
+00000000 n wt.88919e353cdd706b
+00000000 n wt.8a3c11496f9c53af
+00000000 n wt.8ad49f8e219719be
+00000000 n wt.8b2ce3e5cb1873f4
+00000000 n wt.8bda15f68dfa4926
+00000000 n wt.8bf93e55b75156ec
+00000000 n wt.8c8b577d6e4a856a
+00000000 n wt.8f7ee22a0088a70b
+00000000 n wt.8fbc9b32f08ed76c
+00000000 n wt.8ff343a7cd683637
+00000000 n wt.90a050111bdfbb1f
+00000000 n wt.941ae4c8bb76df09
+00000000 n wt.9509d60d063c3aae
+00000000 n wt.96710318015ea448
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.9b014067588b44ec
+00000000 n wt.9d62d218ecab6247
+00000000 n wt.a21cafac26c31b04
+00000000 n wt.a24adc51d4855059
+00000000 n wt.a38166a2d0566b21
+00000000 n wt.a48820101ba51296
+00000000 n wt.a50cdc79fec02ff4
+00000000 n wt.a5422088cee9cede
+00000000 n wt.a63453ec1d75a173
+00000000 n wt.a68596b0ba12997c
+00000000 n wt.a6cea1bbb3956ade
+00000000 n wt.a895e7405e6eb1ad
+00000000 n wt.a8da18a06b419367
+00000000 n wt.aa44a6c46211a14c
+00000000 n wt.af768c88d3f7d4fa
+00000000 n wt.afa25d330cadb4ff
+00000000 n wt.affbca617ceb42ac
+00000000 n wt.b2041f81daf5629f
+00000000 n wt.b21a6a0ba396b3c1
+00000000 n wt.b3aee2cee5872737
+00000000 n wt.b70e1f9fbae87391
+00000000 n wt.b9b9b07059d506b6
+00000000 n wt.bc9ad5f3050f44f7
+00000000 n wt.bf2f355935a14592
+00000000 n wt.bf632b9eb8efd8f8
+00000000 n wt.c0a51284424f813b
+00000000 n wt.c0b291612b07780b
+00000000 n wt.c3311f7fe8731d68
+00000000 n wt.c57f8aef28745113
+00000000 n wt.c98e1c5ffa561eaa
+00000000 n wt.ca7f8f86f36c1b19
+00000000 n wt.cc1b18505a07c491
+00000000 n wt.cc2dedc5c7399c0f
+00000000 n wt.d053514fd65c63b1
+00000000 n wt.d0e26cc9a6b0cbee
+00000000 n wt.d236828d4109c053
+00000000 n wt.d332b26f15409820
+00000000 n wt.d58adba4ddf74635
+00000000 n wt.d6fe777a7bb43a56
+00000000 n wt.da1adb6dd7d365dc
+00000000 n wt.da3f8b4596b0f631
+00000000 n wt.da73f924e8e49f7f
+00000000 n wt.dabcb2845c0c13a7
+00000000 n wt.dbe677b4b358b1aa
+00000000 n wt.dc5c73425e98682f
+00000000 n wt.e09bee3b086641b7
+00000000 n wt.e144806751aec4d5
+00000000 n wt.e1f1f28263c6a59c
+00000000 n wt.e24f44e026b4ed7b
+00000000 n wt.e3a1b00c2c2ec217
+00000000 n wt.e3dece540c9a2274
+00000000 n wt.e980bcec253c5847
+00000000 n wt.e9bed8f45067214d
+00000000 n wt.e9e1e2c7f57b2389
+00000000 n wt.eb31dbf920e8c7fe
+00000000 n wt.ec0fd3205df085aa
+00000000 n wt.ed42f36dc7f09ec3
+00000000 n wt.ee4025acdcda5f8b
+00000000 n wt.eec0c7257efa3606
+00000000 n wt.f1c002155d751361
+00000000 n wt.f259594ccb335201
+00000000 n wt.f28c70885db53002
+00000000 n wt.f2b6bf731f78bbec
+00000000 n wt.f3fedaac70a29553
+00000000 n wt.f63ac287160cace9
+00000000 n wt.f7c37b2b8ec7ceb9
+00000000 n wt.fc9d057e00a14109
+00000000 n wt.fd77760f9e269fb4
+00000000 n wt.ffbda2f3dfa3c95f
+00000000 b vec2_origin
+00000020 b vec4_origin
+00000010 b vec2_invalid
+00000030 b vec4_invalid
+00000070 T studiohdr_t::GetAnimBlock(int) const
+000000a0 T studiohdr_t::GetAutoplayList(unsigned short**) const
+00000040 T studiohdr_t::GetVirtualModel() const
+00000000 T studiohdr_t::FindModel(void**, char const*) const
+000000d0 T virtualgroup_t::GetStudioHdr() const
+
+tier3.o:
+00000000 t _GLOBAL__sub_I_g_pStudioRender
+00000070 B g_pDataCache
+00000030 B g_pDmeMakefileUtils
+000000f0 B g_pMatSystemSurface
+00000060 B g_pMDLCache
+00000020 B g_pPhysicsCollision
+00000010 B g_pSoundEmitterSystem
+00000110 B g_pStudioRender
+000000b0 B g_pVGui
+000000e0 B g_pVGuiInput
+000000a0 B g_pVGuiLocalize
+000000c0 B g_pVGuiPanel
+00000090 B g_pVGuiSchemeManager
+000000d0 B g_pVGuiSurface
+00000080 B g_pVGuiSystem
+00000040 B g_pVideo
+00000000 B g_pVTex
+00000050 B mdlcache
+00000100 B studiorender
+00000000 n wt.01383de6b3b7122e
+00000000 n wt.01bfb5443f289d5d
+00000000 n wt.01f47d05e4e230e1
+00000000 n wt.036c5a07c940c490
+00000000 n wt.0a44e52dfbd7460c
+00000000 n wt.0a64a34b49082350
+00000000 n wt.0ac1bcc3972604a5
+00000000 n wt.0b0244cf83c3b85e
+00000000 n wt.0ec55b586ec9c677
+00000000 n wt.192cca974d76afde
+00000000 n wt.20869932591b0ed1
+00000000 n wt.22ecff738f575805
+00000000 n wt.29d04898683bec8e
+00000000 n wt.2a3d876348d0b59d
+00000000 n wt.2ba25d166ec3f40f
+00000000 n wt.2cc77aebf6ee2459
+00000000 n wt.300567009e95544b
+00000000 n wt.3364ce67af643308
+00000000 n wt.4248b39a02e4fa3a
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.4b540acb46a6cb72
+00000000 n wt.523193dd44ccec35
+00000000 n wt.5a10685f06f9ef3f
+00000000 n wt.5e18dd90ad7e658f
+00000000 n wt.61df45e60e24377b
+00000000 n wt.64ffdddbc0003478
+00000000 n wt.6efdb1b3710b6cee
+00000000 n wt.70bb7207f756af98
+00000000 n wt.712781b148ec270a
+00000000 n wt.7816a9463d33d3b3
+00000000 n wt.7bd734ce49c7acae
+00000000 n wt.85b8059123b8e689
+00000000 n wt.86805a0d0d784784
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.97b610ee002acbaf
+00000000 n wt.983cbe5d3e978c02
+00000000 n wt.9bb686c331b35899
+00000000 n wt.9fd881c7e1d4171f
+00000000 n wt.ad821ea2f1739e5b
+00000000 n wt.ae1e79bdf3a87356
+00000000 n wt.af768c88d3f7d4fa
+00000000 n wt.affbca617ceb42ac
+00000000 n wt.b3983ee2b8269097
+00000000 n wt.c89aafbab2edcf57
+00000000 n wt.ca7f8f86f36c1b19
+00000000 n wt.cc1b18505a07c491
+00000000 n wt.d332b26f15409820
+00000000 n wt.d58adba4ddf74635
+00000000 n wt.da3f8b4596b0f631
+00000000 n wt.df38c4785ba76407
+00000000 n wt.df4bea11736ba6c9
+00000000 n wt.df57117c24913fc9
+00000000 n wt.e0fcd711d57797d3
+00000000 n wt.e144806751aec4d5
+00000000 n wt.e3a1b00c2c2ec217
+00000000 n wt.e645847c362ed85c
+00000000 n wt.ec1d34ad3509dfe9
+00000000 n wt.ee4025acdcda5f8b
+00000000 n wt.f259594ccb335201
+00000000 n wt.f4dffcf1ff538a7e
+00000000 n wt.fb322646be5f6b14
+00000000 n wt.ffbda2f3dfa3c95f
+00000000 T ConnectTier3Libraries(void* (**)(char const*, int*), int)
+00000300 T DisconnectTier3Libraries()
+00000120 b vec2_origin
+00000140 b vec4_origin
+00000130 b vec2_invalid
+00000150 b vec4_invalid

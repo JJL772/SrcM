@@ -1,0 +1,47 @@
+var class_c___base_combat_character =
+[
+    [ "FieldOfViewCheckType", "class_c___base_combat_character.html#ac70398da52ee3be7de653277612c57d1", [
+      [ "USE_FOV", "class_c___base_combat_character.html#ac70398da52ee3be7de653277612c57d1a5729abee3a839d523596b19872465d10", null ],
+      [ "DISREGARD_FOV", "class_c___base_combat_character.html#ac70398da52ee3be7de653277612c57d1a535821d141675d5de674f8431e96872d", null ]
+    ] ],
+    [ "LineOfSightCheckType", "class_c___base_combat_character.html#ab440ad13de41e17873ecb513241f47c9", [
+      [ "IGNORE_NOTHING", "class_c___base_combat_character.html#ab440ad13de41e17873ecb513241f47c9a6c1782fe2905af267f3c1788949d1907", null ],
+      [ "IGNORE_ACTORS", "class_c___base_combat_character.html#ab440ad13de41e17873ecb513241f47c9a8a5c1a8567f75f87aef6fd93d1dfe2fb", null ]
+    ] ],
+    [ "C_BaseCombatCharacter", "class_c___base_combat_character.html#ac48171990b25ed2c9446c5b575953484", null ],
+    [ "~C_BaseCombatCharacter", "class_c___base_combat_character.html#a430afe63b11c90e8d092ade5022d5449", null ],
+    [ "BloodColor", "class_c___base_combat_character.html#a6d85dc21b233bce2e08fe5a51c69e631", null ],
+    [ "DECLARE_CLIENTCLASS", "class_c___base_combat_character.html#a2563313fe02f44d562acaf5f5cc5ed39", null ],
+    [ "DECLARE_PREDICTABLE", "class_c___base_combat_character.html#afc6f48fcff24b092c6c6e88101ce0585", null ],
+    [ "DoMuzzleFlash", "class_c___base_combat_character.html#adc805bba03407f1ff6ac5f3bdab4d8b5", null ],
+    [ "GetActiveWeapon", "class_c___base_combat_character.html#ad631f808db88ae267d10a2c8497750e3", null ],
+    [ "GetAmmoCount", "class_c___base_combat_character.html#ae88e33fff5962a38c9db28d552853dc1", null ],
+    [ "GetAmmoCount", "class_c___base_combat_character.html#aea08adc922e1b0e1f8fd47ca7365c6f5", null ],
+    [ "GetNextAttack", "class_c___base_combat_character.html#a03d5a8dc0c9ddb17fbcf4ee9e03c89c3", null ],
+    [ "GetWeapon", "class_c___base_combat_character.html#a4cc584ebba510ea7261d20b09c516f27", null ],
+    [ "IsAbleToSee", "class_c___base_combat_character.html#a60a874b4100d3e5b3903e6e7ad06d35a", null ],
+    [ "IsAbleToSee", "class_c___base_combat_character.html#a39083974862a147c900cba31a8098d2d", null ],
+    [ "IsBaseCombatCharacter", "class_c___base_combat_character.html#a676ae225259a2fd416ae5926d1c88ff4", null ],
+    [ "IsInFieldOfView", "class_c___base_combat_character.html#a2cd6ee290d3d670d63ba7c430ad998ff", null ],
+    [ "IsInFieldOfView", "class_c___base_combat_character.html#abfcdbd79f497bc8088658729b144ced7", null ],
+    [ "IsLineOfSightClear", "class_c___base_combat_character.html#ad92466efa2150a9e076f2664a6078ad1", null ],
+    [ "IsLineOfSightClear", "class_c___base_combat_character.html#a3b80db4b681a4b29d119dbffdc43c5f8", null ],
+    [ "IsLookingTowards", "class_c___base_combat_character.html#a5a312420dd6b6b459faa708f53e852af", null ],
+    [ "IsLookingTowards", "class_c___base_combat_character.html#aef4684143ba52ecc65bd026e9a631bd8", null ],
+    [ "MyCombatCharacterPointer", "class_c___base_combat_character.html#aa893114a233d60243ad016657cffe006", null ],
+    [ "OnDataChanged", "class_c___base_combat_character.html#a41df5f087e673c4cf893cf1f2614e864", null ],
+    [ "OnPreDataChanged", "class_c___base_combat_character.html#a13ca305b8f70c40c7a4cbe9c5ebd0a50", null ],
+    [ "RemoveAllAmmo", "class_c___base_combat_character.html#a09bb6ae869f651a2f46a66c82628f5df", null ],
+    [ "RemoveAmmo", "class_c___base_combat_character.html#ae851690ebad35316083535c8b23fb7dc", null ],
+    [ "RemoveAmmo", "class_c___base_combat_character.html#a73005099078960cd6775498176b0ea60", null ],
+    [ "SetAmmoCount", "class_c___base_combat_character.html#ac2c0e2883919426aac1e600a46f755b8", null ],
+    [ "SetBloodColor", "class_c___base_combat_character.html#a4a51f587b3429dd029835e0d5ae83920", null ],
+    [ "SetNextAttack", "class_c___base_combat_character.html#a2b32c3d6200c98ead420e31bce399ffb", null ],
+    [ "SwitchToNextBestWeapon", "class_c___base_combat_character.html#ac58d63a6944aa037945321e6f36f3d96", null ],
+    [ "Weapon_CanSwitchTo", "class_c___base_combat_character.html#a8dc25bde1c97f119da26e61df011d488", null ],
+    [ "Weapon_OwnsThisType", "class_c___base_combat_character.html#a261f8d8eb0a4ba478adda20fcaa8cdb3", null ],
+    [ "Weapon_Switch", "class_c___base_combat_character.html#a38bd5e2709473256a3c69fba7cef4902", null ],
+    [ "WeaponCount", "class_c___base_combat_character.html#a9cb3864062144e24189bfb5a7c11b9c7", null ],
+    [ "m_bloodColor", "class_c___base_combat_character.html#a19fc0948a66342d2464288232a5c8865", null ],
+    [ "m_flNextAttack", "class_c___base_combat_character.html#a902c9f7c04145212ae123a50fbee9d77", null ]
+];

@@ -1,0 +1,38 @@
+var baseentity__shared_8h =
+[
+    [ "BASEENTITY_MSG_REMOVE_DECALS", "baseentity__shared_8h.html#abb73449f973f183b19e928f0c6fbdbf8", null ],
+    [ "FCAP_ACROSS_TRANSITION", "baseentity__shared_8h.html#a16015a50ae3115a1d64a620961b47e43", null ],
+    [ "FCAP_CONTINUOUS_USE", "baseentity__shared_8h.html#ac25553fa8a55cb27ff2619c573e13e2f", null ],
+    [ "FCAP_DIRECTIONAL_USE", "baseentity__shared_8h.html#a1d1bec065571d4ad3e72c17dd7190561", null ],
+    [ "FCAP_DONT_SAVE", "baseentity__shared_8h.html#aedf4ec3f79e87d917555647def6b14b7", null ],
+    [ "FCAP_FORCE_TRANSITION", "baseentity__shared_8h.html#ae8a3e2dd5b8b216db0ca36f017dea93f", null ],
+    [ "FCAP_IMPULSE_USE", "baseentity__shared_8h.html#a9232bdb7e62e05ed5c8330f6801f3c06", null ],
+    [ "FCAP_MASTER", "baseentity__shared_8h.html#a31b0f5aef9b186ae4dd675b5757a93b3", null ],
+    [ "FCAP_MUST_SPAWN", "baseentity__shared_8h.html#ab70ba018e0673915ca7068988f3c9809", null ],
+    [ "FCAP_NOTIFY_ON_TRANSITION", "baseentity__shared_8h.html#ab632e1d03981842bbfb01aa592ed3d1d", null ],
+    [ "FCAP_ONOFF_USE", "baseentity__shared_8h.html#aada4384d63e8546fc1ac7ba4b51702d2", null ],
+    [ "FCAP_SAVE_NON_NETWORKABLE", "baseentity__shared_8h.html#afa867486b63937d08014e79fe62d7d22", null ],
+    [ "FCAP_USE_IN_RADIUS", "baseentity__shared_8h.html#a44436a07af95ff313698b546be11c87c", null ],
+    [ "FCAP_USE_ONGROUND", "baseentity__shared_8h.html#afa21ab4e639c1930d6ba579e5e7565ae", null ],
+    [ "FCAP_WCEDIT_POSITION", "baseentity__shared_8h.html#afe50150d226b64a5355ef3c5a03aef9d", null ],
+    [ "NUM_PARENTATTACHMENT_BITS", "baseentity__shared_8h.html#a5a3421c8e2ce4671592c781fad3e6d35", null ],
+    [ "VPHYSICS_MAX_OBJECT_LIST_COUNT", "baseentity__shared_8h.html#a48589427b8462d0b744d78e97d4bfacb", null ],
+    [ "InvalidatePhysicsBits_t", "baseentity__shared_8h.html#ac14cac8e9fbb48f7d0f497fe681da2a7", [
+      [ "POSITION_CHANGED", "baseentity__shared_8h.html#ac14cac8e9fbb48f7d0f497fe681da2a7a790e0f4810035e49214add94d07b63e1", null ],
+      [ "ANGLES_CHANGED", "baseentity__shared_8h.html#ac14cac8e9fbb48f7d0f497fe681da2a7ad209c5e38ea3ce3c4604b6f46af90883", null ],
+      [ "VELOCITY_CHANGED", "baseentity__shared_8h.html#ac14cac8e9fbb48f7d0f497fe681da2a7a15f4a826bd3a972cf9b816ee3d342aea", null ],
+      [ "ANIMATION_CHANGED", "baseentity__shared_8h.html#ac14cac8e9fbb48f7d0f497fe681da2a7a93b129c96c81ae0ec1af0293248c3648", null ]
+    ] ],
+    [ "CheckEmitReasonablePhysicsSpew", "baseentity__shared_8h.html#a8f7b3473a70b757da918b8477c44fb05", null ],
+    [ "CheckEntityVelocity", "baseentity__shared_8h.html#a23774a09f599a0a8bd15c93556aec545", null ],
+    [ "IsEntityAngularVelocityReasonable", "baseentity__shared_8h.html#a0457f92bff8ee9ca8d348ac0d60a7f22", null ],
+    [ "IsEntityCoordinateReasonable", "baseentity__shared_8h.html#a73e456ff909d3197dc537a89a2c2190b", null ],
+    [ "IsEntityPositionReasonable", "baseentity__shared_8h.html#a034a18d60739fec88aacb86b450b60d8", null ],
+    [ "IsEntityQAngleReasonable", "baseentity__shared_8h.html#a0729b7904d5f5769ff09291107dcfbff", null ],
+    [ "IsEntityQAngleVelReasonable", "baseentity__shared_8h.html#af2f6d56e31956e55bb8051d97366f289", null ],
+    [ "hl2_episodic", "baseentity__shared_8h.html#afc40d5ed4c848bf953f5e9fa1e62cb1d", null ],
+    [ "k_flMaxEntityEulerAngle", "baseentity__shared_8h.html#a4b032e73ce92e9b1acb1119252c394c0", null ],
+    [ "k_flMaxEntityPosCoord", "baseentity__shared_8h.html#a54529b01836fc1f30ba344bb74e457b4", null ],
+    [ "k_flMaxEntitySpeed", "baseentity__shared_8h.html#a7bf3660a503f2efa9ad2886f40564987", null ],
+    [ "k_flMaxEntitySpinRate", "baseentity__shared_8h.html#aa3aed2979a6aa2bf875b2d7243ba59c7", null ]
+];

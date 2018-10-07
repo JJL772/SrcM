@@ -1,0 +1,28 @@
+var class_i_steam_user =
+[
+    [ "AdvertiseGame", "class_i_steam_user.html#a07f6db96869e033a13b13e54f7ce2235", null ],
+    [ "BeginAuthSession", "class_i_steam_user.html#a43f76c4da6eda398d1838a58f1ec4374", null ],
+    [ "BIsBehindNAT", "class_i_steam_user.html#acb4dd088859b733337936c9766f7790f", null ],
+    [ "BLoggedOn", "class_i_steam_user.html#a29e4a5e59dee5867f60732311fad2c4e", null ],
+    [ "CancelAuthTicket", "class_i_steam_user.html#a6c278ab86639cc929816d8f3b7a17a77", null ],
+    [ "DecompressVoice", "class_i_steam_user.html#ae351f90e7f95f945baeef5d7cf7c6760", null ],
+    [ "EndAuthSession", "class_i_steam_user.html#adc1f5a4bb8630ee630a09625e1abdba1", null ],
+    [ "GetAuthSessionTicket", "class_i_steam_user.html#a5ffd1e0131e3a74d961f6014a823a4cc", null ],
+    [ "GetAvailableVoice", "class_i_steam_user.html#ac8b5ce5ab977e11631f1865e116f7def", null ],
+    [ "GetEncryptedAppTicket", "class_i_steam_user.html#a4c5ea66df88fd0527d1a51179638d44a", null ],
+    [ "GetGameBadgeLevel", "class_i_steam_user.html#afceb88c7b3241d23d3279650543d5d13", null ],
+    [ "GetHSteamUser", "class_i_steam_user.html#a17e683a53cb649d324d0614bece5a539", null ],
+    [ "GetPlayerSteamLevel", "class_i_steam_user.html#ae4b393de52cb73b353f8edba83838864", null ],
+    [ "GetSteamID", "class_i_steam_user.html#a5a7659a6147a7bd3c0acf4065c3bed36", null ],
+    [ "GetUserDataFolder", "class_i_steam_user.html#ad9338e70287a15571c8ffc998e49d338", null ],
+    [ "GetVoice", "class_i_steam_user.html#a250ed50e33e6f8ae39229e0e1f440e1b", null ],
+    [ "GetVoiceOptimalSampleRate", "class_i_steam_user.html#a7f0b1a2069a471b88559995432ed5a01", null ],
+    [ "InitiateGameConnection", "class_i_steam_user.html#ab243e44f96ea3070d7973deaa013afbd", null ],
+    [ "RequestEncryptedAppTicket", "class_i_steam_user.html#a1ac14d72bff3350b59605826992fc176", null ],
+    [ "RequestStoreAuthURL", "class_i_steam_user.html#a8e4441998c39deed78c78f14a9ef29b7", null ],
+    [ "StartVoiceRecording", "class_i_steam_user.html#a7f2e7fa09cf2fc1da25ff8601b917978", null ],
+    [ "StopVoiceRecording", "class_i_steam_user.html#a8c66f7f9a4b5c81ae16e1db7be286bff", null ],
+    [ "TerminateGameConnection", "class_i_steam_user.html#a67de2694f5b1abb4b22612ea3a43e46c", null ],
+    [ "TrackAppUsageEvent", "class_i_steam_user.html#a4f8099764ca59d6557a6a6174faa3883", null ],
+    [ "UserHasLicenseForApp", "class_i_steam_user.html#a925dc981e305be647259d138cfd362f6", null ]
+];

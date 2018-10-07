@@ -1,0 +1,26 @@
+var class_c_glow_overlay =
+[
+    [ "CGlowOverlay", "class_c_glow_overlay.html#a04ecc5c96bc6bb582dc183b218001c34", null ],
+    [ "~CGlowOverlay", "class_c_glow_overlay.html#a95a0a7c26e037eefad32a3600f6e0a12", null ],
+    [ "Activate", "class_c_glow_overlay.html#a821fa4516c789e659bb3fad2f38850cb", null ],
+    [ "CalcBasis", "class_c_glow_overlay.html#a3358844c44775cab5bc1bdace4ef4aba", null ],
+    [ "CalcGlowAspect", "class_c_glow_overlay.html#a1a2d0f3b5e4ca5c142e5eb63508978ba", null ],
+    [ "CalcSpriteColorAndSize", "class_c_glow_overlay.html#aa6dd13ad387cac822919053cfa01cb47", null ],
+    [ "Deactivate", "class_c_glow_overlay.html#a6e4f7118a1b09156d2819594c87876ea", null ],
+    [ "Draw", "class_c_glow_overlay.html#aa8c3e118d2053d53e0cd751874bda0fa", null ],
+    [ "Update", "class_c_glow_overlay.html#a156421ee9d79f6c12092b533a04340d4", null ],
+    [ "UpdateGlowObstruction", "class_c_glow_overlay.html#ab6f87cadd69f82c2f5df47cf699f7039", null ],
+    [ "UpdateSkyGlowObstruction", "class_c_glow_overlay.html#a51fdd1ee301f85bc964a004944a0a8ea", null ],
+    [ "m_bCacheGlowObstruction", "class_c_glow_overlay.html#a5c601f6e001f0aee6d2511f8f28f54c3", null ],
+    [ "m_bCacheSkyObstruction", "class_c_glow_overlay.html#a309d0221ad40a01e095589a54309e4a0", null ],
+    [ "m_bDirectional", "class_c_glow_overlay.html#a0ddef3bcecdf1f82015190c86c03d4fc", null ],
+    [ "m_bInSky", "class_c_glow_overlay.html#aa12639f0c15abe13fb83c053a0a8f196", null ],
+    [ "m_flGlowObstructionScale", "class_c_glow_overlay.html#a1f6c46df66fefaea79e2929d063d0cbc", null ],
+    [ "m_flHDRColorScale", "class_c_glow_overlay.html#a6353045199b87ef85657e66452f728c9", null ],
+    [ "m_flProxyRadius", "class_c_glow_overlay.html#a84d48e8e7150190f2533359cc20e735d", null ],
+    [ "m_nSprites", "class_c_glow_overlay.html#a97b2989af5b8253746b9554d506b6e1e", null ],
+    [ "m_skyObstructionScale", "class_c_glow_overlay.html#a799f17c3ab15d5e32a4a4aad8ccb65e8", null ],
+    [ "m_Sprites", "class_c_glow_overlay.html#ac37474d8ddab167aa1cab707cc88983a", null ],
+    [ "m_vDirection", "class_c_glow_overlay.html#a27aab39180efba40f35d4baad274c494", null ],
+    [ "m_vPos", "class_c_glow_overlay.html#ace5949a72cb357cf74611f551556735f", null ]
+];

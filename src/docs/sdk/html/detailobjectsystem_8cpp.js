@@ -1,0 +1,26 @@
+var detailobjectsystem_8cpp =
+[
+    [ "DetailModelAdvInfo_t", "struct_detail_model_adv_info__t.html", "struct_detail_model_adv_info__t" ],
+    [ "CDetailObjectSystemPerLeafData", "class_c_detail_object_system_per_leaf_data.html", null ],
+    [ "SptrintInfo_t", "struct_sptrint_info__t.html", "struct_sptrint_info__t" ],
+    [ "CDetailModel", "class_c_detail_model.html", "class_c_detail_model" ],
+    [ "LightStyleInfo_t", "struct_c_detail_model_1_1_light_style_info__t.html", "struct_c_detail_model_1_1_light_style_info__t" ],
+    [ "DetailPropSpriteDict_t", "struct_detail_prop_sprite_dict__t.html", "struct_detail_prop_sprite_dict__t" ],
+    [ "FastSpriteX4_t", "struct_fast_sprite_x4__t.html", "struct_fast_sprite_x4__t" ],
+    [ "FastSpriteQuadBuildoutBufferX4_t", "struct_fast_sprite_quad_buildout_buffer_x4__t.html", "struct_fast_sprite_quad_buildout_buffer_x4__t" ],
+    [ "FastSpriteQuadBuildoutBufferNonSIMDView_t", "struct_fast_sprite_quad_buildout_buffer_non_s_i_m_d_view__t.html", "struct_fast_sprite_quad_buildout_buffer_non_s_i_m_d_view__t" ],
+    [ "CFastDetailLeafSpriteList", "class_c_fast_detail_leaf_sprite_list.html", "class_c_fast_detail_leaf_sprite_list" ],
+    [ "CDetailObjectSystem", "class_c_detail_object_system.html", "class_c_detail_object_system" ],
+    [ "DETAIL_SPRITE_MATERIAL", "detailobjectsystem_8cpp.html#aefeb9138cf04c7bb404e349650f4707a", null ],
+    [ "MAGIC_NUMBER", "detailobjectsystem_8cpp.html#a54061e5993a5517320d425f44408cc86", null ],
+    [ "MANTISSA_LSB_OFFSET", "detailobjectsystem_8cpp.html#a1446c8827efd0135ec3ff50e6d826b01", null ],
+    [ "PIXMASK", "detailobjectsystem_8cpp.html#ad02bfa3b43d4dcd14088b7071a11646a", null ],
+    [ "SPRITE_MULTIPLIER", "detailobjectsystem_8cpp.html#a2e3b2eeb7553d6dcd682e8275532967b", null ],
+    [ "TREATASINT", "detailobjectsystem_8cpp.html#aaab356f98774d269f85127385659c3c3", null ],
+    [ "cl_detail_multiplier", "detailobjectsystem_8cpp.html#a0c963cb17c648dd91ea38351c147f122", null ],
+    [ "cl_detaildist", "detailobjectsystem_8cpp.html#aaf8add9c94449f5dde35dda3fed0ce2b", null ],
+    [ "cl_detailfade", "detailobjectsystem_8cpp.html#a76d0e1b459589a938ff5476721483997", null ],
+    [ "cl_fastdetailsprites", "detailobjectsystem_8cpp.html#a8b9687164c105e3dbacb8c8be7c7e713", null ],
+    [ "DetailObjectSystem", "detailobjectsystem_8cpp.html#a8113712c5f2d23d0bd62039e0160a4de", null ],
+    [ "r_DrawDetailProps", "detailobjectsystem_8cpp.html#a5ac057eadadc02af36f158712c77a42a", null ]
+];

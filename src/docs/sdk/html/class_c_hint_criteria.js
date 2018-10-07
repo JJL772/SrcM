@@ -1,0 +1,25 @@
+var class_c_hint_criteria =
+[
+    [ "CHintCriteria", "class_c_hint_criteria.html#a0ea5f60ece7b2da547dbe2df064440fa", null ],
+    [ "~CHintCriteria", "class_c_hint_criteria.html#a56130adbaf968b59eeb766035ff80d11", null ],
+    [ "AddExcludePosition", "class_c_hint_criteria.html#abfb500195f288f98bf6625a9e2fcd009", null ],
+    [ "AddHintType", "class_c_hint_criteria.html#aa9650302318ec788d2fd7f1961628744", null ],
+    [ "AddIncludePosition", "class_c_hint_criteria.html#a9818447b65ca69ef6bd49cdce2ffe45a", null ],
+    [ "ClearFlag", "class_c_hint_criteria.html#a0931c5aaebcf782e77224761c40c7b03", null ],
+    [ "GetFirstHintType", "class_c_hint_criteria.html#a1320f4dc4c6bc71b801ac3bd0eb88072", null ],
+    [ "GetGroup", "class_c_hint_criteria.html#ad827561b107e601955f1dde83f5ce509", null ],
+    [ "GetHintType", "class_c_hint_criteria.html#a6da26f0966311424a7db51f378391543", null ],
+    [ "GetLastHintType", "class_c_hint_criteria.html#aec5b5f2e0e930679a67accba2f529dab", null ],
+    [ "HasExcludeZones", "class_c_hint_criteria.html#aabef8b00781407bb6a89e0bb67a6a39f", null ],
+    [ "HasFlag", "class_c_hint_criteria.html#a8d3eeb735f37600f52546d113b0b5b80", null ],
+    [ "HasIncludeZones", "class_c_hint_criteria.html#a557b32d79c55b75fff2caece9b91a20e", null ],
+    [ "InExcludedZone", "class_c_hint_criteria.html#ad0d7720d43655b0140cc0b335cb11be9", null ],
+    [ "InIncludedZone", "class_c_hint_criteria.html#afe3570873ba3cae782dd913cd70014f1", null ],
+    [ "MatchesHintType", "class_c_hint_criteria.html#addefe2141947ad1b68358d932cd6c0e9", null ],
+    [ "MatchesSingleHintType", "class_c_hint_criteria.html#a555cb9bc3ba240028fedbd3d99362e6c", null ],
+    [ "NumHintTypes", "class_c_hint_criteria.html#a6c2e3c2c08d1c20e7ac9af8a070ed071", null ],
+    [ "SetFlag", "class_c_hint_criteria.html#a2e4e52717dc0ee85dde8749167bd0573", null ],
+    [ "SetGroup", "class_c_hint_criteria.html#a75927345b92aae5698df46766e61fdfa", null ],
+    [ "SetHintType", "class_c_hint_criteria.html#a92e2bf529098754da6d8b72cfb56d2ca", null ],
+    [ "SetHintTypeRange", "class_c_hint_criteria.html#ae40d77428f19a365c6dabec4358b8c01", null ]
+];

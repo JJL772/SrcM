@@ -1,0 +1,28 @@
+var class_c_prop_a_p_c =
+[
+    [ "Activate", "class_c_prop_a_p_c.html#ab3f2e073beff2615762f6304c9762254", null ],
+    [ "AimPrimaryWeapon", "class_c_prop_a_p_c.html#acd10661e0458f68c6c649437f4d2c27a", null ],
+    [ "AimSecondaryWeaponAt", "class_c_prop_a_p_c.html#a7f0547ca9e1a2a2518d4652cbd33356c", null ],
+    [ "BodyTarget", "class_c_prop_a_p_c.html#ab4a6e2f9f8b0519cc35d36f1e2a5299f", null ],
+    [ "ClassifyPassenger", "class_c_prop_a_p_c.html#a1dc0a3d9fd41c486af8a3eebdec7a958", null ],
+    [ "CreateServerVehicle", "class_c_prop_a_p_c.html#a5700daf73f749f6854407b80f727c836", null ],
+    [ "DoImpactEffect", "class_c_prop_a_p_c.html#a6e9e3f401d46f8ff2258b39af5ecce5d", null ],
+    [ "DoMuzzleFlash", "class_c_prop_a_p_c.html#a36cefb21cdbafbc651601283b56878d4", null ],
+    [ "DriveVehicle", "class_c_prop_a_p_c.html#a7458b83c8854c9c29108e4c47f49d823", null ],
+    [ "EyePosition", "class_c_prop_a_p_c.html#aa2bf56cc90ad42d6d0df22f0bff4030b", null ],
+    [ "GetPrimaryGunOrigin", "class_c_prop_a_p_c.html#ae106503bcc15a61d925c1ac7c1aeee5a", null ],
+    [ "GetTracerType", "class_c_prop_a_p_c.html#aaec6fd3c415d8f517846c14f4917a908", null ],
+    [ "IsInPrimaryFiringCone", "class_c_prop_a_p_c.html#a8196d81f752fe4ef64b8e3c3fe4b5f45", null ],
+    [ "MaxAttackRange", "class_c_prop_a_p_c.html#abd3290ad9efa478ba006f84cce8020ff", null ],
+    [ "OnRestore", "class_c_prop_a_p_c.html#a652e5813d76f5805f0e0d5dd2623cd39", null ],
+    [ "OnTakeDamage", "class_c_prop_a_p_c.html#aea39275750d38e4b1a165d972ccfbddc", null ],
+    [ "PassengerDamageModifier", "class_c_prop_a_p_c.html#a3b39c93dab3a6a282e821ee4c9cdc905", null ],
+    [ "Precache", "class_c_prop_a_p_c.html#ae9b72ede9319e94fa0f6ec5e1a42ca68", null ],
+    [ "PrimaryWeaponFireTime", "class_c_prop_a_p_c.html#a9a53ca12311d62026a742efe47251812", null ],
+    [ "ProcessMovement", "class_c_prop_a_p_c.html#ae6aa176f55e45cc75fe932352b0948de", null ],
+    [ "SecondaryWeaponFireTime", "class_c_prop_a_p_c.html#a750ea72c7c3ba3bf64bcfb2b86a22122", null ],
+    [ "Spawn", "class_c_prop_a_p_c.html#a285659e2c48485476cdb11fd083339e7", null ],
+    [ "Think", "class_c_prop_a_p_c.html#a0a885a7b1bccae6473b1b2ea5bb31d53", null ],
+    [ "UpdateOnRemove", "class_c_prop_a_p_c.html#ac195779bc1b54d49f83e6e7887a32ce6", null ],
+    [ "Use", "class_c_prop_a_p_c.html#aecce2c9f0e93550106e0431328a08688", null ]
+];

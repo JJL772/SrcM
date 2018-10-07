@@ -1,0 +1,26 @@
+var class_c_game_i_d =
+[
+    [ "CGameID", "class_c_game_i_d.html#a2f2d7800ae718bc0f55d5cc43fd83f14", null ],
+    [ "CGameID", "class_c_game_i_d.html#a3f833c2bd97da350cdb77fa264b3c9e2", null ],
+    [ "CGameID", "class_c_game_i_d.html#a96e5600addc687e432945d102591b61d", null ],
+    [ "CGameID", "class_c_game_i_d.html#a7845bba8193c37dcf1bb2c1bff8bba7a", null ],
+    [ "CGameID", "class_c_game_i_d.html#a198b763a13ab6406b07d529ea6071d19", null ],
+    [ "CGameID", "class_c_game_i_d.html#a0955f9635e905aa9e249ce5067c00ce4", null ],
+    [ "AppID", "class_c_game_i_d.html#a40f275798606732a40f6e91de07b45a7", null ],
+    [ "GetUint64Ptr", "class_c_game_i_d.html#a2af52420d7023920dc5114b763b53fad", null ],
+    [ "IsMod", "class_c_game_i_d.html#abfea679e850e0957e78dd3ff543f4db6", null ],
+    [ "IsP2PFile", "class_c_game_i_d.html#a4069c44d90ed88a4654f89e25fbd9099", null ],
+    [ "IsShortcut", "class_c_game_i_d.html#a0d58cb3c2058accacc6abd59ecffa922", null ],
+    [ "IsSteamApp", "class_c_game_i_d.html#af4e23eec5fb4e2a03462d3cf489d609f", null ],
+    [ "IsValid", "class_c_game_i_d.html#a23db2be3880be463047b5bac8791e6cc", null ],
+    [ "ModID", "class_c_game_i_d.html#a7318642ca91f5256644e4f1cb857c093", null ],
+    [ "operator!=", "class_c_game_i_d.html#ad427272aaad62fb7b953d70effa77190", null ],
+    [ "operator<", "class_c_game_i_d.html#a876820cbbd7d1192a55654105bd7d855", null ],
+    [ "operator==", "class_c_game_i_d.html#a9b82acf2f9a14feed24a7c75a1892dee", null ],
+    [ "Render", "class_c_game_i_d.html#a66ba682768457cc2a11156f7ef84d2eb", null ],
+    [ "Reset", "class_c_game_i_d.html#aa9cc9ed21dcbcaa0d353d606e29d08ab", null ],
+    [ "Set", "class_c_game_i_d.html#a0d3c64046047f1924be71178ac96fde1", null ],
+    [ "ToUint64", "class_c_game_i_d.html#a8947361b0dfead37ebf4207a40d835d1", null ],
+    [ "m_gameID", "class_c_game_i_d.html#a832e099f2748b934bd0a5e964a211c3d", null ],
+    [ "m_ulGameID", "class_c_game_i_d.html#aa625d19eb8e366c0dac57412f64f419e", null ]
+];

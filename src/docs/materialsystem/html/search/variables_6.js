@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['g_5fblightenabled',['g_bLightEnabled',['../common__vs__fxc_8h.html#a6ea9f3ea1830116305f7627cee404fbb',1,'common_vs_fxc.h']]],
+  ['g_5fdetailtint_5fand_5fblendfactor',['g_DetailTint_and_BlendFactor',['../lightmappedgeneric__ps2__3__x_8h.html#a86b311efeef504ca16ba48e3c52f5b48',1,'lightmappedgeneric_ps2_3_x.h']]],
+  ['g_5fenvmapcontrast',['g_EnvmapContrast',['../lightmappedgeneric__ps2__3__x_8h.html#a62f176c996256e59437cd9cc98168a64',1,'lightmappedgeneric_ps2_3_x.h']]],
+  ['g_5fenvmapsaturation',['g_EnvmapSaturation',['../lightmappedgeneric__ps2__3__x_8h.html#af7edefed80ee54b9ac2dc1669fc21347',1,'lightmappedgeneric_ps2_3_x.h']]],
+  ['g_5fenvmaptint',['g_EnvmapTint',['../lightmappedgeneric__ps2__3__x_8h.html#a82569f91263c399acad6fb28dc70456f',1,'lightmappedgeneric_ps2_3_x.h']]],
+  ['g_5feyepos',['g_EyePos',['../lightmappedgeneric__ps2__3__x_8h.html#a6c6eab3f29adb784031576179376668b',1,'lightmappedgeneric_ps2_3_x.h']]],
+  ['g_5fflashlightattenuationfactors',['g_FlashlightAttenuationFactors',['../lightmappedgeneric__ps2__3__x_8h.html#a9c37331dc38fe04642176eb529b9b250',1,'lightmappedgeneric_ps2_3_x.h']]],
+  ['g_5fflashlightpos',['g_FlashlightPos',['../lightmappedgeneric__ps2__3__x_8h.html#abe28ba8e5bd1012c1f1b4150c72e3741',1,'lightmappedgeneric_ps2_3_x.h']]],
+  ['g_5fflashlightworldtotexture',['g_FlashlightWorldToTexture',['../lightmappedgeneric__ps2__3__x_8h.html#a7f7f83b829813250c0d027add034d5f2',1,'lightmappedgeneric_ps2_3_x.h']]],
+  ['g_5ffogparams',['g_FogParams',['../lightmappedgeneric__ps2__3__x_8h.html#a71c8c9a36096be13aa6c59df81a20dfc',1,'lightmappedgeneric_ps2_3_x.h']]],
+  ['g_5ffresnelreflectionreg',['g_FresnelReflectionReg',['../lightmappedgeneric__ps2__3__x_8h.html#acfba57a4e6bcb8a680b50a5fbfdaf920',1,'lightmappedgeneric_ps2_3_x.h']]],
+  ['g_5flinearfogcolor',['g_LinearFogColor',['../common__ps__fxc_8h.html#a12f6a6010ec87d97b5ec8b2d80730245',1,'common_ps_fxc.h']]],
+  ['g_5fnlightcountregister',['g_nLightCountRegister',['../common__vs__fxc_8h.html#a1a1ee5c173ab33063d9b16e08f713d01',1,'common_vs_fxc.h']]],
+  ['g_5fnsnapshots',['g_nSnapShots',['../vertexlitgeneric__dx9__helper_8cpp.html#a9d5bf1ecaee323c0b611393b462a3a93',1,'vertexlitgeneric_dx9_helper.cpp']]],
+  ['g_5fselfillumtint',['g_SelfIllumTint',['../lightmappedgeneric__ps2__3__x_8h.html#ace53346f96325e6c8d059a74672293ee',1,'lightmappedgeneric_ps2_3_x.h']]],
+  ['g_5fshadowtweaks',['g_ShadowTweaks',['../lightmappedgeneric__ps2__3__x_8h.html#a5e3aa16b345510dd66f1000d5f49a6d4',1,'lightmappedgeneric_ps2_3_x.h']]],
+  ['g_5ftintvaluesandlightmapscale',['g_TintValuesAndLightmapScale',['../lightmappedgeneric__ps2__3__x_8h.html#adf0b326128f3299c8198c968cf8a1eda',1,'lightmappedgeneric_ps2_3_x.h']]]
+];

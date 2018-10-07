@@ -1,0 +1,27 @@
+var classpluginvariant =
+[
+    [ "pluginvariant", "classpluginvariant.html#ab3aaf9c18abf25691239d78491b51b1d", null ],
+    [ "Bool", "classpluginvariant.html#a39fd5e68befc50a52d0e7de9287500d9", null ],
+    [ "Color32", "classpluginvariant.html#a63acab630c6309f4f6d15aa5ba985035", null ],
+    [ "Edict", "classpluginvariant.html#a44453a6828031ed7018c2398eaf92cb0", null ],
+    [ "FieldType", "classpluginvariant.html#acb34b294cd7aadd36f4c262509da95d4", null ],
+    [ "Float", "classpluginvariant.html#a3ebc953b822645469c9e0c68161f1ae7", null ],
+    [ "Int", "classpluginvariant.html#a8911a8a288a4e20ca57ea30c152a2faa", null ],
+    [ "SetBool", "classpluginvariant.html#a7ded1a3d99988b5d6a301066bc2fd490", null ],
+    [ "SetColor32", "classpluginvariant.html#ae1d181d527ea353879509da26eebe3cf", null ],
+    [ "SetColor32", "classpluginvariant.html#a1100558503b92a07da13930ddb60cfa7", null ],
+    [ "SetEdict", "classpluginvariant.html#a24756b22ced6b3c312516df4bb6f0e7c", null ],
+    [ "SetFloat", "classpluginvariant.html#a5c7df49f417ec5d78b5737abadb950fa", null ],
+    [ "SetInt", "classpluginvariant.html#a69760c7ba44393f67f525cfc541a4f70", null ],
+    [ "SetPositionVector3D", "classpluginvariant.html#aa9e1c92212a036e8f790304afc85a217", null ],
+    [ "SetString", "classpluginvariant.html#a4ea7c92f59b1f0d74561cf399e916549", null ],
+    [ "SetVector3D", "classpluginvariant.html#ab2d404ae4c9cc398daa04197df454dd8", null ],
+    [ "String", "classpluginvariant.html#acf7b8dd4ad431215d158e98abef9bbd6", null ],
+    [ "ToString", "classpluginvariant.html#a1f4dbf0111f57ee6c06f256f7a9a337a", null ],
+    [ "Vector3D", "classpluginvariant.html#a0e340fb5a6ae56300223ffbbb860de62", null ],
+    [ "bVal", "classpluginvariant.html#a5502992eb7cd2699e3bb597c31b8ddd7", null ],
+    [ "flVal", "classpluginvariant.html#a3d8743330901fff3cf9a834f1f99cf8b", null ],
+    [ "iVal", "classpluginvariant.html#a9ca2f3574bd6db7c374ccc47945adddb", null ],
+    [ "rgbaVal", "classpluginvariant.html#a6570611289695e79866aac2efc327b48", null ],
+    [ "vecVal", "classpluginvariant.html#a0c4a1f1690b8110a627a209fbd10d698", null ]
+];

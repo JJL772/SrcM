@@ -1,0 +1,28 @@
+var polylib_8h =
+[
+    [ "winding_t", "structwinding__t.html", "structwinding__t" ],
+    [ "MAX_POINTS_ON_WINDING", "polylib_8h.html#a6f7912d5f00e7e1308f8fff710551f09", null ],
+    [ "ON_EPSILON", "polylib_8h.html#a05f957624c4319a2e3b450ee0b366782", null ],
+    [ "AllocWinding", "polylib_8h.html#a6392c1d06e110f31303db20ad4d8924c", null ],
+    [ "BaseWindingForPlane", "polylib_8h.html#abd1617502463fa258986fec841906e03", null ],
+    [ "CheckWinding", "polylib_8h.html#a065a43fa65d9ea2a97892752e95a009d", null ],
+    [ "ChopWinding", "polylib_8h.html#a781e831560c9f1d4ad56ac4b51d1e700", null ],
+    [ "ChopWindingInPlace", "polylib_8h.html#a25ce39fd30f7c8a30b3dc874ea031ed5", null ],
+    [ "ClassifyWindingEpsilon", "polylib_8h.html#ad15bdd8130975c852cd4c507d4e30443", null ],
+    [ "ClassifyWindingEpsilon_Offset", "polylib_8h.html#a3583ba9136333d35e5ff6a59f0a4f8dd", null ],
+    [ "ClipWindingEpsilon", "polylib_8h.html#a7ea60bafc4666b7fd0ffdde5e0ce3f13", null ],
+    [ "ClipWindingEpsilon_Offset", "polylib_8h.html#a8ef7f13d2a80d6817ff1355093c8d900", null ],
+    [ "CopyWinding", "polylib_8h.html#a0fe0583eaa53b8e76ff36565c511851c", null ],
+    [ "FreeWinding", "polylib_8h.html#a0c9a3eb5c7459e9e86958e482fb190ed", null ],
+    [ "PointInWinding", "polylib_8h.html#a0e62c1f2be20360d0f97bc2c4fe2cc95", null ],
+    [ "pw", "polylib_8h.html#a6fbeb7618473f16d8eb9dc392d39e178", null ],
+    [ "RemoveColinearPoints", "polylib_8h.html#a41092b4fded03759516fa51f1f86bfad", null ],
+    [ "ReverseWinding", "polylib_8h.html#a2bea0990eb8ab94e76e635281c04becc", null ],
+    [ "TranslateWinding", "polylib_8h.html#a9133cba4c6bd8904578c93d43108fc8b", null ],
+    [ "WindingArea", "polylib_8h.html#a565e897607b1823da1eb0e5dcc38c484", null ],
+    [ "WindingAreaAndBalancePoint", "polylib_8h.html#ad442685dcb7c4c8d0e3e67928a28d3a2", null ],
+    [ "WindingBounds", "polylib_8h.html#ab2831943f97caa6d06b45c4be607f04a", null ],
+    [ "WindingCenter", "polylib_8h.html#ae95f888accfd58ab66b7cc064b982355", null ],
+    [ "WindingOnPlaneSide", "polylib_8h.html#a0286a66c7601b7668ba0e2fcb18728b4", null ],
+    [ "WindingPlane", "polylib_8h.html#ab243852ffe41ca9533c21f3cbd162b9f", null ]
+];

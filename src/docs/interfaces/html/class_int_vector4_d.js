@@ -1,0 +1,25 @@
+var class_int_vector4_d =
+[
+    [ "AsM64", "class_int_vector4_d.html#a325eec382805e133b6610b3e35e244ee", null ],
+    [ "AsM64", "class_int_vector4_d.html#ae1e8848cdeb1c2819e1c6d073eb97fec", null ],
+    [ "Base", "class_int_vector4_d.html#aecbe2c09b38577db5179f56083f897db", null ],
+    [ "Base", "class_int_vector4_d.html#a3c5afc1ada6961090005a699c104fe6c", null ],
+    [ "Init", "class_int_vector4_d.html#a49ea3989653d8cd8fd759558f25e39a4", null ],
+    [ "operator!=", "class_int_vector4_d.html#ad3ba51a356e9cdfb2a5ba3e6bcc21129", null ],
+    [ "operator*", "class_int_vector4_d.html#a614a72953b4c6871527657575bb1c43b", null ],
+    [ "operator*=", "class_int_vector4_d.html#a86a397840ed1525dee62770531299c76", null ],
+    [ "operator*=", "class_int_vector4_d.html#aaf1e7cceec0db2f298ca674254b62adb", null ],
+    [ "operator+=", "class_int_vector4_d.html#a5aa1020a3b90c58e1be947944949e8b5", null ],
+    [ "operator-=", "class_int_vector4_d.html#a52585659c14c00f098d5705191ff67f1", null ],
+    [ "operator/=", "class_int_vector4_d.html#a1021de76919bbaae63f32f8cd87c11ab", null ],
+    [ "operator/=", "class_int_vector4_d.html#af7da535114a4f78f686edce655e2f52a", null ],
+    [ "operator==", "class_int_vector4_d.html#a16682642a8f0361b7849f7e7e392edc2", null ],
+    [ "operator[]", "class_int_vector4_d.html#ae360e3e5953f8e290a417f2726412027", null ],
+    [ "operator[]", "class_int_vector4_d.html#adc0136eeaebbe0c929e667b9c2fa5824", null ],
+    [ "Set", "class_int_vector4_d.html#a52c268b40b5c837dff1cdc0a1c525d24", null ],
+    [ "Set", "class_int_vector4_d.html#a5c80edbbc5e82cf0193ab2957e400bcc", null ],
+    [ "w", "class_int_vector4_d.html#a71e396abac5476e93d1ca0eba5c48f9c", null ],
+    [ "x", "class_int_vector4_d.html#aeb604fd20bfd2f499a493084dc45e1b4", null ],
+    [ "y", "class_int_vector4_d.html#afbae2f6888fe3766681fe31cf0b3a014", null ],
+    [ "z", "class_int_vector4_d.html#a5040807aee0ab65b2e618ab2ead008f2", null ]
+];

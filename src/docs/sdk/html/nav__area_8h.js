@@ -1,0 +1,25 @@
+var nav__area_8h =
+[
+    [ "CNavVectorNoEditAllocator", "class_c_nav_vector_no_edit_allocator.html", "class_c_nav_vector_no_edit_allocator" ],
+    [ "IForEachNavArea", "class_i_for_each_nav_area.html", "class_i_for_each_nav_area" ],
+    [ "NavConnect", "struct_nav_connect.html", "struct_nav_connect" ],
+    [ "NavLadderConnect", "union_nav_ladder_connect.html", "union_nav_ladder_connect" ],
+    [ "HidingSpot", "class_hiding_spot.html", "class_hiding_spot" ],
+    [ "SpotOrder", "struct_spot_order.html", "struct_spot_order" ],
+    [ "SpotEncounter", "struct_spot_encounter.html", "struct_spot_encounter" ],
+    [ "CNavAreaCriticalData", "class_c_nav_area_critical_data.html", "class_c_nav_area_critical_data" ],
+    [ "CNavArea", "class_c_nav_area.html", "class_c_nav_area" ],
+    [ "AreaBindInfo", "struct_c_nav_area_1_1_area_bind_info.html", "struct_c_nav_area_1_1_area_bind_info" ],
+    [ "DebuggerBreakOnNaN_StagingOnly", "nav__area_8h.html#afebfbf591323aaca7fc4bc67d25a4004", null ],
+    [ "CNavVectorAllocator", "nav__area_8h.html#a4b64c4367d6348b2eebdb3e3525679d7", null ],
+    [ "HidingSpotVector", "nav__area_8h.html#a43fc734e61ae4d34a3f6fcc4e3e8904a", null ],
+    [ "NavAreaVector", "nav__area_8h.html#ad64167658a43dc7a491b112a52b47ffc", null ],
+    [ "NavConnectVector", "nav__area_8h.html#a719d388f092c261de957c23729171e4b", null ],
+    [ "NavLadderConnectVector", "nav__area_8h.html#a574a81ba24c04a2b9faa2ca675eeccce", null ],
+    [ "SpotEncounterVector", "nav__area_8h.html#a7b5f02dcb3f64c1d94171f2c2dd7c310", null ],
+    [ "SpotOrderVector", "nav__area_8h.html#a718940e52e79e25a50486ea610e6a5f0", null ],
+    [ "MAX_NAV_TEAMS", "nav__area_8h.html#a15b8f0a0cc23d28aafa1b827c46a5305a6ccf2c3d3429e5c9a63e8aae1c5184c8", null ],
+    [ "GetHidingSpotByID", "nav__area_8h.html#ac97929807536803ae50143011bc26fe0", null ],
+    [ "TheHidingSpots", "nav__area_8h.html#a31fa8335195c18f59262e60a3c8bb77a", null ],
+    [ "TheNavAreas", "nav__area_8h.html#a825ae70c3b0b23139eca102fd5d257da", null ]
+];

@@ -1,0 +1,27 @@
+var class_c_item =
+[
+    [ "CItem", "class_c_item.html#a6f0808b3a6dae62051445aaf72f51513", null ],
+    [ "ActivateWhenAtRest", "class_c_item.html#ab1afa09c1be90085292437282c1a5dfc", null ],
+    [ "ComeToRest", "class_c_item.html#aaabe46b486f1292bd71a972b06a944f9", null ],
+    [ "CreateItemVPhysicsObject", "class_c_item.html#ad18fffc4679f13802fd9afe78c835290", null ],
+    [ "DECLARE_CLASS", "class_c_item.html#a82a6b26acd42c57bb88d93365686f157", null ],
+    [ "DECLARE_DATADESC", "class_c_item.html#a50457d0686aa72ded288e3f2db8e7760", null ],
+    [ "GetOriginalSpawnAngles", "class_c_item.html#a492eb4d5c9b2eb448b1a68045de6c917", null ],
+    [ "GetOriginalSpawnOrigin", "class_c_item.html#a2d5a7530c912d0620a97e02dabd63517", null ],
+    [ "ItemCanBeTouchedByPlayer", "class_c_item.html#a30297a82eed09872be12cb3c957c70da", null ],
+    [ "ItemTouch", "class_c_item.html#a92d5989b83410dd24bd2ab138814fe0d", null ],
+    [ "Materialize", "class_c_item.html#a0b328e25414e14ee1a88fc0cbbd30f21", null ],
+    [ "MyTouch", "class_c_item.html#ab2a5c0372aa18c3b22b6a2a64bedf99f", null ],
+    [ "ObjectCaps", "class_c_item.html#ad32f6a8a904a4884bdb2393177debb0f", null ],
+    [ "OnEntityEvent", "class_c_item.html#a13f9dbf2126af824ea7de824d1839b24", null ],
+    [ "OnPhysGunDrop", "class_c_item.html#a63f99e0f883ed5511490be1f91b4539a", null ],
+    [ "OnPhysGunPickup", "class_c_item.html#a4322391aa2409685c644924219c11864", null ],
+    [ "PhysicsSolidMaskForEntity", "class_c_item.html#a680e7807317161925df0b1eea745e2fe", null ],
+    [ "Precache", "class_c_item.html#af20010de35ccc97c41ad0c57d3ef520f", null ],
+    [ "Respawn", "class_c_item.html#a906d02e0d0060f972f546d01e791a019", null ],
+    [ "SetOriginalSpawnAngles", "class_c_item.html#a2bc7ffcec4d5ae2208ec5f2f3ada6a67", null ],
+    [ "SetOriginalSpawnOrigin", "class_c_item.html#ae2d9d7e27389b6db94ca7ef0ed2b92ec", null ],
+    [ "Spawn", "class_c_item.html#a359997ac350228e7c69926d15f464901", null ],
+    [ "Use", "class_c_item.html#a1256228bbf927f280b2d4ef00ae3954a", null ],
+    [ "m_bActivateWhenAtRest", "class_c_item.html#a431ce5a55eae1d167178e1b23e94e3c9", null ]
+];

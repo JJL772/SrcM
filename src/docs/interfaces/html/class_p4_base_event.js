@@ -1,0 +1,27 @@
+var class_p4_base_event =
+[
+    [ "P4BaseEvent", "class_p4_base_event.html#a53bb43f47e6a3ad152d643ac63c921f8", null ],
+    [ "ClearCascade", "class_p4_base_event.html#a5fe663bea409ed8ddb25a628e2651b89", null ],
+    [ "ClearCounter", "class_p4_base_event.html#aa02392626e22df3aa88c37c84b99b3c5", null ],
+    [ "ClearOverflow", "class_p4_base_event.html#ad43b889a520c1845124a20deaa28f328", null ],
+    [ "isOverflow", "class_p4_base_event.html#a266e1ae3b78b5e4b10e93291cadc8145", null ],
+    [ "ReadCounter", "class_p4_base_event.html#a03bc28d3f1f3a9712806a33eb709e307", null ],
+    [ "SetCaptureMode", "class_p4_base_event.html#a6edee599cf094f42a51584aede1cba29", null ],
+    [ "SetCascade", "class_p4_base_event.html#a902caef96bce72bdf219bb8ac2c2d2a5", null ],
+    [ "SetCounter", "class_p4_base_event.html#a8bd2883c129c0f8eae836fd6e2525fb6", null ],
+    [ "SetFiltering", "class_p4_base_event.html#ae829b253b181e46b6e2994d1bf3e4978", null ],
+    [ "SetOverflow", "class_p4_base_event.html#aab2f6856a72a54bca0dfa92a14e3cfdb", null ],
+    [ "SetOverflowEnables", "class_p4_base_event.html#a5717de660f6240327aa61cb05c88258d", null ],
+    [ "SetTagging", "class_p4_base_event.html#a4e89a635bc02416430c11c9951ecb017", null ],
+    [ "StartCounter", "class_p4_base_event.html#a71c98271fb02d2fe4a79deba53905e4f", null ],
+    [ "StopCounter", "class_p4_base_event.html#a94e07bdf2751737044a1958b5e141d32", null ],
+    [ "WriteCounter", "class_p4_base_event.html#a7b515676764a4b75cbb188ad3e10cca5", null ],
+    [ "cccr", "class_p4_base_event.html#aa4323bbb871bdfba8b5d2593943adeed", null ],
+    [ "cccrPort", "class_p4_base_event.html#ae10ee57ce7d2ab4ca3af6384102b8752", null ],
+    [ "counterPort", "class_p4_base_event.html#af0e31f2c7e9bf8a4a69f325b29bc6e3b", null ],
+    [ "description", "class_p4_base_event.html#a53cd02444817cb250abcbf0135bc492d", null ],
+    [ "escr", "class_p4_base_event.html#a5093c8195327a993b9f7943c55b693f4", null ],
+    [ "escrPort", "class_p4_base_event.html#a590c37e58c7be9673216f338cd2b2b83", null ],
+    [ "m_eventMask", "class_p4_base_event.html#aaba21514223322fc0767126e03a4ccfe", null ],
+    [ "pme", "class_p4_base_event.html#ac22f3a636b007c7a114908c7bac7f737", null ]
+];

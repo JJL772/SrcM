@@ -1,0 +1,26 @@
+var common__vertexlitgeneric__dx9_8h =
+[
+    [ "PixelShaderLightInfo", "struct_pixel_shader_light_info.html", "struct_pixel_shader_light_info" ],
+    [ "cOOOverbright", "common__vertexlitgeneric__dx9_8h.html#ae7c0e7ea4c21d7696d55b7fc4942b986", null ],
+    [ "cOverbright", "common__vertexlitgeneric__dx9_8h.html#abdb10265726098c8785c9237843ce824", null ],
+    [ "LIGHTTYPE_DIRECTIONAL", "common__vertexlitgeneric__dx9_8h.html#a628cacf0fed9994ec49b9384207947e6", null ],
+    [ "LIGHTTYPE_NONE", "common__vertexlitgeneric__dx9_8h.html#ab5260a65140b340cb52e0373d8e686fa", null ],
+    [ "LIGHTTYPE_POINT", "common__vertexlitgeneric__dx9_8h.html#a4095a15fd0aa09b0a50cdc99f2073b96", null ],
+    [ "LIGHTTYPE_SPOT", "common__vertexlitgeneric__dx9_8h.html#a58af362c323541c539da9ea97a8bb58c", null ],
+    [ "AmbientLight", "common__vertexlitgeneric__dx9_8h.html#a347c1dd312f8b524eeadf1579aed8312", null ],
+    [ "DiffuseTerm", "common__vertexlitgeneric__dx9_8h.html#a0c47480ee68b5b192353cb2197eb7de8", null ],
+    [ "Fresnel", "common__vertexlitgeneric__dx9_8h.html#add0df6b6c291d42a5715b000d21cdffb", null ],
+    [ "Fresnel", "common__vertexlitgeneric__dx9_8h.html#a3e72725c07ba049089e79add0e14c716", null ],
+    [ "Fresnel4", "common__vertexlitgeneric__dx9_8h.html#aedba99c3b3804bcc56e2f0ac7e2c7fe4", null ],
+    [ "PixelShaderAmbientLight", "common__vertexlitgeneric__dx9_8h.html#a9203bfdbac5f7bb30cc2321618f8f7cf", null ],
+    [ "PixelShaderDoGeneralDiffuseLight", "common__vertexlitgeneric__dx9_8h.html#a7b816668d8202ad2ca516b0bc6a3bf3a", null ],
+    [ "PixelShaderDoLighting", "common__vertexlitgeneric__dx9_8h.html#aa8ddfc7d0a08487380f2678ef35398cc", null ],
+    [ "PixelShaderDoLightingLinear", "common__vertexlitgeneric__dx9_8h.html#ae2522380e7e7d6124c643e67454c052f", null ],
+    [ "PixelShaderDoRimLighting", "common__vertexlitgeneric__dx9_8h.html#a0f4db17e4de3de8100c026cbbf4fe37f", null ],
+    [ "PixelShaderDoSpecularLight", "common__vertexlitgeneric__dx9_8h.html#a71550780dcadaa3e495b2c0c87fc3e92", null ],
+    [ "PixelShaderDoSpecularLighting", "common__vertexlitgeneric__dx9_8h.html#a401cd299a5eabf58fe53bbefa6501a0c", null ],
+    [ "PixelShaderGetLightColor", "common__vertexlitgeneric__dx9_8h.html#a37d7229b0640d7b435f6ad5c24c6071c", null ],
+    [ "PixelShaderGetLightVector", "common__vertexlitgeneric__dx9_8h.html#a5412ac1f9d20bd8519a9a7854b09695d", null ],
+    [ "SpecularAndRimTerms", "common__vertexlitgeneric__dx9_8h.html#a36abecaee35a0b1636ed98b31ef17ff5", null ],
+    [ "VertexShaderAmbientLight", "common__vertexlitgeneric__dx9_8h.html#a86f967e67da1c20e19bda6425d3be3c7", null ]
+];

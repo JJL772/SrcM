@@ -1,0 +1,25 @@
+var fileutils_8h =
+[
+    [ "CBaseFile", "class_c_base_file.html", "class_c_base_file" ],
+    [ "COutputFile", "class_c_output_file.html", "class_c_output_file" ],
+    [ "COutputTextFile", "class_c_output_text_file.html", "class_c_output_text_file" ],
+    [ "CAppendTextFile", "class_c_append_text_file.html", "class_c_append_text_file" ],
+    [ "CInputFile", "class_c_input_file.html", "class_c_input_file" ],
+    [ "CInputTextFile", "class_c_input_text_file.html", "class_c_input_text_file" ],
+    [ "CRequiredInputTextFile", "class_c_required_input_text_file.html", "class_c_required_input_text_file" ],
+    [ "CRequiredInputFile", "class_c_required_input_file.html", "class_c_required_input_file" ],
+    [ "UOC_CREATED", "fileutils_8h.html#abdd73b5b325625a6025a1cd222bd74a1", null ],
+    [ "UOC_FAIL", "fileutils_8h.html#a3ee107c4522c130c9550bbc6edb55278", null ],
+    [ "UOC_NOT_CREATED", "fileutils_8h.html#a0114ed29bf23222c731b38a53b6887fa", null ],
+    [ "CreateCallback_t", "fileutils_8h.html#ac7f1694a7670aac1ef511434683ad093", null ],
+    [ "AddFilesToList", "fileutils_8h.html#a6b2601e61a76cfb4c13f44d9c97c4585", null ],
+    [ "AdjustFileExtensionForPlatform", "fileutils_8h.html#adb32afe54e331a4651fb715e61e33d86", null ],
+    [ "ComputeModContentFilename", "fileutils_8h.html#a42f49f8a3a66f7b94ce8d507ffb3f4d8", null ],
+    [ "ComputeModFilename", "fileutils_8h.html#aba1a6438cb99c4e6e7d54b09bbd98e18", null ],
+    [ "CreateX360Filename", "fileutils_8h.html#ad61b5c8fdc72e1aac59e1b11ac6d5183", null ],
+    [ "GenerateFullPath", "fileutils_8h.html#aa48128769cd117964b188776423b0cef", null ],
+    [ "GetModContentSubdirectory", "fileutils_8h.html#a5c737bff3212fe7e10d585247fbef90f", null ],
+    [ "GetModSubdirectory", "fileutils_8h.html#ae144a35f6fc84901de75687a6c0cae46", null ],
+    [ "GetSearchPath", "fileutils_8h.html#aedbf10e00a72871b782bd1bcf628eed4", null ],
+    [ "UpdateOrCreate", "fileutils_8h.html#aba78ed6c7f7f370a62d703313eb4abeb", null ]
+];

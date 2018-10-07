@@ -1,0 +1,28 @@
+var class_c_close_caption_item =
+[
+    [ "CCloseCaptionItem", "class_c_close_caption_item.html#aa86ef11a43266528868162c3cb06f37a", null ],
+    [ "CCloseCaptionItem", "class_c_close_caption_item.html#aeab9dcb98322e7c9431d1a5dd38c0823", null ],
+    [ "~CCloseCaptionItem", "class_c_close_caption_item.html#a30e2baa48f9a0368e0dffdde30ea12cc", null ],
+    [ "AddWork", "class_c_close_caption_item.html#ae8a2c3cf1c1a42bd64c65cad52f8a98a", null ],
+    [ "GetAddedTime", "class_c_close_caption_item.html#a34745a4e161095169c79a8aecd6f2706", null ],
+    [ "GetAlpha", "class_c_close_caption_item.html#aa6aa02182e2704e7aabb061151e547b0", null ],
+    [ "GetHeight", "class_c_close_caption_item.html#a1139bf90e698a004944326450687a6f3", null ],
+    [ "GetInitialLifeSpan", "class_c_close_caption_item.html#a444be7f3f3301650c03bc15d350a6862", null ],
+    [ "GetNumWorkUnits", "class_c_close_caption_item.html#a1e8de7ef8f534be8d0e308847958a605", null ],
+    [ "GetPreDisplayTime", "class_c_close_caption_item.html#a31b4818b14146120353996523ff2eacc", null ],
+    [ "GetSizeComputed", "class_c_close_caption_item.html#a98550451e65f672ff595528b657eaba5", null ],
+    [ "GetStream", "class_c_close_caption_item.html#a85860ef518549d36960ab9c26fb8bf31", null ],
+    [ "GetTimeToLive", "class_c_close_caption_item.html#a216c9118319dd7f55f5c036a49e8bc21", null ],
+    [ "GetWidth", "class_c_close_caption_item.html#ab1fbd5f1fc630e24a27e4309a6383120", null ],
+    [ "GetWorkUnit", "class_c_close_caption_item.html#a4b17ee7651cec3e96fbfa408530db8a2", null ],
+    [ "IsFromPlayer", "class_c_close_caption_item.html#ad063a03c8e59c72bd5f9adae2a8e2f6a", null ],
+    [ "IsValid", "class_c_close_caption_item.html#ae079c23ce87a3ba7744492388b122f8d", null ],
+    [ "SetAddedTime", "class_c_close_caption_item.html#ab52534d1ba9bbc1355b1a7d2aae689b6", null ],
+    [ "SetHeight", "class_c_close_caption_item.html#a8cefb377b901f8845e0ce039bd7c955f", null ],
+    [ "SetInitialLifeSpan", "class_c_close_caption_item.html#a24e75568ad7eb5ac2cd24abd6c357a7f", null ],
+    [ "SetPreDisplayTime", "class_c_close_caption_item.html#a910c7d7cb37e36d708dfdae9acaefcc5", null ],
+    [ "SetSizeComputed", "class_c_close_caption_item.html#a92dfd417b784a8e45b16a67147777cd6", null ],
+    [ "SetStream", "class_c_close_caption_item.html#afae11b00005953ea9c70527865dfbfad", null ],
+    [ "SetTimeToLive", "class_c_close_caption_item.html#ab9dbd16d36fc775d45d82c15164b6200", null ],
+    [ "SetWidth", "class_c_close_caption_item.html#a41d59692b1714e191e029ed8847d3ebb", null ]
+];

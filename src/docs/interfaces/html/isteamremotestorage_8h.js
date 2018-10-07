@@ -1,0 +1,116 @@
+var isteamremotestorage_8h =
+[
+    [ "SteamParamStringArray_t", "struct_steam_param_string_array__t.html", "struct_steam_param_string_array__t" ],
+    [ "ISteamRemoteStorage", "class_i_steam_remote_storage.html", "class_i_steam_remote_storage" ],
+    [ "RemoteStorageAppSyncedClient_t", "struct_remote_storage_app_synced_client__t.html", "struct_remote_storage_app_synced_client__t" ],
+    [ "RemoteStorageAppSyncedServer_t", "struct_remote_storage_app_synced_server__t.html", "struct_remote_storage_app_synced_server__t" ],
+    [ "RemoteStorageAppSyncProgress_t", "struct_remote_storage_app_sync_progress__t.html", "struct_remote_storage_app_sync_progress__t" ],
+    [ "RemoteStorageAppSyncStatusCheck_t", "struct_remote_storage_app_sync_status_check__t.html", "struct_remote_storage_app_sync_status_check__t" ],
+    [ "RemoteStorageConflictResolution_t", "struct_remote_storage_conflict_resolution__t.html", "struct_remote_storage_conflict_resolution__t" ],
+    [ "RemoteStorageFileShareResult_t", "struct_remote_storage_file_share_result__t.html", "struct_remote_storage_file_share_result__t" ],
+    [ "RemoteStoragePublishFileResult_t", "struct_remote_storage_publish_file_result__t.html", "struct_remote_storage_publish_file_result__t" ],
+    [ "RemoteStorageDeletePublishedFileResult_t", "struct_remote_storage_delete_published_file_result__t.html", "struct_remote_storage_delete_published_file_result__t" ],
+    [ "RemoteStorageEnumerateUserPublishedFilesResult_t", "struct_remote_storage_enumerate_user_published_files_result__t.html", "struct_remote_storage_enumerate_user_published_files_result__t" ],
+    [ "RemoteStorageSubscribePublishedFileResult_t", "struct_remote_storage_subscribe_published_file_result__t.html", "struct_remote_storage_subscribe_published_file_result__t" ],
+    [ "RemoteStorageEnumerateUserSubscribedFilesResult_t", "struct_remote_storage_enumerate_user_subscribed_files_result__t.html", "struct_remote_storage_enumerate_user_subscribed_files_result__t" ],
+    [ "RemoteStorageUnsubscribePublishedFileResult_t", "struct_remote_storage_unsubscribe_published_file_result__t.html", "struct_remote_storage_unsubscribe_published_file_result__t" ],
+    [ "RemoteStorageUpdatePublishedFileResult_t", "struct_remote_storage_update_published_file_result__t.html", "struct_remote_storage_update_published_file_result__t" ],
+    [ "RemoteStorageDownloadUGCResult_t", "struct_remote_storage_download_u_g_c_result__t.html", "struct_remote_storage_download_u_g_c_result__t" ],
+    [ "RemoteStorageGetPublishedFileDetailsResult_t", "struct_remote_storage_get_published_file_details_result__t.html", "struct_remote_storage_get_published_file_details_result__t" ],
+    [ "RemoteStorageEnumerateWorkshopFilesResult_t", "struct_remote_storage_enumerate_workshop_files_result__t.html", "struct_remote_storage_enumerate_workshop_files_result__t" ],
+    [ "RemoteStorageGetPublishedItemVoteDetailsResult_t", "struct_remote_storage_get_published_item_vote_details_result__t.html", "struct_remote_storage_get_published_item_vote_details_result__t" ],
+    [ "RemoteStoragePublishedFileSubscribed_t", "struct_remote_storage_published_file_subscribed__t.html", "struct_remote_storage_published_file_subscribed__t" ],
+    [ "RemoteStoragePublishedFileUnsubscribed_t", "struct_remote_storage_published_file_unsubscribed__t.html", "struct_remote_storage_published_file_unsubscribed__t" ],
+    [ "RemoteStoragePublishedFileDeleted_t", "struct_remote_storage_published_file_deleted__t.html", "struct_remote_storage_published_file_deleted__t" ],
+    [ "RemoteStorageUpdateUserPublishedItemVoteResult_t", "struct_remote_storage_update_user_published_item_vote_result__t.html", "struct_remote_storage_update_user_published_item_vote_result__t" ],
+    [ "RemoteStorageUserVoteDetails_t", "struct_remote_storage_user_vote_details__t.html", "struct_remote_storage_user_vote_details__t" ],
+    [ "RemoteStorageEnumerateUserSharedWorkshopFilesResult_t", "struct_remote_storage_enumerate_user_shared_workshop_files_result__t.html", "struct_remote_storage_enumerate_user_shared_workshop_files_result__t" ],
+    [ "RemoteStorageSetUserPublishedFileActionResult_t", "struct_remote_storage_set_user_published_file_action_result__t.html", "struct_remote_storage_set_user_published_file_action_result__t" ],
+    [ "RemoteStorageEnumeratePublishedFilesByUserActionResult_t", "struct_remote_storage_enumerate_published_files_by_user_action_result__t.html", "struct_remote_storage_enumerate_published_files_by_user_action_result__t" ],
+    [ "RemoteStoragePublishFileProgress_t", "struct_remote_storage_publish_file_progress__t.html", "struct_remote_storage_publish_file_progress__t" ],
+    [ "RemoteStoragePublishedFileUpdated_t", "struct_remote_storage_published_file_updated__t.html", "struct_remote_storage_published_file_updated__t" ],
+    [ "STEAMREMOTESTORAGE_INTERFACE_VERSION", "isteamremotestorage_8h.html#a4668523cc53d499bed296b097d69f321", null ],
+    [ "PublishedFileId_t", "isteamremotestorage_8h.html#ae1531c90239c72d87f3670254fa3a841", null ],
+    [ "PublishedFileUpdateHandle_t", "isteamremotestorage_8h.html#ac1030ca2e73a144a4dbbbe431b4556c2", null ],
+    [ "UGCFileWriteStreamHandle_t", "isteamremotestorage_8h.html#a2a8fa772f794fdaf972b6c8e2bd006af", null ],
+    [ "UGCHandle_t", "isteamremotestorage_8h.html#a74391e9dd9bee2f91746e23cae9ded57", null ],
+    [ "ERemoteStoragePlatform", "isteamremotestorage_8h.html#ac6707991c7c20e1851b9208798cb7bf4", [
+      [ "k_ERemoteStoragePlatformNone", "isteamremotestorage_8h.html#ac6707991c7c20e1851b9208798cb7bf4ac28f6c7dbd769e42a4572bf81ade6e03", null ],
+      [ "k_ERemoteStoragePlatformWindows", "isteamremotestorage_8h.html#ac6707991c7c20e1851b9208798cb7bf4af8dbf06ab2b1492ff68c526f04b05200", null ],
+      [ "k_ERemoteStoragePlatformOSX", "isteamremotestorage_8h.html#ac6707991c7c20e1851b9208798cb7bf4ab2d42497c6e7029cd9c63d4d8477f268", null ],
+      [ "k_ERemoteStoragePlatformPS3", "isteamremotestorage_8h.html#ac6707991c7c20e1851b9208798cb7bf4a77fc4c7a855de22c69560fce45c62e5d", null ],
+      [ "k_ERemoteStoragePlatformLinux", "isteamremotestorage_8h.html#ac6707991c7c20e1851b9208798cb7bf4a82b9452b4967d98dbd74be6c1ffaeb68", null ],
+      [ "k_ERemoteStoragePlatformReserved2", "isteamremotestorage_8h.html#ac6707991c7c20e1851b9208798cb7bf4aa810d6d0ad95f99ae852c394a66a7272", null ],
+      [ "k_ERemoteStoragePlatformAll", "isteamremotestorage_8h.html#ac6707991c7c20e1851b9208798cb7bf4aec95fe2a3e5c7fdebf7a758871b9d71f", null ]
+    ] ],
+    [ "ERemoteStoragePublishedFileVisibility", "isteamremotestorage_8h.html#a979c72a370a753424815ca3a475a46f3", [
+      [ "k_ERemoteStoragePublishedFileVisibilityPublic", "isteamremotestorage_8h.html#a979c72a370a753424815ca3a475a46f3a11cdcd510dd79e3633ba5aec50ba8a2a", null ],
+      [ "k_ERemoteStoragePublishedFileVisibilityFriendsOnly", "isteamremotestorage_8h.html#a979c72a370a753424815ca3a475a46f3a79716a2a79534a0422fadcb39627e164", null ],
+      [ "k_ERemoteStoragePublishedFileVisibilityPrivate", "isteamremotestorage_8h.html#a979c72a370a753424815ca3a475a46f3acfa3275b857bf335eb6d88cd6fbfd290", null ]
+    ] ],
+    [ "EResolveConflict", "isteamremotestorage_8h.html#a42eb66aab452245ccdfa18eb403b47cf", [
+      [ "k_EResolveConflictKeepClient", "isteamremotestorage_8h.html#a42eb66aab452245ccdfa18eb403b47cfa52e4fda54c34ebd1e814bbd2c17f978e", null ],
+      [ "k_EResolveConflictKeepServer", "isteamremotestorage_8h.html#a42eb66aab452245ccdfa18eb403b47cfa225b0eda7a2c4bd8cbc2d29a746f9bb5", null ]
+    ] ],
+    [ "EUGCReadAction", "isteamremotestorage_8h.html#a9c8e16425d63901e3b03f7ef0de871e9", [
+      [ "k_EUGCRead_ContinueReadingUntilFinished", "isteamremotestorage_8h.html#a9c8e16425d63901e3b03f7ef0de871e9a02ff9c4ad43352b22d61334340fe57c6", null ],
+      [ "k_EUGCRead_ContinueReading", "isteamremotestorage_8h.html#a9c8e16425d63901e3b03f7ef0de871e9a1085aca7974553c9a8e5c391788138ec", null ],
+      [ "k_EUGCRead_Close", "isteamremotestorage_8h.html#a9c8e16425d63901e3b03f7ef0de871e9a6afdfe6b6389dbc6b329f36d79a3d0f2", null ]
+    ] ],
+    [ "EWorkshopEnumerationType", "isteamremotestorage_8h.html#adac54a7a09cbfb046b911898993fe034", [
+      [ "k_EWorkshopEnumerationTypeRankedByVote", "isteamremotestorage_8h.html#adac54a7a09cbfb046b911898993fe034a66c1c50b3336fbce4d8d848f7d78ece4", null ],
+      [ "k_EWorkshopEnumerationTypeRecent", "isteamremotestorage_8h.html#adac54a7a09cbfb046b911898993fe034ad5f4b5426265a028373895ada1e2bbf8", null ],
+      [ "k_EWorkshopEnumerationTypeTrending", "isteamremotestorage_8h.html#adac54a7a09cbfb046b911898993fe034a42e866803d94447bf2028ffcb99f41a6", null ],
+      [ "k_EWorkshopEnumerationTypeFavoritesOfFriends", "isteamremotestorage_8h.html#adac54a7a09cbfb046b911898993fe034a92e01e0bb7525af5a862131c85571863", null ],
+      [ "k_EWorkshopEnumerationTypeVotedByFriends", "isteamremotestorage_8h.html#adac54a7a09cbfb046b911898993fe034a91055b1684af058ab04dad223b0d6d82", null ],
+      [ "k_EWorkshopEnumerationTypeContentByFriends", "isteamremotestorage_8h.html#adac54a7a09cbfb046b911898993fe034a89507783a74a718a33deed07992c75d9", null ],
+      [ "k_EWorkshopEnumerationTypeRecentFromFollowedUsers", "isteamremotestorage_8h.html#adac54a7a09cbfb046b911898993fe034a71ff67f331c85bbbda3cc4ccc6611d7b", null ]
+    ] ],
+    [ "EWorkshopFileAction", "isteamremotestorage_8h.html#af96d7f443b1362739b3c9db2aff4010e", [
+      [ "k_EWorkshopFileActionPlayed", "isteamremotestorage_8h.html#af96d7f443b1362739b3c9db2aff4010ea54a5166a68af1a3cac65b008cb5a8484", null ],
+      [ "k_EWorkshopFileActionCompleted", "isteamremotestorage_8h.html#af96d7f443b1362739b3c9db2aff4010ea949578fc17d481daadb29e8713035142", null ]
+    ] ],
+    [ "EWorkshopFileType", "isteamremotestorage_8h.html#a396e28dea21068cd59bc2d8ca1bc3ea9", [
+      [ "k_EWorkshopFileTypeFirst", "isteamremotestorage_8h.html#a396e28dea21068cd59bc2d8ca1bc3ea9af9b9730d7099f4f711ede36df850a0cd", null ],
+      [ "k_EWorkshopFileTypeCommunity", "isteamremotestorage_8h.html#a396e28dea21068cd59bc2d8ca1bc3ea9a76de33095f50d46658dcd316b7812b4f", null ],
+      [ "k_EWorkshopFileTypeMicrotransaction", "isteamremotestorage_8h.html#a396e28dea21068cd59bc2d8ca1bc3ea9ae307ad66ecc91ae96b9251a5bd5bdd11", null ],
+      [ "k_EWorkshopFileTypeCollection", "isteamremotestorage_8h.html#a396e28dea21068cd59bc2d8ca1bc3ea9a199c8eb56998c79dd26a57cabb7fedbd", null ],
+      [ "k_EWorkshopFileTypeArt", "isteamremotestorage_8h.html#a396e28dea21068cd59bc2d8ca1bc3ea9a93798c7e56a74481563eb986672dcee6", null ],
+      [ "k_EWorkshopFileTypeVideo", "isteamremotestorage_8h.html#a396e28dea21068cd59bc2d8ca1bc3ea9aa1dc03951e05a8591a3892e7e0a0ca1b", null ],
+      [ "k_EWorkshopFileTypeScreenshot", "isteamremotestorage_8h.html#a396e28dea21068cd59bc2d8ca1bc3ea9aa8a046ebc72a58a57827e9129c2b7d0d", null ],
+      [ "k_EWorkshopFileTypeGame", "isteamremotestorage_8h.html#a396e28dea21068cd59bc2d8ca1bc3ea9a375995cc0b6dff808337ddaa08395b1e", null ],
+      [ "k_EWorkshopFileTypeSoftware", "isteamremotestorage_8h.html#a396e28dea21068cd59bc2d8ca1bc3ea9acef392ee520c7904ab31fbe71d6a2978", null ],
+      [ "k_EWorkshopFileTypeConcept", "isteamremotestorage_8h.html#a396e28dea21068cd59bc2d8ca1bc3ea9ae96366b46677928910f18d15b18cf8f9", null ],
+      [ "k_EWorkshopFileTypeWebGuide", "isteamremotestorage_8h.html#a396e28dea21068cd59bc2d8ca1bc3ea9aed10bb0abee984465946bf6ffde6a217", null ],
+      [ "k_EWorkshopFileTypeIntegratedGuide", "isteamremotestorage_8h.html#a396e28dea21068cd59bc2d8ca1bc3ea9a19e4db1be6435a05511028c2a4d8f5c8", null ],
+      [ "k_EWorkshopFileTypeMerch", "isteamremotestorage_8h.html#a396e28dea21068cd59bc2d8ca1bc3ea9a5eeecb95beeaa54c7aaaa64eaa67fd9b", null ],
+      [ "k_EWorkshopFileTypeControllerBinding", "isteamremotestorage_8h.html#a396e28dea21068cd59bc2d8ca1bc3ea9aef033db370df27ca9fcbd8806d1b3ea0", null ],
+      [ "k_EWorkshopFileTypeSteamworksAccessInvite", "isteamremotestorage_8h.html#a396e28dea21068cd59bc2d8ca1bc3ea9aa86f42beef79468ec3dab5b04574a4bb", null ],
+      [ "k_EWorkshopFileTypeSteamVideo", "isteamremotestorage_8h.html#a396e28dea21068cd59bc2d8ca1bc3ea9a590921e211b8a28db4ac59c477a7bb59", null ],
+      [ "k_EWorkshopFileTypeGameManagedItem", "isteamremotestorage_8h.html#a396e28dea21068cd59bc2d8ca1bc3ea9aaa7462ab0cfb3aa852cf8e2b7459ad79", null ],
+      [ "k_EWorkshopFileTypeMax", "isteamremotestorage_8h.html#a396e28dea21068cd59bc2d8ca1bc3ea9a14cd0a6ffc9c2b27ad21cf6b0a137dcc", null ]
+    ] ],
+    [ "EWorkshopVideoProvider", "isteamremotestorage_8h.html#a569b8981c88dd89e6ec72a91666edeea", [
+      [ "k_EWorkshopVideoProviderNone", "isteamremotestorage_8h.html#a569b8981c88dd89e6ec72a91666edeeaa54fadb76fc3a85320f5ee95a8b109e50", null ],
+      [ "k_EWorkshopVideoProviderYoutube", "isteamremotestorage_8h.html#a569b8981c88dd89e6ec72a91666edeeaad673da60d067ba1446bafcd5b3af326c", null ]
+    ] ],
+    [ "EWorkshopVote", "isteamremotestorage_8h.html#ac52acc2fb9b38cb4cc9482450f388b55", [
+      [ "k_EWorkshopVoteUnvoted", "isteamremotestorage_8h.html#ac52acc2fb9b38cb4cc9482450f388b55a7fdf5ae8ab15bab22c5dbe019b6fb872", null ],
+      [ "k_EWorkshopVoteFor", "isteamremotestorage_8h.html#ac52acc2fb9b38cb4cc9482450f388b55a230459f8453f3cbcbcb946e847ccdaee", null ],
+      [ "k_EWorkshopVoteAgainst", "isteamremotestorage_8h.html#ac52acc2fb9b38cb4cc9482450f388b55ad32e99da2c78aee6dada43f3f52bb84e", null ],
+      [ "k_EWorkshopVoteLater", "isteamremotestorage_8h.html#ac52acc2fb9b38cb4cc9482450f388b55a7750be46d7aacbec1e55a4bac69a26be", null ]
+    ] ],
+    [ "VALVE_COMPILE_TIME_ASSERT", "isteamremotestorage_8h.html#aa7c54e3111bd4513becb7fdfc2301e5a", null ],
+    [ "k_cchFilenameMax", "isteamremotestorage_8h.html#a57eee66ba39367dffab2bf1cb6b17212", null ],
+    [ "k_cchPublishedDocumentChangeDescriptionMax", "isteamremotestorage_8h.html#acf1ba40fe3cc1f72039578fe6dc7cc25", null ],
+    [ "k_cchPublishedDocumentDescriptionMax", "isteamremotestorage_8h.html#a39b8a852c9919d79f266885a49160cb6", null ],
+    [ "k_cchPublishedDocumentTitleMax", "isteamremotestorage_8h.html#a8d4136099435a2011d5bf9e869cec9f2", null ],
+    [ "k_cchPublishedFileURLMax", "isteamremotestorage_8h.html#ab81002ab3100b2cbae9c91c6f3a4ddfe", null ],
+    [ "k_cchTagListMax", "isteamremotestorage_8h.html#a7877d6e92de820a65692af879b472042", null ],
+    [ "k_PublishedFileIdInvalid", "isteamremotestorage_8h.html#ad136d70ab14a9412ca64b34971800165", null ],
+    [ "k_PublishedFileUpdateHandleInvalid", "isteamremotestorage_8h.html#a2e0a95abd15b92843c306eab24839392", null ],
+    [ "k_UGCFileStreamHandleInvalid", "isteamremotestorage_8h.html#a9d10d1ba7cf68f796462ce37b4fd3d13", null ],
+    [ "k_UGCHandleInvalid", "isteamremotestorage_8h.html#ad0e4582b2dee8af3f3c29cfb2b1502c8", null ],
+    [ "k_unEnumeratePublishedFilesMaxResults", "isteamremotestorage_8h.html#a9775fd5f450547a2141395210888a0d3", null ],
+    [ "k_unMaxCloudFileChunkSize", "isteamremotestorage_8h.html#a1717a27f5fcf152aeea6af0f34a96617", null ]
+];

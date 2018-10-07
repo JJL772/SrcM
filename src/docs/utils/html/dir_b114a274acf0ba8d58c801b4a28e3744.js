@@ -1,0 +1,37 @@
+var dir_b114a274acf0ba8d58c801b4a28e3744 =
+[
+    [ "disp_vrad.cpp", "disp__vrad_8cpp.html", "disp__vrad_8cpp" ],
+    [ "disp_vrad.h", "disp__vrad_8h.html", "disp__vrad_8h" ],
+    [ "iincremental.h", "iincremental_8h.html", "iincremental_8h" ],
+    [ "imagepacker.cpp", "imagepacker_8cpp.html", null ],
+    [ "imagepacker.h", "imagepacker_8h.html", "imagepacker_8h" ],
+    [ "incremental.cpp", "incremental_8cpp.html", "incremental_8cpp" ],
+    [ "incremental.h", "incremental_8h.html", "incremental_8h" ],
+    [ "leaf_ambient_lighting.cpp", "leaf__ambient__lighting_8cpp.html", "leaf__ambient__lighting_8cpp" ],
+    [ "leaf_ambient_lighting.h", "leaf__ambient__lighting_8h.html", "leaf__ambient__lighting_8h" ],
+    [ "lightmap.cpp", "lightmap_8cpp.html", "lightmap_8cpp" ],
+    [ "lightmap.h", "lightmap_8h.html", "lightmap_8h" ],
+    [ "macro_texture.cpp", "macro__texture_8cpp.html", "macro__texture_8cpp" ],
+    [ "macro_texture.h", "macro__texture_8h.html", "macro__texture_8h" ],
+    [ "mpivrad.cpp", "mpivrad_8cpp.html", "mpivrad_8cpp" ],
+    [ "mpivrad.h", "mpivrad_8h.html", "mpivrad_8h" ],
+    [ "origface.cpp", "origface_8cpp.html", "origface_8cpp" ],
+    [ "radial.cpp", "radial_8cpp.html", "radial_8cpp" ],
+    [ "radial.h", "radial_8h.html", "radial_8h" ],
+    [ "samplehash.cpp", "samplehash_8cpp.html", "samplehash_8cpp" ],
+    [ "trace.cpp", "trace_8cpp.html", "trace_8cpp" ],
+    [ "vismat.cpp", "vismat_8cpp.html", "vismat_8cpp" ],
+    [ "vismat.h", "vismat_8h.html", "vismat_8h" ],
+    [ "vrad.cpp", "vrad_8cpp.html", "vrad_8cpp" ],
+    [ "vrad.h", "vrad_8h.html", "vrad_8h" ],
+    [ "vrad_dispcoll.cpp", "vrad__dispcoll_8cpp.html", "vrad__dispcoll_8cpp" ],
+    [ "vrad_dispcoll.h", "vrad__dispcoll_8h.html", "vrad__dispcoll_8h" ],
+    [ "vraddetailprops.cpp", "vraddetailprops_8cpp.html", "vraddetailprops_8cpp" ],
+    [ "vraddetailprops.h", "vraddetailprops_8h.html", "vraddetailprops_8h" ],
+    [ "vraddisps.cpp", "vraddisps_8cpp.html", "vraddisps_8cpp" ],
+    [ "vraddll.cpp", "vraddll_8cpp.html", "vraddll_8cpp" ],
+    [ "vraddll.h", "vraddll_8h.html", [
+      [ "CVRadDLL", "class_c_v_rad_d_l_l.html", "class_c_v_rad_d_l_l" ]
+    ] ],
+    [ "vradstaticprops.cpp", "vradstaticprops_8cpp.html", "vradstaticprops_8cpp" ]
+];

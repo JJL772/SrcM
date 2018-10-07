@@ -1,0 +1,38 @@
+var _i_engine_trace_8h =
+[
+    [ "CTraceFilter", "class_c_trace_filter.html", "class_c_trace_filter" ],
+    [ "CTraceFilterEntitiesOnly", "class_c_trace_filter_entities_only.html", "class_c_trace_filter_entities_only" ],
+    [ "CTraceFilterWorldOnly", "class_c_trace_filter_world_only.html", "class_c_trace_filter_world_only" ],
+    [ "CTraceFilterWorldAndPropsOnly", "class_c_trace_filter_world_and_props_only.html", "class_c_trace_filter_world_and_props_only" ],
+    [ "CTraceFilterHitAll", "class_c_trace_filter_hit_all.html", "class_c_trace_filter_hit_all" ],
+    [ "INTERFACEVERSION_ENGINETRACE_CLIENT", "_i_engine_trace_8h.html#ab8125f71ecf02f9f2492b36dd47f58cb", null ],
+    [ "INTERFACEVERSION_ENGINETRACE_SERVER", "_i_engine_trace_8h.html#aabe7a501e85fd8445db5d886fa067534", null ],
+    [ "trace_t", "_i_engine_trace_8h.html#adc08c4c6a18c3b29760fbaf5457ff6a8", null ],
+    [ "TraceType_t", "_i_engine_trace_8h.html#a793cac66ad2e87d6f3d043b0ddb2d6d8", [
+      [ "TRACE_EVERYTHING", "_i_engine_trace_8h.html#a793cac66ad2e87d6f3d043b0ddb2d6d8afe84b9e31c49aef5b4571370ed5da88b", null ],
+      [ "TRACE_WORLD_ONLY", "_i_engine_trace_8h.html#a793cac66ad2e87d6f3d043b0ddb2d6d8a8262a169e22015911d5d9c72b31f7a6f", null ],
+      [ "TRACE_ENTITIES_ONLY", "_i_engine_trace_8h.html#a793cac66ad2e87d6f3d043b0ddb2d6d8a8a8bcc57d4fb0eff4cd21a469d2cd7ba", null ],
+      [ "TRACE_EVERYTHING_FILTER_PROPS", "_i_engine_trace_8h.html#a793cac66ad2e87d6f3d043b0ddb2d6d8af5401e31a61896f1c26a85e3e49a00c3", null ]
+    ] ],
+    [ "ClipRayToCollideable", "_i_engine_trace_8h.html#a63f10522e9f6e5a7da0c9bcbfea1bb36", null ],
+    [ "ClipRayToEntity", "_i_engine_trace_8h.html#a15ebe8a77798be8b1e203c769b038f8a", null ],
+    [ "EnumerateEntities", "_i_engine_trace_8h.html#a2f27dcdf600dc150d270e8b514a78168", null ],
+    [ "EnumerateEntities", "_i_engine_trace_8h.html#ad76786f7478db70e230e923a0ed34c4b", null ],
+    [ "GetBrushesInAABB", "_i_engine_trace_8h.html#a38e0069d01516d10223f773b96811cd1", null ],
+    [ "GetBrushInfo", "_i_engine_trace_8h.html#aa7de4dd42c0ad33a6bbe08ddeac2bc8a", null ],
+    [ "GetCollidableFromDisplacementsInAABB", "_i_engine_trace_8h.html#ad05b7430a12faa63c3befe2c127eb65c", null ],
+    [ "GetCollideable", "_i_engine_trace_8h.html#a4c5a5cee1a20d664eb3524cb6e27a4ca", null ],
+    [ "GetLeafContainingPoint", "_i_engine_trace_8h.html#adf7b04901a0d3d483892f34011fde0b6", null ],
+    [ "GetPointContents_Collideable", "_i_engine_trace_8h.html#ac75e5734c85a5668828db1463682c56f", null ],
+    [ "GetStatByIndex", "_i_engine_trace_8h.html#aa7407437ff14154083e9f408fb068385", null ],
+    [ "GetTraceType", "_i_engine_trace_8h.html#a8e5d582fb28e8adc8dcc51fe2273c1f6", null ],
+    [ "PointOutsideWorld", "_i_engine_trace_8h.html#a7d918b103d354607e726cdca9665ffe4", null ],
+    [ "SetupLeafAndEntityListBox", "_i_engine_trace_8h.html#aad3dcacf8ab10222ba36d558a86ed5de", null ],
+    [ "SetupLeafAndEntityListRay", "_i_engine_trace_8h.html#aef4a19b49024cd75e2fd402b55a5f506", null ],
+    [ "SweepCollideable", "_i_engine_trace_8h.html#a79013f4457f760016e4c4523d783c023", null ],
+    [ "TraceRay", "_i_engine_trace_8h.html#ad4bce59402f1f98d097904f8cc9d2a0e", null ],
+    [ "TraceRayAgainstLeafAndEntityList", "_i_engine_trace_8h.html#a2d6446e91b87648e1250bdbac39ab70f", null ],
+    [ "IEngineTrace", "_i_engine_trace_8h.html#af9062a9fabb7544fc78de25e85a13e18", null ],
+    [ "IEntityEnumerator", "_i_engine_trace_8h.html#a97aa7ba342791bc8fb76e6987383984d", null ],
+    [ "ITraceFilter", "_i_engine_trace_8h.html#aef1ae104075435b6bb856af8a860d2bf", null ]
+];

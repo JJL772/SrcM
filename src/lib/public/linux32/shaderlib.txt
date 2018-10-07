@@ -1,0 +1,316 @@
+
+BaseShader.o:
+         U __cxa_atexit
+         U __cxa_pure_virtual
+         U __dso_handle
+00000000 t _GLOBAL__sub_I__ZN11CBaseShader19s_pTextureGroupNameE
+         U g_pConfig
+         U g_pHardwareConfig
+         U g_pSLShaderSystem
+00000000 B g_shaderConfigDumpEnable
+         U g_Telemetry
+         U g_VProfCurrentProfile
+         U __gxx_personality_v0
+         U ThreadGetCurrentId
+         U _Unwind_Resume
+00000000 n wt.036c5a07c940c490
+00000000 n wt.039072e8a658c4a8
+00000000 n wt.0a022b3bc48a2055
+00000000 n wt.0a44e52dfbd7460c
+00000000 n wt.0c3e5d3391466cd4
+00000000 n wt.0e457b49ef74652e
+00000000 n wt.11504ea36837116b
+00000000 n wt.11711bb8cd599687
+00000000 n wt.19dfcd8763aa8dbc
+00000000 n wt.1d27a605898fd832
+00000000 n wt.2135dc560b8f7e18
+00000000 n wt.22ecff738f575805
+00000000 n wt.245a887d9561b147
+00000000 n wt.26672dd6926d6d97
+00000000 n wt.2761902aca5444ad
+00000000 n wt.29d04898683bec8e
+00000000 n wt.2ab7f97a58749d92
+00000000 n wt.3364ce67af643308
+00000000 n wt.341fd0b971036d22
+00000000 n wt.3587c33cb96aac32
+00000000 n wt.3797410087add680
+00000000 n wt.3b4a096498437fde
+00000000 n wt.410769a9e01b9943
+00000000 n wt.456268c4d74ddb88
+00000000 n wt.4a7770ffb0fd83cb
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.4ce2d007cd0f0662
+00000000 n wt.55d509d98c3450c2
+00000000 n wt.57d4cc35fe7c3425
+00000000 n wt.5b7d8958f5540902
+00000000 n wt.67a485f23a1f0cfb
+00000000 n wt.6d3749dc12a1937a
+00000000 n wt.6efdb1b3710b6cee
+00000000 n wt.6f185fcedae583a6
+00000000 n wt.6f2b73e4a3561766
+00000000 n wt.704e005b1a5152da
+00000000 n wt.70bb7207f756af98
+00000000 n wt.7636867464b50041
+00000000 n wt.78f4dfe5453c2864
+00000000 n wt.7baebea5bd9cf767
+00000000 n wt.7f483116f3f954ed
+00000000 n wt.806973098bda790e
+00000000 n wt.8390ef5e798561d7
+00000000 n wt.843cb95e35b852e1
+00000000 n wt.87c52c15c4375c23
+00000000 n wt.8c947112a95ea604
+00000000 n wt.8f48399e97f17155
+00000000 n wt.90278cb69eb1f67e
+00000000 n wt.929ef0afec990921
+00000000 n wt.946fd02800d5de3e
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.9e84f58540c8d5f1
+00000000 n wt.a0266b645cb35d16
+00000000 n wt.a099a0303ccd92f5
+00000000 n wt.a3d4b239b4315779
+00000000 n wt.a4887fe87ebc5593
+00000000 n wt.af768c88d3f7d4fa
+00000000 n wt.b6152968951a057c
+00000000 n wt.bbe7490618b328f5
+00000000 n wt.c25c169a332e0e5e
+00000000 n wt.c3c681ab41c6e16a
+00000000 n wt.c47e26e0bddb1cc3
+00000000 n wt.c483faf93bc7321e
+00000000 n wt.c69f283eb73ce1ab
+00000000 n wt.ca7f8f86f36c1b19
+00000000 n wt.cd78b863938ffd30
+00000000 n wt.cf6c81e4aab1256c
+00000000 n wt.d0c6ed6c079d8a62
+00000000 n wt.d214721e93725b44
+00000000 n wt.d332b26f15409820
+00000000 n wt.d58adba4ddf74635
+00000000 n wt.d8d3762f3e677cc7
+00000000 n wt.da3f8b4596b0f631
+00000000 n wt.db4948506e09e3bb
+00000000 n wt.dbab17ee60db9791
+00000000 n wt.de60c337c52c327e
+00000000 n wt.e3a1b00c2c2ec217
+00000000 n wt.e52046e8541525df
+00000000 n wt.e6827b761a448c06
+00000000 n wt.eb19b7a613910387
+00000000 n wt.ee4025acdcda5f8b
+00000000 n wt.f259594ccb335201
+00000000 n wt.f26381c9a67d411c
+00000000 n wt.f341b4e53a50d5f4
+00000000 n wt.fc3db86437d317aa
+00000000 n wt.fd3487d93b9a3e7a
+00000000 n wt.ffbda2f3dfa3c95f
+00000000 n wt.ffc04d4d34299984
+         U V_strnicmp(char const*, char const*, int)
+         U GetShaderDLL()
+         U MatrixMultiply(VMatrix const&, VMatrix const&, VMatrix&)
+         U MatrixTranspose(VMatrix const&, VMatrix&)
+         U MatrixInverseGeneral(VMatrix const&, VMatrix&)
+000000c8 b vec2_origin
+000000d8 b vec4_origin
+000000d0 b vec2_invalid
+000000e8 b vec4_invalid
+00000080 b mat_fullbright
+00000000 r s_StandardParams
+         U CVProfNode::EnterScope()
+         U CVProfNode::GetSubNode(char const*, int, char const*, int)
+         U CVProfNode::ExitScope()
+00001ac0 T CBaseShader::DefaultFog()
+00001aa0 T CBaseShader::DisableFog()
+000019b0 T CBaseShader::FogToBlack()
+00001960 T CBaseShader::FogToWhite()
+00000050 B CBaseShader::s_ppParams
+000009c0 T CBaseShader::BindTexture(Sampler_t, int, int)
+00000a70 T CBaseShader::BindTexture(Sampler_t, ITexture*, int)
+000008f0 T CBaseShader::BindTexture(Sampler_t, Sampler_t, int, int)
+000009f0 T CBaseShader::BindTexture(Sampler_t, Sampler_t, ITexture*, int)
+000007c0 T CBaseShader::LoadBumpMap(int)
+00000820 T CBaseShader::LoadCubeMap(int, int)
+00000760 T CBaseShader::LoadTexture(int, int)
+00000750 T CBaseShader::MeshBuilder()
+00000320 T CBaseShader::DrawElements(IMaterialVar**, int, IShaderShadow*, IShaderDynamicAPI*, VertexCompressionType_t, CBasePerMaterialContextData**)
+000034c0 T CBaseShader::IsHDREnabled()
+000013e0 T CBaseShader::LoadIdentity(MaterialMatrixMode_t)
+00000030 B CBaseShader::s_pShaderAPI
+00001a50 T CBaseShader::FogToFogColor()
+00000eb0 T CBaseShader::SetColorState(int, bool)
+00000024 B CBaseShader::s_pShaderInit
+00000010 B CBaseShader::s_pMeshBuilder
+00000710 T CBaseShader::IsUsingGraphics()
+00000040 B CBaseShader::s_pShaderShadow
+000000b0 T CBaseShader::InitShaderParams(IMaterialVar**, char const*)
+00001910 T CBaseShader::FogToOOOverbright()
+00000b70 T CBaseShader::IsAlphaModulating()
+00000b80 T CBaseShader::IsColorModulating()
+000000f0 T CBaseShader::InitShaderInstance(IMaterialVar**, IShaderInit*, char const*, char const*)
+00000000 W CBaseShader::OnInitShaderParams(IMaterialVar**, char const*)
+00000020 B CBaseShader::s_nModulationFlags
+00003180 T CBaseShader::DrawFlashlight_dx70(IMaterialVar**, IShaderDynamicAPI*, IShaderShadow*, int, int, bool)
+00001120 T CBaseShader::EnableAlphaBlending(ShaderBlendFactor_t, ShaderBlendFactor_t)
+00000054 B CBaseShader::s_pTextureGroupName
+00001180 T CBaseShader::DisableAlphaBlending()
+00000aa0 T CBaseShader::GetTextureDimensions(float*, float*, int)
+00000b00 T CBaseShader::TextureIsTranslucent(int, bool)
+00000730 T CBaseShader::CanUseEditorMaterials()
+000001f0 T CBaseShader::SetInitialShadowState()
+00001050 T CBaseShader::ComputeModulationColor(float*)
+00000c90 T CBaseShader::ComputeModulationFlags(IMaterialVar**, IShaderDynamicAPI*)
+000012f0 T CBaseShader::SetBlendingShadowState(BlendType_t)
+00000db0 T CBaseShader::SetModulationShadowState(int)
+00002860 T CBaseShader::SetShadowEnvMappingState(int, int)
+00002ba0 T CBaseShader::SetDynamicEnvMappingState(int, int, int, int, int, int, int, int, int)
+00001000 T CBaseShader::SetModulationDynamicState(int)
+00001410 T CBaseShader::LoadCameraToWorldTransform(MaterialMatrixMode_t)
+00001590 T CBaseShader::SetFixedFunctionTextureScale(MaterialMatrixMode_t, int)
+000011a0 T CBaseShader::SetNormalBlendingShadowState(int, bool)
+00002d40 T CBaseShader::FixedFunctionMaskedEnvmapPass(int, int, int, int, int, int, int, int, int)
+00000880 T CBaseShader::GetShaderAPITextureBindHandle(int, int, int)
+000012b0 T CBaseShader::SetDefaultBlendingShadowState(int, bool)
+00001230 T CBaseShader::SetAdditiveBlendingShadowState(int, bool)
+000013a0 T CBaseShader::SingleTextureLightmapBlendMode()
+00003010 T CBaseShader::CleanupDynamicStateFixedFunction()
+000024b0 T CBaseShader::FixedFunctionBaseTimesDetailPass(int, int, int, int, int)
+00001690 T CBaseShader::SetFixedFunctionTextureTransform(MaterialMatrixMode_t, int)
+00001af0 T CBaseShader::FixedFunctionMultiplyByDetailPass(int, int, int, int, int)
+00002350 T CBaseShader::FixedFunctionSelfIlluminationPass(Sampler_t, int, int, int, int)
+00001440 T CBaseShader::LoadCameraSpaceSphereMapTransform(MaterialMatrixMode_t)
+00001480 T CBaseShader::SetFixedFunctionTextureTranslation(MaterialMatrixMode_t, int)
+00001f50 T CBaseShader::FixedFunctionMultiplyByLightmapPass(int, int, int, float)
+00002ea0 T CBaseShader::FixedFunctionAdditiveMaskedEnvmapPass(int, int, int, int, int, int, int, int, int)
+00001780 T CBaseShader::SetFixedFunctionTextureScaledTransform(MaterialMatrixMode_t, int, int)
+000030c0 T CBaseShader::SetFlashlightFixedFunctionTextureTransform(MaterialMatrixMode_t)
+00000620 T CBaseShader::Draw(bool)
+00000c30 T CBaseShader::GetAlpha(IMaterialVar**)
+00001a00 T CBaseShader::FogToGrey()
+000001c0 T CBaseShader::CBaseShader()
+000001c0 T CBaseShader::CBaseShader()
+         U ConVar::ConVar(char const*, char const*, int)
+         U ConVar::~ConVar()
+00003080 T CBaseShader::UsingEditor(IMaterialVar**) const
+00000000 T CBaseShader::GetNumParams() const
+00000030 T CBaseShader::GetParamHelp(int) const
+00000010 T CBaseShader::GetParamName(int) const
+00000050 T CBaseShader::GetParamType(int) const
+00000090 T CBaseShader::GetParamFlags(int) const
+000001a0 T CBaseShader::IsTranslucent(IMaterialVar**) const
+000006a0 T CBaseShader::FindParamIndex(char const*) const
+00000070 T CBaseShader::GetParamDefault(int) const
+00003040 T CBaseShader::UsingFlashlight(IMaterialVar**) const
+00000df0 T CBaseShader::ApplyColor2Factor(float*) const
+00000b90 T CBaseShader::GetColorParameter(IMaterialVar**, float*) const
+00000000 W CBaseShader::GetFallbackShader(IMaterialVar**) const
+00000000 W CBaseShader::GetSoftwareVertexShader() const
+00000180 T CBaseShader::NeedsFullFrameBufferTexture(IMaterialVar**, bool) const
+00000160 T CBaseShader::NeedsPowerOfTwoFrameBufferTexture(IMaterialVar**, bool) const
+00000000 V typeinfo for CBaseShader
+00000000 V typeinfo for IShader
+00000000 V typeinfo name for CBaseShader
+00000000 V typeinfo name for IShader
+00000000 V vtable for CBaseShader
+00000000 V vtable for IShader
+         U vtable for __cxxabiv1::__class_type_info
+         U vtable for __cxxabiv1::__si_class_type_info
+00000058 b CBaseShader::DrawElements(IMaterialVar**, int, IShaderShadow*, IShaderDynamicAPI*, VertexCompressionType_t, CBasePerMaterialContextData**)::tm_fmt
+00000000 d CBaseShader::LoadCameraSpaceSphereMapTransform(MaterialMatrixMode_t)::mat
+
+ShaderDLL.o:
+         U __cxa_pure_virtual
+         U free
+00000000 t _GLOBAL__sub_I_g_pHardwareConfig
+00000010 B g_pConfig
+00000020 B g_pHardwareConfig
+00000000 B g_pSLShaderSystem
+         U __gxx_personality_v0
+         U malloc
+         U memmove
+         U realloc
+         U _Unwind_Resume
+00000000 n wt.036c5a07c940c490
+00000000 n wt.039072e8a658c4a8
+00000000 n wt.22ecff738f575805
+00000000 n wt.29d04898683bec8e
+00000000 n wt.3364ce67af643308
+00000000 n wt.36b557ff2112a601
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.6c9c77245a118f40
+00000000 n wt.6efdb1b3710b6cee
+00000000 n wt.70bb7207f756af98
+00000000 n wt.7b1a1132a2f5fe9a
+00000000 n wt.7bc55e036516b04a
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.9b6531dea1610570
+00000000 n wt.af768c88d3f7d4fa
+00000000 n wt.affbca617ceb42ac
+00000000 n wt.c3c681ab41c6e16a
+00000000 n wt.d22b5c8091cab03f
+00000000 n wt.d332b26f15409820
+00000000 n wt.d58adba4ddf74635
+00000000 n wt.da3f8b4596b0f631
+00000000 n wt.e3a1b00c2c2ec217
+00000000 n wt.ee4025acdcda5f8b
+00000000 n wt.ffbda2f3dfa3c95f
+00000290 T GetShaderDLL()
+         U MathLib_Init(float, float, float, int, bool, bool, bool, bool)
+         U ConVar_Unregister()
+         U InitShaderLibCVars(void* (*)(char const*, int*))
+00000230 T GetShaderDLLInternal()
+         U ConnectTier1Libraries(void* (**)(char const*, int*), int)
+         U DisconnectTier1Libraries()
+         U operator delete(void*)
+00000034 b vec2_origin
+00000044 b vec4_origin
+00000030 b s_pShaderDLL
+0000003c b vec2_invalid
+00000054 b vec4_invalid
+00000064 b __g_CreateIShaderDLLInternal_reg
+00000090 T CShaderDLL::Disconnect(bool)
+00000030 T CShaderDLL::Disconnect()
+00000300 T CShaderDLL::InsertShader(IShader*)
+00000000 T CShaderDLL::Connect(void* (*)(char const*, int*))
+000000d0 T CShaderDLL::Connect(void* (*)(char const*, int*), bool)
+00000060 T CShaderDLL::GetShader(int)
+00000170 T CShaderDLL::CShaderDLL()
+00000170 T CShaderDLL::CShaderDLL()
+00000000 W CUtlMemory<IShader*, int>::Grow(int)
+00000000 W CUtlMemory<IShader*, int>::Purge()
+00000000 W CUtlVector<IShader*, CUtlMemory<IShader*, int> >::InsertBefore(int, IShader* const&)
+         U InterfaceReg::InterfaceReg(void* (*)(), char const*)
+00000050 T CShaderDLL::ShaderCount() const
+         U operator new(unsigned int)
+000002f0 T non-virtual thunk to CShaderDLL::InsertShader(IShader*)
+00000000 V typeinfo for CShaderDLL
+00000000 V typeinfo for IShaderDLL
+00000000 V typeinfo for IShaderDLLInternal
+00000000 V typeinfo name for CShaderDLL
+00000000 V typeinfo name for IShaderDLL
+00000000 V typeinfo name for IShaderDLLInternal
+00000000 V vtable for CShaderDLL
+00000000 V vtable for IShaderDLL
+00000000 V vtable for IShaderDLLInternal
+         U vtable for __cxxabiv1::__class_type_info
+         U vtable for __cxxabiv1::__vmi_class_type_info
+
+shaderlib_cvar.o:
+00000000 D g_ConVarAccessor
+00000000 t _GLOBAL__sub_I_g_ConVarAccessor
+         U g_pCVar
+00000000 n wt.036c5a07c940c490
+00000000 n wt.3364ce67af643308
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.9bbcf07dac1e8d7d
+00000000 n wt.ae939b01e560a3d9
+00000000 n wt.e3a1b00c2c2ec217
+00000000 n wt.ffbda2f3dfa3c95f
+         U ConVar_Register(int, IConCommandBaseAccessor*)
+00000000 T InitShaderLibCVars(void* (*)(char const*, int*))
+00000000 b vec2_origin
+00000010 b vec2_invalid
+00000000 W CShaderLibConVarAccessor::RegisterConCommandBase(ConCommandBase*)
+00000000 V typeinfo for IConCommandBaseAccessor
+00000000 V typeinfo for CShaderLibConVarAccessor
+00000000 V typeinfo name for IConCommandBaseAccessor
+00000000 V typeinfo name for CShaderLibConVarAccessor
+00000000 V vtable for CShaderLibConVarAccessor
+         U vtable for __cxxabiv1::__class_type_info
+         U vtable for __cxxabiv1::__si_class_type_info

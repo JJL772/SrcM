@@ -1,0 +1,474 @@
+
+convert_x360.o:
+         U free
+00000000 t _GLOBAL__sub_I__Z15PreferredFormatP11IVTFTexture11ImageFormatiiii
+         U __gxx_personality_v0
+         U malloc
+         U memcpy
+         U memmove
+         U memset
+         U Msg
+         U realloc
+         U __stack_chk_fail
+         U _Unwind_Resume
+00000000 n wt.036c5a07c940c490
+00000000 n wt.0ac1bcc3972604a5
+00000000 n wt.0b0244cf83c3b85e
+00000000 n wt.0d38151149378353
+00000000 n wt.0d5f42a9c4c0280d
+00000000 n wt.1037a9d4e7ee9670
+00000000 n wt.1a50fd9c1ed92c24
+00000000 n wt.1c8e2c9432f8b5bf
+00000000 n wt.1f28641623d04e45
+00000000 n wt.20869932591b0ed1
+00000000 n wt.227bd91bfffbc0b2
+00000000 n wt.22ecff738f575805
+00000000 n wt.2598fc2652bd226f
+00000000 n wt.2c76170ce9f5e557
+00000000 n wt.306c410060e3fd16
+00000000 n wt.326826b45b536885
+00000000 n wt.3364ce67af643308
+00000000 n wt.39fc1bcec3ca503d
+00000000 n wt.3b67cb6087cb9a74
+00000000 n wt.42d5c33606d030c6
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.4b540acb46a6cb72
+00000000 n wt.4d69eac66ea421ef
+00000000 n wt.4e44fe3887080f2a
+00000000 n wt.4e50d2b39ea6cb85
+00000000 n wt.5465c747bcb0c4ed
+00000000 n wt.5e7796f2842dc99d
+00000000 n wt.6069068215b874e4
+00000000 n wt.6d628e3ac7b4aa83
+00000000 n wt.6e4e4e31209b08cc
+00000000 n wt.6efdb1b3710b6cee
+00000000 n wt.70bb7207f756af98
+00000000 n wt.7aeda3a85fb08677
+00000000 n wt.81e703b5c755400c
+00000000 n wt.86805a0d0d784784
+00000000 n wt.87c92accd82578b2
+00000000 n wt.8d5667ca70852db0
+00000000 n wt.8da5c402f3f9015f
+00000000 n wt.8f2454fd9494e619
+00000000 n wt.920d8cd69054cd6d
+00000000 n wt.96c25056cb1de787
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.9b99ad567cef1e2b
+00000000 n wt.9eb4e11c04a466c7
+00000000 n wt.a41fc4468cf6a016
+00000000 n wt.a98174c5b5998663
+00000000 n wt.ae8c094ad884eaf4
+00000000 n wt.aeae1ecc9b50a4e6
+00000000 n wt.af079dd41bb03487
+00000000 n wt.af768c88d3f7d4fa
+00000000 n wt.affbca617ceb42ac
+00000000 n wt.b2ced0a8e2ce0761
+00000000 n wt.b726beedbbf63457
+00000000 n wt.bb32aea43b3a843b
+00000000 n wt.bd7340c93ef74760
+00000000 n wt.c0b291612b07780b
+00000000 n wt.c9fc6e7e4ff6e9e2
+00000000 n wt.ca291a2001f9865f
+00000000 n wt.cc1b18505a07c491
+00000000 n wt.d332b26f15409820
+00000000 n wt.d58adba4ddf74635
+00000000 n wt.da3f8b4596b0f631
+00000000 n wt.e144806751aec4d5
+00000000 n wt.ea22490e0f4c0274
+00000000 n wt.ee4025acdcda5f8b
+00000000 n wt.f0eae49920267ba1
+00000000 n wt.ffbda2f3dfa3c95f
+         U V_strnicmp(char const*, char const*, int)
+00000210 T AlignBuffer(CUtlBuffer&, int)
+         U MathLib_Init(float, float, float, int, bool, bool, bool, bool)
+00000000 T PreferredFormat(IVTFTexture*, ImageFormat, int, int, int, int)
+         U CreateVTFTexture()
+         U DestroyVTFTexture(IVTFTexture*)
+         U SrgbGammaToLinear(float)
+         U SrgbLinearToGamma(float)
+         U VTFFileHeaderSize(int, int)
+000009f0 T SerializeImageData(IVTFTexture*, int, int, int, ImageFormat, CUtlBuffer&)
+         U SrgbGammaTo360Gamma(float)
+00000290 T ConvertImageFormatEx(unsigned char*, int, ImageFormat, unsigned char*, int, ImageFormat, int, int, bool)
+00000be0 T GetVTFPreload360Data(char const*, CUtlBuffer&, CUtlBuffer&)
+00000dc0 T ConvertVTFTo360Format(char const*, CUtlBuffer&, CUtlBuffer&, bool (*)(CUtlBuffer&, CUtlBuffer&))
+00000050 T ComputeTargetDimensions(char const*, IVTFTexture*, int, int&, int&, int&, int&, bool&)
+         U operator delete[](void*)
+00000000 b vec2_origin
+00000010 b vec2_invalid
+         U CUtlBuffer::EnsureCapacity(int)
+         U CUtlBuffer::AddNullTermination()
+         U CUtlBuffer::ActivateByteSwapping(bool)
+         U CUtlBuffer::Put(void const*, int)
+         U CUtlBuffer::Printf(char const*, ...)
+         U CUtlBuffer::SeekGet(CUtlBuffer::SeekType_t, int)
+         U CUtlBuffer::SeekPut(CUtlBuffer::SeekType_t, int)
+         U CUtlBuffer::CheckGet(int)
+         U CUtlBuffer::CheckPut(int)
+         U CUtlBuffer::CUtlBuffer(int, int, int)
+00000000 W CUtlMemory<ResourceCopy_t, int>::Grow(int)
+00000000 W CUtlMemory<ResourceCopy_t, int>::Purge()
+00000000 W CUtlMemory<unsigned char, int>::Purge()
+00000000 W CUtlVector<ResourceCopy_t, CUtlMemory<ResourceCopy_t, int> >::InsertBefore(int, ResourceCopy_t const&)
+         U ImageLoader::GetMemRequired(int, int, int, ImageFormat, bool)
+         U ImageLoader::ConvertImageFormat(unsigned char const*, ImageFormat, unsigned char*, ImageFormat, int, int, int, int)
+         U ImageLoader::GetNumMipMapLevels(int, int, int)
+         U ImageLoader::PreConvertSwapImageData(unsigned char*, int, ImageFormat, int, int)
+         U ImageLoader::PostConvertSwapImageData(unsigned char*, int, ImageFormat, int, int)
+         U ImageLoader::IsFormatValidForConversion(ImageFormat)
+         U VTFFileHeaderX360_t::m_DataMap
+         U CByteswap::SwapFieldsToTargetEndian(void*, void*, datamap_t*)
+00000000 W void CByteswap::SwapFieldsToTargetEndian<VTFFileHeaderX360_t>(VTFFileHeaderX360_t*, unsigned int)
+         U operator new[](unsigned int)
+
+vtf.o:
+         U __cxa_atexit
+         U __cxa_guard_acquire
+         U __cxa_guard_release
+         U __cxa_pure_virtual
+         U __dso_handle
+         U Error
+         U free
+000000a0 D g_backFaceVerts
+000000c0 D g_downFaceVerts
+00000078 D g_FaceVerts
+000000d0 D g_frontFaceVerts
+000000e0 D g_leftFaceVerts
+00000000 t _GLOBAL__sub_I__ZN19VTFFileBaseHeader_t9m_DataMapE
+000000b0 D g_rightFaceVerts
+00000048 D g_skybox_backFaceVerts
+00000018 D g_skybox_downFaceVerts
+00000000 D g_skybox_FaceVerts
+00000038 D g_skybox_frontFaceVerts
+00000058 D g_skybox_leftFaceVerts
+00000068 D g_skybox_rightFaceVerts
+00000028 D g_skybox_upFaceVerts
+         U g_Telemetry
+00000090 D g_upFaceVerts
+         U __gxx_personality_v0
+         U malloc
+         U MemAllocScratch
+         U memcpy
+         U MemFreeScratch
+         U memmove
+         U __pow_finite
+         U __printf_chk
+         U putchar
+         U realloc
+         U __stack_chk_fail
+         U _Unwind_Resume
+         U Warning
+00000000 n wt.036c5a07c940c490
+00000000 n wt.0ac1bcc3972604a5
+00000000 n wt.0b0244cf83c3b85e
+00000000 n wt.0d38151149378353
+00000000 n wt.0d5f42a9c4c0280d
+00000000 n wt.0eda5eb0789a4c17
+00000000 n wt.1037a9d4e7ee9670
+00000000 n wt.19dfcd8763aa8dbc
+00000000 n wt.1a50fd9c1ed92c24
+00000000 n wt.1f28641623d04e45
+00000000 n wt.20869932591b0ed1
+00000000 n wt.227bd91bfffbc0b2
+00000000 n wt.22ecff738f575805
+00000000 n wt.22f17223c4b60104
+00000000 n wt.23299180e43685dd
+00000000 n wt.2730ad96c7d14e24
+00000000 n wt.2bf6b43bf4e0b3c7
+00000000 n wt.2c76170ce9f5e557
+00000000 n wt.306c410060e3fd16
+00000000 n wt.326826b45b536885
+00000000 n wt.3364ce67af643308
+00000000 n wt.34f6963e60eb669b
+00000000 n wt.35cc3964067d9725
+00000000 n wt.39fc1bcec3ca503d
+00000000 n wt.3b67cb6087cb9a74
+00000000 n wt.3e572df167ba5a9f
+00000000 n wt.410769a9e01b9943
+00000000 n wt.42d5c33606d030c6
+00000000 n wt.4377fc6877fb62bb
+00000000 n wt.484e566a6bd4b0b1
+00000000 n wt.4a7770ffb0fd83cb
+00000000 n wt.4aef4469ff85c7fe
+00000000 n wt.4b540acb46a6cb72
+00000000 n wt.4d69eac66ea421ef
+00000000 n wt.4e44fe3887080f2a
+00000000 n wt.4e50d2b39ea6cb85
+00000000 n wt.4ed71fde929b77fb
+00000000 n wt.55d509d98c3450c2
+00000000 n wt.5cf257e0f8b82ae1
+00000000 n wt.5e7796f2842dc99d
+00000000 n wt.6069068215b874e4
+00000000 n wt.616adbc235c73784
+00000000 n wt.6d3749dc12a1937a
+00000000 n wt.6d628e3ac7b4aa83
+00000000 n wt.6e4e4e31209b08cc
+00000000 n wt.6efdb1b3710b6cee
+00000000 n wt.704e005b1a5152da
+00000000 n wt.70bb7207f756af98
+00000000 n wt.73017e13a5ca292c
+00000000 n wt.7636867464b50041
+00000000 n wt.7aeda3a85fb08677
+00000000 n wt.7d0f13e041116276
+00000000 n wt.802a300b4ed57946
+00000000 n wt.86805a0d0d784784
+00000000 n wt.87c52c15c4375c23
+00000000 n wt.87c92accd82578b2
+00000000 n wt.8af60d1dd1ef9bae
+00000000 n wt.8c37da81a4872405
+00000000 n wt.8da5c402f3f9015f
+00000000 n wt.8ebcd51f795ed168
+00000000 n wt.8f2454fd9494e619
+00000000 n wt.90278cb69eb1f67e
+00000000 n wt.920d8cd69054cd6d
+00000000 n wt.929ef0afec990921
+00000000 n wt.96c25056cb1de787
+00000000 n wt.9794cc92d0d33413
+00000000 n wt.9b99ad567cef1e2b
+00000000 n wt.9d7216a2c531edde
+00000000 n wt.9e84f58540c8d5f1
+00000000 n wt.9eb4e11c04a466c7
+00000000 n wt.a0266b645cb35d16
+00000000 n wt.a099a0303ccd92f5
+00000000 n wt.a41fc4468cf6a016
+00000000 n wt.a4887fe87ebc5593
+00000000 n wt.a79f3c54f8a1dc45
+00000000 n wt.a98174c5b5998663
+00000000 n wt.ae8c094ad884eaf4
+00000000 n wt.aeae1ecc9b50a4e6
+00000000 n wt.af079dd41bb03487
+00000000 n wt.af768c88d3f7d4fa
+00000000 n wt.affbca617ceb42ac
+00000000 n wt.b38a49b224c052ae
+00000000 n wt.b99e7180e694bef7
+00000000 n wt.bb32aea43b3a843b
+00000000 n wt.c0b291612b07780b
+00000000 n wt.c47e26e0bddb1cc3
+00000000 n wt.c975d7547e0878f8
+00000000 n wt.c9fc6e7e4ff6e9e2
+00000000 n wt.ca291a2001f9865f
+00000000 n wt.cc1b18505a07c491
+00000000 n wt.d214721e93725b44
+00000000 n wt.d332b26f15409820
+00000000 n wt.d4b19f10f7a15335
+00000000 n wt.d58adba4ddf74635
+00000000 n wt.d5bc239219a83a68
+00000000 n wt.dfde3b211180013c
+00000000 n wt.e144806751aec4d5
+00000000 n wt.ea22490e0f4c0274
+00000000 n wt.ea9093d6a4a6e4ac
+00000000 n wt.edac22cd21cffd88
+00000000 n wt.ee4025acdcda5f8b
+00000000 n wt.f047def99344a0cb
+00000000 n wt.f0eae49920267ba1
+00000000 n wt.f4e2930c0f735af2
+00000000 n wt.ffbda2f3dfa3c95f
+00004060 T BlendTexels(unsigned char**, int)
+00001e60 T datamap_t* DataMapInit<VTFFileHeader_t>(VTFFileHeader_t*)
+00001b20 T datamap_t* DataMapInit<VTFFileBaseHeader_t>(VTFFileBaseHeader_t*)
+00001bf0 T datamap_t* DataMapInit<VTFFileHeaderV7_1_t>(VTFFileHeaderV7_1_t*)
+00001cc0 T datamap_t* DataMapInit<VTFFileHeaderV7_2_t>(VTFFileHeaderV7_2_t*)
+00001d90 T datamap_t* DataMapInit<VTFFileHeaderV7_3_t>(VTFFileHeaderV7_3_t*)
+00001f30 T datamap_t* DataMapInit<VTFFileHeaderX360_t>(VTFFileHeaderX360_t*)
+00001ff0 T S3TC_GetBlock(void const*, ImageFormat, int, int, int)
+00002000 T S3TC_GetBlock(void*, ImageFormat, int, int, int)
+         U TextureToLinear(int)
+000022d0 T CreateVTFTexture()
+00002020 T S3TC_MergeBlocks(char**, S3RGBA**, int, int, ImageFormat)
+00002040 T DestroyVTFTexture(IVTFTexture*)
+00002060 T VTFFileHeaderSize(int, int)
+00002010 T S3TC_GetPaletteIndex(unsigned char*, ImageFormat, int, int, int)
+00002030 T S3TC_SetPaletteIndex(unsigned char*, ImageFormat, int, int, int, S3PaletteIndex)
+         U Q_log2(int)
+         U V_strncmp(char const*, char const*, int)
+         U V_strncpy(char*, char const*, int)
+         U operator delete[](void*)
+         U operator delete(void*)
+000000e0 b guard variable for datamap_t* DataMapInit<VTFFileHeader_t>(VTFFileHeader_t*)::nameHolder
+00000020 b guard variable for datamap_t* DataMapInit<VTFFileBaseHeader_t>(VTFFileBaseHeader_t*)::nameHolder
+00000050 b guard variable for datamap_t* DataMapInit<VTFFileHeaderV7_1_t>(VTFFileHeaderV7_1_t*)::nameHolder
+00000080 b guard variable for datamap_t* DataMapInit<VTFFileHeaderV7_2_t>(VTFFileHeaderV7_2_t*)::nameHolder
+000000b0 b guard variable for datamap_t* DataMapInit<VTFFileHeaderV7_3_t>(VTFFileHeaderV7_3_t*)::nameHolder
+00000160 b guard variable for datamap_t* DataMapInit<VTFFileHeaderX360_t>(VTFFileHeaderX360_t*)::nameHolder
+00000190 b vec2_origin
+00000198 b vec2_invalid
+00000230 t CalcFaceIndex(Vector const&)
+00001850 t CalcSphereColor(SphereCalc_t*, float, float) [clone .constprop.69]
+00001610 t CalcHemisphereColor(SphereCalc_t*, float, float) [clone .constprop.67]
+00000e90 t GenericAllocateReusableData(unsigned char**, int*, int)
+00001740 t CalcInit(SphereCalc_t*, int, unsigned char**, LookDir_t) [clone .constprop.68]
+000014b0 t CalcColor(SphereCalc_t*, int, Vector const&, unsigned char*) [clone .isra.8]
+         U CUtlBuffer::Get(void*, int)
+         U CUtlBuffer::Put(void const*, int)
+         U CUtlBuffer::SeekGet(CUtlBuffer::SeekType_t, int)
+         U CUtlBuffer::SeekPut(CUtlBuffer::SeekType_t, int)
+00000000 W CUtlMemory<ResourceEntryInfo, int>::Grow(int)
+00000000 W CUtlMemory<ResourceEntryInfo, int>::Purge()
+00000000 W CUtlMemory<S3RGBA, int>::Grow(int)
+00000000 W CUtlMemory<S3RGBA, int>::Purge()
+00000000 W CUtlMemory<unsigned char, int>::~CUtlMemory()
+00000000 W CUtlMemory<unsigned char, int>::~CUtlMemory()
+00000000 n CUtlMemory<unsigned char, int>::~CUtlMemory()
+00000000 W CUtlMemory<CVTFTexture::ResourceMemorySection, int>::Grow(int)
+00000000 W CUtlMemory<CVTFTexture::ResourceMemorySection, int>::Purge()
+00000000 W CUtlMemory<char*, int>::Purge()
+00000000 W CUtlVector<ResourceEntryInfo, CUtlMemory<ResourceEntryInfo, int> >::GrowVector(int)
+00000000 W CUtlVector<ResourceEntryInfo, CUtlMemory<ResourceEntryInfo, int> >::ShiftElementsRight(int, int)
+00000000 W CUtlVector<S3RGBA, CUtlMemory<S3RGBA, int> >::SetCount(int)
+00000000 W CUtlVector<CVTFTexture::ResourceMemorySection, CUtlMemory<CVTFTexture::ResourceMemorySection, int> >::GrowVector(int)
+00000000 W CUtlVector<CVTFTexture::ResourceMemorySection, CUtlMemory<CVTFTexture::ResourceMemorySection, int> >::InsertBefore(int, CVTFTexture::ResourceMemorySection const&)
+00000000 W CUtlVector<CVTFTexture::ResourceMemorySection, CUtlMemory<CVTFTexture::ResourceMemorySection, int> >::ShiftElementsRight(int, int)
+000027f0 T CVTFTexture::ReadHeader(CUtlBuffer&, VTFFileHeader_t&)
+000003a0 T CVTFTexture::PostProcess(bool, LookDir_t, bool)
+00005170 T CVTFTexture::Unserialize(CUtlBuffer&, bool, int)
+00000000 T CVTFTexture::SetBumpScale(float)
+00002530 T CVTFTexture::LoadImageData(CUtlBuffer&, VTFFileHeader_t const&, int)
+000027c0 T CVTFTexture::SetupByteSwap(CUtlBuffer&)
+00003e30 T CVTFTexture::SetupFaceVert(int, int, CEdgePos&)
+000024b0 T CVTFTexture::LoadLowResData(CUtlBuffer&)
+00002e70 T CVTFTexture::WriteImageData(CUtlBuffer&)
+00000730 T CVTFTexture::GenerateMipmaps()
+00004f10 T CVTFTexture::InitLowResImage(int, int, ImageFormat)
+000001c0 T CVTFTexture::LowResImageData()
+00000010 T CVTFTexture::SetReflectivity(Vector const&)
+00004e20 T CVTFTexture::SetResourceData(unsigned int, void const*, unsigned int)
+00002a10 T CVTFTexture::LoadNewResources(CUtlBuffer&)
+000023b0 T CVTFTexture::ReleaseResources()
+00002330 T CVTFTexture::AllocateImageData(int)
+00001020 T CVTFTexture::ComputeAlphaFlags()
+00003a00 T CVTFTexture::GenerateSpheremap(LookDir_t)
+00003300 T CVTFTexture::ConvertImageFormat(ImageFormat, bool)
+00003eb0 T CVTFTexture::SetupEdgeIncrement(CEdgePos&, CEdgePos&, CEdgePos&)
+00000530 T CVTFTexture::ComputeReflectivity()
+00005a40 T CVTFTexture::MatchCubeMapBorders(int, ImageFormat, bool)
+00005850 t CVTFTexture::MatchCubeMapBorders(int, ImageFormat, bool) [clone .part.66]
+00004890 T CVTFTexture::ConstructLowResImage()
+000011b0 T CVTFTexture::NormalizeTopMipLevel()
+00004130 T CVTFTexture::BlendCubeMapFaceEdges(int, int, CEdgeMatch const*)
+000037d0 T CVTFTexture::ComputeSpheremapFrame(unsigned char**, unsigned char*, LookDir_t)
+00002e60 T CVTFTexture::FindResourceEntryInfo(unsigned int)
+00003dc0 T CVTFTexture::GenerateHemisphereMap(unsigned char*, int, int, LookDir_t, int)
+00002350 T CVTFTexture::ResourceMemorySection::AllocateData(int)
+000026c0 T CVTFTexture::ResourceMemorySection::LoadData(CUtlBuffer&, CByteswap&)
+00004420 T CVTFTexture::BuildCubeMapMatchLists(CEdgeMatch*, CCornerMatch*, bool)
+00002390 T CVTFTexture::AllocateLowResImageData(int)
+00004320 T CVTFTexture::BlendCubeMapFaceCorners(int, int, CCornerMatch const*)
+00004b30 T CVTFTexture::RemoveResourceEntryInfo(unsigned int)
+00000030 T CVTFTexture::SetAlphaTestThreshholds(float, float)
+00004580 T CVTFTexture::BlendCubeMapEdgePalettes(int, int, CEdgeMatch const*)
+000047d0 T CVTFTexture::MatchCubeMapS3TCPalettes(CEdgeMatch*, CCornerMatch*)
+00003b90 T CVTFTexture::ComputeHemispheremapFrame(unsigned char**, unsigned char*, LookDir_t)
+00001260 T CVTFTexture::FixCubemapFaceOrientation()
+000002a0 T CVTFTexture::PutOneOverMipLevelInAlpha()
+00000460 T CVTFTexture::SetPostProcessingSettings(VtfProcessingOptions const*)
+000046e0 T CVTFTexture::BlendCubeMapCornerPalettes(int, int, CCornerMatch const*)
+00003f00 T CVTFTexture::SetupTextureEdgeIncrements(int, int, int, bool, CEdgeIncrements*)
+00004c70 T CVTFTexture::FindOrCreateResourceEntryInfo(unsigned int)
+00004fa0 T CVTFTexture::Init(int, int, int, ImageFormat, int, int, int)
+00002450 T CVTFTexture::Shutdown()
+00003790 T CVTFTexture::ImageData(int, int, int)
+00000d70 T CVTFTexture::ImageData(int, int, int, int, int, int)
+00000180 T CVTFTexture::ImageData()
+00002f20 T CVTFTexture::Serialize(CUtlBuffer&)
+000020e0 T CVTFTexture::CVTFTexture()
+000020e0 T CVTFTexture::CVTFTexture()
+00004b10 T CVTFTexture::~CVTFTexture()
+00004a40 T CVTFTexture::~CVTFTexture()
+00004a40 T CVTFTexture::~CVTFTexture()
+         U ImageLoader::GetMemRequired(int, int, int, ImageFormat, bool)
+         U ImageLoader::RotateImage180(unsigned char const*, unsigned char*, int, ImageFormat)
+         U ImageLoader::ImageFormatInfo(ImageFormat)
+         U ImageLoader::RotateImageLeft(unsigned char const*, unsigned char*, int, ImageFormat)
+         U ImageLoader::ResampleRGBA8888(ImageLoader::ResampleInfo_t const&)
+         U ImageLoader::ConvertImageFormat(unsigned char const*, ImageFormat, unsigned char*, ImageFormat, int, int, int, int)
+         U ImageLoader::GetNumMipMapLevels(int, int, int)
+         U ImageLoader::ResampleRGB323232F(ImageLoader::ResampleInfo_t const&)
+         U ImageLoader::FlipImageVertically(void*, void*, int, int, ImageFormat, int)
+         U ImageLoader::GenerateMipmapLevels(unsigned char*, unsigned char*, int, int, int, ImageFormat, float, float, int)
+         U ImageLoader::FlipImageHorizontally(void*, void*, int, int, ImageFormat, int)
+         U ImageLoader::NormalizeNormalMapRGBA8888(unsigned char*, int)
+         U ImageLoader::ConvertNormalMapRGBA8888ToDUDVMapUV88(unsigned char const*, int, int, unsigned char*)
+         U ImageLoader::ConvertNormalMapRGBA8888ToDUDVMapUVLX8888(unsigned char const*, int, int, unsigned char*)
+         U ImageLoader::ConvertNormalMapRGBA8888ToDUDVMapUVWQ8888(unsigned char const*, int, int, unsigned char*)
+00000000 W IVTFTexture::~IVTFTexture()
+00000000 W IVTFTexture::~IVTFTexture()
+00000000 W IVTFTexture::~IVTFTexture()
+00000000 n IVTFTexture::~IVTFTexture()
+00001e50 T VTFFileHeader_t::GetBaseMap()
+00000110 D VTFFileHeader_t::m_DataMap
+00001b10 T VTFFileBaseHeader_t::GetBaseMap()
+00000190 D VTFFileBaseHeader_t::m_DataMap
+00001be0 T VTFFileHeaderV7_1_t::GetBaseMap()
+00000170 D VTFFileHeaderV7_1_t::m_DataMap
+00001cb0 T VTFFileHeaderV7_2_t::GetBaseMap()
+00000150 D VTFFileHeaderV7_2_t::m_DataMap
+00001d80 T VTFFileHeaderV7_3_t::GetBaseMap()
+00000130 D VTFFileHeaderV7_3_t::m_DataMap
+00001f20 T VTFFileHeaderX360_t::GetBaseMap()
+000000f0 D VTFFileHeaderX360_t::m_DataMap
+00000000 W CDatadescGeneratedNameHolder::~CDatadescGeneratedNameHolder()
+00000000 W CDatadescGeneratedNameHolder::~CDatadescGeneratedNameHolder()
+00000000 n CDatadescGeneratedNameHolder::~CDatadescGeneratedNameHolder()
+00000004 B VTFFileHeader_t_DataDescInit::g_DataMapHolder
+00000014 B VTFFileBaseHeader_t_DataDescInit::g_DataMapHolder
+00000010 B VTFFileHeaderV7_1_t_DataDescInit::g_DataMapHolder
+0000000c B VTFFileHeaderV7_2_t_DataDescInit::g_DataMapHolder
+00000008 B VTFFileHeaderV7_3_t_DataDescInit::g_DataMapHolder
+00000000 B VTFFileHeaderX360_t_DataDescInit::g_DataMapHolder
+         U operator new[](unsigned int)
+00000110 T CVTFTexture::FrameCount() const
+00000140 T CVTFTexture::IsNormalMap() const
+00000190 T CVTFTexture::LowResWidth() const
+000001b0 T CVTFTexture::LowResFormat() const
+000001a0 T CVTFTexture::LowResHeight() const
+00000170 T CVTFTexture::Reflectivity() const
+00002bc0 T CVTFTexture::ImageFileInfo(int, int, int, int*, int*) const
+00000d10 T CVTFTexture::ComputeMipSize(int) const
+000031f0 T CVTFTexture::GetImageOffset(int, int, int, ImageFormat) const
+00002d40 T CVTFTexture::LowResFileInfo(int*, int*) const
+00000e50 T CVTFTexture::RowSizeInBytes(int) const
+000019d0 T CVTFTexture::ComputeFaceSize(int) const
+00002300 T CVTFTexture::ComputeMipCount() const
+00000e00 T CVTFTexture::FaceSizeInBytes(int) const
+00002dd0 T CVTFTexture::GetResourceData(unsigned int, unsigned int*) const
+00000150 T CVTFTexture::IsVolumeTexture() const
+00001a70 T CVTFTexture::ComputeTotalSize() const
+00000050 T CVTFTexture::GetResourceTypes(unsigned int*, int) const
+00002b50 T CVTFTexture::HasResourceEntry(unsigned int) const
+00002ad0 T CVTFTexture::FindResourceEntryInfo(unsigned int) const
+00002760 T CVTFTexture::ResourceMemorySection::WriteData(CUtlBuffer&) const
+00000f10 T CVTFTexture::ComputeMipLevelSubRect(Rect_t*, int, Rect_t*) const
+000001d0 T CVTFTexture::ComputeMipLevelDimensions(int, int*, int*, int*) const
+000000d0 T CVTFTexture::Depth() const
+00000120 T CVTFTexture::Flags() const
+000000b0 T CVTFTexture::Width() const
+000000f0 T CVTFTexture::Format() const
+000000c0 T CVTFTexture::Height() const
+00002b70 T CVTFTexture::FileSize(int) const
+000000e0 T CVTFTexture::MipCount() const
+00000160 T CVTFTexture::BumpScale() const
+00000100 T CVTFTexture::FaceCount() const
+00000130 T CVTFTexture::IsCubeMap() const
+         U operator new(unsigned int)
+00000000 V typeinfo for CVTFTexture
+00000000 V typeinfo for IVTFTexture
+00000000 V typeinfo name for CVTFTexture
+00000000 V typeinfo name for IVTFTexture
+00000000 V vtable for CVTFTexture
+00000000 V vtable for IVTFTexture
+         U vtable for __cxxabiv1::__class_type_info
+         U vtable for __cxxabiv1::__si_class_type_info
+000000e8 b datamap_t* DataMapInit<VTFFileHeader_t>(VTFFileHeader_t*)::nameHolder
+00000120 b datamap_t* DataMapInit<VTFFileHeader_t>(VTFFileHeader_t*)::dataDesc
+00000028 b datamap_t* DataMapInit<VTFFileBaseHeader_t>(VTFFileBaseHeader_t*)::nameHolder
+000001c0 d datamap_t* DataMapInit<VTFFileBaseHeader_t>(VTFFileBaseHeader_t*)::dataDesc
+00000058 b datamap_t* DataMapInit<VTFFileHeaderV7_1_t>(VTFFileHeaderV7_1_t*)::nameHolder
+000002a0 d datamap_t* DataMapInit<VTFFileHeaderV7_1_t>(VTFFileHeaderV7_1_t*)::dataDesc
+00000088 b datamap_t* DataMapInit<VTFFileHeaderV7_2_t>(VTFFileHeaderV7_2_t*)::nameHolder
+00000580 d datamap_t* DataMapInit<VTFFileHeaderV7_2_t>(VTFFileHeaderV7_2_t*)::dataDesc
+000000b8 b datamap_t* DataMapInit<VTFFileHeaderV7_3_t>(VTFFileHeaderV7_3_t*)::nameHolder
+00000600 d datamap_t* DataMapInit<VTFFileHeaderV7_3_t>(VTFFileHeaderV7_3_t*)::dataDesc
+00000168 b datamap_t* DataMapInit<VTFFileHeaderX360_t>(VTFFileHeaderX360_t*)::nameHolder
+00000680 d datamap_t* DataMapInit<VTFFileHeaderX360_t>(VTFFileHeaderX360_t*)::dataDesc
+00000074 r CVTFTexture::Unserialize(CUtlBuffer&, bool, int)::__FUNCTION__
+00000184 b CVTFTexture::Unserialize(CUtlBuffer&, bool, int)::tm_fmt

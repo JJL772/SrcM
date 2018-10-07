@@ -1,0 +1,28 @@
+var struct_refract___d_x9___vars__t =
+[
+    [ "Refract_DX9_Vars_t", "struct_refract___d_x9___vars__t.html#a9f13d6f6b98b46b64dcca94f0b57eb4a", null ],
+    [ "m_nBaseTexture", "struct_refract___d_x9___vars__t.html#aa9b13ae24f3f17d5068a9f6fdc2d8c89", null ],
+    [ "m_nBlurAmount", "struct_refract___d_x9___vars__t.html#a6ae4b89b704cda33fe4ac68dae40dcee", null ],
+    [ "m_nBumpFrame", "struct_refract___d_x9___vars__t.html#ad516c1342aa92a719a75a5376b7034fd", null ],
+    [ "m_nBumpFrame2", "struct_refract___d_x9___vars__t.html#a560fc2b6d3a563a644ffb9fce318a257", null ],
+    [ "m_nBumpTransform", "struct_refract___d_x9___vars__t.html#a7719d816d4e74ef7aa3cbd208aeb43bd", null ],
+    [ "m_nBumpTransform2", "struct_refract___d_x9___vars__t.html#a35fc98a40b30edc7256a906f2ef7ae55", null ],
+    [ "m_nEnvmap", "struct_refract___d_x9___vars__t.html#a827f5d756a87e38ac188be4eff10d417", null ],
+    [ "m_nEnvmapContrast", "struct_refract___d_x9___vars__t.html#a31bf6b7df1266d96809744267aeaba90", null ],
+    [ "m_nEnvmapFrame", "struct_refract___d_x9___vars__t.html#afa3176c0d86544dd80b9e877c07a6d1f", null ],
+    [ "m_nEnvmapSaturation", "struct_refract___d_x9___vars__t.html#aa171a2f9f910d52ccad8bdd19351b576", null ],
+    [ "m_nEnvmapTint", "struct_refract___d_x9___vars__t.html#a6756bb0a818b706a736f27f5fb661e8a", null ],
+    [ "m_nFadeOutOnSilhouette", "struct_refract___d_x9___vars__t.html#af2cb1f1627e98e798ad6fdf7fb01cd5e", null ],
+    [ "m_nForceAlphaWrite", "struct_refract___d_x9___vars__t.html#a0cec8f483990e6b9a3e7ddc1d92ed6d1", null ],
+    [ "m_nFrame", "struct_refract___d_x9___vars__t.html#a79e5fb60c570b4b651e87d3dfe136765", null ],
+    [ "m_nFresnelReflection", "struct_refract___d_x9___vars__t.html#a2edc015c1f68d78e701e1c93ba9942b3", null ],
+    [ "m_nMasked", "struct_refract___d_x9___vars__t.html#a0fdce6b5061f786212e8c61af955dfcd", null ],
+    [ "m_nNormalMap", "struct_refract___d_x9___vars__t.html#af3abc93957314ebb862a62f39f539e20", null ],
+    [ "m_nNormalMap2", "struct_refract___d_x9___vars__t.html#a416ecfde35c9778193c7f6b4ae6a3088", null ],
+    [ "m_nNoWriteZ", "struct_refract___d_x9___vars__t.html#a10730d5b2f188aa8a78de58504cdfdcd", null ],
+    [ "m_nRefractAmount", "struct_refract___d_x9___vars__t.html#a47865222996a2e3aac28f024dcc84096", null ],
+    [ "m_nRefractTint", "struct_refract___d_x9___vars__t.html#abda8f8ff50d16f7308a51b7c76bbf9c5", null ],
+    [ "m_nRefractTintTexture", "struct_refract___d_x9___vars__t.html#a6c458feb65a68bb554f32a2aa6f90416", null ],
+    [ "m_nRefractTintTextureFrame", "struct_refract___d_x9___vars__t.html#a3a3796048b42cdb2a04e0e6f2beef286", null ],
+    [ "m_nVertexColorModulate", "struct_refract___d_x9___vars__t.html#a2b872c542106f89418eee41957433cbb", null ]
+];

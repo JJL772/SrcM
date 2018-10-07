@@ -1,0 +1,28 @@
+var struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t =
+[
+    [ "DrawFlashlight_dx90_Vars_t", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#a580158f62f7892cb5a6ead79ba09c3ab", null ],
+    [ "m_bBump", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#a022383bf791e7bc19720b36381ad33e5", null ],
+    [ "m_bLightmappedGeneric", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#a0235c7e55507768130a37373506ce1b6", null ],
+    [ "m_bSSBump", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#a6b8a7c5d7766bb4bcf4d0fbb7f22334b", null ],
+    [ "m_bTeeth", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#a9a237a54f5158db756569cb65da2c31f", null ],
+    [ "m_bWorldVertexTransition", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#ab2ede6d97c98a3cb40bd7563580af712", null ],
+    [ "m_fSeamlessScale", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#afd6703f0bdccbe37e1eae389eceb0520", null ],
+    [ "m_nAlphaTestReference", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#a6f61ed740270003acd2f4064a8f89609", null ],
+    [ "m_nBaseTexture2FrameVar", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#a23eaef3980a885514d66aff2406ab3e6", null ],
+    [ "m_nBaseTexture2Var", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#a0d18cfa4d14062acadd13c7f31560f58", null ],
+    [ "m_nBump2Transform", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#a62e4c6af32303e1a8c2f403a67746af9", null ],
+    [ "m_nBumpmap2Frame", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#aadd5cc7a81e6e031ee35f13f9b64659a", null ],
+    [ "m_nBumpmap2Var", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#abe9e7a133817b901729a3e3bfec4d531", null ],
+    [ "m_nBumpmapFrame", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#a2c94e42a65ac1c87b04758e0d95fa78e", null ],
+    [ "m_nBumpmapVar", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#afd9e2e851a21556d3687b32d90a7e9e0", null ],
+    [ "m_nBumpTransform", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#a1f516fd0f91e23501b96247ccd1acc27", null ],
+    [ "m_nDetailScale", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#a9e133e4474947e2aea38e4f0cb07bf5a", null ],
+    [ "m_nDetailTextureBlendFactor", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#a58effde0a1a88470bc425308144ac123", null ],
+    [ "m_nDetailTextureCombineMode", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#aa3c2d657296987a32972850586eccd1c", null ],
+    [ "m_nDetailTint", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#a3e7f0b9cda5f5d7cb5bca2c8bf8354c1", null ],
+    [ "m_nDetailVar", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#adc35acb86486cb6a28a0f9f2f2f848dc", null ],
+    [ "m_nFlashlightTextureFrameVar", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#add9808e5c1bd96dcc885b80593fa6a5f", null ],
+    [ "m_nFlashlightTextureVar", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#abc675a7140e98d59c965ee33329c5700", null ],
+    [ "m_nTeethForwardVar", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#aa3115dad796c1ee1aed930080b399adf", null ],
+    [ "m_nTeethIllumFactorVar", "struct_c_base_v_s_shader_1_1_draw_flashlight__dx90___vars__t.html#a40ccd47a0bd8341c3675b4321b0c1d49", null ]
+];
