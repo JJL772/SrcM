@@ -11,6 +11,8 @@
 #include <thread>
 #include <stddef.h>
 #include <stdint.h>
+#include <list>
+#include <atomic>
 
 typedef void(*fnThreadWorkPtr)();
 
@@ -68,7 +70,7 @@ public:
 	//
 	// Submits a job and returns the index in the queue, 0 if the item does not sit in the queue 
 	//
-	virtual uint32_t SubmitJob(const CThreadJobBase& job) = 0;
+	virtual uint32_t SubmitJob(const CThreadJobBase& job, EThreadJobDomain domain = EThreadJobDomain::THRD_COMPUTE) = 0;
 
 	//
 	// Returns the jobs state. If the job cannot be found anywhere STATE_DNE is returned.
@@ -82,9 +84,19 @@ public:
 };
 
 
-class CThreadPool
+struct SThreadState
+{
+	bool bDirty;
+	CThreadJobBase* pJob;
+};
+
+class CThreadPool final : public IThreadPool
 {
 private:
+	std::list<std::atomic<SThreadState>> ThreadStates;
+
+	
 
 public:
+
 };
