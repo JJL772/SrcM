@@ -1,0 +1,3319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tier1\;CMake Files\CMakeScripts\;CMake Files\mathlib\;CMake Files\raytrace\;CMake Files\game\;CMake Files\game\server\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tier1">
+				<Option output="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/libtier1.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DTIER1_STATIC_LIB=1"/>
+					<Add option="-DRAD_TELEMETRY_DISABLED"/>
+					<Add option="-DDEV_BUILD"/>
+					<Add option="-DFRAME_POINTER_OMISSION_DISABLED"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/tier1"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier0"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier1"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/common"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/utils/common"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/Makefile&quot;  VERBOSE=1 tier1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tier1/fast">
+				<Option output="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/libtier1.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DTIER1_STATIC_LIB=1"/>
+					<Add option="-DRAD_TELEMETRY_DISABLED"/>
+					<Add option="-DDEV_BUILD"/>
+					<Add option="-DFRAME_POINTER_OMISSION_DISABLED"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/tier1"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier0"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier1"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/common"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/utils/common"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/Makefile&quot;  VERBOSE=1 tier1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mathlib">
+				<Option output="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/mathlib/libmathlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/mathlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DRAD_TELEMETRY_DISABLED"/>
+					<Add option="-DDEV_BUILD"/>
+					<Add option="-DFRAME_POINTER_OMISSION_DISABLED"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/mathlib"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/mathlib"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier0"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier1"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/common"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/utils/common"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/mathlib/Makefile&quot;  VERBOSE=1 mathlib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/mathlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/mathlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/mathlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mathlib/fast">
+				<Option output="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/mathlib/libmathlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/mathlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DRAD_TELEMETRY_DISABLED"/>
+					<Add option="-DDEV_BUILD"/>
+					<Add option="-DFRAME_POINTER_OMISSION_DISABLED"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/mathlib"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/mathlib"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier0"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier1"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/common"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/utils/common"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/mathlib/Makefile&quot;  VERBOSE=1 mathlib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/mathlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/mathlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/mathlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raytrace">
+				<Option output="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/libraytrace.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DRAD_TELEMETRY_DISABLED"/>
+					<Add option="-DDEV_BUILD"/>
+					<Add option="-DFRAME_POINTER_OMISSION_DISABLED"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/mathlib"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/raytrace"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier0"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier1"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/common"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/utils/common"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/Makefile&quot;  VERBOSE=1 raytrace"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raytrace/fast">
+				<Option output="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/libraytrace.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DRAD_TELEMETRY_DISABLED"/>
+					<Add option="-DDEV_BUILD"/>
+					<Add option="-DFRAME_POINTER_OMISSION_DISABLED"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/mathlib"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/raytrace"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier0"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier1"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/common"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/utils/common"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/Makefile&quot;  VERBOSE=1 raytrace/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server">
+				<Option output="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/game/server/libserver.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/game/server"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DHL2MP"/>
+					<Add option="-DHL2_DLL"/>
+					<Add option="-DVPC"/>
+					<Add option="-DRAD_TELEMETRY_DISABLED"/>
+					<Add option="-D_HAS_ITERATOR_DEBUGGING=0"/>
+					<Add option="-D_WIN32"/>
+					<Add option="-D_DEBUG"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-D_WINDOWS"/>
+					<Add option="-D_USRDLL"/>
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE"/>
+					<Add option="-D_CRT_NONSTDC_NO_DEPRECATE"/>
+					<Add option="-D_ALLOW_RUNTIME_LIBRARY_MISMATCH"/>
+					<Add option="-D_ALLOW_ITERATOR_DEBUG_LEVEL_MISMATCH"/>
+					<Add option="-D_ALLOW_MSC_VER_MISMATCH"/>
+					<Add option="-DCOMPILER_MSVC32"/>
+					<Add option="-DCOMPILER_MSVC"/>
+					<Add option="-D_DLL_EXT=.dll"/>
+					<Add option="-DDLLNAME=server"/>
+					<Add option="-DBINK_VIDEO"/>
+					<Add option="-DAVI_VIDEO"/>
+					<Add option="-DWMV_VIDEO"/>
+					<Add option="-DDEV_BUILD"/>
+					<Add option="-DFRAME_POINTER_OMISSION_DISABLED"/>
+					<Add option="-DGAME_DLL"/>
+					<Add option="-DVECTOR"/>
+					<Add option="-DVERSION_SAFE_STEAM_API_INTERFACES"/>
+					<Add option="-DPROTECTED_THINGS_ENABLE"/>
+					<Add option="-Dsprintf=use_Q_snprintf_instead_of_sprintf"/>
+					<Add option="-Dstrncpy=use_Q_strncpy_instead"/>
+					<Add option="-D_snprintf=use_Q_snprintf_instead"/>
+					<Add option="-Dfopen=dont_use_fopen"/>
+					<Add option="-DUSE_NAV_MESH"/>
+					<Add option="-D_EXTERNAL_DLL_EXT=.dll"/>
+					<Add option="-DVPCGAMECAPS=HL2MP"/>
+					<Add option="-DPROJECTDIR=Z:/home/jeremy/Desktop/Projects/SrcM2/src/game/server"/>
+					<Add option="-DSOURCE1=1"/>
+					<Add option="-DVPCGAME=hl2mp"/>
+					<Add option="-DNO_STEAM"/>
+					<Add option="-DHL2_EPISODIC"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/game/server"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/game/shared"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/utils/common"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/game/server/NextBot"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/game/server/econ"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/game/shared/hl2"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/game/shared/hl2mp"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2mp"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier0"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier1"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/common"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/game/server/Makefile&quot;  VERBOSE=1 server"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/game/server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/game/server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/game/server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server/fast">
+				<Option output="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/game/server/libserver.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/game/server"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DHL2MP"/>
+					<Add option="-DHL2_DLL"/>
+					<Add option="-DVPC"/>
+					<Add option="-DRAD_TELEMETRY_DISABLED"/>
+					<Add option="-D_HAS_ITERATOR_DEBUGGING=0"/>
+					<Add option="-D_WIN32"/>
+					<Add option="-D_DEBUG"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-D_WINDOWS"/>
+					<Add option="-D_USRDLL"/>
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE"/>
+					<Add option="-D_CRT_NONSTDC_NO_DEPRECATE"/>
+					<Add option="-D_ALLOW_RUNTIME_LIBRARY_MISMATCH"/>
+					<Add option="-D_ALLOW_ITERATOR_DEBUG_LEVEL_MISMATCH"/>
+					<Add option="-D_ALLOW_MSC_VER_MISMATCH"/>
+					<Add option="-DCOMPILER_MSVC32"/>
+					<Add option="-DCOMPILER_MSVC"/>
+					<Add option="-D_DLL_EXT=.dll"/>
+					<Add option="-DDLLNAME=server"/>
+					<Add option="-DBINK_VIDEO"/>
+					<Add option="-DAVI_VIDEO"/>
+					<Add option="-DWMV_VIDEO"/>
+					<Add option="-DDEV_BUILD"/>
+					<Add option="-DFRAME_POINTER_OMISSION_DISABLED"/>
+					<Add option="-DGAME_DLL"/>
+					<Add option="-DVECTOR"/>
+					<Add option="-DVERSION_SAFE_STEAM_API_INTERFACES"/>
+					<Add option="-DPROTECTED_THINGS_ENABLE"/>
+					<Add option="-Dsprintf=use_Q_snprintf_instead_of_sprintf"/>
+					<Add option="-Dstrncpy=use_Q_strncpy_instead"/>
+					<Add option="-D_snprintf=use_Q_snprintf_instead"/>
+					<Add option="-Dfopen=dont_use_fopen"/>
+					<Add option="-DUSE_NAV_MESH"/>
+					<Add option="-D_EXTERNAL_DLL_EXT=.dll"/>
+					<Add option="-DVPCGAMECAPS=HL2MP"/>
+					<Add option="-DPROJECTDIR=Z:/home/jeremy/Desktop/Projects/SrcM2/src/game/server"/>
+					<Add option="-DSOURCE1=1"/>
+					<Add option="-DVPCGAME=hl2mp"/>
+					<Add option="-DNO_STEAM"/>
+					<Add option="-DHL2_EPISODIC"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/game/server"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/game/shared"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/utils/common"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/game/server/NextBot"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/game/server/econ"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/game/shared/hl2"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/game/shared/hl2mp"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2mp"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier0"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier1"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/common"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/game/server/Makefile&quot;  VERBOSE=1 server/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/game/server/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/game/server/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/game/server/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/AI_Criteria.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/AI_Criteria.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/AI_Interest_Target.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/AI_Interest_Target.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/AI_ResponseSystem.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/AI_ResponseSystem.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/BaseAnimatingOverlay.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/BaseAnimatingOverlay.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/BasePropDoor.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/CRagdollMagnet.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/CRagdollMagnet.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/CommentarySystem.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/EffectsServer.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/EntityDissolve.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/EntityDissolve.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/EntityFlame.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/EntityFlame.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/EntityParticleTrail.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/EntityParticleTrail.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/EnvBeam.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/EnvFade.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/EnvHudHint.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/EnvLaser.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/EnvLaser.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/EnvMessage.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/EnvMessage.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/EnvShake.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/EnvSpark.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/EventLog.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/EventLog.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/GameStats.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/GameStats_BasicStatsFunctions.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/MaterialModifyControl.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/PointAngularVelocitySensor.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/RagdollBoogie.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/RagdollBoogie.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ServerNetworkProperty.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ServerNetworkProperty.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/SkyCamera.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/SkyCamera.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/TemplateEntities.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/TemplateEntities.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/WaterLODControl.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/actanimating.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/actanimating.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_activity.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_baseactor.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_baseactor.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_basehumanoid.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_basehumanoid.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_basenpc.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_basenpc.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_basenpc_flyer.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_basenpc_flyer.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_basenpc_flyer_new.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_basenpc_flyer_new.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_basenpc_movement.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_basenpc_physicsflyer.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_basenpc_physicsflyer.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_basenpc_schedule.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_basenpc_squad.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_behavior.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_behavior.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_behavior_assault.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_behavior_assault.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_behavior_fear.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_behavior_fear.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_behavior_follow.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_behavior_follow.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_behavior_lead.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_behavior_lead.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_behavior_passenger.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_behavior_passenger.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_behavior_rappel.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_behavior_rappel.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_behavior_standoff.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_behavior_standoff.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_blended_movement.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_blended_movement.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_component.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_concommands.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_condition.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_condition.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_debug.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_default.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_default.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_dynamiclink.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_dynamiclink.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_event.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_eventresponse.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_eventresponse.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_goalentity.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_goalentity.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_hint.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_hint.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_hull.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_hull.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_initutils.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_initutils.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_link.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_link.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_localnavigator.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_localnavigator.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_looktarget.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_looktarget.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_memory.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_memory.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_motor.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_motor.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_moveprobe.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_moveprobe.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_moveshoot.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_moveshoot.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_movesolver.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_movesolver.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_movetypes.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_namespaces.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_namespaces.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_navgoaltype.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_navigator.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_navigator.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_navtype.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_network.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_network.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_networkmanager.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_networkmanager.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_node.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_node.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_npcstate.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_obstacle_type.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_pathfinder.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_pathfinder.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_planesolver.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_planesolver.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_playerally.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_playerally.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_relationship.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_route.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_route.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_routedist.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_saverestore.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_saverestore.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_schedule.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_schedule.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_scriptconditions.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_scriptconditions.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_senses.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_senses.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_sentence.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_sentence.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_speech.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_speech.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_speechfilter.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_speechfilter.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_squad.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_squad.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_squadslot.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_squadslot.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_tacticalservices.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_tacticalservices.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_task.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_task.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_trackpather.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_trackpather.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_utils.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_utils.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_waypoint.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ai_waypoint.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/base_gameinterface.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/base_transmit_proxy.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/base_transmit_proxy.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/baseanimating.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/baseanimating.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/basebludgeonweapon.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/basebludgeonweapon.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/basecombatcharacter.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/basecombatcharacter.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/basecombatweapon.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/basecombatweapon.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/baseentity.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/baseentity.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/baseflex.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/baseflex.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/basegrenade_concussion.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/basegrenade_contact.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/basegrenade_timed.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/basemultiplayerplayer.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/basemultiplayerplayer.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/basetempentity.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/basetempentity.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/basetoggle.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/baseviewmodel.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/baseviewmodel.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/bitstring.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/bitstring.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/bmodels.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/buttons.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/buttons.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/cbase.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/cbase.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/client.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/client.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/cmake-build-debug/CMakeFiles/feature_tests.c">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/colorcorrection.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/colorcorrectionvolume.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/controlentities.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/cplane.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/cplane.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/damagemodifier.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/damagemodifier.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/data_collector.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/data_collector.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/doors.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/doors.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/dynamiclight.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/effects.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/effects.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/enginecallback.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/entity_tools_server.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/entityapi.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/entityblocker.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/entityblocker.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/entityinput.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/entitylist.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/entitylist.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/entityoutput.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/env_debughistory.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/env_debughistory.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/env_effectsscript.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/env_entity_maker.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/env_particlescript.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/env_player_surface_trigger.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/env_player_surface_trigger.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/env_projectedtexture.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/env_screenoverlay.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/env_texturetoggle.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/env_tonemap_controller.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/env_zoom.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/env_zoom.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/envmicrophone.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/envmicrophone.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/envspark.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/ai_behavior_alyx_injured.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/ai_behavior_alyx_injured.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/ai_behavior_passenger_companion.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/ai_behavior_passenger_companion.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/ai_behavior_passenger_zombie.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/ai_behavior_passenger_zombie.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/ep1_gamestats.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/ep1_gamestats.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/ep2_gamestats.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/ep2_gamestats.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/grenade_hopwire.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/grenade_hopwire.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/npc_advisor.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/npc_combine_cannon.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/npc_hunter.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/npc_hunter.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/npc_magnusson.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/npc_puppet.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/prop_scalable.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/vehicle_jeep_episodic.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/vehicle_jeep_episodic.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/weapon_hopwire.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/weapon_oldmanharpoon.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/weapon_striderbuster.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/episodic/weapon_striderbuster.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/event_tempentity_tester.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/event_tempentity_tester.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/eventqueue.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/explode.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/explode.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/filters.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/filters.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/fire.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/fire.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/fire_smoke.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/fire_smoke.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/fish.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/fish.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/fogcontroller.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/fogcontroller.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/forcefeedback.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/fourwheelvehiclephysics.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/fourwheelvehiclephysics.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/func_areaportal.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/func_areaportalbase.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/func_areaportalbase.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/func_areaportalwindow.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/func_areaportalwindow.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/func_break.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/func_break.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/func_breakablesurf.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/func_breakablesurf.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/func_dust.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/func_ladder_endpoint.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/func_lod.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/func_movelinear.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/func_movelinear.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/func_occluder.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/func_reflective_glass.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/func_smokevolume.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/functorutils.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/game.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/game.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/game_ui.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/gamedll_replay.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/gamehandle.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/gameinterface.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/gameinterface.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/gametrace_dll.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/gameweaponmanager.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/gameweaponmanager.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/genericactor.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/genericmonster.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/gib.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/gib.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/globals.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/globals.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/globalstate.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/globalstate.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/globalstate_private.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/grenadethrown.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/grenadethrown.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/guntarget.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/h_ai.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/h_cycler.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/h_cycler.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/h_export.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hierarchy.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hierarchy.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl1_CBaseHelicopter.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/Func_Monitor.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/ai_allymanager.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/ai_behavior_actbusy.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/ai_behavior_actbusy.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/ai_behavior_functank.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/ai_behavior_functank.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/ai_behavior_holster.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/ai_behavior_holster.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/ai_behavior_operator.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/ai_behavior_operator.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/ai_behavior_police.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/ai_behavior_police.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/ai_goal_police.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/ai_goal_police.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/ai_interactions.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/ai_spotlight.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/ai_spotlight.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/antlion_dust.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/antlion_dust.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/antlion_maker.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/antlion_maker.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/ar2_explosion.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/ar2_explosion.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/assassin_smoke.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/assassin_smoke.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/basehlcombatweapon.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/basehlcombatweapon.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/cbasehelicopter.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/cbasehelicopter.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/cbasespriteprojectile.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/cbasespriteprojectile.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/citadel_effects.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/combine_mine.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/combine_mine.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/energy_wave.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/env_alyxemp.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/env_headcrabcanister.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/env_speaker.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/env_speaker.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/env_starfield.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/extinguisherjet.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/extinguisherjet.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/func_bulletshield.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/func_bulletshield.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/func_recharge.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/func_tank.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/func_tank.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_ar2.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_ar2.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_beam.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_beam.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_brickbat.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_brickbat.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_bugbait.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_bugbait.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_energy.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_energy.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_frag.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_frag.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_homer.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_homer.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_molotov.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_molotov.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_pathfollower.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_pathfollower.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_satchel.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_satchel.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_spit.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_spit.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_tripmine.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_tripmine.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_tripwire.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/grenade_tripwire.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/hl2_ai_network.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/hl2_client.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/hl2_eventlog.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/hl2_gamestats.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/hl2_gamestats.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/hl2_player.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/hl2_player.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/hl2_playerlocaldata.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/hl2_playerlocaldata.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/hl2_triggers.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/hl_playermove.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/info_darknessmode_lightsource.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/info_darknessmode_lightsource.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/info_teleporter_countdown.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/item_ammo.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/item_antidote.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/item_battery.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/item_dynamic_resupply.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/item_dynamic_resupply.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/item_healthkit.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/item_itemcrate.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/item_longjump.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/item_security.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/item_suit.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/look_door.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/monster_dummy.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_BaseZombie.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_BaseZombie.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_PoisonZombie.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_alyx.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_alyx.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_alyx_episodic.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_alyx_episodic.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_antlion.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_antlion.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_antliongrub.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_antliongrub.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_antlionguard.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_apcdriver.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_assassin.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_assassin.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_attackchopper.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_attackchopper.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_barnacle.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_barnacle.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_barney.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_basescanner.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_basescanner.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_blob.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_breen.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_bullseye.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_bullseye.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_bullsquid.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_bullsquid.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_citizen17.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_citizen17.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_combine.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_combine.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_combinecamera.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_combinedropship.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_combinegunship.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_combines.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_combines.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_cranedriver.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_crow.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_crow.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_dog.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_eli.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_enemyfinder.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_fastzombie.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_fisherman.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_gman.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_headcrab.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_headcrab.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_houndeye.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_houndeye.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_hydra.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_hydra.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_ichthyosaur.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_kleiner.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_launcher.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_manhack.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_manhack.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_metropolice.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_metropolice.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_missiledefense.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_monk.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_mossman.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_playercompanion.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_playercompanion.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_rollermine.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_rollermine.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_scanner.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_scanner.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_spotlight.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_stalker.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_stalker.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_strider.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_strider.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_turret.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_turret_ceiling.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_turret_floor.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_turret_floor.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_turret_ground.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_turret_ground.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_vortigaunt_episodic.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_vortigaunt_episodic.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_zombie.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/npc_zombine.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/point_apc_controller.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/prop_combine_ball.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/prop_combine_ball.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/prop_thumper.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/proto_sniper.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/rotorwash.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/rotorwash.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/script_intro.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/script_intro.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/te_gaussexplosion.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/trigger_super_armor.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/vehicle_airboat.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/vehicle_apc.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/vehicle_apc.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/vehicle_cannon.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/vehicle_crane.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/vehicle_crane.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/vehicle_jeep.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/vehicle_jeep.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/vehicle_jetski.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/vehicle_prisoner_pod.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/vehicle_viewcontroller.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_357.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_alyxgun.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_alyxgun.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_annabelle.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_ar1.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_ar2.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_ar2.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_brickbat.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_brickbat.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_bugbait.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_cguard.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_citizenpackage.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_citizenpackage.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_crossbow.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_crowbar.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_crowbar.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_extinguisher.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_flaregun.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_flaregun.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_frag.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_gauss.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_immolator.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_irifle.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_manhack.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_molotov.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_molotov.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_physcannon.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_physcannon.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_pistol.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_rpg.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_rpg.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_shotgun.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_slam.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_slam.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_smg1.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_smg2.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_sniperrifle.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_stunstick.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_stunstick.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_thumper.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_tripwire.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2/weapon_tripwire.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2mp/grenade_satchel.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2mp/grenade_satchel.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2mp/grenade_tripmine.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2mp/grenade_tripmine.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2mp/hl2mp_bot_temp.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2mp/hl2mp_bot_temp.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2mp/hl2mp_client.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2mp/hl2mp_cvars.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2mp/hl2mp_cvars.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2mp/hl2mp_gameinterface.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2mp/hl2mp_gameinterface.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2mp/hl2mp_player.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2mp/hl2mp_player.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2mp/te_hl2mp_shotgun_shot.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hl2mp/te_hl2mp_shotgun_shot.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hltvdirector.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/hltvdirector.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ilagcompensationmanager.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/info_camera_link.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/info_camera_link.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/info_overlay_accessor.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/init_factory.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/init_factory.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/intermission.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/iscorer.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/iservervehicle.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/item_world.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/items.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/lightglow.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/lights.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/lights.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/locksounds.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/logic_achievement.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/logic_measure_movement.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/logic_mirror_movement.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/logic_navigation.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/logicauto.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/logicentities.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/logicrelay.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/logicrelay.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/mapentities.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/mapentities.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/maprules.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/maprules.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/message_entity.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/modelentities.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/modelentities.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/monstermaker.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/monstermaker.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/movehelper_server.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/movehelper_server.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/movement.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/movie_explosion.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/movie_explosion.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/nav.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/nav_area.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/nav_area.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/nav_colors.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/nav_colors.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/nav_edit.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/nav_entities.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/nav_entities.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/nav_file.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/nav_generate.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/nav_ladder.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/nav_ladder.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/nav_merge.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/nav_mesh.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/nav_mesh.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/nav_mesh_factory.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/nav_node.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/nav_node.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/nav_pathfind.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/nav_simplify.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ndebugoverlay.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ndebugoverlay.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/networkstringtable_gamedll.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/npc_talker.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/npc_talker.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/npc_vehicledriver.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/npc_vehicledriver.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/particle_fire.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/particle_fire.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/particle_light.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/particle_light.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/particle_smokegrenade.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/particle_smokegrenade.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/particle_system.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/particle_system.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/pathcorner.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/pathtrack.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/pathtrack.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/phys_controller.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/phys_controller.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/physconstraint.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/physconstraint.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/physconstraint_sounds.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/physgun.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/physics.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/physics.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/physics_bone_follower.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/physics_bone_follower.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/physics_cannister.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/physics_cannister.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/physics_collisionevent.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/physics_fx.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/physics_fx.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/physics_impact_damage.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/physics_impact_damage.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/physics_main.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/physics_npc_solver.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/physics_npc_solver.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/physics_prop_ragdoll.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/physics_prop_ragdoll.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/physobj.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/physobj.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/plasma.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/plasma.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/player.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/player.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/player_command.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/player_command.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/player_lagcompensation.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/player_pickup.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/player_pickup.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/player_resource.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/player_resource.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/playerinfomanager.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/playerinfomanager.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/playerlocaldata.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/playerlocaldata.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/plugin_check.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/point_camera.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/point_camera.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/point_devshot_camera.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/point_playermoveconstraint.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/point_spotlight.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/point_template.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/point_template.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/pointanglesensor.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/pointhurt.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/pointteleport.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/props.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/props.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/pushentity.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/ragdoll_manager.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/recipientfilter.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/recipientfilter.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/rope.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/rope.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/saverestore_gamedll.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sceneentity.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sceneentity.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/scratchpad_gamedll_helpers.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/scratchpad_gamedll_helpers.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/scripted.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/scripted.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/scriptedtarget.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/scriptedtarget.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sdk/sdk_bot_temp.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sdk/sdk_bot_temp.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sdk/sdk_brushentity.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sdk/sdk_client.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sdk/sdk_env_message.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sdk/sdk_env_sparkler.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sdk/sdk_eventlog.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sdk/sdk_gameinterface.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sdk/sdk_logicalentity.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sdk/sdk_modelentity.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sdk/sdk_player.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sdk/sdk_player.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sdk/sdk_playermove.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sdk/sdk_team.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sdk/sdk_team.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sdk/sdk_vehicle_jeep.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sdk/te_firebullets.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sdk/te_firebullets.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sendproxy.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sendproxy.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/serverbenchmark_base.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/serverbenchmark_base.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/shadowcontrol.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/slideshow_display.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/smoke_trail.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/smoke_trail.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/smokestack.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/smokestack.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sound.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/soundent.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/soundent.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/soundscape.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/soundscape.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/soundscape_system.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/soundscape_system.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/spark.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/spotlightend.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/spotlightend.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sprite_perfmonitor.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/stdafx.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/steamjet.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/steamjet.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/subs.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/sun.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/tactical_mission.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/tactical_mission.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/tanktrain.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_armorricochet.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_basebeam.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_basebeam.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_beamentpoint.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_beaments.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_beamfollow.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_beamlaser.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_beampoints.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_beamring.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_beamringpoint.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_beamspline.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_bloodsprite.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_bloodstream.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_breakmodel.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_bspdecal.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_bubbles.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_bubbletrail.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_clientprojectile.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_decal.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_dynamiclight.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_effect_dispatch.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_effect_dispatch.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_energysplash.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_explosion.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_fizz.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_footprintdecal.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_glassshatter.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_glowsprite.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_impact.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_killplayerattachments.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_largefunnel.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_muzzleflash.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_particlesystem.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_particlesystem.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_physicsprop.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_playerdecal.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_projecteddecal.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_showline.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_smoke.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_sparks.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_sprite.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_spritespray.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/te_worlddecal.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/team.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/team.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/team_control_point.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/team_control_point.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/team_control_point_master.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/team_control_point_master.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/team_control_point_round.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/team_control_point_round.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/team_objectiveresource.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/team_objectiveresource.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/team_spawnpoint.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/team_spawnpoint.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/team_train_watcher.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/team_train_watcher.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/tempmonster.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/tesla.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/tesla.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/test_proxytoggle.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/test_stressentities.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/test_stressentities.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/testfunctions.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/testtraceline.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/textstatsmgr.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/textstatsmgr.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/timedeventmgr.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/timedeventmgr.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/toolframework_server.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/toolframework_server.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/trains.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/trains.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/trigger_area_capture.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/trigger_area_capture.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/trigger_portal.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/triggers.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/triggers.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/util.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/util.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/variant_t.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/variant_t.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/vehicle_base.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/vehicle_base.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/vehicle_baseserver.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/vehicle_baseserver.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/vehicle_choreo_generic.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/vehicle_sounds.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/vguiscreen.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/vguiscreen.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/vote_controller.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/vote_controller.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/waterbullet.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/waterbullet.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/wcedit.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/wcedit.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/weapon_cubemap.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/weight_button.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/worker_scientist.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/world.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/world.h">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/3dnow.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/3dnow.h">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/IceKey.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/almostequal.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/anorms.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/bumpvects.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/color_conversion.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/halton.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/imagequant.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/lightdesc.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/mathlib_base.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/noisedata.h">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/polyhedron.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/powsse.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/quantize.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/randsse.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/simdvectormatrix.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/sparse_convolution_noise.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/spherical.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/sse.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/sse.h">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/sseconst.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/ssenoise.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/vector.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/vmatrix.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/raytrace/raytrace.cpp">
+			<Option target="raytrace"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/raytrace/trace2.cpp">
+			<Option target="raytrace"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/raytrace/trace3.cpp">
+			<Option target="raytrace"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/KeyValues.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/NetAdr.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/bitbuf.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/byteswap.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/characterset.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/checksum_crc.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/checksum_md5.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/checksum_sha1.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/commandbuffer.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/convar.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/datamanager.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/diff.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/fileio.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/generichash.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/ilocalize.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/interface.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/kvpacker.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/lzmaDecoder.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/mempool.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/memstack.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/newbitbuf.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/pathmatch.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/pathmatch_casefolding.h">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/processor_detect.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/processor_detect_linux.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/qsort_s.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/rangecheckedvar.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/reliabletimer.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/snappy-internal.h">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/snappy-sinksource.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/snappy-stubs-internal.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/snappy-stubs-internal.h">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/snappy.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/sparsematrix.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/splitstring.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/stringpool.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/strtools.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/strtools_unicode.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/threadpool.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/tier1.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/tokenreader.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/undiff.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/uniqueid.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/utlbinaryblock.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/utlbuffer.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/utlbufferutil.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/utlstring.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/utlsymbol.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tier1\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/CMakeScripts/PublicHeaders.cmake">
+			<Option virtualFolder="CMake Files\CMakeScripts\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/CMakeScripts/SourceBase.cmake">
+			<Option virtualFolder="CMake Files\CMakeScripts\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/CMakeScripts/SourceDirectories.cmake">
+			<Option virtualFolder="CMake Files\CMakeScripts\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/CMakeScripts/SourceLibrary.cmake">
+			<Option virtualFolder="CMake Files\CMakeScripts\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\mathlib\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/raytrace/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\raytrace\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\server\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

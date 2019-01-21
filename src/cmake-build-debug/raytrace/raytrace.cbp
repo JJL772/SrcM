@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="raytrace"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tier1\;CMake Files\CMakeScripts\;CMake Files\mathlib\;CMake Files\raytrace\;CMake Files\game\;CMake Files\game\server\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raytrace">
+				<Option output="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/libraytrace.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DRAD_TELEMETRY_DISABLED"/>
+					<Add option="-DDEV_BUILD"/>
+					<Add option="-DFRAME_POINTER_OMISSION_DISABLED"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/mathlib"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/raytrace"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier0"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier1"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/common"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/utils/common"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/Makefile&quot;  VERBOSE=1 raytrace"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raytrace/fast">
+				<Option output="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/libraytrace.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DRAD_TELEMETRY_DISABLED"/>
+					<Add option="-DDEV_BUILD"/>
+					<Add option="-DFRAME_POINTER_OMISSION_DISABLED"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/mathlib"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/raytrace"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier0"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier1"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/common"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/utils/common"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/Makefile&quot;  VERBOSE=1 raytrace/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/raytrace/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/raytrace/raytrace.cpp">
+			<Option target="raytrace"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/raytrace/trace2.cpp">
+			<Option target="raytrace"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/raytrace/trace3.cpp">
+			<Option target="raytrace"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tier1\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/CMakeScripts/PublicHeaders.cmake">
+			<Option virtualFolder="CMake Files\CMakeScripts\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/CMakeScripts/SourceBase.cmake">
+			<Option virtualFolder="CMake Files\CMakeScripts\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/CMakeScripts/SourceDirectories.cmake">
+			<Option virtualFolder="CMake Files\CMakeScripts\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/CMakeScripts/SourceLibrary.cmake">
+			<Option virtualFolder="CMake Files\CMakeScripts\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\mathlib\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/raytrace/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\raytrace\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\server\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

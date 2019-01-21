@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tier1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\tier1\;CMake Files\CMakeScripts\;CMake Files\mathlib\;CMake Files\raytrace\;CMake Files\game\;CMake Files\game\server\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tier1">
+				<Option output="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/libtier1.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DTIER1_STATIC_LIB=1"/>
+					<Add option="-DRAD_TELEMETRY_DISABLED"/>
+					<Add option="-DDEV_BUILD"/>
+					<Add option="-DFRAME_POINTER_OMISSION_DISABLED"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/tier1"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier0"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier1"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/common"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/utils/common"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/Makefile&quot;  VERBOSE=1 tier1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tier1/fast">
+				<Option output="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/libtier1.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DTIER1_STATIC_LIB=1"/>
+					<Add option="-DRAD_TELEMETRY_DISABLED"/>
+					<Add option="-DDEV_BUILD"/>
+					<Add option="-DFRAME_POINTER_OMISSION_DISABLED"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/tier1"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier0"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier1"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/common"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/utils/common"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/Makefile&quot;  VERBOSE=1 tier1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/KeyValues.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/NetAdr.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/bitbuf.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/byteswap.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/characterset.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/checksum_crc.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/checksum_md5.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/checksum_sha1.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/commandbuffer.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/convar.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/datamanager.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/diff.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/fileio.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/generichash.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/ilocalize.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/interface.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/kvpacker.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/lzmaDecoder.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/mempool.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/memstack.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/newbitbuf.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/pathmatch.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/pathmatch_casefolding.h">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/processor_detect.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/processor_detect_linux.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/qsort_s.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/rangecheckedvar.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/reliabletimer.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/snappy-internal.h">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/snappy-sinksource.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/snappy-stubs-internal.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/snappy-stubs-internal.h">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/snappy.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/sparsematrix.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/splitstring.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/stringpool.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/strtools.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/strtools_unicode.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/threadpool.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/tier1.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/tokenreader.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/undiff.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/uniqueid.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/utlbinaryblock.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/utlbuffer.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/utlbufferutil.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/utlstring.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/utlsymbol.cpp">
+			<Option target="tier1"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tier1\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/CMakeScripts/PublicHeaders.cmake">
+			<Option virtualFolder="CMake Files\CMakeScripts\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/CMakeScripts/SourceBase.cmake">
+			<Option virtualFolder="CMake Files\CMakeScripts\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/CMakeScripts/SourceDirectories.cmake">
+			<Option virtualFolder="CMake Files\CMakeScripts\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/CMakeScripts/SourceLibrary.cmake">
+			<Option virtualFolder="CMake Files\CMakeScripts\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\mathlib\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/raytrace/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\raytrace\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\server\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
