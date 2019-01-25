@@ -4,7 +4,7 @@
 # compile CXX with g++
 CXX_FLAGS = -std=c++11 -msse -msse2 -msse3 -march=i386 -w -m32 -Wno-c++11-narrowing -fpermissive -wno-everything -gdwarf-4 -D_DEBUG -DDEBUG -fPIC   -std=gnu++11
 
-CXX_DEFINES = -DDEV_BUILD -DFRAME_POINTER_OMISSION_DISABLED -DRAD_TELEMETRY_DISABLED -DTIER1_STATIC_LIB=1 -Dtier1_EXPORTS
+CXX_DEFINES = -DBINK_VIDEO -DCOMPILER_GCC -DDEBUG -DDEV_BUILD -DDISABLE_PROTECTED_THINGS=1 -DFRAME_POINTER_OMISSION_DISABLED -DGNUC -DLIBNAME=tier1 -DLINUX -DPOSIX -DPROJECTDIR=/home/jeremy/Desktop/Projects/SrcM/src/tier1 -DPROTECTED_THINGS_ENABLE -DRAD_TELEMETRY_DISABLED -DSOURCE1=1 -DTIER1_STATIC_LIB=1 -DVERSION_SAFE_STEAM_API -D_DEBUG -D_DLL_EXT=.so -D_EXTERNAL_DLL_EXT=.so -D_LIB -D_LINUX -D_POSIX -Dtier1_EXPORTS
 
 CXX_INCLUDES = -I/home/jeremy/Desktop/Projects/SrcM/src/tier1 -I/home/jeremy/Desktop/Projects/SrcM/src/public -I/home/jeremy/Desktop/Projects/SrcM/src/public/tier0 -I/home/jeremy/Desktop/Projects/SrcM/src/public/tier1 -I/home/jeremy/Desktop/Projects/SrcM/src/common -I/home/jeremy/Desktop/Projects/SrcM/src/utils/common 
 

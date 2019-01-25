@@ -12,9 +12,24 @@ set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
+  "BINK_VIDEO"
+  "COMPILER_GCC"
+  "DEBUG"
   "DEV_BUILD"
   "FRAME_POINTER_OMISSION_DISABLED"
+  "GNUC"
+  "LINUX"
+  "POSIX"
+  "PROTECTED_THINGS_ENABLE"
   "RAD_TELEMETRY_DISABLED"
+  "SOURCE1=1"
+  "VERSION_SAFE_STEAM_API"
+  "_DEBUG"
+  "_DLL_EXT=.so"
+  "_EXTERNAL_DLL_EXT=.so"
+  "_LIB"
+  "_LINUX"
+  "_POSIX"
   )
 
 # The include file search paths:

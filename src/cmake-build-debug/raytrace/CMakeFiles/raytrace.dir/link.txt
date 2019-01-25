@@ -1,2 +1,2 @@
-/usr/bin/ar qc libraytrace.a  CMakeFiles/raytrace.dir/raytrace.o CMakeFiles/raytrace.dir/trace2.o CMakeFiles/raytrace.dir/trace3.o
-/usr/bin/ranlib libraytrace.a
+/usr/bin/ar qc ../../lib/public/linux32/raytrace.a  CMakeFiles/raytrace.dir/raytrace.o CMakeFiles/raytrace.dir/trace2.o CMakeFiles/raytrace.dir/trace3.o
+/usr/bin/ranlib ../../lib/public/linux32/raytrace.a

@@ -366,48 +366,6 @@ tier1/CMakeFiles/tier1.dir/diff.o
  ../public/tier0/xbox_codeline_defines.h
  ../public/tier1/diff.h
  /home/jeremy/Desktop/Projects/SrcM/src/tier1/diff.cpp
-tier1/CMakeFiles/tier1.dir/fileio.o
- ../public/datamap.h
- ../public/mathlib/math_pfns.h
- ../public/mathlib/mathlib.h
- ../public/mathlib/vector.h
- ../public/mathlib/vector2d.h
- ../public/minmax.h
- ../public/tier0/annotations.h
- ../public/tier0/basetypes.h
- ../public/tier0/commonmacros.h
- ../public/tier0/dbg.h
- ../public/tier0/dbgflag.h
- ../public/tier0/fasttimer.h
- ../public/tier0/mem.h
- ../public/tier0/memalloc.h
- ../public/tier0/memdbgoff.h
- ../public/tier0/memdbgon.h
- ../public/tier0/platform.h
- ../public/tier0/protected_things.h
- ../public/tier0/threadtools.h
- ../public/tier0/valve_minmax_on.h
- ../public/tier0/valve_off.h
- ../public/tier0/valve_on.h
- ../public/tier0/vcr_shared.h
- ../public/tier0/vcrmode.h
- ../public/tier0/wchartypes.h
- ../public/tier0/xbox_codeline_defines.h
- ../public/tier1/byteswap.h
- ../public/tier1/fileio.h
- ../public/tier1/interface.h
- ../public/tier1/strtools.h
- ../public/tier1/utlblockmemory.h
- ../public/tier1/utlbuffer.h
- ../public/tier1/utlfixedmemory.h
- ../public/tier1/utllinkedlist.h
- ../public/tier1/utlmemory.h
- ../public/tier1/utlstring.h
- ../public/tier1/utlvector.h
- ../public/vstdlib/random.h
- ../public/vstdlib/vstdlib.h
- ../public/winlite.h
- /home/jeremy/Desktop/Projects/SrcM/src/tier1/fileio.cpp
 tier1/CMakeFiles/tier1.dir/generichash.o
  ../public/tier0/annotations.h
  ../public/tier0/basetypes.h
@@ -660,15 +618,8 @@ tier1/CMakeFiles/tier1.dir/newbitbuf.o
  ../public/tier1/strtools.h
  ../public/worldsize.h
  /home/jeremy/Desktop/Projects/SrcM/src/tier1/newbitbuf.cpp
-tier1/CMakeFiles/tier1.dir/pathmatch.o
- /home/jeremy/Desktop/Projects/SrcM/src/tier1/pathmatch.cpp
- /home/jeremy/Desktop/Projects/SrcM/src/tier1/pathmatch_casefolding.h
 tier1/CMakeFiles/tier1.dir/processor_detect.o
  /home/jeremy/Desktop/Projects/SrcM/src/tier1/processor_detect.cpp
-tier1/CMakeFiles/tier1.dir/processor_detect_linux.o
- /home/jeremy/Desktop/Projects/SrcM/src/tier1/processor_detect_linux.cpp
-tier1/CMakeFiles/tier1.dir/qsort_s.o
- /home/jeremy/Desktop/Projects/SrcM/src/tier1/qsort_s.cpp
 tier1/CMakeFiles/tier1.dir/rangecheckedvar.o
  ../public/mathlib/math_pfns.h
  ../public/mathlib/vector.h
@@ -1047,34 +998,6 @@ tier1/CMakeFiles/tier1.dir/tokenreader.o
  ../public/tier1/strtools.h
  ../public/tier1/tokenreader.h
  /home/jeremy/Desktop/Projects/SrcM/src/tier1/tokenreader.cpp
-tier1/CMakeFiles/tier1.dir/undiff.o
- ../public/mathlib/math_pfns.h
- ../public/mathlib/mathlib.h
- ../public/mathlib/vector.h
- ../public/mathlib/vector2d.h
- ../public/minmax.h
- ../public/tier0/annotations.h
- ../public/tier0/basetypes.h
- ../public/tier0/commonmacros.h
- ../public/tier0/dbg.h
- ../public/tier0/dbgflag.h
- ../public/tier0/fasttimer.h
- ../public/tier0/mem.h
- ../public/tier0/memalloc.h
- ../public/tier0/memdbgoff.h
- ../public/tier0/memdbgon.h
- ../public/tier0/platform.h
- ../public/tier0/protected_things.h
- ../public/tier0/threadtools.h
- ../public/tier0/valve_minmax_on.h
- ../public/tier0/valve_off.h
- ../public/tier0/valve_on.h
- ../public/tier0/vcr_shared.h
- ../public/tier0/vcrmode.h
- ../public/tier0/wchartypes.h
- ../public/tier0/xbox_codeline_defines.h
- ../public/tier1/diff.h
- /home/jeremy/Desktop/Projects/SrcM/src/tier1/undiff.cpp
 tier1/CMakeFiles/tier1.dir/uniqueid.o
  ../public/datamap.h
  ../public/mathlib/math_pfns.h

@@ -162,6 +162,19 @@ server/fast:
 	$(MAKE) -f game/server/CMakeFiles/server.dir/build.make game/server/CMakeFiles/server.dir/build
 .PHONY : server/fast
 
+#=============================================================================
+# Target rules for targets named client
+
+# Build rule for target.
+client: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 client
+.PHONY : client
+
+# fast build rule for target.
+client/fast:
+	$(MAKE) -f game/client/CMakeFiles/client.dir/build.make game/client/CMakeFiles/client.dir/build
+.PHONY : client/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -174,6 +187,7 @@ help:
 	@echo "... mathlib"
 	@echo "... raytrace"
 	@echo "... server"
+	@echo "... client"
 .PHONY : help
 
 

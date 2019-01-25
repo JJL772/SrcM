@@ -306,21 +306,6 @@ diff.s:
 .PHONY : diff.s
 
 # target to build an object file
-fileio.o:
-	cd /home/jeremy/Desktop/Projects/SrcM/src/Makefiles && $(MAKE) -f tier1/CMakeFiles/tier1.dir/build.make tier1/CMakeFiles/tier1.dir/fileio.o
-.PHONY : fileio.o
-
-# target to preprocess a source file
-fileio.i:
-	cd /home/jeremy/Desktop/Projects/SrcM/src/Makefiles && $(MAKE) -f tier1/CMakeFiles/tier1.dir/build.make tier1/CMakeFiles/tier1.dir/fileio.i
-.PHONY : fileio.i
-
-# target to generate assembly for a file
-fileio.s:
-	cd /home/jeremy/Desktop/Projects/SrcM/src/Makefiles && $(MAKE) -f tier1/CMakeFiles/tier1.dir/build.make tier1/CMakeFiles/tier1.dir/fileio.s
-.PHONY : fileio.s
-
-# target to build an object file
 generichash.o:
 	cd /home/jeremy/Desktop/Projects/SrcM/src/Makefiles && $(MAKE) -f tier1/CMakeFiles/tier1.dir/build.make tier1/CMakeFiles/tier1.dir/generichash.o
 .PHONY : generichash.o
@@ -441,21 +426,6 @@ newbitbuf.s:
 .PHONY : newbitbuf.s
 
 # target to build an object file
-pathmatch.o:
-	cd /home/jeremy/Desktop/Projects/SrcM/src/Makefiles && $(MAKE) -f tier1/CMakeFiles/tier1.dir/build.make tier1/CMakeFiles/tier1.dir/pathmatch.o
-.PHONY : pathmatch.o
-
-# target to preprocess a source file
-pathmatch.i:
-	cd /home/jeremy/Desktop/Projects/SrcM/src/Makefiles && $(MAKE) -f tier1/CMakeFiles/tier1.dir/build.make tier1/CMakeFiles/tier1.dir/pathmatch.i
-.PHONY : pathmatch.i
-
-# target to generate assembly for a file
-pathmatch.s:
-	cd /home/jeremy/Desktop/Projects/SrcM/src/Makefiles && $(MAKE) -f tier1/CMakeFiles/tier1.dir/build.make tier1/CMakeFiles/tier1.dir/pathmatch.s
-.PHONY : pathmatch.s
-
-# target to build an object file
 processor_detect.o:
 	cd /home/jeremy/Desktop/Projects/SrcM/src/Makefiles && $(MAKE) -f tier1/CMakeFiles/tier1.dir/build.make tier1/CMakeFiles/tier1.dir/processor_detect.o
 .PHONY : processor_detect.o
@@ -469,36 +439,6 @@ processor_detect.i:
 processor_detect.s:
 	cd /home/jeremy/Desktop/Projects/SrcM/src/Makefiles && $(MAKE) -f tier1/CMakeFiles/tier1.dir/build.make tier1/CMakeFiles/tier1.dir/processor_detect.s
 .PHONY : processor_detect.s
-
-# target to build an object file
-processor_detect_linux.o:
-	cd /home/jeremy/Desktop/Projects/SrcM/src/Makefiles && $(MAKE) -f tier1/CMakeFiles/tier1.dir/build.make tier1/CMakeFiles/tier1.dir/processor_detect_linux.o
-.PHONY : processor_detect_linux.o
-
-# target to preprocess a source file
-processor_detect_linux.i:
-	cd /home/jeremy/Desktop/Projects/SrcM/src/Makefiles && $(MAKE) -f tier1/CMakeFiles/tier1.dir/build.make tier1/CMakeFiles/tier1.dir/processor_detect_linux.i
-.PHONY : processor_detect_linux.i
-
-# target to generate assembly for a file
-processor_detect_linux.s:
-	cd /home/jeremy/Desktop/Projects/SrcM/src/Makefiles && $(MAKE) -f tier1/CMakeFiles/tier1.dir/build.make tier1/CMakeFiles/tier1.dir/processor_detect_linux.s
-.PHONY : processor_detect_linux.s
-
-# target to build an object file
-qsort_s.o:
-	cd /home/jeremy/Desktop/Projects/SrcM/src/Makefiles && $(MAKE) -f tier1/CMakeFiles/tier1.dir/build.make tier1/CMakeFiles/tier1.dir/qsort_s.o
-.PHONY : qsort_s.o
-
-# target to preprocess a source file
-qsort_s.i:
-	cd /home/jeremy/Desktop/Projects/SrcM/src/Makefiles && $(MAKE) -f tier1/CMakeFiles/tier1.dir/build.make tier1/CMakeFiles/tier1.dir/qsort_s.i
-.PHONY : qsort_s.i
-
-# target to generate assembly for a file
-qsort_s.s:
-	cd /home/jeremy/Desktop/Projects/SrcM/src/Makefiles && $(MAKE) -f tier1/CMakeFiles/tier1.dir/build.make tier1/CMakeFiles/tier1.dir/qsort_s.s
-.PHONY : qsort_s.s
 
 # target to build an object file
 rangecheckedvar.o:
@@ -696,21 +636,6 @@ tokenreader.s:
 .PHONY : tokenreader.s
 
 # target to build an object file
-undiff.o:
-	cd /home/jeremy/Desktop/Projects/SrcM/src/Makefiles && $(MAKE) -f tier1/CMakeFiles/tier1.dir/build.make tier1/CMakeFiles/tier1.dir/undiff.o
-.PHONY : undiff.o
-
-# target to preprocess a source file
-undiff.i:
-	cd /home/jeremy/Desktop/Projects/SrcM/src/Makefiles && $(MAKE) -f tier1/CMakeFiles/tier1.dir/build.make tier1/CMakeFiles/tier1.dir/undiff.i
-.PHONY : undiff.i
-
-# target to generate assembly for a file
-undiff.s:
-	cd /home/jeremy/Desktop/Projects/SrcM/src/Makefiles && $(MAKE) -f tier1/CMakeFiles/tier1.dir/build.make tier1/CMakeFiles/tier1.dir/undiff.s
-.PHONY : undiff.s
-
-# target to build an object file
 uniqueid.o:
 	cd /home/jeremy/Desktop/Projects/SrcM/src/Makefiles && $(MAKE) -f tier1/CMakeFiles/tier1.dir/build.make tier1/CMakeFiles/tier1.dir/uniqueid.o
 .PHONY : uniqueid.o
@@ -845,9 +770,6 @@ help:
 	@echo "... diff.o"
 	@echo "... diff.i"
 	@echo "... diff.s"
-	@echo "... fileio.o"
-	@echo "... fileio.i"
-	@echo "... fileio.s"
 	@echo "... generichash.o"
 	@echo "... generichash.i"
 	@echo "... generichash.s"
@@ -872,18 +794,9 @@ help:
 	@echo "... newbitbuf.o"
 	@echo "... newbitbuf.i"
 	@echo "... newbitbuf.s"
-	@echo "... pathmatch.o"
-	@echo "... pathmatch.i"
-	@echo "... pathmatch.s"
 	@echo "... processor_detect.o"
 	@echo "... processor_detect.i"
 	@echo "... processor_detect.s"
-	@echo "... processor_detect_linux.o"
-	@echo "... processor_detect_linux.i"
-	@echo "... processor_detect_linux.s"
-	@echo "... qsort_s.o"
-	@echo "... qsort_s.i"
-	@echo "... qsort_s.s"
 	@echo "... rangecheckedvar.o"
 	@echo "... rangecheckedvar.i"
 	@echo "... rangecheckedvar.s"
@@ -923,9 +836,6 @@ help:
 	@echo "... tokenreader.o"
 	@echo "... tokenreader.i"
 	@echo "... tokenreader.s"
-	@echo "... undiff.o"
-	@echo "... undiff.i"
-	@echo "... undiff.s"
 	@echo "... uniqueid.o"
 	@echo "... uniqueid.i"
 	@echo "... uniqueid.s"

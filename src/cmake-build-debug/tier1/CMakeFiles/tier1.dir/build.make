@@ -57,48 +57,9 @@ include tier1/CMakeFiles/tier1.dir/progress.make
 # Include the compile flags for this target's objects.
 include tier1/CMakeFiles/tier1.dir/flags.make
 
-tier1/CMakeFiles/tier1.dir/KeyValues.o: tier1/CMakeFiles/tier1.dir/flags.make
-tier1/CMakeFiles/tier1.dir/KeyValues.o: ../tier1/KeyValues.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tier1/CMakeFiles/tier1.dir/KeyValues.o"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/KeyValues.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/KeyValues.cpp
-
-tier1/CMakeFiles/tier1.dir/KeyValues.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/KeyValues.i"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/KeyValues.cpp > CMakeFiles/tier1.dir/KeyValues.i
-
-tier1/CMakeFiles/tier1.dir/KeyValues.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/KeyValues.s"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/KeyValues.cpp -o CMakeFiles/tier1.dir/KeyValues.s
-
-tier1/CMakeFiles/tier1.dir/NetAdr.o: tier1/CMakeFiles/tier1.dir/flags.make
-tier1/CMakeFiles/tier1.dir/NetAdr.o: ../tier1/NetAdr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tier1/CMakeFiles/tier1.dir/NetAdr.o"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/NetAdr.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/NetAdr.cpp
-
-tier1/CMakeFiles/tier1.dir/NetAdr.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/NetAdr.i"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/NetAdr.cpp > CMakeFiles/tier1.dir/NetAdr.i
-
-tier1/CMakeFiles/tier1.dir/NetAdr.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/NetAdr.s"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/NetAdr.cpp -o CMakeFiles/tier1.dir/NetAdr.s
-
-tier1/CMakeFiles/tier1.dir/bitbuf.o: tier1/CMakeFiles/tier1.dir/flags.make
-tier1/CMakeFiles/tier1.dir/bitbuf.o: ../tier1/bitbuf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tier1/CMakeFiles/tier1.dir/bitbuf.o"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/bitbuf.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/bitbuf.cpp
-
-tier1/CMakeFiles/tier1.dir/bitbuf.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/bitbuf.i"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/bitbuf.cpp > CMakeFiles/tier1.dir/bitbuf.i
-
-tier1/CMakeFiles/tier1.dir/bitbuf.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/bitbuf.s"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/bitbuf.cpp -o CMakeFiles/tier1.dir/bitbuf.s
-
 tier1/CMakeFiles/tier1.dir/byteswap.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/byteswap.o: ../tier1/byteswap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tier1/CMakeFiles/tier1.dir/byteswap.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tier1/CMakeFiles/tier1.dir/byteswap.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/byteswap.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/byteswap.cpp
 
 tier1/CMakeFiles/tier1.dir/byteswap.i: cmake_force
@@ -111,7 +72,7 @@ tier1/CMakeFiles/tier1.dir/byteswap.s: cmake_force
 
 tier1/CMakeFiles/tier1.dir/characterset.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/characterset.o: ../tier1/characterset.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tier1/CMakeFiles/tier1.dir/characterset.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tier1/CMakeFiles/tier1.dir/characterset.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/characterset.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/characterset.cpp
 
 tier1/CMakeFiles/tier1.dir/characterset.i: cmake_force
@@ -124,7 +85,7 @@ tier1/CMakeFiles/tier1.dir/characterset.s: cmake_force
 
 tier1/CMakeFiles/tier1.dir/checksum_crc.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/checksum_crc.o: ../tier1/checksum_crc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tier1/CMakeFiles/tier1.dir/checksum_crc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tier1/CMakeFiles/tier1.dir/checksum_crc.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/checksum_crc.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/checksum_crc.cpp
 
 tier1/CMakeFiles/tier1.dir/checksum_crc.i: cmake_force
@@ -137,7 +98,7 @@ tier1/CMakeFiles/tier1.dir/checksum_crc.s: cmake_force
 
 tier1/CMakeFiles/tier1.dir/checksum_md5.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/checksum_md5.o: ../tier1/checksum_md5.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tier1/CMakeFiles/tier1.dir/checksum_md5.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tier1/CMakeFiles/tier1.dir/checksum_md5.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/checksum_md5.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/checksum_md5.cpp
 
 tier1/CMakeFiles/tier1.dir/checksum_md5.i: cmake_force
@@ -150,7 +111,7 @@ tier1/CMakeFiles/tier1.dir/checksum_md5.s: cmake_force
 
 tier1/CMakeFiles/tier1.dir/checksum_sha1.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/checksum_sha1.o: ../tier1/checksum_sha1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object tier1/CMakeFiles/tier1.dir/checksum_sha1.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tier1/CMakeFiles/tier1.dir/checksum_sha1.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/checksum_sha1.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/checksum_sha1.cpp
 
 tier1/CMakeFiles/tier1.dir/checksum_sha1.i: cmake_force
@@ -161,22 +122,9 @@ tier1/CMakeFiles/tier1.dir/checksum_sha1.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/checksum_sha1.s"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/checksum_sha1.cpp -o CMakeFiles/tier1.dir/checksum_sha1.s
 
-tier1/CMakeFiles/tier1.dir/commandbuffer.o: tier1/CMakeFiles/tier1.dir/flags.make
-tier1/CMakeFiles/tier1.dir/commandbuffer.o: ../tier1/commandbuffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object tier1/CMakeFiles/tier1.dir/commandbuffer.o"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/commandbuffer.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/commandbuffer.cpp
-
-tier1/CMakeFiles/tier1.dir/commandbuffer.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/commandbuffer.i"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/commandbuffer.cpp > CMakeFiles/tier1.dir/commandbuffer.i
-
-tier1/CMakeFiles/tier1.dir/commandbuffer.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/commandbuffer.s"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/commandbuffer.cpp -o CMakeFiles/tier1.dir/commandbuffer.s
-
 tier1/CMakeFiles/tier1.dir/convar.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/convar.o: ../tier1/convar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object tier1/CMakeFiles/tier1.dir/convar.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tier1/CMakeFiles/tier1.dir/convar.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/convar.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/convar.cpp
 
 tier1/CMakeFiles/tier1.dir/convar.i: cmake_force
@@ -189,7 +137,7 @@ tier1/CMakeFiles/tier1.dir/convar.s: cmake_force
 
 tier1/CMakeFiles/tier1.dir/datamanager.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/datamanager.o: ../tier1/datamanager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object tier1/CMakeFiles/tier1.dir/datamanager.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tier1/CMakeFiles/tier1.dir/datamanager.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/datamanager.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/datamanager.cpp
 
 tier1/CMakeFiles/tier1.dir/datamanager.i: cmake_force
@@ -202,7 +150,7 @@ tier1/CMakeFiles/tier1.dir/datamanager.s: cmake_force
 
 tier1/CMakeFiles/tier1.dir/diff.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/diff.o: ../tier1/diff.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object tier1/CMakeFiles/tier1.dir/diff.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object tier1/CMakeFiles/tier1.dir/diff.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/diff.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/diff.cpp
 
 tier1/CMakeFiles/tier1.dir/diff.i: cmake_force
@@ -213,22 +161,9 @@ tier1/CMakeFiles/tier1.dir/diff.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/diff.s"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/diff.cpp -o CMakeFiles/tier1.dir/diff.s
 
-tier1/CMakeFiles/tier1.dir/fileio.o: tier1/CMakeFiles/tier1.dir/flags.make
-tier1/CMakeFiles/tier1.dir/fileio.o: ../tier1/fileio.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object tier1/CMakeFiles/tier1.dir/fileio.o"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/fileio.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/fileio.cpp
-
-tier1/CMakeFiles/tier1.dir/fileio.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/fileio.i"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/fileio.cpp > CMakeFiles/tier1.dir/fileio.i
-
-tier1/CMakeFiles/tier1.dir/fileio.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/fileio.s"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/fileio.cpp -o CMakeFiles/tier1.dir/fileio.s
-
 tier1/CMakeFiles/tier1.dir/generichash.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/generichash.o: ../tier1/generichash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object tier1/CMakeFiles/tier1.dir/generichash.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object tier1/CMakeFiles/tier1.dir/generichash.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/generichash.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/generichash.cpp
 
 tier1/CMakeFiles/tier1.dir/generichash.i: cmake_force
@@ -241,7 +176,7 @@ tier1/CMakeFiles/tier1.dir/generichash.s: cmake_force
 
 tier1/CMakeFiles/tier1.dir/ilocalize.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/ilocalize.o: ../tier1/ilocalize.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object tier1/CMakeFiles/tier1.dir/ilocalize.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object tier1/CMakeFiles/tier1.dir/ilocalize.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/ilocalize.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/ilocalize.cpp
 
 tier1/CMakeFiles/tier1.dir/ilocalize.i: cmake_force
@@ -254,7 +189,7 @@ tier1/CMakeFiles/tier1.dir/ilocalize.s: cmake_force
 
 tier1/CMakeFiles/tier1.dir/interface.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/interface.o: ../tier1/interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object tier1/CMakeFiles/tier1.dir/interface.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object tier1/CMakeFiles/tier1.dir/interface.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/interface.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/interface.cpp
 
 tier1/CMakeFiles/tier1.dir/interface.i: cmake_force
@@ -265,9 +200,22 @@ tier1/CMakeFiles/tier1.dir/interface.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/interface.s"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/interface.cpp -o CMakeFiles/tier1.dir/interface.s
 
+tier1/CMakeFiles/tier1.dir/KeyValues.o: tier1/CMakeFiles/tier1.dir/flags.make
+tier1/CMakeFiles/tier1.dir/KeyValues.o: ../tier1/KeyValues.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object tier1/CMakeFiles/tier1.dir/KeyValues.o"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/KeyValues.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/KeyValues.cpp
+
+tier1/CMakeFiles/tier1.dir/KeyValues.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/KeyValues.i"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/KeyValues.cpp > CMakeFiles/tier1.dir/KeyValues.i
+
+tier1/CMakeFiles/tier1.dir/KeyValues.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/KeyValues.s"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/KeyValues.cpp -o CMakeFiles/tier1.dir/KeyValues.s
+
 tier1/CMakeFiles/tier1.dir/kvpacker.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/kvpacker.o: ../tier1/kvpacker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object tier1/CMakeFiles/tier1.dir/kvpacker.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object tier1/CMakeFiles/tier1.dir/kvpacker.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/kvpacker.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/kvpacker.cpp
 
 tier1/CMakeFiles/tier1.dir/kvpacker.i: cmake_force
@@ -280,7 +228,7 @@ tier1/CMakeFiles/tier1.dir/kvpacker.s: cmake_force
 
 tier1/CMakeFiles/tier1.dir/lzmaDecoder.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/lzmaDecoder.o: ../tier1/lzmaDecoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object tier1/CMakeFiles/tier1.dir/lzmaDecoder.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object tier1/CMakeFiles/tier1.dir/lzmaDecoder.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/lzmaDecoder.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/lzmaDecoder.cpp
 
 tier1/CMakeFiles/tier1.dir/lzmaDecoder.i: cmake_force
@@ -291,61 +239,22 @@ tier1/CMakeFiles/tier1.dir/lzmaDecoder.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/lzmaDecoder.s"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/lzmaDecoder.cpp -o CMakeFiles/tier1.dir/lzmaDecoder.s
 
-tier1/CMakeFiles/tier1.dir/mempool.o: tier1/CMakeFiles/tier1.dir/flags.make
-tier1/CMakeFiles/tier1.dir/mempool.o: ../tier1/mempool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object tier1/CMakeFiles/tier1.dir/mempool.o"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/mempool.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/mempool.cpp
+tier1/CMakeFiles/tier1.dir/NetAdr.o: tier1/CMakeFiles/tier1.dir/flags.make
+tier1/CMakeFiles/tier1.dir/NetAdr.o: ../tier1/NetAdr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object tier1/CMakeFiles/tier1.dir/NetAdr.o"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/NetAdr.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/NetAdr.cpp
 
-tier1/CMakeFiles/tier1.dir/mempool.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/mempool.i"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/mempool.cpp > CMakeFiles/tier1.dir/mempool.i
+tier1/CMakeFiles/tier1.dir/NetAdr.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/NetAdr.i"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/NetAdr.cpp > CMakeFiles/tier1.dir/NetAdr.i
 
-tier1/CMakeFiles/tier1.dir/mempool.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/mempool.s"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/mempool.cpp -o CMakeFiles/tier1.dir/mempool.s
-
-tier1/CMakeFiles/tier1.dir/memstack.o: tier1/CMakeFiles/tier1.dir/flags.make
-tier1/CMakeFiles/tier1.dir/memstack.o: ../tier1/memstack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object tier1/CMakeFiles/tier1.dir/memstack.o"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/memstack.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/memstack.cpp
-
-tier1/CMakeFiles/tier1.dir/memstack.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/memstack.i"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/memstack.cpp > CMakeFiles/tier1.dir/memstack.i
-
-tier1/CMakeFiles/tier1.dir/memstack.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/memstack.s"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/memstack.cpp -o CMakeFiles/tier1.dir/memstack.s
-
-tier1/CMakeFiles/tier1.dir/newbitbuf.o: tier1/CMakeFiles/tier1.dir/flags.make
-tier1/CMakeFiles/tier1.dir/newbitbuf.o: ../tier1/newbitbuf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object tier1/CMakeFiles/tier1.dir/newbitbuf.o"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/newbitbuf.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/newbitbuf.cpp
-
-tier1/CMakeFiles/tier1.dir/newbitbuf.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/newbitbuf.i"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/newbitbuf.cpp > CMakeFiles/tier1.dir/newbitbuf.i
-
-tier1/CMakeFiles/tier1.dir/newbitbuf.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/newbitbuf.s"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/newbitbuf.cpp -o CMakeFiles/tier1.dir/newbitbuf.s
-
-tier1/CMakeFiles/tier1.dir/pathmatch.o: tier1/CMakeFiles/tier1.dir/flags.make
-tier1/CMakeFiles/tier1.dir/pathmatch.o: ../tier1/pathmatch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object tier1/CMakeFiles/tier1.dir/pathmatch.o"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/pathmatch.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/pathmatch.cpp
-
-tier1/CMakeFiles/tier1.dir/pathmatch.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/pathmatch.i"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/pathmatch.cpp > CMakeFiles/tier1.dir/pathmatch.i
-
-tier1/CMakeFiles/tier1.dir/pathmatch.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/pathmatch.s"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/pathmatch.cpp -o CMakeFiles/tier1.dir/pathmatch.s
+tier1/CMakeFiles/tier1.dir/NetAdr.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/NetAdr.s"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/NetAdr.cpp -o CMakeFiles/tier1.dir/NetAdr.s
 
 tier1/CMakeFiles/tier1.dir/processor_detect.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/processor_detect.o: ../tier1/processor_detect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object tier1/CMakeFiles/tier1.dir/processor_detect.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object tier1/CMakeFiles/tier1.dir/processor_detect.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/processor_detect.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/processor_detect.cpp
 
 tier1/CMakeFiles/tier1.dir/processor_detect.i: cmake_force
@@ -356,35 +265,9 @@ tier1/CMakeFiles/tier1.dir/processor_detect.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/processor_detect.s"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/processor_detect.cpp -o CMakeFiles/tier1.dir/processor_detect.s
 
-tier1/CMakeFiles/tier1.dir/processor_detect_linux.o: tier1/CMakeFiles/tier1.dir/flags.make
-tier1/CMakeFiles/tier1.dir/processor_detect_linux.o: ../tier1/processor_detect_linux.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object tier1/CMakeFiles/tier1.dir/processor_detect_linux.o"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/processor_detect_linux.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/processor_detect_linux.cpp
-
-tier1/CMakeFiles/tier1.dir/processor_detect_linux.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/processor_detect_linux.i"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/processor_detect_linux.cpp > CMakeFiles/tier1.dir/processor_detect_linux.i
-
-tier1/CMakeFiles/tier1.dir/processor_detect_linux.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/processor_detect_linux.s"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/processor_detect_linux.cpp -o CMakeFiles/tier1.dir/processor_detect_linux.s
-
-tier1/CMakeFiles/tier1.dir/qsort_s.o: tier1/CMakeFiles/tier1.dir/flags.make
-tier1/CMakeFiles/tier1.dir/qsort_s.o: ../tier1/qsort_s.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object tier1/CMakeFiles/tier1.dir/qsort_s.o"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/qsort_s.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/qsort_s.cpp
-
-tier1/CMakeFiles/tier1.dir/qsort_s.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/qsort_s.i"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/qsort_s.cpp > CMakeFiles/tier1.dir/qsort_s.i
-
-tier1/CMakeFiles/tier1.dir/qsort_s.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/qsort_s.s"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/qsort_s.cpp -o CMakeFiles/tier1.dir/qsort_s.s
-
 tier1/CMakeFiles/tier1.dir/rangecheckedvar.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/rangecheckedvar.o: ../tier1/rangecheckedvar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object tier1/CMakeFiles/tier1.dir/rangecheckedvar.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object tier1/CMakeFiles/tier1.dir/rangecheckedvar.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/rangecheckedvar.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/rangecheckedvar.cpp
 
 tier1/CMakeFiles/tier1.dir/rangecheckedvar.i: cmake_force
@@ -397,7 +280,7 @@ tier1/CMakeFiles/tier1.dir/rangecheckedvar.s: cmake_force
 
 tier1/CMakeFiles/tier1.dir/reliabletimer.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/reliabletimer.o: ../tier1/reliabletimer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object tier1/CMakeFiles/tier1.dir/reliabletimer.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object tier1/CMakeFiles/tier1.dir/reliabletimer.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/reliabletimer.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/reliabletimer.cpp
 
 tier1/CMakeFiles/tier1.dir/reliabletimer.i: cmake_force
@@ -410,7 +293,7 @@ tier1/CMakeFiles/tier1.dir/reliabletimer.s: cmake_force
 
 tier1/CMakeFiles/tier1.dir/snappy-sinksource.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/snappy-sinksource.o: ../tier1/snappy-sinksource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object tier1/CMakeFiles/tier1.dir/snappy-sinksource.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object tier1/CMakeFiles/tier1.dir/snappy-sinksource.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/snappy-sinksource.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/snappy-sinksource.cpp
 
 tier1/CMakeFiles/tier1.dir/snappy-sinksource.i: cmake_force
@@ -423,7 +306,7 @@ tier1/CMakeFiles/tier1.dir/snappy-sinksource.s: cmake_force
 
 tier1/CMakeFiles/tier1.dir/snappy-stubs-internal.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/snappy-stubs-internal.o: ../tier1/snappy-stubs-internal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object tier1/CMakeFiles/tier1.dir/snappy-stubs-internal.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object tier1/CMakeFiles/tier1.dir/snappy-stubs-internal.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/snappy-stubs-internal.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/snappy-stubs-internal.cpp
 
 tier1/CMakeFiles/tier1.dir/snappy-stubs-internal.i: cmake_force
@@ -436,7 +319,7 @@ tier1/CMakeFiles/tier1.dir/snappy-stubs-internal.s: cmake_force
 
 tier1/CMakeFiles/tier1.dir/snappy.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/snappy.o: ../tier1/snappy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object tier1/CMakeFiles/tier1.dir/snappy.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object tier1/CMakeFiles/tier1.dir/snappy.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/snappy.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/snappy.cpp
 
 tier1/CMakeFiles/tier1.dir/snappy.i: cmake_force
@@ -447,22 +330,9 @@ tier1/CMakeFiles/tier1.dir/snappy.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/snappy.s"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/snappy.cpp -o CMakeFiles/tier1.dir/snappy.s
 
-tier1/CMakeFiles/tier1.dir/sparsematrix.o: tier1/CMakeFiles/tier1.dir/flags.make
-tier1/CMakeFiles/tier1.dir/sparsematrix.o: ../tier1/sparsematrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object tier1/CMakeFiles/tier1.dir/sparsematrix.o"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/sparsematrix.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/sparsematrix.cpp
-
-tier1/CMakeFiles/tier1.dir/sparsematrix.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/sparsematrix.i"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/sparsematrix.cpp > CMakeFiles/tier1.dir/sparsematrix.i
-
-tier1/CMakeFiles/tier1.dir/sparsematrix.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/sparsematrix.s"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/sparsematrix.cpp -o CMakeFiles/tier1.dir/sparsematrix.s
-
 tier1/CMakeFiles/tier1.dir/splitstring.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/splitstring.o: ../tier1/splitstring.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object tier1/CMakeFiles/tier1.dir/splitstring.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object tier1/CMakeFiles/tier1.dir/splitstring.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/splitstring.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/splitstring.cpp
 
 tier1/CMakeFiles/tier1.dir/splitstring.i: cmake_force
@@ -473,22 +343,9 @@ tier1/CMakeFiles/tier1.dir/splitstring.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/splitstring.s"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/splitstring.cpp -o CMakeFiles/tier1.dir/splitstring.s
 
-tier1/CMakeFiles/tier1.dir/stringpool.o: tier1/CMakeFiles/tier1.dir/flags.make
-tier1/CMakeFiles/tier1.dir/stringpool.o: ../tier1/stringpool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object tier1/CMakeFiles/tier1.dir/stringpool.o"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/stringpool.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/stringpool.cpp
-
-tier1/CMakeFiles/tier1.dir/stringpool.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/stringpool.i"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/stringpool.cpp > CMakeFiles/tier1.dir/stringpool.i
-
-tier1/CMakeFiles/tier1.dir/stringpool.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/stringpool.s"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/stringpool.cpp -o CMakeFiles/tier1.dir/stringpool.s
-
 tier1/CMakeFiles/tier1.dir/strtools.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/strtools.o: ../tier1/strtools.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object tier1/CMakeFiles/tier1.dir/strtools.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object tier1/CMakeFiles/tier1.dir/strtools.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/strtools.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/strtools.cpp
 
 tier1/CMakeFiles/tier1.dir/strtools.i: cmake_force
@@ -501,7 +358,7 @@ tier1/CMakeFiles/tier1.dir/strtools.s: cmake_force
 
 tier1/CMakeFiles/tier1.dir/strtools_unicode.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/strtools_unicode.o: ../tier1/strtools_unicode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object tier1/CMakeFiles/tier1.dir/strtools_unicode.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object tier1/CMakeFiles/tier1.dir/strtools_unicode.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/strtools_unicode.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/strtools_unicode.cpp
 
 tier1/CMakeFiles/tier1.dir/strtools_unicode.i: cmake_force
@@ -514,7 +371,7 @@ tier1/CMakeFiles/tier1.dir/strtools_unicode.s: cmake_force
 
 tier1/CMakeFiles/tier1.dir/threadpool.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/threadpool.o: ../tier1/threadpool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object tier1/CMakeFiles/tier1.dir/threadpool.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object tier1/CMakeFiles/tier1.dir/threadpool.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/threadpool.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/threadpool.cpp
 
 tier1/CMakeFiles/tier1.dir/threadpool.i: cmake_force
@@ -527,7 +384,7 @@ tier1/CMakeFiles/tier1.dir/threadpool.s: cmake_force
 
 tier1/CMakeFiles/tier1.dir/tier1.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/tier1.o: ../tier1/tier1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object tier1/CMakeFiles/tier1.dir/tier1.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object tier1/CMakeFiles/tier1.dir/tier1.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/tier1.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/tier1.cpp
 
 tier1/CMakeFiles/tier1.dir/tier1.i: cmake_force
@@ -540,7 +397,7 @@ tier1/CMakeFiles/tier1.dir/tier1.s: cmake_force
 
 tier1/CMakeFiles/tier1.dir/tokenreader.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/tokenreader.o: ../tier1/tokenreader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object tier1/CMakeFiles/tier1.dir/tokenreader.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object tier1/CMakeFiles/tier1.dir/tokenreader.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/tokenreader.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/tokenreader.cpp
 
 tier1/CMakeFiles/tier1.dir/tokenreader.i: cmake_force
@@ -551,22 +408,9 @@ tier1/CMakeFiles/tier1.dir/tokenreader.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/tokenreader.s"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/tokenreader.cpp -o CMakeFiles/tier1.dir/tokenreader.s
 
-tier1/CMakeFiles/tier1.dir/undiff.o: tier1/CMakeFiles/tier1.dir/flags.make
-tier1/CMakeFiles/tier1.dir/undiff.o: ../tier1/undiff.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object tier1/CMakeFiles/tier1.dir/undiff.o"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/undiff.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/undiff.cpp
-
-tier1/CMakeFiles/tier1.dir/undiff.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/undiff.i"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/undiff.cpp > CMakeFiles/tier1.dir/undiff.i
-
-tier1/CMakeFiles/tier1.dir/undiff.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/undiff.s"
-	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/undiff.cpp -o CMakeFiles/tier1.dir/undiff.s
-
 tier1/CMakeFiles/tier1.dir/uniqueid.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/uniqueid.o: ../tier1/uniqueid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object tier1/CMakeFiles/tier1.dir/uniqueid.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object tier1/CMakeFiles/tier1.dir/uniqueid.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/uniqueid.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/uniqueid.cpp
 
 tier1/CMakeFiles/tier1.dir/uniqueid.i: cmake_force
@@ -577,9 +421,100 @@ tier1/CMakeFiles/tier1.dir/uniqueid.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/uniqueid.s"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/uniqueid.cpp -o CMakeFiles/tier1.dir/uniqueid.s
 
+tier1/CMakeFiles/tier1.dir/bitbuf.o: tier1/CMakeFiles/tier1.dir/flags.make
+tier1/CMakeFiles/tier1.dir/bitbuf.o: ../tier1/bitbuf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object tier1/CMakeFiles/tier1.dir/bitbuf.o"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/bitbuf.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/bitbuf.cpp
+
+tier1/CMakeFiles/tier1.dir/bitbuf.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/bitbuf.i"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/bitbuf.cpp > CMakeFiles/tier1.dir/bitbuf.i
+
+tier1/CMakeFiles/tier1.dir/bitbuf.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/bitbuf.s"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/bitbuf.cpp -o CMakeFiles/tier1.dir/bitbuf.s
+
+tier1/CMakeFiles/tier1.dir/commandbuffer.o: tier1/CMakeFiles/tier1.dir/flags.make
+tier1/CMakeFiles/tier1.dir/commandbuffer.o: ../tier1/commandbuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object tier1/CMakeFiles/tier1.dir/commandbuffer.o"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/commandbuffer.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/commandbuffer.cpp
+
+tier1/CMakeFiles/tier1.dir/commandbuffer.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/commandbuffer.i"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/commandbuffer.cpp > CMakeFiles/tier1.dir/commandbuffer.i
+
+tier1/CMakeFiles/tier1.dir/commandbuffer.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/commandbuffer.s"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/commandbuffer.cpp -o CMakeFiles/tier1.dir/commandbuffer.s
+
+tier1/CMakeFiles/tier1.dir/mempool.o: tier1/CMakeFiles/tier1.dir/flags.make
+tier1/CMakeFiles/tier1.dir/mempool.o: ../tier1/mempool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object tier1/CMakeFiles/tier1.dir/mempool.o"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/mempool.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/mempool.cpp
+
+tier1/CMakeFiles/tier1.dir/mempool.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/mempool.i"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/mempool.cpp > CMakeFiles/tier1.dir/mempool.i
+
+tier1/CMakeFiles/tier1.dir/mempool.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/mempool.s"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/mempool.cpp -o CMakeFiles/tier1.dir/mempool.s
+
+tier1/CMakeFiles/tier1.dir/memstack.o: tier1/CMakeFiles/tier1.dir/flags.make
+tier1/CMakeFiles/tier1.dir/memstack.o: ../tier1/memstack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object tier1/CMakeFiles/tier1.dir/memstack.o"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/memstack.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/memstack.cpp
+
+tier1/CMakeFiles/tier1.dir/memstack.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/memstack.i"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/memstack.cpp > CMakeFiles/tier1.dir/memstack.i
+
+tier1/CMakeFiles/tier1.dir/memstack.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/memstack.s"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/memstack.cpp -o CMakeFiles/tier1.dir/memstack.s
+
+tier1/CMakeFiles/tier1.dir/newbitbuf.o: tier1/CMakeFiles/tier1.dir/flags.make
+tier1/CMakeFiles/tier1.dir/newbitbuf.o: ../tier1/newbitbuf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object tier1/CMakeFiles/tier1.dir/newbitbuf.o"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/newbitbuf.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/newbitbuf.cpp
+
+tier1/CMakeFiles/tier1.dir/newbitbuf.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/newbitbuf.i"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/newbitbuf.cpp > CMakeFiles/tier1.dir/newbitbuf.i
+
+tier1/CMakeFiles/tier1.dir/newbitbuf.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/newbitbuf.s"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/newbitbuf.cpp -o CMakeFiles/tier1.dir/newbitbuf.s
+
+tier1/CMakeFiles/tier1.dir/sparsematrix.o: tier1/CMakeFiles/tier1.dir/flags.make
+tier1/CMakeFiles/tier1.dir/sparsematrix.o: ../tier1/sparsematrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object tier1/CMakeFiles/tier1.dir/sparsematrix.o"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/sparsematrix.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/sparsematrix.cpp
+
+tier1/CMakeFiles/tier1.dir/sparsematrix.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/sparsematrix.i"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/sparsematrix.cpp > CMakeFiles/tier1.dir/sparsematrix.i
+
+tier1/CMakeFiles/tier1.dir/sparsematrix.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/sparsematrix.s"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/sparsematrix.cpp -o CMakeFiles/tier1.dir/sparsematrix.s
+
+tier1/CMakeFiles/tier1.dir/stringpool.o: tier1/CMakeFiles/tier1.dir/flags.make
+tier1/CMakeFiles/tier1.dir/stringpool.o: ../tier1/stringpool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object tier1/CMakeFiles/tier1.dir/stringpool.o"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/stringpool.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/stringpool.cpp
+
+tier1/CMakeFiles/tier1.dir/stringpool.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tier1.dir/stringpool.i"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jeremy/Desktop/Projects/SrcM/src/tier1/stringpool.cpp > CMakeFiles/tier1.dir/stringpool.i
+
+tier1/CMakeFiles/tier1.dir/stringpool.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tier1.dir/stringpool.s"
+	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jeremy/Desktop/Projects/SrcM/src/tier1/stringpool.cpp -o CMakeFiles/tier1.dir/stringpool.s
+
 tier1/CMakeFiles/tier1.dir/utlbinaryblock.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/utlbinaryblock.o: ../tier1/utlbinaryblock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object tier1/CMakeFiles/tier1.dir/utlbinaryblock.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object tier1/CMakeFiles/tier1.dir/utlbinaryblock.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/utlbinaryblock.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/utlbinaryblock.cpp
 
 tier1/CMakeFiles/tier1.dir/utlbinaryblock.i: cmake_force
@@ -592,7 +527,7 @@ tier1/CMakeFiles/tier1.dir/utlbinaryblock.s: cmake_force
 
 tier1/CMakeFiles/tier1.dir/utlbuffer.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/utlbuffer.o: ../tier1/utlbuffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object tier1/CMakeFiles/tier1.dir/utlbuffer.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object tier1/CMakeFiles/tier1.dir/utlbuffer.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/utlbuffer.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/utlbuffer.cpp
 
 tier1/CMakeFiles/tier1.dir/utlbuffer.i: cmake_force
@@ -605,7 +540,7 @@ tier1/CMakeFiles/tier1.dir/utlbuffer.s: cmake_force
 
 tier1/CMakeFiles/tier1.dir/utlbufferutil.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/utlbufferutil.o: ../tier1/utlbufferutil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object tier1/CMakeFiles/tier1.dir/utlbufferutil.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object tier1/CMakeFiles/tier1.dir/utlbufferutil.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/utlbufferutil.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/utlbufferutil.cpp
 
 tier1/CMakeFiles/tier1.dir/utlbufferutil.i: cmake_force
@@ -618,7 +553,7 @@ tier1/CMakeFiles/tier1.dir/utlbufferutil.s: cmake_force
 
 tier1/CMakeFiles/tier1.dir/utlstring.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/utlstring.o: ../tier1/utlstring.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object tier1/CMakeFiles/tier1.dir/utlstring.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object tier1/CMakeFiles/tier1.dir/utlstring.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/utlstring.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/utlstring.cpp
 
 tier1/CMakeFiles/tier1.dir/utlstring.i: cmake_force
@@ -631,7 +566,7 @@ tier1/CMakeFiles/tier1.dir/utlstring.s: cmake_force
 
 tier1/CMakeFiles/tier1.dir/utlsymbol.o: tier1/CMakeFiles/tier1.dir/flags.make
 tier1/CMakeFiles/tier1.dir/utlsymbol.o: ../tier1/utlsymbol.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object tier1/CMakeFiles/tier1.dir/utlsymbol.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object tier1/CMakeFiles/tier1.dir/utlsymbol.o"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tier1.dir/utlsymbol.o -c /home/jeremy/Desktop/Projects/SrcM/src/tier1/utlsymbol.cpp
 
 tier1/CMakeFiles/tier1.dir/utlsymbol.i: cmake_force
@@ -644,46 +579,41 @@ tier1/CMakeFiles/tier1.dir/utlsymbol.s: cmake_force
 
 # Object files for target tier1
 tier1_OBJECTS = \
-"CMakeFiles/tier1.dir/KeyValues.o" \
-"CMakeFiles/tier1.dir/NetAdr.o" \
-"CMakeFiles/tier1.dir/bitbuf.o" \
 "CMakeFiles/tier1.dir/byteswap.o" \
 "CMakeFiles/tier1.dir/characterset.o" \
 "CMakeFiles/tier1.dir/checksum_crc.o" \
 "CMakeFiles/tier1.dir/checksum_md5.o" \
 "CMakeFiles/tier1.dir/checksum_sha1.o" \
-"CMakeFiles/tier1.dir/commandbuffer.o" \
 "CMakeFiles/tier1.dir/convar.o" \
 "CMakeFiles/tier1.dir/datamanager.o" \
 "CMakeFiles/tier1.dir/diff.o" \
-"CMakeFiles/tier1.dir/fileio.o" \
 "CMakeFiles/tier1.dir/generichash.o" \
 "CMakeFiles/tier1.dir/ilocalize.o" \
 "CMakeFiles/tier1.dir/interface.o" \
+"CMakeFiles/tier1.dir/KeyValues.o" \
 "CMakeFiles/tier1.dir/kvpacker.o" \
 "CMakeFiles/tier1.dir/lzmaDecoder.o" \
-"CMakeFiles/tier1.dir/mempool.o" \
-"CMakeFiles/tier1.dir/memstack.o" \
-"CMakeFiles/tier1.dir/newbitbuf.o" \
-"CMakeFiles/tier1.dir/pathmatch.o" \
+"CMakeFiles/tier1.dir/NetAdr.o" \
 "CMakeFiles/tier1.dir/processor_detect.o" \
-"CMakeFiles/tier1.dir/processor_detect_linux.o" \
-"CMakeFiles/tier1.dir/qsort_s.o" \
 "CMakeFiles/tier1.dir/rangecheckedvar.o" \
 "CMakeFiles/tier1.dir/reliabletimer.o" \
 "CMakeFiles/tier1.dir/snappy-sinksource.o" \
 "CMakeFiles/tier1.dir/snappy-stubs-internal.o" \
 "CMakeFiles/tier1.dir/snappy.o" \
-"CMakeFiles/tier1.dir/sparsematrix.o" \
 "CMakeFiles/tier1.dir/splitstring.o" \
-"CMakeFiles/tier1.dir/stringpool.o" \
 "CMakeFiles/tier1.dir/strtools.o" \
 "CMakeFiles/tier1.dir/strtools_unicode.o" \
 "CMakeFiles/tier1.dir/threadpool.o" \
 "CMakeFiles/tier1.dir/tier1.o" \
 "CMakeFiles/tier1.dir/tokenreader.o" \
-"CMakeFiles/tier1.dir/undiff.o" \
 "CMakeFiles/tier1.dir/uniqueid.o" \
+"CMakeFiles/tier1.dir/bitbuf.o" \
+"CMakeFiles/tier1.dir/commandbuffer.o" \
+"CMakeFiles/tier1.dir/mempool.o" \
+"CMakeFiles/tier1.dir/memstack.o" \
+"CMakeFiles/tier1.dir/newbitbuf.o" \
+"CMakeFiles/tier1.dir/sparsematrix.o" \
+"CMakeFiles/tier1.dir/stringpool.o" \
 "CMakeFiles/tier1.dir/utlbinaryblock.o" \
 "CMakeFiles/tier1.dir/utlbuffer.o" \
 "CMakeFiles/tier1.dir/utlbufferutil.o" \
@@ -693,58 +623,53 @@ tier1_OBJECTS = \
 # External object files for target tier1
 tier1_EXTERNAL_OBJECTS =
 
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/KeyValues.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/NetAdr.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/bitbuf.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/byteswap.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/characterset.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/checksum_crc.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/checksum_md5.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/checksum_sha1.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/commandbuffer.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/convar.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/datamanager.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/diff.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/fileio.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/generichash.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/ilocalize.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/interface.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/kvpacker.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/lzmaDecoder.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/mempool.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/memstack.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/newbitbuf.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/pathmatch.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/processor_detect.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/processor_detect_linux.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/qsort_s.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/rangecheckedvar.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/reliabletimer.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/snappy-sinksource.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/snappy-stubs-internal.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/snappy.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/sparsematrix.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/splitstring.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/stringpool.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/strtools.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/strtools_unicode.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/threadpool.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/tier1.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/tokenreader.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/undiff.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/uniqueid.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/utlbinaryblock.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/utlbuffer.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/utlbufferutil.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/utlstring.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/utlsymbol.o
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/build.make
-tier1/libtier1.so: tier1/CMakeFiles/tier1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Linking CXX shared library libtier1.so"
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/byteswap.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/characterset.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/checksum_crc.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/checksum_md5.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/checksum_sha1.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/convar.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/datamanager.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/diff.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/generichash.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/ilocalize.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/interface.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/KeyValues.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/kvpacker.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/lzmaDecoder.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/NetAdr.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/processor_detect.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/rangecheckedvar.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/reliabletimer.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/snappy-sinksource.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/snappy-stubs-internal.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/snappy.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/splitstring.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/strtools.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/strtools_unicode.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/threadpool.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/tier1.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/tokenreader.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/uniqueid.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/bitbuf.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/commandbuffer.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/mempool.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/memstack.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/newbitbuf.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/sparsematrix.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/stringpool.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/utlbinaryblock.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/utlbuffer.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/utlbufferutil.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/utlstring.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/utlsymbol.o
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/build.make
+../bin/linux32/tier1.so: tier1/CMakeFiles/tier1.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Linking CXX shared library ../../bin/linux32/tier1.so"
 	cd /home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug/tier1 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tier1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-tier1/CMakeFiles/tier1.dir/build: tier1/libtier1.so
+tier1/CMakeFiles/tier1.dir/build: ../bin/linux32/tier1.so
 
 .PHONY : tier1/CMakeFiles/tier1.dir/build
 

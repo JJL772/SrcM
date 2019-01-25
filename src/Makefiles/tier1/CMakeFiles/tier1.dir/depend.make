@@ -366,48 +366,6 @@ tier1/CMakeFiles/tier1.dir/diff.o: ../public/tier0/xbox_codeline_defines.h
 tier1/CMakeFiles/tier1.dir/diff.o: ../public/tier1/diff.h
 tier1/CMakeFiles/tier1.dir/diff.o: ../tier1/diff.cpp
 
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/datamap.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/mathlib/math_pfns.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/mathlib/mathlib.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/mathlib/vector.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/mathlib/vector2d.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/minmax.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier0/annotations.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier0/basetypes.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier0/commonmacros.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier0/dbg.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier0/dbgflag.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier0/fasttimer.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier0/mem.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier0/memalloc.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier0/memdbgoff.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier0/memdbgon.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier0/platform.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier0/protected_things.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier0/threadtools.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier0/valve_minmax_on.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier0/valve_off.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier0/valve_on.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier0/vcr_shared.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier0/vcrmode.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier0/wchartypes.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier0/xbox_codeline_defines.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier1/byteswap.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier1/fileio.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier1/interface.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier1/strtools.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier1/utlblockmemory.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier1/utlbuffer.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier1/utlfixedmemory.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier1/utllinkedlist.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier1/utlmemory.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier1/utlstring.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/tier1/utlvector.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/vstdlib/random.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/vstdlib/vstdlib.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../public/winlite.h
-tier1/CMakeFiles/tier1.dir/fileio.o: ../tier1/fileio.cpp
-
 tier1/CMakeFiles/tier1.dir/generichash.o: ../public/tier0/annotations.h
 tier1/CMakeFiles/tier1.dir/generichash.o: ../public/tier0/basetypes.h
 tier1/CMakeFiles/tier1.dir/generichash.o: ../public/tier0/commonmacros.h
@@ -660,14 +618,7 @@ tier1/CMakeFiles/tier1.dir/newbitbuf.o: ../public/tier1/strtools.h
 tier1/CMakeFiles/tier1.dir/newbitbuf.o: ../public/worldsize.h
 tier1/CMakeFiles/tier1.dir/newbitbuf.o: ../tier1/newbitbuf.cpp
 
-tier1/CMakeFiles/tier1.dir/pathmatch.o: ../tier1/pathmatch.cpp
-tier1/CMakeFiles/tier1.dir/pathmatch.o: ../tier1/pathmatch_casefolding.h
-
 tier1/CMakeFiles/tier1.dir/processor_detect.o: ../tier1/processor_detect.cpp
-
-tier1/CMakeFiles/tier1.dir/processor_detect_linux.o: ../tier1/processor_detect_linux.cpp
-
-tier1/CMakeFiles/tier1.dir/qsort_s.o: ../tier1/qsort_s.cpp
 
 tier1/CMakeFiles/tier1.dir/rangecheckedvar.o: ../public/mathlib/math_pfns.h
 tier1/CMakeFiles/tier1.dir/rangecheckedvar.o: ../public/mathlib/vector.h
@@ -1046,34 +997,6 @@ tier1/CMakeFiles/tier1.dir/tokenreader.o: ../public/tier0/xbox_codeline_defines.
 tier1/CMakeFiles/tier1.dir/tokenreader.o: ../public/tier1/strtools.h
 tier1/CMakeFiles/tier1.dir/tokenreader.o: ../public/tier1/tokenreader.h
 tier1/CMakeFiles/tier1.dir/tokenreader.o: ../tier1/tokenreader.cpp
-
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/mathlib/math_pfns.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/mathlib/mathlib.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/mathlib/vector.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/mathlib/vector2d.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/minmax.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/tier0/annotations.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/tier0/basetypes.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/tier0/commonmacros.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/tier0/dbg.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/tier0/dbgflag.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/tier0/fasttimer.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/tier0/mem.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/tier0/memalloc.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/tier0/memdbgoff.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/tier0/memdbgon.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/tier0/platform.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/tier0/protected_things.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/tier0/threadtools.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/tier0/valve_minmax_on.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/tier0/valve_off.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/tier0/valve_on.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/tier0/vcr_shared.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/tier0/vcrmode.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/tier0/wchartypes.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/tier0/xbox_codeline_defines.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../public/tier1/diff.h
-tier1/CMakeFiles/tier1.dir/undiff.o: ../tier1/undiff.cpp
 
 tier1/CMakeFiles/tier1.dir/uniqueid.o: ../public/datamap.h
 tier1/CMakeFiles/tier1.dir/uniqueid.o: ../public/mathlib/math_pfns.h

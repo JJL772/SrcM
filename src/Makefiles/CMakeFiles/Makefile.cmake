@@ -16,7 +16,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.2/CMakeSystem.cmake"
   "../game/CMakeLists.txt"
+  "../game/client/CMakeLists.txt"
+  "../game/client/CMakeScripts/ClientSources.cmake"
   "../game/server/CMakeLists.txt"
+  "../game/server/CMakeScripts/ServerSources.cmake"
   "../mathlib/CMakeLists.txt"
   "../raytrace/CMakeLists.txt"
   "../tier1/CMakeLists.txt"
@@ -52,6 +55,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "raytrace/CMakeFiles/CMakeDirectoryInformation.cmake"
   "game/CMakeFiles/CMakeDirectoryInformation.cmake"
   "game/server/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "game/client/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -60,4 +64,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "mathlib/CMakeFiles/mathlib.dir/DependInfo.cmake"
   "raytrace/CMakeFiles/raytrace.dir/DependInfo.cmake"
   "game/server/CMakeFiles/server.dir/DependInfo.cmake"
+  "game/client/CMakeFiles/client.dir/DependInfo.cmake"
   )

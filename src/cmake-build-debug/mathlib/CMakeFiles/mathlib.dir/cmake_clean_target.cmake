@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libmathlib.a"
+  "../../lib/public/linux32/mathlib.a"
 )

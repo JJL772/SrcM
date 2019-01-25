@@ -207,6 +207,15 @@ Project_BINARY_DIR:STATIC=/home/jeremy/Desktop/Projects/SrcM/src/Makefiles
 Project_SOURCE_DIR:STATIC=/home/jeremy/Desktop/Projects/SrcM/src
 
 //Value Computed by CMake
+client_BINARY_DIR:STATIC=/home/jeremy/Desktop/Projects/SrcM/src/Makefiles/game/client
+
+//Dependencies for the target
+client_LIB_DEPENDS:STATIC=general;tier0;general;mathlib;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/public/linux32/dmxloader.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/public/linux32/choreoobjects.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/public/linux32/particles.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/public/linux32/tier2.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/public/linux32/tier3.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/public/linux32/libprotobuf.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/public/linux32/libz.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/public/linux32/vtf.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/public/linux32/vgui_controls.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/public/linux32/bitmap.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/public/linux32/matsys_controls.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/common/linux32/libssl.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/common/linux32/libcurl.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/common/linux32/libcrypto.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/common/linux32/libcurlssl.a;
+
+//Value Computed by CMake
+client_SOURCE_DIR:STATIC=/home/jeremy/Desktop/Projects/SrcM/src/game/client
+
+//Value Computed by CMake
 mathlib_BINARY_DIR:STATIC=/home/jeremy/Desktop/Projects/SrcM/src/Makefiles/mathlib
 
 //Dependencies for the target
@@ -228,7 +237,7 @@ raytrace_SOURCE_DIR:STATIC=/home/jeremy/Desktop/Projects/SrcM/src/raytrace
 server_BINARY_DIR:STATIC=/home/jeremy/Desktop/Projects/SrcM/src/Makefiles/game/server
 
 //Dependencies for the target
-server_LIB_DEPENDS:STATIC=general;tier0;general;mathlib;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/public/linux32/dmxloader.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/public/linux32/choreoobjects.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/public/linux32/particles.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/public/linux32/tier2.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/public/linux32/tier3.a;
+server_LIB_DEPENDS:STATIC=general;tier0;general;mathlib;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/public/linux32/dmxloader.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/public/linux32/choreoobjects.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/public/linux32/particles.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/public/linux32/tier2.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/public/linux32/tier3.a;general;/home/jeremy/Desktop/Projects/SrcM/src/lib/public/linux32/libprotobuf.a;
 
 //Value Computed by CMake
 server_SOURCE_DIR:STATIC=/home/jeremy/Desktop/Projects/SrcM/src/game/server
@@ -343,7 +352,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

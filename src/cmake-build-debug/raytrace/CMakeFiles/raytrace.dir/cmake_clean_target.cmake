@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libraytrace.a"
+  "../../lib/public/linux32/raytrace.a"
 )

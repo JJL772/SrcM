@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/raytrace.dir/raytrace.o"
   "CMakeFiles/raytrace.dir/trace2.o"
   "CMakeFiles/raytrace.dir/trace3.o"
-  "libraytrace.pdb"
-  "libraytrace.a"
+  "../../lib/public/linux32/raytrace.pdb"
+  "../../lib/public/linux32/raytrace.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="mathlib"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CMakeScripts\;CMake Files\tier1\;CMake Files\mathlib\;CMake Files\raytrace\;CMake Files\game\;CMake Files\game\server\;CMake Files\game\server\CMakeScripts\;CMake Files\game\client\;CMake Files\game\client\CMakeScripts\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug-win32/mathlib"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug-win32/mathlib/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug-win32/mathlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug-win32/mathlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug-win32/mathlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mathlib">
+				<Option output="/home/jeremy/Desktop/Projects/SrcM/src/lib/public/win32/mathlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug-win32/mathlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DRAD_TELEMETRY_DISABLED"/>
+					<Add option="-DVERSION_SAFE_STEAM_API"/>
+					<Add option="-DPROTECTED_THINGS_ENABLE"/>
+					<Add option="-DSOURCE1=1"/>
+					<Add option="-DCOMPILER_MSVC"/>
+					<Add option="-D_DLL_EXT=.dll"/>
+					<Add option="-D_EXTERNAL_DLL_EXT=.dll"/>
+					<Add option="-DCOMPILER_MSVC32"/>
+					<Add option="-D_WIN32"/>
+					<Add option="-DWIN32"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add option="-DBINK_VIDEO"/>
+					<Add option="-DAVI_VIDEO"/>
+					<Add option="-DDEV_BUILD"/>
+					<Add option="-DFRAME_POINTER_OMISSION_DISABLED"/>
+					<Add option="-D_LIB"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/mathlib"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/mathlib"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier0"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier1"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/common"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/utils/common"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug-win32/mathlib/Makefile&quot;  VERBOSE=1 mathlib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug-win32/mathlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug-win32/mathlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug-win32/mathlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mathlib/fast">
+				<Option output="/home/jeremy/Desktop/Projects/SrcM/src/lib/public/win32/mathlib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug-win32/mathlib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DRAD_TELEMETRY_DISABLED"/>
+					<Add option="-DVERSION_SAFE_STEAM_API"/>
+					<Add option="-DPROTECTED_THINGS_ENABLE"/>
+					<Add option="-DSOURCE1=1"/>
+					<Add option="-DCOMPILER_MSVC"/>
+					<Add option="-D_DLL_EXT=.dll"/>
+					<Add option="-D_EXTERNAL_DLL_EXT=.dll"/>
+					<Add option="-DCOMPILER_MSVC32"/>
+					<Add option="-D_WIN32"/>
+					<Add option="-DWIN32"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-D_DEBUG"/>
+					<Add option="-DBINK_VIDEO"/>
+					<Add option="-DAVI_VIDEO"/>
+					<Add option="-DDEV_BUILD"/>
+					<Add option="-DFRAME_POINTER_OMISSION_DISABLED"/>
+					<Add option="-D_LIB"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/mathlib"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/mathlib"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier0"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/public/tier1"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/common"/>
+					<Add directory="/home/jeremy/Desktop/Projects/SrcM/src/utils/common"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/x86_64-linux-gnu/c++/7.3.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/7.3.0/../../../../include/c++/7.3.0/backward"/>
+					<Add directory="/usr/include/clang/6.0.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/llvm-6.0/lib/clang/6.0.0/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug-win32/mathlib/Makefile&quot;  VERBOSE=1 mathlib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug-win32/mathlib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug-win32/mathlib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/jeremy/Desktop/Projects/SrcM/src/cmake-build-debug-win32/mathlib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/3dnow.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/3dnow.h">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/IceKey.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/almostequal.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/anorms.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/bumpvects.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/color_conversion.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/halton.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/imagequant.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/lightdesc.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/mathlib_base.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/noisedata.h">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/polyhedron.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/powsse.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/quantize.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/randsse.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/simdvectormatrix.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/sparse_convolution_noise.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/spherical.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/sse.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/sse.h">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/sseconst.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/ssenoise.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/vector.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/vmatrix.cpp">
+			<Option target="mathlib"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/CMakeScripts/PublicHeaders.cmake">
+			<Option virtualFolder="CMake Files\CMakeScripts\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/CMakeScripts/SourceBase.cmake">
+			<Option virtualFolder="CMake Files\CMakeScripts\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/CMakeScripts/SourceDirectories.cmake">
+			<Option virtualFolder="CMake Files\CMakeScripts\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/CMakeScripts/SourceLibrary.cmake">
+			<Option virtualFolder="CMake Files\CMakeScripts\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/tier1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tier1\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/mathlib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\mathlib\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/raytrace/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\raytrace\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\server\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/server/CMakeScripts/ServerSources.cmake">
+			<Option virtualFolder="CMake Files\game\server\CMakeScripts\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/client/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\game\client\"/>
+		</Unit>
+		<Unit filename="/home/jeremy/Desktop/Projects/SrcM/src/game/client/CMakeScripts/ClientSources.cmake">
+			<Option virtualFolder="CMake Files\game\client\CMakeScripts\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

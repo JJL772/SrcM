@@ -4,22 +4,56 @@
 #
 # CMake project for valve's tier1 lib
 #
+# Written by Jeremy L.
+#
 #
 project(tier1 C CXX)
 
+message("Generating Tier1 Project...")
+
 #Search for all source files
-FILE(GLOB_RECURSE Src RELATIVE "${CMAKE_CURRENT_SOURCE_DIR}"
-	*.cpp *.h *.c *.hpp *.s *.S *.asm *.def)
-
-#Create a new source group
-source_group(Source FILES)
-
-#Search for source files
-foreach(source IN LISTS Src)
-	get_filename_component(source_path "${source}" PATH)
-	string(REPLACE "/" "\\" source_path_msvc "${source_path}")
-	source_group("${source_path_msvc}" FILES "${source}")
-endforeach()
+set(Src
+    ./byteswap.cpp
+    ./characterset.cpp
+    ./checksum_crc.cpp
+    ./checksum_md5.cpp
+    ./checksum_sha1.cpp
+    ./convar.cpp
+    ./datamanager.cpp
+    ./diff.cpp
+    ./generichash.cpp
+    ./ilocalize.cpp
+    ./interface.cpp
+    ./KeyValues.cpp
+    ./kvpacker.cpp
+    ./lzmaDecoder.cpp
+    ./NetAdr.cpp
+    ./processor_detect.cpp
+    ./rangecheckedvar.cpp
+    ./reliabletimer.cpp
+    ./snappy-sinksource.cpp
+    ./snappy-stubs-internal.cpp
+    ./snappy.cpp
+    ./splitstring.cpp
+    ./strtools.cpp
+    ./strtools_unicode.cpp
+    ./threadpool.cpp
+    ./tier1.cpp
+    ./tokenreader.cpp
+    ./uniqueid.cpp
+    ./bitbuf.cpp
+    ./commandbuffer.cpp
+    ./mempool.cpp
+    ./memstack.cpp
+    ./newbitbuf.cpp
+    ./sparsematrix.cpp
+    ./stringpool.cpp
+    ./utlbinaryblock.cpp
+    ./utlbuffer.cpp
+    ./utlbufferutil.cpp
+    ./utlstring.cpp
+    ./utlsymbol.cpp
+)
 
 #Used to get all public headers
 include("${CMAKE_HOME_DIRECTORY}/CMakeScripts/PublicHeaders.cmake")
@@ -44,7 +78,11 @@ set_target_properties(tier1 PROPERTIES LIBRARY_OUTPUT_NAME "tier1")
 set_target_properties(tier1 PROPERTIES ENABLE_EXPORTS 1)
 set_target_properties(tier1 PROPERTIES LINKER_LANGUAGE CXX)
 
-target_compile_definitions(tier1 PRIVATE TIER1_STATIC_LIB=1)
+target_compile_definitions(tier1 PRIVATE 	TIER1_STATIC_LIB=1
+											LIBNAME=tier1
+											PROJECTDIR=${SOURCE_TIER1_SRC_DIR}
+											DISABLE_PROTECTED_THINGS=1)
+											
 set_property(TARGET tier1 PROPERTY CXX_STANDARD 11)
 
 #########################################

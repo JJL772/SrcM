@@ -21,8 +21,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/mathlib.dir/ssenoise.o"
   "CMakeFiles/mathlib.dir/vector.o"
   "CMakeFiles/mathlib.dir/vmatrix.o"
-  "libmathlib.pdb"
-  "libmathlib.a"
+  "../../lib/public/linux32/mathlib.pdb"
+  "../../lib/public/linux32/mathlib.a"
 )
 
 # Per-language clean rules from dependency scanning.

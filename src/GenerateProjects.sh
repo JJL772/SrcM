@@ -1,6 +1,6 @@
 #!/bin/bash
 
-@echo off
+@Echo off
 
 echo Generating project files...\n
 
