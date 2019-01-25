@@ -356,6 +356,7 @@ inline void CBaseGameStats::LoadLump( CUtlBuffer &LoadBuffer, unsigned short iLu
 // Moving the extern out of the GAME_DLL block so that the client can access it
 extern CBaseGameStats *gamestats; //starts out pointing at a singleton of the class above, overriding this in any constructor should work for replacing it
 
+
 //used to drive most of the game stat event handlers as well as track basic stats under the hood of CBaseGameStats
 class CBaseGameStats_Driver : public CAutoGameSystemPerFrame
 {
