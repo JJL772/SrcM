@@ -47,3 +47,5 @@ docs/
 *.o
 
 src/Makefiles/
+src/cmake-build-debug
+src/cmake-build-debug-linux32
