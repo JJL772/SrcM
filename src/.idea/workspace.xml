@@ -2,111 +2,32 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="Project" targetName="server" />
       <config projectName="Project" targetName="mathlib" />
       <config projectName="Project" targetName="tier1" />
       <config projectName="Project" targetName="client" />
       <config projectName="Project" targetName="raytrace" />
-      <config projectName="Project" targetName="server" />
     </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-H. -Wno-dev  -DLINUX32=1 -DDEBUG=1 -DPOSIX=1" />
       <configuration PROFILE_NAME="Debug-Linux32" CONFIG_NAME="Release" GENERATION_OPTIONS="-H. -Wno-dev  -DLINUX32=1 -DDEBUG=1 -DPOSIX=1 -DUSE_CLANG=1" />
-      <configuration PROFILE_NAME="Debug-Win32" CONFIG_NAME="RelWithDebInfo" GENERATION_OPTIONS="-H. -Wno-dev -DDEBUG=1 -DWIN32=1 -DUSE_CLANG=1" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54e43f20-df54-4b2f-a669-13d8a3ba0583" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeScripts/SourceBase.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeScripts/SourceBase.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeScripts/SourceDirectories.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeScripts/SourceDirectories.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeScripts/SourceLibrary.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeScripts/SourceLibrary.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenerateProjects.sh" beforeDir="false" afterPath="$PROJECT_DIR$/GenerateProjects.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/mathlib/CMakeFiles/mathlib.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/mathlib/CMakeFiles/mathlib.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/mathlib/CMakeFiles/mathlib.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/mathlib/CMakeFiles/mathlib.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/mathlib/CMakeFiles/mathlib.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/mathlib/CMakeFiles/mathlib.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/mathlib/CMakeFiles/mathlib.dir/cmake_clean_target.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/mathlib/CMakeFiles/mathlib.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/mathlib/CMakeFiles/mathlib.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/mathlib/CMakeFiles/mathlib.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/mathlib/CMakeFiles/mathlib.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/mathlib/CMakeFiles/mathlib.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefiles/CMakeFiles/Progress/100" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefiles/CMakeFiles/Progress/count.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Makefiles/mathlib/CMakeFiles/mathlib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/mathlib/CMakeFiles/mathlib.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/mathlib/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/mathlib/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/raytrace/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/raytrace/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/raytrace/CMakeFiles/raytrace.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/raytrace/CMakeFiles/raytrace.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/raytrace/CMakeFiles/raytrace.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/raytrace/CMakeFiles/raytrace.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/raytrace/CMakeFiles/raytrace.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/raytrace/CMakeFiles/raytrace.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/raytrace/CMakeFiles/raytrace.dir/cmake_clean_target.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/raytrace/CMakeFiles/raytrace.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/raytrace/CMakeFiles/raytrace.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/raytrace/CMakeFiles/raytrace.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/raytrace/CMakeFiles/raytrace.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/raytrace/CMakeFiles/raytrace.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/raytrace/CMakeFiles/raytrace.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/raytrace/CMakeFiles/raytrace.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/raytrace/CMakeFiles/raytrace.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/raytrace/CMakeFiles/raytrace.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/fileio.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/pathmatch.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/processor_detect_linux.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/qsort_s.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/tier1/CMakeFiles/tier1.dir/undiff.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefiles/tier1/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefiles/tier1/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/linux32/client.so" beforeDir="false" afterPath="$PROJECT_DIR$/bin/linux32/client.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-linux32/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-linux32/Project.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-linux32/mathlib/CMakeFiles/mathlib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-linux32/mathlib/CMakeFiles/mathlib.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-win32/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-win32/Project.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-win32/mathlib/CMakeFiles/mathlib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-win32/mathlib/CMakeFiles/mathlib.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Project.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/mathlib/CMakeFiles/mathlib.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/mathlib/CMakeFiles/mathlib.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/mathlib/CMakeFiles/mathlib.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/mathlib/CMakeFiles/mathlib.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/mathlib/CMakeFiles/mathlib.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/mathlib/CMakeFiles/mathlib.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/mathlib/CMakeFiles/mathlib.dir/cmake_clean_target.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/mathlib/CMakeFiles/mathlib.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/mathlib/CMakeFiles/mathlib.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/mathlib/CMakeFiles/mathlib.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/mathlib/CMakeFiles/mathlib.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/mathlib/CMakeFiles/mathlib.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/mathlib/CMakeFiles/mathlib.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/mathlib/CMakeFiles/mathlib.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/mathlib/CMakeFiles/mathlib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/mathlib/CMakeFiles/mathlib.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/mathlib/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/mathlib/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/mathlib/mathlib.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/mathlib/mathlib.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/raytrace/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/raytrace/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/raytrace/CMakeFiles/raytrace.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/raytrace/CMakeFiles/raytrace.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/raytrace/CMakeFiles/raytrace.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/raytrace/CMakeFiles/raytrace.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/raytrace/CMakeFiles/raytrace.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/raytrace/CMakeFiles/raytrace.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/raytrace/CMakeFiles/raytrace.dir/cmake_clean_target.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/raytrace/CMakeFiles/raytrace.dir/cmake_clean_target.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/raytrace/CMakeFiles/raytrace.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/raytrace/CMakeFiles/raytrace.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/raytrace/CMakeFiles/raytrace.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/raytrace/CMakeFiles/raytrace.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/raytrace/CMakeFiles/raytrace.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/raytrace/CMakeFiles/raytrace.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/raytrace/raytrace.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/raytrace/raytrace.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tier1/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tier1/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tier1/CMakeFiles/tier1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tier1/CMakeFiles/tier1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tier1/CMakeFiles/tier1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tier1/CMakeFiles/tier1.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tier1/CMakeFiles/tier1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tier1/CMakeFiles/tier1.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tier1/CMakeFiles/tier1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tier1/CMakeFiles/tier1.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tier1/CMakeFiles/tier1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tier1/CMakeFiles/tier1.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tier1/CMakeFiles/tier1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tier1/CMakeFiles/tier1.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tier1/CMakeFiles/tier1.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tier1/CMakeFiles/tier1.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tier1/CMakeFiles/tier1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tier1/CMakeFiles/tier1.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tier1/CMakeFiles/tier1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tier1/CMakeFiles/tier1.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tier1/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tier1/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tier1/tier1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/tier1/tier1.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/client/renderer/vk/vk.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/client/renderer/vk/vk.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/client/renderer/vk/vkutil.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/game/client/renderer/vk/vkutil.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/shared/gamestats.h" beforeDir="false" afterPath="$PROJECT_DIR$/game/shared/gamestats.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/public/linux32/mathlib.a" beforeDir="false" afterPath="$PROJECT_DIR$/lib/public/linux32/mathlib.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/public/linux32/raytrace.a" beforeDir="false" afterPath="$PROJECT_DIR$/lib/public/linux32/raytrace.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tier1/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tier1/CMakeLists.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/game/client/CMakeFiles/" />
@@ -123,37 +44,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/client/viewrender.h">
+        <entry file="file://$PROJECT_DIR$/game/client/renderer/vk/vkutil.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4658">
-              <caret line="274" column="75" selection-start-line="274" selection-start-column="75" selection-end-line="274" selection-end-column="75" />
+            <state relative-caret-position="204">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/game/client/renderer/vk/vkinit.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/view_shared.h">
+        <entry file="file://$PROJECT_DIR$/game/client/renderer/IRenderer.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/client/view.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="1165" column="66" selection-start-line="1165" selection-start-column="66" selection-end-line="1165" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/client/renderer/window.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1248">
-              <caret line="98" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="187">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -161,53 +73,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/game/client/renderer/vk/vk.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="789">
-              <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/game/client/renderer/vk/vkutil.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+            <state relative-caret-position="1088">
+              <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/client/renderer/vk/vkinit.cpp">
+        <entry file="file://$PROJECT_DIR$/game/client/renderer/RenderSystem.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            <state relative-caret-position="1173">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/client/CMakeLists.txt">
+        <entry file="file://$PROJECT_DIR$/public/tier0/dbg.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="62" column="53" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
+            <state relative-caret-position="5746">
+              <caret line="338" column="9" selection-start-line="338" selection-start-column="9" selection-end-line="338" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/include/X11/Xlib.h">
+        <entry file="file://$PROJECT_DIR$/game/client/renderer/vk/vk-interface.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="2679" column="6" selection-start-line="2679" selection-start-column="6" selection-end-line="2679" selection-end-column="6" />
+            <state relative-caret-position="408">
+              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/game/client/renderer/window.h">
+        <entry file="file://$PROJECT_DIR$/game/client/renderer/vk/vk-interface.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="731">
+              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/game/client/renderer/RenderSystem.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -225,12 +137,18 @@
         <option value="$PROJECT_DIR$/game/client/renderer/window.cpp" />
         <option value="$PROJECT_DIR$/CMakeScripts/SourceDirectories.cmake" />
         <option value="$PROJECT_DIR$/game/client/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/game/client/renderer/vk/vkinit.cpp" />
-        <option value="$PROJECT_DIR$/game/client/renderer/vk/vk.h" />
+        <option value="$PROJECT_DIR$/game/client/renderer/RenderSystem.cpp" />
+        <option value="$PROJECT_DIR$/game/client/renderer/RenderSystem.h" />
+        <option value="$PROJECT_DIR$/game/client/renderer/vk/vk-interface.h" />
+        <option value="$PROJECT_DIR$/game/client/renderer/vk/vk-interface.cpp" />
         <option value="$PROJECT_DIR$/game/client/renderer/vk/vkutil.cpp" />
+        <option value="$PROJECT_DIR$/game/client/renderer/IRenderer.h" />
+        <option value="$PROJECT_DIR$/game/client/renderer/vk/vk.h" />
+        <option value="$PROJECT_DIR$/game/client/renderer/vk/vkinit.cpp" />
       </list>
     </option>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="293" />
     <option name="y" value="53" />
@@ -353,23 +271,26 @@
       <updated>1546988354653</updated>
       <workItem from="1546988355828" duration="63000" />
       <workItem from="1547200761967" duration="1000000" />
-      <workItem from="1548226302893" duration="15920000" />
+      <workItem from="1548226302893" duration="16320000" />
+      <workItem from="1548459911075" duration="9653000" />
+      <workItem from="1548474473223" duration="3636000" />
+      <workItem from="1548485136474" duration="3355000" />
+      <workItem from="1548569280124" duration="318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16983000" />
+    <option name="totallyTimeSpent" value="34345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.62526995" visible="true" weight="0.18096292" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.62526995" visible="true" weight="0.1449917" />
       <window_info id="Structure" order="1" sideWeight="0.37473002" side_tool="true" weight="0.18096292" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32937366" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -381,10 +302,12 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="LuaCheck" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32829374" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32937366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="make" order="4" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.62526995" visible="true" weight="0.18096292" />
@@ -433,27 +356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-32651">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/tier1/interface.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
-          <folding>
-            <element signature="e#1795#1957#0" expanded="true" />
-            <element signature="e#2223#2350#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/tier0/platform.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="1273" column="76" selection-start-line="1273" selection-start-column="76" selection-end-line="1273" selection-end-column="76" />
-          <folding>
-            <element signature="e#1750#1798#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -574,20 +476,6 @@
     <entry file="file://$PROJECT_DIR$/public/ivraddll.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/client/viewrender.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4658">
-          <caret line="274" column="75" selection-start-line="274" selection-start-column="75" selection-end-line="274" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/view_shared.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/include/X11/X.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -595,45 +483,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/client/view.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="1165" column="66" selection-start-line="1165" selection-start-column="66" selection-end-line="1165" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/include/X11/Xlib.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="2679" column="6" selection-start-line="2679" selection-start-column="6" selection-end-line="2679" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/client/renderer/window.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/client/renderer/window.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeScripts/SourceDirectories.cmake">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="661">
           <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/game/client/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="62" column="53" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -645,24 +498,161 @@
         <state relative-caret-position="-18977" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/client/renderer/vk/vkinit.cpp">
+    <entry file="file://$PROJECT_DIR$/game/client/viewrender.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        <state relative-caret-position="4658">
+          <caret line="274" column="75" selection-start-line="274" selection-start-column="75" selection-end-line="274" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/view_shared.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/client/view.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19805">
+          <caret line="1165" column="66" selection-start-line="1165" selection-start-column="66" selection-end-line="1165" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/client/renderer/window.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1666">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/X11/Xlib.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45543">
+          <caret line="2679" column="6" selection-start-line="2679" selection-start-column="6" selection-end-line="2679" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/client/renderer/window.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/engine/ivmodelrender.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2339" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/iclientunknown.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tier1/interface.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/iclientrenderable.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/shared/imovehelper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tier0/platform.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6331">
+          <caret line="552" column="79" lean-forward="true" selection-start-line="552" selection-start-column="79" selection-end-line="552" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/client/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="72" column="13" lean-forward="true" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thirdparty/Vulkan/linux64/include/vulkan/vulkan_core.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115770">
+          <caret line="6810" column="8" selection-start-line="6810" selection-start-column="8" selection-end-line="6810" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thirdparty/Vulkan/linux64/include/vulkan/vulkan_xlib.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/client/renderer/vk/vkutil.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/client/renderer/IRenderer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/game/client/renderer/vk/vk.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="57" column="56" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
+        <state relative-caret-position="1088">
+          <caret line="64" column="47" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/game/client/renderer/vk/vkutil.cpp">
+    <entry file="file://$PROJECT_DIR$/game/client/renderer/RenderSystem.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/tier0/dbg.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5746">
+          <caret line="338" column="9" selection-start-line="338" selection-start-column="9" selection-end-line="338" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/client/renderer/vk/vk-interface.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/client/renderer/vk/vk-interface.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/client/renderer/RenderSystem.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/game/client/renderer/vk/vkinit.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
-          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
         </state>
       </provider>
     </entry>
