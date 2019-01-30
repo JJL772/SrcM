@@ -1,0 +1,14 @@
+[vpc crc file version 2]
+88271dff /home/jeremy/Desktop/Projects/SrcM/src/devtools/bin/vpc_linux
+_Nc_/vpcgame:hl2mp_
+5cc72bb2 client_hl2mp.vpc
+be31e4a1 ../../game/client/client_base.vpc
+4832e67a ../../vpc_scripts/source_dll_base.vpc
+d752cf80 ../../vpc_scripts/platform_dirs.vpc
+6c4a5ff1 ../../vpc_scripts/source_base.vpc
+addfdd1d ../../vpc_scripts/source_dll_posix_base.vpc
+486b766d ../../vpc_scripts/version.vpc
+26cc1549 ../../vpc_scripts/source_posix_base.vpc
+346bda4a ../../vpc_scripts/source_video_base.vpc
+c209a88e ../../vpc_scripts/protobuf_builder.vpc
+d1c158fe ../../game/protobuf_include.vpc

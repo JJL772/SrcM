@@ -1,0 +1,37 @@
+/home/jeremy/Desktop/Programs/clion-2018.3.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -G "CodeBlocks - Unix Makefiles" /home/jeremy/Desktop/Projects/SrcM/src/game/server
+-- The C compiler identification is Clang 6.0.0
+-- The CXX compiler identification is Clang 6.0.0
+-- Check for working C compiler: /usr/bin/clang
+-- Check for working C compiler: /usr/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/clang++
+-- Check for working CXX compiler: /usr/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+CMake Error at CMakeLists.txt:30 (include):
+  include could not find load file:
+
+    /home/jeremy/Desktop/Projects/SrcM/src/game/server/CMakeScripts/PublicHeaders.cmake
+
+
+CMake Error at CMakeLists.txt:32 (get_public_headers):
+  Unknown CMake command "get_public_headers".
+
+
+CMake Warning (dev) in CMakeLists.txt:
+  No cmake_minimum_required command is present.  A line of code such as
+
+    cmake_minimum_required(VERSION 3.13)
+
+  should be added at the top of the file.  The version specified may be lower
+  if you wish to support older CMake versions for this project.  For more
+  information run "cmake --help-policy CMP0000".
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring incomplete, errors occurred!
+See also "/home/jeremy/Desktop/Projects/SrcM/src/game/server/cmake-build-debug/CMakeFiles/CMakeOutput.log".

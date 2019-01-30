@@ -42,7 +42,6 @@ ipch
 *.VC.db-shm
 *.VC.db-wal
 src/docs
-game/
 docs/
 *.o
 
