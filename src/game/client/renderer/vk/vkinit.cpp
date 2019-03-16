@@ -311,8 +311,40 @@ void VkRenderer::Initialize()
 	//TODO: Find some way of getting queue handles for queues so we dont have to do a bunch of calls into vulkan during runtime
 
 
+	VkSwapchainCreateInfoKHR swapchainCreateInfoKHR;
+
 	ConColorMsg(Color(0, 255, 0), "Finished initializing renderer!");
 	Msg("==================================");
+}
+
+void VkRenderer::InitDisplay()
+{
+	//Guaranteed to set window handle by the end of the call
+	InitWindow();
+
+	//TODO: Implement for windows
+#ifdef _POSIX
+
+	VkXlibSurfaceCreateInfoKHR surfaceCreateInfo;
+	surfaceCreateInfo.pNext = NULL;
+	surfaceCreateInfo.dpy = XOpenDisplay(NULL);
+	surfaceCreateInfo.window = *(unsigned long*)&hWindow;
+	surfaceCreateInfo.flags = 0;
+	surfaceCreateInfo.sType = VK_STRUCTURE_TYPE_XLIB_SURFACE_CREATE_INFO_KHR;
+
+	vkCreateXlibSurfaceKHR(this->Instance, &surfaceCreateInfo, NULL, &this->RenderSurface);
+#endif
+
+
+}
+
+void VkRenderer::InitSwapchain()
+{
+	VkSwapchainCreateInfoKHR SwapchainCreateInfo;
+	SwapchainCreateInfo.pNext = NULL;
+	SwapchainCreateInfo.sType = VK_STRUCTURE_TYPE_SWAPCHAIN_CREATE_INFO_KHR;
+	SwapchainCreateInfo.flags = VK_SWAPCHAIN_CREATE_MUTABLE_FORMAT_BIT_KHR;
+	//SwapchainCreateInfo.
 }
 
 VkRenderer::~VkRenderer()

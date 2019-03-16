@@ -29,6 +29,9 @@ TODO: Can we remove dependencies on vulkan.h?
 /////////////////////////////
 // Vulkan includes
 #include <vulkan/vulkan.h>
+#ifdef _POSIX
+#include <vulkan/vulkan_xlib.h>
+#endif
 /////////////////////////////
 
 
@@ -83,6 +86,8 @@ private:
 
 	VkDevice Device;
 
+	VkSurfaceKHR RenderSurface;
+
 	uint32_t PhysicalDeviceCount = 0;
 
 	uint32_t PhysicalDeviceIndex; //index in devices list
@@ -109,6 +114,8 @@ public:
 
 	virtual void Initialize();
 
+	void InitDisplay();
+
 	virtual void Shutdown();
 
 	void ReportError(unsigned errcode);
@@ -116,6 +123,9 @@ public:
 	virtual const char* GetName() { return ENGINE_NAME; }
 
 	virtual unsigned GetStatus() { return status; };
+
+private:
+	void InitSwapchain(); //INTERNAL DO NOT CALL EXTERNALLY
 };
 
 //
