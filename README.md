@@ -1,6 +1,1 @@
-# SrcM
-Modified branch of the source engine
-
-Dont actually know what I am going to do with this.
-So far I just updated some VPC scripts so the code in visual studio is a bit more organized. 
-Check the release branch for versions that are actually build.
+# I am no longer working on this. If you want a sick updated version of the Source Engine, check out https://github.com/quiverteam/Engine
